@@ -1,3 +1,4 @@
+//Automatically generated for proof of concept, will need tweaking for application specific parameters
 import argon2 from 'argon2';
 import { getUserFromDatabase, updateUserLastLogin } from './yourDatabaseFunctions';
 
