@@ -1,1 +1,1 @@
-flo 2.0
+A period tracker app that is social too!
