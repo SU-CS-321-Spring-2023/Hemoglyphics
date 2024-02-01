@@ -1,19 +1,19 @@
-//Automatically generated for proof of concept, will need tweaking for application specific parameters
 const argon2 = require('argon2');
-const db = require('./db'); // Import your database connection module
-
-const getUserFromDatabase = async (username) => {
-  const [rows] = await db.query('SELECT * FROM users WHERE username = ?', [username]);
+//database connection link
+const db = require('./db');
+//pulls user
+const getUserFromDatabase = async (user) => {
+  const [rows] = await db.query('SELECT * FROM users WHERE user = ?', [user]);
   return rows[0] || null;
 };
-
-const updateUserLastLogin = async (username) => {
-  await db.query('UPDATE users SET last_login = CURRENT_TIMESTAMP() WHERE username = ?', [username]);
+//pulls last login info
+const updateUserLastLogin = async (user) => {
+  await db.query('UPDATE users SET last_login = CURRENT_TIMESTAMP() WHERE user = ?', [user]);
 };
 
-const authenticateUser = async (username, password) => {
+const authenticateUser = async (user, pass) => {
   // Retrieve user data (including stored salt and hashed password) from the database
-  const userData = await getUserFromDatabase(username);
+  const userData = await getUserFromDatabase(user);
 
   if (!userData) {
     // User not found
@@ -23,27 +23,22 @@ const authenticateUser = async (username, password) => {
   const { salt, hashedPassword } = userData;
 
   // Hash the entered password using the retrieved salt
-  const enteredPasswordHash = await argon2.hash(password, { salt: Buffer.from(salt, 'hex') });
+  const enteredPasswordHash = await argon2.hash(pass, { salt: Buffer.from(salt, 'hex') });
 
   // Compare the entered password hash with the stored hash
   const isPasswordValid = enteredPasswordHash === hashedPassword;
 
   if (isPasswordValid) {
     // Update the last login timestamp in the database
-    await updateUserLastLogin(username);
+    await updateUserLastLogin(user);
   }
 
   return isPasswordValid;
 };
-
-// Usage example
-const username = 'exampleUser';
-const enteredPassword = 'user123';
-
-const isAuthenticated = await authenticateUser(username, enteredPassword);
+const isAuthenticated = await authenticateUser(user, enteredPassword);
 
 if (isAuthenticated) {
   console.log('User authenticated!');
 } else {
-  console.log('Invalid username or password.');
+  console.log('Invalid user or password.');
 }
