@@ -18,7 +18,6 @@ const HomeScreen = ({navigation}) => {
          <Circle circleStyle={[styles.circle1, { top: '30%', left: 55 }]} text="Friends" onPress={() => navigation.navigate('Friends')}/>
          <Circle circleStyle={[styles.circle2, { top: '50%', left: 55 }]} text="Circle" onPress={() => navigation.navigate('Circle')}/> 
          <Circle circleStyle={[styles.circle3, { top: '20%', right: 40 }]} text="Maps" onPress={() => navigation.navigate('Maps')}/> 
-         <Circle circleStyle={[styles.circle4, { top: '40%', right: 40 }]} text="Home" onPress={() => navigation.navigate('')}/> 
          <Circle circleStyle={[styles.circle5, { top: '60%', right: 40 }]} text="Messages" onPress={() => navigation.navigate('Messages')}/> 
       </View>
     )
