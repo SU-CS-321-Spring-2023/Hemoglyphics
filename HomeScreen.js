@@ -15,10 +15,10 @@ const Circle = ({ circleStyle, text, onPress}) => {
 const HomeScreen = ({navigation}) => {
     return(
       <View style={styles.appContainer}>
-         <Circle circleStyle={[styles.circle1, { top: '30%', left: 55 }]} text="Friends" onPress={() => navigation.navigate('Friends')}/>
-         <Circle circleStyle={[styles.circle2, { top: '50%', left: 55 }]} text="Circle" onPress={() => navigation.navigate('Circle')}/> 
-         <Circle circleStyle={[styles.circle3, { top: '20%', right: 40 }]} text="Maps" onPress={() => navigation.navigate('Maps')}/> 
-         <Circle circleStyle={[styles.circle5, { top: '60%', right: 40 }]} text="Messages" onPress={() => navigation.navigate('Messages')}/> 
+         <Circle circleStyle={[styles.circle1, { zIndex: 3 },{ top: '25%', left: 50 }]} text="Friends" onPress={() => navigation.navigate('Friends')}/>
+         <Circle circleStyle={[styles.circle2, { elevation: 1 },{ top: '65%', left: 20 }]} text="Circle" onPress={() => navigation.navigate('Circle')}/> 
+         <Circle circleStyle={[styles.circle3, { zIndex: 4 },{ top: '5%', right: 10 }]} text="Maps" onPress={() => navigation.navigate('Maps')}/> 
+         <Circle circleStyle={[styles.circle5, { elevation: 1 },{ top: '47%', right: 20 }]} text="Messages" onPress={() => navigation.navigate('Messages')}/> 
       </View>
     )
 }
@@ -33,12 +33,14 @@ const styles = StyleSheet.create({
     paddingRight: 10,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'white',
+    backgroundColor: 'rgba(249, 217, 250, 1)',
   },
   circle: {
-    width: 160,
-    height: 160,
-    borderRadius: 160 / 2,
+   borderWidth : 2,
+    borderColor: 'pink',
+    width: 230,
+    height: 230,
+    borderRadius: 230 / 2,
     position: 'absolute',
     justifyContent: 'center',
     alignItems: 'center',
