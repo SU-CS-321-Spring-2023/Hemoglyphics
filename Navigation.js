@@ -7,7 +7,7 @@ import Friends from './pages/Friends.js';
 import Circle from './pages/Circle.js';
 import Maps from './pages/Maps.js';
 import Messages from './pages/Messages.js'
-
+import Registration from './Login_Registration/Registration/Registration.js';
 
 const Stack = createStackNavigator();
 
@@ -15,7 +15,7 @@ const Stack = createStackNavigator();
 const Navigation = () => {
     return (
         <NavigationContainer>
-            <Stack.Navigator initialRouteName= "Welcome!">
+            <Stack.Navigator initialRouteName="Welcome!">
                 <Stack.Screen name="Welcome!" component={HomeScreen} options={{
                     title: "Welcome",
                     headerStyle: {
@@ -32,6 +32,7 @@ const Navigation = () => {
                 <Stack.Screen name="Circle" component={Circle} />
                 <Stack.Screen name="Maps" component={Maps} />
                 <Stack.Screen name="Messages" component={Messages} />
+                <Stack.Screen name="Registration" component={Registration} />
             </Stack.Navigator>
         </NavigationContainer>
     );
