@@ -6,7 +6,9 @@ import HomeScreen from './HomeScreen.js';
 import Friends from './pages/Friends.js';
 import Circle from './pages/Circle.js';
 import Maps from './pages/Maps.js';
-import Messages from './pages/Messages.js'
+import Messages from './pages/Messages.js';
+import Log from './pages/Log.js';
+
 
 
 const Stack = createStackNavigator();
@@ -32,6 +34,7 @@ const Navigation = () => {
                 <Stack.Screen name="Circle" component={Circle} />
                 <Stack.Screen name="Maps" component={Maps} />
                 <Stack.Screen name="Messages" component={Messages} />
+                <Stack.Screen name="Log" component={Log} />
             </Stack.Navigator>
         </NavigationContainer>
     );
