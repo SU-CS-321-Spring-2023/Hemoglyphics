@@ -11,7 +11,7 @@ function registerUser(user, pass, email){
   console.log("salt and pass: " + hash);
   hash = createHash('sha256').update(hash).digest('hex');
   console.log(hash)
-  db.query('INSERT INTO users (user, salt, hash, email) VALUES (?,?,?,?)', [user, salt, hash, email]);
+  db.query('INSERT INTO users (user, salt, hash, email) VALUES (?),(?),(?),(?)', [user, salt, hash, email]);
 }
 function makeSalt(length) {
   let result = '';
@@ -24,7 +24,4 @@ function makeSalt(length) {
   }
   return result;
 }
-registerUser("hi","test","test");
-
-
-
+registerUser("IsaacC","spacefort66","isaaccopenhaver@gmail.com");

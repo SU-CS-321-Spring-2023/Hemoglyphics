@@ -35,7 +35,7 @@ const authenticateUser = async (user, pass) => {
 
   return isPasswordValid;
 };
-const isAuthenticated = await authenticateUser(user, enteredPassword);
+const isAuthenticated = authenticateUser(user, enteredPassword);
 
 if (isAuthenticated) {
   console.log('User authenticated!');
