@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Text, View, StyleSheet, TextInput, Button } from 'react-native';
 
-export default function NewCircleScreen({ navigation }) {
+export default function NewCircleScreen({ navigation, route }) {
   const [circleName, setCircleName] = useState('');
   const [friendName, setFriendName] = useState('');
   const [friends, setFriends] = useState([]);
@@ -19,8 +19,8 @@ export default function NewCircleScreen({ navigation }) {
         name: circleName,
         friends: friends,
       };
-      console.log('New Circle:', newCircle);
-      navigation.goBack(); 
+      route.params.onCircleCreated(circleName, friends); // Pass circleName back to Circle component
+      navigation.navigate('Circle', {circleName, friends}); // Navigate back to the main circle screen after creating a new circle 
     }
   };
 

@@ -8,6 +8,8 @@ import Circle from './pages/Circle.js';
 import Maps from './pages/Maps.js';
 import Messages from './pages/Messages.js';
 import Log from './pages/Log.js';
+import NewCircleScreen from './pages/NewCircleScreen.js';
+import ManageCircleScreen from './pages/ManageCircleScreen.js';
 
 
 
@@ -35,6 +37,10 @@ const Navigation = () => {
                 <Stack.Screen name="Maps" component={Maps} />
                 <Stack.Screen name="Messages" component={Messages} />
                 <Stack.Screen name="Log" component={Log} />
+                <Stack.Screen name="NewCircle" component={NewCircleScreen} />
+                <Stack.Screen name="ManageCircle" component={ManageCircleScreen} />
+
+            
             </Stack.Navigator>
         </NavigationContainer>
     );
