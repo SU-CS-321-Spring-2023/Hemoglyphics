@@ -1,44 +1,52 @@
-const argon2 = require('argon2');
-//database connection link
-const db = require('./db');
-//pulls user
-const getUserFromDatabase = async (user) => {
-  const [rows] = await db.query('SELECT * FROM users WHERE user = ?', [user]);
-  return rows[0] || null;
-};
-//pulls last login info
-const updateUserLastLogin = async (user) => {
-  await db.query('UPDATE users SET last_login = CURRENT_TIMESTAMP() WHERE user = ?', [user]);
-};
+  const { createHash } = require('crypto');
+  //database connection link
+  const db = require('./db');
 
-const authenticateUser = async (user, pass) => {
-  // Retrieve user data (including stored salt and hashed password) from the database
-  const userData = await getUserFromDatabase(user);
+  // Function to hash the password using SHA-256
+  const hashPassword = (password, salt) => {
+    const hash = createHash('sha256');
+    hash.update(password + salt);
+    return hash.digest('hex');
+  };
 
-  if (!userData) {
-    // User not found
-    return false;
+  // Function to retrieve user data from the database
+  const getUserFromDatabase = async (user) => {
+    const rows = await db.query('SELECT * FROM users WHERE user = ?', [user]);
+    return rows[0] || null;
+  };
+
+  const authenticateUser = async (user, pass) => {
+    // Retrieve user data (including stored salt and hashed password) from the database
+    const userData = await getUserFromDatabase(user);
+  
+    if (!userData) {
+      // User not found
+      console.log('User not found:', user);
+      return false;
+    }
+  
+    const { salt, hash } = userData;
+  
+    console.log('Retrieved salt from database:', salt);
+  
+    // Hash the entered password using the retrieved salt
+    const enteredPasswordHash = createHash('sha256').update(salt + pass).digest('hex');
+  
+    console.log('Entered password hash:', enteredPasswordHash);
+    console.log('Stored hash from database:', hash);
+  
+    // Compare the entered password hash with the stored hash
+    const isPasswordValid = enteredPasswordHash === hash;
+
+  
+    return isPasswordValid;
+  };
+  
+  // Example usage
+  const isAuthenticated = await authenticateUser("IsaacC", "spacefort66");
+
+  if (isAuthenticated) {
+    console.log('User authenticated!');
+  } else {
+    console.log('Invalid user or password.');
   }
-
-  const { salt, hashedPassword } = userData;
-
-  // Hash the entered password using the retrieved salt
-  const enteredPasswordHash = await argon2.hash(pass, { salt: Buffer.from(salt, 'hex') });
-
-  // Compare the entered password hash with the stored hash
-  const isPasswordValid = enteredPasswordHash === hashedPassword;
-
-  if (isPasswordValid) {
-    // Update the last login timestamp in the database
-    await updateUserLastLogin(user);
-  }
-
-  return isPasswordValid;
-};
-const isAuthenticated = authenticateUser(user, enteredPassword);
-
-if (isAuthenticated) {
-  console.log('User authenticated!');
-} else {
-  console.log('Invalid user or password.');
-}
