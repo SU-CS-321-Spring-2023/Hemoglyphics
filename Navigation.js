@@ -6,11 +6,20 @@ import HomeScreen from './HomeScreen.js';
 import Friends from './pages/Friends.js';
 import Circle from './pages/Circle.js';
 import Maps from './pages/Maps.js';
+<<<<<<< HEAD
 import Messages from './pages/Messages.js'
 import Login from './Login_Registration/Login.js';
 import Registration from './Login_Registration/Registration/Registration.js';
 import Log from './pages/Log.js';
 import NewCircleScreen from './pages/NewCircleScreen.js';
+=======
+import Messages from './pages/Messages.js';
+import Log from './pages/Log.js';
+import NewCircleScreen from './pages/NewCircleScreen.js';
+import ManageCircleScreen from './pages/ManageCircleScreen.js';
+
+
+>>>>>>> landingPage
 
 const Stack = createStackNavigator();
 
@@ -35,6 +44,7 @@ const Navigation = () => {
                 <Stack.Screen name="Circle" component={Circle} />
                 <Stack.Screen name="Maps" component={Maps} />
                 <Stack.Screen name="Messages" component={Messages} />
+<<<<<<< HEAD
                 <Stack.Screen name="Login" component={Login} />
                 <Stack.Screen name="Registration" component={Registration} options={{
                     headerShown: false,
@@ -43,6 +53,13 @@ const Navigation = () => {
                 <Stack.Screen name="NewCircleScreen" component={NewCircleScreen} options ={{
                     headerShown:false,
                 }}/>
+=======
+                <Stack.Screen name="Log" component={Log} />
+                <Stack.Screen name="NewCircle" component={NewCircleScreen} />
+                <Stack.Screen name="ManageCircle" component={ManageCircleScreen} />
+
+            
+>>>>>>> landingPage
             </Stack.Navigator>
         </NavigationContainer>
     );

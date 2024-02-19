@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { Text, View, StyleSheet } from 'react-native';
 
 export default function Maps({navigation}) {
     return (
@@ -9,3 +9,16 @@ export default function Maps({navigation}) {
 
     );
 };
+
+const styles = StyleSheet.create({
+    appContainer: {
+      flex: 1,
+      paddingTop: 10,
+      paddingLeft: 10,
+      paddingRight: 10,
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: 'rgba(249, 217, 250, 1)',
+    },
+  });
+  
