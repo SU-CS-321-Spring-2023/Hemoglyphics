@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
-import { Text, View } from 'react-native';
-
-export default function Circle({navigation}) {
-    return (
-        <View> 
-            <Text> new circles :) </Text>
-        </View>
-
-    );
-};
-=======
 import React, { useState } from 'react';
 import { Text, View, StyleSheet, TextInput, Button } from 'react-native';
 
@@ -96,4 +83,3 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
->>>>>>> landingPage

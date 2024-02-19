@@ -1,16 +1,3 @@
-import React from 'react';
-<<<<<<< HEAD
-import { Text, View } from 'react-native';
-
-export default function Circle({navigation}) {
-    return (
-        <View> 
-            <Text> log :) </Text>
-        </View>
-
-    );
-};
-=======
 import { Text, View, StyleSheet } from 'react-native';
 import { Calendar } from 'react-native-calendars'; // Importing Calendar component
 
@@ -36,4 +23,3 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(249, 217, 250, 1)',
   },
 });
->>>>>>> landingPage
