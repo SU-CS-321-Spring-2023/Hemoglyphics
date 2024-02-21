@@ -1,24 +1,23 @@
 import React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 
-export default function Maps({navigation}) {
+export default function Maps({ navigation }) {
     return (
-        <View> 
-            <Text> maps :) </Text>
+        <View style={styles.container}> 
+            <Text style={styles.text}>Coming Soon :) </Text>
         </View>
-
     );
 };
 
 const styles = StyleSheet.create({
-    appContainer: {
-      flex: 1,
-      paddingTop: 10,
-      paddingLeft: 10,
-      paddingRight: 10,
-      justifyContent: 'center',
-      alignItems: 'center',
-      backgroundColor: 'rgba(249, 217, 250, 1)',
+    container: {
+        flex: 1,
+        backgroundColor: 'rgba(249, 217, 250, 1)',
+        justifyContent: 'center',
+        alignItems: 'center',
     },
-  });
-  
+    text: {
+        fontSize: 40, // You can adjust the size as needed
+        textAlign: 'center',
+    },
+});
