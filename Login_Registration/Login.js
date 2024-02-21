@@ -1,56 +1,47 @@
 import React, { useState, useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { SafeAreaView, Dimensions, ScrollView, StyleSheet, Text, TextInput, View, Button, Animated, Easing } from 'react-native';
+import { SafeAreaView, ScrollView, StyleSheet, Text, TextInput, View, Button, Animated, Easing, TouchableOpacity } from 'react-native';
 
-export default function Login({navigation}) {
+export default function App({ navigation }) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  
+
   const [circlePosition, setCirclePosition] = useState(new Animated.Value(0));
 
   useEffect(() => {
-    // Animate circles when the component mounts
     moveCircles();
   }, []);
 
   const handleLogin = () => {
-    // Implement the login logic here
     console.log('Login button clicked!');
-    // Set this to link to backend instead of just navigation 
-    navigation.navigate("Welcome!");
+    navigation.navigate('Welcome!');
   };
-
-  const handleRegister = () => {
-    console.log('Registration clicked');
-    // Set this to link to backend instead of just navigation 
-    navigation.navigate("Registration");
-  }
 
   const moveCircles = () => {
     Animated.sequence([
       Animated.timing(circlePosition, {
-        toValue: 1.1, // Slightly overshoot the final value
-        duration: 500, // Duration of the animation
-        easing: Easing.out(Easing.quad), // Ease out animation
-        useNativeDriver: false, // Required for animations not supported by native driver
+        toValue: 1.1,
+        duration: 500,
+        easing: Easing.out(Easing.quad),
+        useNativeDriver: false,
       }),
       Animated.timing(circlePosition, {
-        toValue: 1, // End value
-        duration: 2000, // Duration of the animation
-        easing: Easing.bounce, // Bounce effect
-        useNativeDriver: false, // Required for animations not supported by native driver
+        toValue: 1,
+        duration: 2000,
+        easing: Easing.bounce,
+        useNativeDriver: false,
       })
-    ]).start(); // Start the animation
+    ]).start();
   };
 
   const circle1Position = circlePosition.interpolate({
     inputRange: [0, 1],
-    outputRange: [-220, 500], // Start and end positions for circle1
+    outputRange: [-220, 500],
   });
 
   const circle2Position = circlePosition.interpolate({
     inputRange: [0, 1],
-    outputRange: [500, -220], // Start and end positions for circle2
+    outputRange: [500, -220],
   });
 
   return (
@@ -83,14 +74,17 @@ export default function Login({navigation}) {
             secureTextEntry={true}
             placeholder="Enter your password"
           />
-      <View style={styles.buttonBar}>
+
           <View style={styles.buttonContainer}>
             <Button title="Login" onPress={handleLogin} color="#6b4596" />
           </View>
-          <View style={styles.buttonContainer}>
-            <Button title="Register" onPress={handleRegister} color="#6b4596" />
+
+          <View style={styles.signupPromptContainer}>
+            <Text style={styles.signupPromptText}>Wanna join the party? </Text>
+            <TouchableOpacity onPress={() => {navigation.navigate('Registration')}}>
+              <Text style={styles.signupPromptLink}>Register</Text>
+            </TouchableOpacity>
           </View>
-      </View>
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -101,26 +95,28 @@ const styles = StyleSheet.create({
   circle: {
     width: 400,
     height: 400,
-    borderRadius: 200, // Ensuring circle shape
+    borderRadius: 200,
     borderColor: '#6b4596',
     borderWidth: 4,
     backgroundColor: 'white',
     position: 'absolute',
-    right: -100, // Adjusted for aesthetic
+    right: -50,
+    bottom: 200,
+
   },
   circle2: {
     width: 400,
     height: 400,
-    borderRadius: 200, // Ensuring circle shape
+    borderRadius: 200,
     backgroundColor: '#6b4596',
     borderColor: 'white',
     borderWidth: 4,
     position: 'absolute',
-    left: -100, // Adjusted for aesthetic
+    left: -100,
   },
   circleContainer: {
     position: 'relative',
-    height: 200, // Adjusting container height for the animation
+    height: 200,
   },
   container: {
     flex: 1,
@@ -129,12 +125,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   textContainer: {
-    flex:1,
-    justifyContent: 'center',
-   // marginTop: 60,
-   // marginBottom: 80,
-    paddingHorizontal: 40,
-    paddingVertical: 20,
+    marginTop: 60,
+    marginBottom: 80,
+    paddingHorizontal: 30,
+    paddingVertical: 30,
     width: '90%',
     backgroundColor: 'rgba(107, 69, 150, 0.1)',
     borderRadius: 20,
@@ -144,11 +138,12 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.8,
   },
   title: {
-    fontSize: 36,
+    fontSize: 60,
     fontWeight: 'bold',
     color: '#6b4596',
-    marginBottom: 20,
-    textAlign: 'center', // Center the title text
+    marginBottom: -50,
+    marginLeft: 20,
+    textAlign: 'left',
   },
   input: {
     height: 40,
@@ -158,18 +153,32 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     color: 'black',
     borderRadius: 10,
-    backgroundColor: 'white', // Ensuring background color for visibility
+    backgroundColor: 'white',
   },
   buttonContainer: {
-    marginTop: 30,
+    marginTop: 20,
     marginBottom: 30,
-    width: '50%', // Adjust the width as needed
+    marginLeft: 50,
+    width: '50%',
     borderRadius: 10,
-    overflow: 'hidden', // Keeps the button's ripple effect within the container's rounded corners
+    overflow: 'hidden',
   },
-  buttonBar:{
+  signupPromptContainer: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
-  }
+    justifyContent: 'center',
+    marginTop: -25,
+  },
+  signupPromptText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#000',
+    
+    
+  },
+  signupPromptLink: {
+    fontSize: 18,
+    color: '#6b4596',
+    fontWeight: 'bold',
+    
+  },
 });
-

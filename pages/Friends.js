@@ -96,7 +96,7 @@ export default function Friends({navigation}) {
         {name: "George 4", pfp:"👽", id: 12},
         {name: "I am done now.", pfp:"👺", id: 13},
     ];
-const [friends, setFriends] = useState(allFriends); 
+    const [friends, setFriends] = useState(allFriends); 
     const [searchFailed, updateStatus] = useState(false);
 
 

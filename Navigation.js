@@ -6,11 +6,10 @@ import HomeScreen from './HomeScreen.js';
 import Friends from './pages/Friends.js';
 import Circle from './pages/Circle.js';
 import Maps from './pages/Maps.js';
-//import Messages from './pages/Messages.js'
+import Messages from './pages/Messages.js'
+import Message_Board from './pages/MessageBoard.js';
 import Login from './Login_Registration/Login.js';
 import Registration from './Login_Registration/Registration/Registration.js';
-//import Log from './pages/Log.js';
-//import NewCircleScreen from './pages/NewCircleScreen.js';
 import Log from './pages/Log.js';
 import NewCircleScreen from './pages/NewCircleScreen.js';
 import ManageCircleScreen from './pages/ManageCircleScreen.js';
@@ -52,6 +51,14 @@ const Navigation = () => {
                 }}/>
                 <Stack.Screen name="NewCircle" component={NewCircleScreen} />
                 <Stack.Screen name="ManageCircle" component={ManageCircleScreen} />
+                <Stack.Screen name="Message Board" component={Message_Board} options={{
+                    title:''
+                }}
+                />
+                <Stack.Screen name="Messages" component={Messages} options={{
+                    title:''
+                }}
+                />
             </Stack.Navigator>
         </NavigationContainer>
     );
