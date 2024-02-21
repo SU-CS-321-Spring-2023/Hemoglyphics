@@ -135,7 +135,7 @@ export default function Message_Board() {
                   </TouchableOpacity>
                   <TouchableOpacity onPress={() => toggleReplyBox(index)}>
                   <View style={styles.ReplyContainer}>
-                    <Text style={styles.replyBox}>Reply</Text>
+                    <Text>Reply</Text>
                   </View>
                    </TouchableOpacity>
 
