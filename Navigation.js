@@ -41,7 +41,12 @@ const Navigation = () => {
                 <Stack.Screen name="Registration" component={Registration} options={{
                     headerShown: false,
                 }}/>
-                <Stack.Screen name="Log" component={Log} /> 
+                <Stack.Screen name="Log" component={Log} options={{
+                    headerStyle: {
+                        backgroundColor: 'rgba(249, 217, 250, 1)'
+                    }
+                }}
+                /> 
                 <Stack.Screen name="NewCircleScreen" component={NewCircleScreen} options ={{
                     headerShown:false,
                 }}/>
