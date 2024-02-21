@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, Dimensions, ScrollView, StyleSheet, Text, TextInput, View, TouchableOpacity, Animated, Easing } from 'react-native';
 
-export default function Registration() {
+export default function Registration({navigation}) {
   const [email, setEmail] = useState('');
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -15,8 +15,9 @@ export default function Registration() {
   }, []);
 
   const handleRegistration = () => {
-    // Implement the registration logic here
-    console.log('Registration button clicked!');
+      // Implement the registration logic here
+      console.log('Registration button clicked!');
+      navigation.navigate('Welcome!');  
   };
 
   const moveCircles = () => {

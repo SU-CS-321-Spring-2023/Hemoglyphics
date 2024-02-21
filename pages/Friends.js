@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { TextInput, StyleSheet, Text, View , FlatList, ScrollView, Button} from 'react-native';
+import { TouchableOpacity, TextInput, StyleSheet, Text, View , FlatList, ScrollView, Button} from 'react-native';
 
 const styles = StyleSheet.create({
     list:{
@@ -12,10 +12,13 @@ const styles = StyleSheet.create({
 
     entry:{
         flexDirection: 'row',
-        backgroundColor: 'lavender',
-        padding: 30,
+        padding: 20,
         marginTop: 3,
         marginBottom: 3,
+        backgroundColor: 'white',
+        borderTopWidth: 2,
+        borderBottomWidth: 2,
+        borderColor: 'rgba(107, 69, 150, 1)'
     },
 
     pfpContainer:{
@@ -37,12 +40,43 @@ const styles = StyleSheet.create({
         margin: 5,
         justifyContent: 'space-between',
     },
+
     search: {
         borderWidth: 1,
         borderColor: 'grey',
         flex: 1, 
+    },
+
+    fullPage: {
+        backgroundColor: 'rgba(249, 217, 250, 1)',
+        height: '100%',
+
+    },
+
+    prompt: {
+        backgroundColor: 'rgba(249, 217, 250, 1)',
+        alignItems: 'center',
+        justifyContent: 'center',
+        flex: 1
+    },
+
+    promptText: {
+        fontSize: 20,
+    },
+
+    button:{
+        padding: 8,
+        margin: 5,
+        backgroundColor: 'rgba(107, 69, 150, 1)',
+        borderRadius: 3,
+    },
+
+    buttonText:{
+        color: 'white',
+        fontSize: 16
     }
 })
+
 
 export default function Friends({navigation}) {
     // list of friends (placeholder values)
@@ -57,20 +91,22 @@ export default function Friends({navigation}) {
         {name: "Peter Griffin", pfp:"😸", id: 7},
         {name: "TJ", pfp:"😱", id: 8},
         {name: "Help I am tired of coming up with names", pfp:"🗿", id: 9},
+        {name: "Lord Cornwalis XIV", pfp:"🤩", id: 10},
+        {name: "The Target Dog", pfp:"🐶", id: 11},
+        {name: "George 4", pfp:"👽", id: 12},
+        {name: "I am done now.", pfp:"👺", id: 13},
     ];
-
-    const [friends, setFriends] = useState(allFriends); 
+const [friends, setFriends] = useState(allFriends); 
     const [searchFailed, updateStatus] = useState(false);
+
+
+    // update the list to make sure the search didn't fail as soon as there is a change in friends
     useEffect(() => {
-        console.log("render");
         if(friends.length === 0){
             updateStatus(true);
-            console.log("NOW TRUE");
-            console.log(friends);
         }
         else if(friends.length != 0 && searchFailed){
             updateStatus(false);
-            console.log("NOW FALSE");
         }
     }, [friends])
     
@@ -81,27 +117,31 @@ export default function Friends({navigation}) {
 
     // render every friend on your list
     return (
-        <View> 
+        <View style={styles.fullPage}> 
             <View style={styles.friendParse}>
                 <TextInput placeholder= 'Search for friends...' style={styles.search} onChangeText={friendSearch}/>
-                <Button title="add friend" />
+                <TouchableOpacity style={styles.button}>
+                    <Text style={styles.buttonText}>Add Friend</Text>
+                </TouchableOpacity>
             </View>
                 <ScrollView style={styles.list}>
                     {friends.map((item) => {
                         return(
-                            <View key={item.id} style={styles.entry}> 
+                            <TouchableOpacity key={item.id} style={styles.entry}> 
                                 <View style={styles.pfpContainer}>
                                     <Text style={styles.photo}>{item.pfp}</Text>
                                 </View>
                                 <Text style={styles.text}>{item.name}</Text>
-                            </View> 
+                            </TouchableOpacity> 
                         );
                        }
                     )}
                     { searchFailed && ( 
-                            <View> 
-                                <Text> You don't know anyone by that name yet... </Text>
-                                <Button title="Would you like to add a new friend?" />
+                            <View style={styles.prompt}> 
+                                <Text style={styles.promptText}> You don't know anyone by that name yet... </Text>
+                                <TouchableOpacity style={styles.button}>
+                                    <Text style={styles.buttonText}>Add new friend</Text>
+                                </TouchableOpacity>
                             </View>
                         )}
                 </ScrollView>
