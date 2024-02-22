@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { TouchableOpacity, TextInput, StyleSheet, Text, View , FlatList, ScrollView, Button} from 'react-native';
 
+
 const styles = StyleSheet.create({
     list:{
     },
@@ -79,6 +80,7 @@ const styles = StyleSheet.create({
 
 
 export default function Friends({navigation}) {
+    
     // list of friends (placeholder values)
     const allFriends = [
         {name: "Philis",pfp: "☺️", id: 0},
@@ -96,7 +98,8 @@ export default function Friends({navigation}) {
         {name: "George 4", pfp:"👽", id: 12},
         {name: "I am done now.", pfp:"👺", id: 13},
     ];
-    const [friends, setFriends] = useState(allFriends); 
+    const [friends, setFriends] = useState(allFriends);
+    
     const [searchFailed, updateStatus] = useState(false);
 
 
@@ -141,11 +144,13 @@ export default function Friends({navigation}) {
                                 <Text style={styles.promptText}> You don't know anyone by that name yet... </Text>
                                 <TouchableOpacity style={styles.button}>
                                     <Text style={styles.buttonText}>Add new friend</Text>
+                                    
                                 </TouchableOpacity>
                             </View>
                         )}
                 </ScrollView>
         </View>
+
 
     );
 };

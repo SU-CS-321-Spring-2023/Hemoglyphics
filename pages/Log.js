@@ -4,20 +4,22 @@ import { Calendar } from 'react-native-calendars';
 
 export default function Log({ navigation }) {
   const [markedDates, setMarkedDates] = useState({});
-  const [selectedDate, setSelectedDate] = useState(null);
+  const [selectedDates, setSelectedDates] = useState([]);
+  const [logButtonClicked, setLogButtonClicked] = useState(false);
 
   const handleDayPress = (day) => {
-    setSelectedDate(day.dateString);
+    const selectedDate = day.dateString;
+    setSelectedDates(prevSelectedDates => [...prevSelectedDates, selectedDate]);
   };
 
   const handleLogPeriod = () => {
-    if (selectedDate) {
-      const updatedMarkedDates = {
-        ...markedDates,
-        [selectedDate]: { selected: true, marked: true, dotColor: 'red' },
-      };
-      setMarkedDates(updatedMarkedDates);
-    }
+    const updatedMarkedDates = {};
+    selectedDates.forEach(date => {
+      updatedMarkedDates[date] = { selected: true, marked: true, dotColor: 'red' };
+    });
+    setMarkedDates(updatedMarkedDates);
+    setLogButtonClicked(true);
+    console.log('Selected dates:', selectedDates);
   };
 
   return (
@@ -40,10 +42,7 @@ export default function Log({ navigation }) {
           dayTextColor: 'black',
           textDisabledColor: 'gray',
           dotColor: 'blue',
-
-
-        
-         }}
+        }}
       />
       <TouchableOpacity onPress={handleLogPeriod} style={styles.logButton}>
         <Text style={styles.logButtonText}>Log Period</Text>
@@ -73,6 +72,9 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
 });
+
+
+
 
 
 

@@ -4,7 +4,8 @@ import { Text, View, StyleSheet, TextInput, Button } from 'react-native';
 export default function NewCircleScreen({ navigation, route }) {
   const [circleName, setCircleName] = useState('');
   const [friendName, setFriendName] = useState('');
-  const [friends, setFriends] = useState([]);
+  const [friends, setFriends] = useState(route.params.friends || []); // Initialize with friends passed via navigation
+
 
   const addFriend = () => {
     if (friendName.trim() !== '') {
