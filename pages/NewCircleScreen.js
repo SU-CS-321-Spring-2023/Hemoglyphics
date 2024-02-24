@@ -1,16 +1,26 @@
 import React, { useState } from 'react';
-import { Text, View, StyleSheet, TextInput, Button } from 'react-native';
+import { Text, View, StyleSheet, TextInput, Button, TouchableOpacity } from 'react-native';
+import { allFriends } from './Friends.js'; // Importing allFriends array from Friends.js
 
 export default function NewCircleScreen({ navigation, route }) {
   const [circleName, setCircleName] = useState('');
-  const [friendName, setFriendName] = useState('');
-  const [friends, setFriends] = useState(route.params.friends || []); // Initialize with friends passed via navigation
+  const [selectedFriends, setSelectedFriends] = useState([]);
+  const [isOpen, setIsOpen] = useState(false); // State to manage dropdown visibility
+  const [selectedFriendIndex, setSelectedFriendIndex] = useState(-1); // State to manage selected friend index
 
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const selectFriend = (index) => {
+    setSelectedFriendIndex(index);
+    setIsOpen(false); // Close dropdown after selection
+  };
 
   const addFriend = () => {
-    if (friendName.trim() !== '') {
-      setFriends([...friends, friendName]);
-      setFriendName('');
+    if (selectedFriendIndex !== -1) {
+      const friendToAdd = allFriends[selectedFriendIndex];
+      setSelectedFriends([...selectedFriends, friendToAdd]);
     }
   };
 
@@ -18,10 +28,10 @@ export default function NewCircleScreen({ navigation, route }) {
     if (circleName.trim() !== '') {
       const newCircle = {
         name: circleName,
-        friends: friends,
+        friends: selectedFriends,
       };
-      route.params.onCircleCreated(circleName, friends); // Pass circleName back to Circle component
-      navigation.navigate('Circle', {circleName, friends}); // Navigate back to the main circle screen after creating a new circle 
+      route.params.onCircleCreated(circleName, selectedFriends); // Pass circleName and selectedFriends back to Circle component
+      navigation.navigate('Circle', { circleName, friends: selectedFriends }); // Navigate back to the main circle screen after creating a new circle 
     }
   };
 
@@ -34,18 +44,26 @@ export default function NewCircleScreen({ navigation, route }) {
         onChangeText={setCircleName}
         placeholder="Enter Circle Name"
       />
-      <TextInput
-        style={styles.input}
-        value={friendName}
-        onChangeText={setFriendName}
-        placeholder="Enter Friend Name"
-      />
+      <View style={styles.dropdownContainer}>
+        <TouchableOpacity onPress={toggleDropdown} style={styles.dropdownHeader}>
+          <Text>{selectedFriendIndex !== -1 ? allFriends[selectedFriendIndex].name : 'Select Friend'}</Text>
+        </TouchableOpacity>
+        {isOpen && (
+          <View style={styles.dropdown}>
+            {allFriends.map((friend, index) => (
+              <TouchableOpacity key={index} onPress={() => selectFriend(index)} style={styles.dropdownItem}>
+                <Text>{friend.name}</Text>
+              </TouchableOpacity>
+            ))}
+          </View>
+        )}
+      </View>
       <Button title="Add Friend" onPress={addFriend} color="rgba(107, 69, 150, 1)" />
       <View style={styles.friendsContainer}>
-        <Text style={styles.friendsTitle}>Friends:</Text>
-        {friends.map((friend, index) => (
+        <Text style={styles.friendsTitle}>Selected Friends:</Text>
+        {selectedFriends.map((friend, index) => (
           <Text key={index} style={styles.friend}>
-            {friend}
+            {friend.name}
           </Text>
         ))}
       </View>
@@ -73,6 +91,26 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     backgroundColor: '#fff',
   },
+  dropdownContainer: {
+    marginBottom: 10,
+  },
+  dropdownHeader: {
+    borderWidth: 1,
+    borderColor: '#ccc',
+    borderRadius: 5,
+    padding: 10,
+    backgroundColor: '#fff',
+  },
+  dropdown: {
+    borderWidth: 1,
+    borderColor: '#ccc',
+    borderRadius: 5,
+    backgroundColor: '#fff',
+    marginTop: 5,
+  },
+  dropdownItem: {
+    padding: 10,
+  },
   friendsContainer: {
     marginTop: 20,
   },
@@ -84,3 +122,4 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
+

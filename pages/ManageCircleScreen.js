@@ -13,11 +13,11 @@ export default function ManageCircleScreen({ route }) {
         {friends && friends.length > 0 ? (
           friends.map((friend, index) => (
             <Text key={index} style={styles.friend}>
-              {friend}
+              {friend.name} {/* Assuming 'name' is a property of each friend object */}
             </Text>
           ))
         ) : (
-          <Text></Text>
+          <Text>No friends;( </Text>
         )}
       </View>
     </View>
