@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { TouchableOpacity, TextInput, StyleSheet, Text, View , FlatList, ScrollView, Button} from 'react-native';
 
+
 const styles = StyleSheet.create({
     list:{
     },
@@ -78,9 +79,10 @@ const styles = StyleSheet.create({
 })
 
 
-export default function Friends({navigation}) {
+//export default function Friends({navigation, NewCircleScreen, ManageCircleScreen, Circle, Maps, Login, Registration, Log, Message_Board, Messages, NewCircle, ManageCircle,}) {
+    
     // list of friends (placeholder values)
-    const allFriends = [
+   export const allFriends = [
         {name: "Philis",pfp: "☺️", id: 0},
         {name: "George", pfp: "🦊", id: 1},
         {name: "Lord Farquaad", pfp:"🥸", id: 2},
@@ -96,8 +98,12 @@ export default function Friends({navigation}) {
         {name: "George 4", pfp:"👽", id: 12},
         {name: "I am done now.", pfp:"👺", id: 13},
     ];
-    const [friends, setFriends] = useState(allFriends); 
-    const [searchFailed, updateStatus] = useState(false);
+    
+    
+
+    export default function Friends({ navigation, NewCircleScreen, ManageCircleScreen, Circle, Maps, Login, Registration, Log, Message_Board, Messages, NewCircle, ManageCircle }) {
+        const [friends, setFriends] = useState(allFriends);
+        const [searchFailed, updateStatus] = useState(false);
 
 
     // update the list to make sure the search didn't fail as soon as there is a change in friends
@@ -145,11 +151,13 @@ export default function Friends({navigation}) {
                                 <Text style={styles.promptText}> You don't know anyone by that name yet... </Text>
                                 <TouchableOpacity style={styles.button}>
                                     <Text style={styles.buttonText}>Add new friend</Text>
+                                    
                                 </TouchableOpacity>
                             </View>
                         )}
                 </ScrollView>
         </View>
+
 
     );
 };
