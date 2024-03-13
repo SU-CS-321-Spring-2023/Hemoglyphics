@@ -18,7 +18,7 @@ const Stack = createStackNavigator();
 
 // all possible pages that we have (at this moment)
 const Navigation = () => {
-    return (
+    return(
         <NavigationContainer>
             <Stack.Navigator initialRouteName='Login'>
                 <Stack.Screen name="Welcome!" component={HomeScreen} options={{
@@ -61,8 +61,7 @@ const Navigation = () => {
                 />
             </Stack.Navigator>
         </NavigationContainer>
-    );
-};
+    )};
 
 const styles = StyleSheet.create({
     friends: {
