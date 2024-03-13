@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     promptText: {
         fontSize: 20,
     },
-
+   
     button:{
         padding: 8,
         margin: 5,
@@ -113,6 +113,10 @@ export default function Friends({navigation}) {
     //function to search friends list
     const friendSearch = (text) => {
         setFriends(friends => allFriends.filter(friend => friend.name.substring(0, text.length).toLowerCase() === text.toLowerCase()));
+    }
+
+    const friendView = (item) => {
+       // navigate to friends page 
     }
 
     // render every friend on your list
