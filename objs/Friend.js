@@ -1,4 +1,6 @@
 class FriendObj{
+    // target is the user that the friend object is being created from.
+    #target
     #userName;
     #firstName;
     #lastName
@@ -25,7 +27,7 @@ class FriendObj{
         return this.#firstName;
     }
 
-    // I don't think we will be changing user names
+    // I don't think we will be changing usernames but we may depending on the circumstances
     getUsername(){
         return this.#userName;
     }
