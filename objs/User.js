@@ -13,15 +13,15 @@ class User{
 		return this.#userName;
 	}
 
-    setUserName(userName) {
-		this.#userName = userName;
-	}
+	set userName(userName) {
+        this.#userName = userName;
+    }
 
 	getFirstName() {
 		return this.#firstName;
 	}
 
-	setFirstName(firstName) {
+	set FirstName(firstName) {
 		this.#firstName = firstName;
 	}
 
@@ -29,7 +29,7 @@ class User{
 		return this.#lastName;
 	}
 
-	setLastName(lastName) {
+	set LastName(lastName) {
 		this.#lastName = lastName;
 	}
 
@@ -37,7 +37,7 @@ class User{
 		return this.#email;
 	}
 
-	setEmail(email) {
+	set Email(email) {
 		this.#email = email;
 	}
 
@@ -45,7 +45,7 @@ class User{
 		return this.#friendsList;
 	}
 
-	setFriendsList(friendsList) {
+	set FriendsList(friendsList) {
 		this.#friendsList = friendsList;
 	}
 
@@ -53,7 +53,7 @@ class User{
 		return this.#location;
 	}
 
-	Location(location) {
+	set Location(location) {
 		this.#location = location;
 	}
 
@@ -61,7 +61,7 @@ class User{
 		return this.#createdTimestamp;
 	}
 
-	setCreatedTimestamp(createdTimestamp) {
+	set CreatedTimestamp(createdTimestamp) {
 		this.#createdTimestamp = createdTimestamp;
 	}
 
@@ -69,7 +69,7 @@ class User{
 		return this.#profilePicture;
 	}
 
-	setProfilePicture(profilePicture) {
+	set ProfilePicture(profilePicture) {
 		this.#profilePicture = profilePicture;
 	}
 
@@ -77,16 +77,15 @@ class User{
 		return this.#birthday;
 	}
 
-	setBirthday(birthday) {
+	set Birthday(birthday) {
 		this.#birthday = birthday;
 	}
 
 
 
-    user(){
-        this.#firstName;
-        this.#userName;
-        this.#lastName;
+    constructor(userName, firstName){
+        this.#userName = userName;
+		this.#firstName = firstName;
         this.#friendsList;
         this.#email;
         this.#location;
@@ -96,3 +95,5 @@ class User{
 
     }
 }
+module.exports = User;
+const user = new User()
