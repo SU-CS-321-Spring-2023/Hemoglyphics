@@ -64,5 +64,10 @@ class FriendObj{
     getFriendshipTimestamp(){
         return this.#friendshipTimestamp;
     }
+
+    // there is no set target because friend objects will be destroyed upon removal
+    getTarget(){
+        return this.#target;
+    }
 }
 
