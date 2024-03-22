@@ -39,8 +39,8 @@ app.post('/register',(req,res)=>{
     res.send("hello steve");
 });
 
-app.listen(25565, () => {
-    console.log('running on port 25565')
+app.listen(80, () => {
+    console.log('running on port 80')
 });
 function makeSalt(length) {
   let result = '';
