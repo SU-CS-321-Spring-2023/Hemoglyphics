@@ -16,15 +16,18 @@ export default function Registration({navigation}) {
   }, []);
 
   const handleRegistration = () => {
-      // Implement the registration logic here
-      Axios.post("http://localhost:3001/register", {
-        userName: username, 
-        password: password, 
-        email: email
-    }).then[()=>{
-        navigation.navigate('Welcome!')
-      }
-    };
+    Axios.post("http://52.188.142.237:80/register", {
+    userName: username,
+    password: password,
+    email: email
+}).then(() => {
+        navigation.navigate('Welcome');
+    }).catch(error => {
+        console.error("Registration failed:", error);
+        // Handle the error here
+    });
+};
+
 
   const moveCircles = () => {
     Animated.sequence([
