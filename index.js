@@ -3,6 +3,8 @@ const {createHash} = require('crypto');
 const app = express();
 const bodyParser = require('body-parser');
 const mysql = require('mysql');
+var cors = require('cors');
+app.use(cors());
 
 const db = mysql.createPool({
   host: 'users.c18kycqqwfsz.us-east-1.rds.amazonaws.com',
@@ -13,8 +15,11 @@ const db = mysql.createPool({
 });
 
 app.use(bodyParser.urlencoded({extended: true}));
+app.get("/test", (req, res) => {
+  res.send("Hello, world!");
+});
 
-app.post('/',(req,res)=>{
+app.post('/register',(req,res)=>{
     const pass = req.body.password;
     const userName = req.body.userName;
     const email = req.body.email;
