@@ -35,12 +35,10 @@ app.post('/register',(req,res)=>{
     } catch (error) {
         console.error("Error registering user:", error);
     }
-
-    res.send("hello steve");
 });
 
-app.listen(80, () => {
-    console.log('running on port 80')
+app.listen(12000, () => {
+    console.log('running on port 12000')
 });
 function makeSalt(length) {
   let result = '';
