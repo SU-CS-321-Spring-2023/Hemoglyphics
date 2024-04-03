@@ -5,38 +5,96 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+#include <memory>
+
 #include "NativePerformanceObserver.h"
-#include <glog/logging.h>
+#include "PerformanceEntryReporter.h"
+
+#include "Plugins.h"
+
+std::shared_ptr<facebook::react::TurboModule>
+NativePerformanceObserverModuleProvider(
+    std::shared_ptr<facebook::react::CallInvoker> jsInvoker) {
+  return std::make_shared<facebook::react::NativePerformanceObserver>(
+      std::move(jsInvoker));
+}
 
 namespace facebook::react {
 
 NativePerformanceObserver::NativePerformanceObserver(
     std::shared_ptr<CallInvoker> jsInvoker)
-    : NativePerformanceObserverCxxSpec(std::move(jsInvoker)) {}
+    : NativePerformanceObserverCxxSpec(std::move(jsInvoker)) {
+  setEventLogger(&PerformanceEntryReporter::getInstance());
+}
+
+NativePerformanceObserver::~NativePerformanceObserver() {
+  setEventLogger(nullptr);
+}
 
 void NativePerformanceObserver::startReporting(
     jsi::Runtime &rt,
-    std::string entryType) {
-  LOG(INFO) << "Started reporting perf entry type: " << entryType;
+    int32_t entryType) {
+  PerformanceEntryReporter::getInstance().startReporting(
+      static_cast<PerformanceEntryType>(entryType));
 }
 
 void NativePerformanceObserver::stopReporting(
     jsi::Runtime &rt,
-    std::string entryType) {
-  LOG(INFO) << "Stopped reporting perf entry type: " << entryType;
+    int32_t entryType) {
+  PerformanceEntryReporter::getInstance().stopReporting(
+      static_cast<PerformanceEntryType>(entryType));
 }
 
-std::vector<RawPerformanceEntry> NativePerformanceObserver::getPendingEntries(
+GetPendingEntriesResult NativePerformanceObserver::popPendingEntries(
     jsi::Runtime &rt) {
-  return std::vector<RawPerformanceEntry>{};
+  return PerformanceEntryReporter::getInstance().popPendingEntries();
 }
 
 void NativePerformanceObserver::setOnPerformanceEntryCallback(
     jsi::Runtime &rt,
     std::optional<AsyncCallback<>> callback) {
-  callback_ = callback;
-  LOG(INFO) << "setOnPerformanceEntryCallback: "
-            << (callback ? "non-empty" : "empty");
+  PerformanceEntryReporter::getInstance().setReportingCallback(callback);
+}
+
+void NativePerformanceObserver::logRawEntry(
+    jsi::Runtime &rt,
+    RawPerformanceEntry entry) {
+  PerformanceEntryReporter::getInstance().logEntry(entry);
+}
+
+std::vector<std::pair<std::string, uint32_t>>
+NativePerformanceObserver::getEventCounts(jsi::Runtime &rt) {
+  const auto &eventCounts =
+      PerformanceEntryReporter::getInstance().getEventCounts();
+  return std::vector<std::pair<std::string, uint32_t>>(
+      eventCounts.begin(), eventCounts.end());
+}
+
+void NativePerformanceObserver::setDurationThreshold(
+    jsi::Runtime &rt,
+    int32_t entryType,
+    double durationThreshold) {
+  PerformanceEntryReporter::getInstance().setDurationThreshold(
+      static_cast<PerformanceEntryType>(entryType), durationThreshold);
+}
+
+void NativePerformanceObserver::clearEntries(
+    jsi::Runtime &rt,
+    int32_t entryType,
+    std::optional<std::string> entryName) {
+  PerformanceEntryReporter::getInstance().clearEntries(
+      static_cast<PerformanceEntryType>(entryType),
+      entryName ? entryName->c_str() : nullptr);
+}
+
+std::vector<RawPerformanceEntry> NativePerformanceObserver::getEntries(
+    jsi::Runtime &rt,
+    std::optional<int32_t> entryType,
+    std::optional<std::string> entryName) {
+  return PerformanceEntryReporter::getInstance().getEntries(
+      entryType ? static_cast<PerformanceEntryType>(*entryType)
+                : PerformanceEntryType::UNDEFINED,
+      entryName ? entryName->c_str() : nullptr);
 }
 
 } // namespace facebook::react

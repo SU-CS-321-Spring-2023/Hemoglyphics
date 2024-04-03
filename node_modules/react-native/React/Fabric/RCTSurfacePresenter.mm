@@ -8,6 +8,7 @@
 #import "RCTSurfacePresenter.h"
 
 #import <mutex>
+#import <shared_mutex>
 
 #import <React/RCTAssert.h>
 #import <React/RCTBridge+Private.h>
@@ -39,6 +40,7 @@
 #import "PlatformRunLoopObserver.h"
 #import "RCTConversions.h"
 
+using namespace facebook;
 using namespace facebook::react;
 
 static dispatch_queue_t RCTGetBackgroundQueue()
@@ -82,7 +84,7 @@ static BackgroundExecutor RCTGetBackgroundExecutor()
   RuntimeExecutor _runtimeExecutor; // Protected by `_schedulerLifeCycleMutex`.
   std::optional<RuntimeExecutor> _bridgelessBindingsExecutor; // Only used for installing bindings.
 
-  butter::shared_mutex _observerListMutex;
+  std::shared_mutex _observerListMutex;
   std::vector<__weak id<RCTSurfacePresenterObserver>> _observers; // Protected by `_observerListMutex`.
 }
 
@@ -275,6 +277,18 @@ static BackgroundExecutor RCTGetBackgroundExecutor()
     CoreFeatures::enablePropIteratorSetter = true;
   }
 
+  if (reactNativeConfig && reactNativeConfig->getBool("react_fabric:use_native_state")) {
+    CoreFeatures::useNativeState = true;
+  }
+
+  if (reactNativeConfig && reactNativeConfig->getBool("react_fabric:enable_nstextstorage_caching")) {
+    CoreFeatures::cacheNSTextStorage = true;
+  }
+
+  if (reactNativeConfig && reactNativeConfig->getBool("react_fabric:cancel_image_downloads_on_recycle")) {
+    CoreFeatures::cancelImageDownloadsOnRecycle = true;
+  }
+
   auto componentRegistryFactory =
       [factory = wrapManagedObject(_mountingManager.componentViewRegistry.componentViewFactory)](
           EventDispatcher::Weak const &eventDispatcher, ContextContainer::Shared const &contextContainer) {
@@ -355,7 +369,7 @@ static BackgroundExecutor RCTGetBackgroundExecutor()
 
 #pragma mark - RCTSchedulerDelegate
 
-- (void)schedulerDidFinishTransaction:(MountingCoordinator::Shared const &)mountingCoordinator
+- (void)schedulerDidFinishTransaction:(MountingCoordinator::Shared)mountingCoordinator
 {
   [_mountingManager scheduleTransaction:mountingCoordinator];
 }
@@ -389,13 +403,13 @@ static BackgroundExecutor RCTGetBackgroundExecutor()
 
 - (void)addObserver:(id<RCTSurfacePresenterObserver>)observer
 {
-  std::unique_lock<butter::shared_mutex> lock(_observerListMutex);
+  std::unique_lock lock(_observerListMutex);
   _observers.push_back(observer);
 }
 
 - (void)removeObserver:(id<RCTSurfacePresenterObserver>)observer
 {
-  std::unique_lock<butter::shared_mutex> lock(_observerListMutex);
+  std::unique_lock lock(_observerListMutex);
   std::vector<__weak id<RCTSurfacePresenterObserver>>::const_iterator it =
       std::find(_observers.begin(), _observers.end(), observer);
   if (it != _observers.end()) {
@@ -411,7 +425,7 @@ static BackgroundExecutor RCTGetBackgroundExecutor()
 
   NSArray<id<RCTSurfacePresenterObserver>> *observersCopy;
   {
-    std::shared_lock<butter::shared_mutex> lock(_observerListMutex);
+    std::shared_lock lock(_observerListMutex);
     observersCopy = [self _getObservers];
   }
 
@@ -428,7 +442,7 @@ static BackgroundExecutor RCTGetBackgroundExecutor()
 
   NSArray<id<RCTSurfacePresenterObserver>> *observersCopy;
   {
-    std::shared_lock<butter::shared_mutex> lock(_observerListMutex);
+    std::shared_lock lock(_observerListMutex);
     observersCopy = [self _getObservers];
   }
 

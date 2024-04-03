@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-const { Register, registerUser } = require('../../scripts/Register.js');
+import Axios from "axios";
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, Dimensions, ScrollView, StyleSheet, Text, TextInput, View, TouchableOpacity, Animated, Easing } from 'react-native';
 
@@ -16,11 +16,18 @@ export default function Registration({navigation}) {
   }, []);
 
   const handleRegistration = () => {
-      // Implement the registration logic here
-      if(registerUser(username, password, email)){
-        navigation.navigate('Welcome!');
-      }
-    };
+    Axios.post("http://52.188.142.237:80/register", {
+    userName: username,
+    password: password,
+    email: email
+}).then(() => {
+        navigation.navigate('Welcome');
+    }).catch(error => {
+        console.error("Registration failed:", error);
+        // Handle the error here
+    });
+};
+
 
   const moveCircles = () => {
     Animated.sequence([

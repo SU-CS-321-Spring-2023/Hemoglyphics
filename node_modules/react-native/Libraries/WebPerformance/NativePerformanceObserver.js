@@ -12,10 +12,6 @@ import type {TurboModule} from '../TurboModule/RCTExport';
 
 import * as TurboModuleRegistry from '../TurboModule/TurboModuleRegistry';
 
-export const RawPerformanceEntryTypeValues = {
-  UNDEFINED: 0,
-};
-
 export type RawPerformanceEntryType = number;
 
 export type RawPerformanceEntry = {|
@@ -29,11 +25,30 @@ export type RawPerformanceEntry = {|
   interactionId?: number,
 |};
 
+export type GetPendingEntriesResult = {|
+  entries: $ReadOnlyArray<RawPerformanceEntry>,
+  droppedEntriesCount: number,
+|};
+
 export interface Spec extends TurboModule {
-  +startReporting: (entryType: string) => void;
-  +stopReporting: (entryType: string) => void;
-  +getPendingEntries: () => $ReadOnlyArray<RawPerformanceEntry>;
+  +startReporting: (entryType: RawPerformanceEntryType) => void;
+  +stopReporting: (entryType: RawPerformanceEntryType) => void;
+  +popPendingEntries: () => GetPendingEntriesResult;
   +setOnPerformanceEntryCallback: (callback?: () => void) => void;
+  +logRawEntry: (entry: RawPerformanceEntry) => void;
+  +getEventCounts: () => $ReadOnlyArray<[string, number]>;
+  +setDurationThreshold: (
+    entryType: RawPerformanceEntryType,
+    durationThreshold: number,
+  ) => void;
+  +clearEntries: (
+    entryType: RawPerformanceEntryType,
+    entryName?: string,
+  ) => void;
+  +getEntries: (
+    entryType?: RawPerformanceEntryType,
+    entryName?: string,
+  ) => $ReadOnlyArray<RawPerformanceEntry>;
 }
 
 export default (TurboModuleRegistry.get<Spec>(

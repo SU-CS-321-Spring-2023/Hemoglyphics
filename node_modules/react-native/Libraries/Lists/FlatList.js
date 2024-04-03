@@ -11,14 +11,17 @@
 import typeof ScrollViewNativeComponent from '../Components/ScrollView/ScrollViewNativeComponent';
 import type {ViewStyleProp} from '../StyleSheet/StyleSheet';
 import type {
+  RenderItemProps,
+  RenderItemType,
   ViewabilityConfigCallbackPair,
   ViewToken,
-} from './ViewabilityHelper';
-import type {RenderItemProps, RenderItemType} from './VirtualizedList';
+} from '@react-native/virtualized-lists';
 
 import {type ScrollResponderType} from '../Components/ScrollView/ScrollView';
-import VirtualizedList from './VirtualizedList';
-import {keyExtractor as defaultKeyExtractor} from './VirtualizeUtils';
+import {
+  VirtualizedList,
+  keyExtractor as defaultKeyExtractor,
+} from '@react-native/virtualized-lists';
 import memoizeOne from 'memoize-one';
 
 const View = require('../Components/View/View');
@@ -31,7 +34,7 @@ const React = require('react');
 type RequiredProps<ItemT> = {|
   /**
    * An array (or array-like list) of items to render. Other data types can be
-   * used by targetting VirtualizedList directly.
+   * used by targeting VirtualizedList directly.
    */
   data: ?$ArrayLike<ItemT>,
 |};
@@ -88,7 +91,7 @@ type OptionalProps<ItemT> = {|
    * specify `ItemSeparatorComponent`.
    */
   getItemLayout?: (
-    data: ?Array<ItemT>,
+    data: ?$ArrayLike<ItemT>,
     index: number,
   ) => {
     length: number,

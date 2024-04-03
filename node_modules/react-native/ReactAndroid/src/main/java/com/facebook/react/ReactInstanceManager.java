@@ -82,6 +82,7 @@ import com.facebook.react.config.ReactFeatureFlags;
 import com.facebook.react.devsupport.DevSupportManagerFactory;
 import com.facebook.react.devsupport.ReactInstanceDevHelper;
 import com.facebook.react.devsupport.interfaces.DevBundleDownloadListener;
+import com.facebook.react.devsupport.interfaces.DevLoadingViewManager;
 import com.facebook.react.devsupport.interfaces.DevSupportManager;
 import com.facebook.react.devsupport.interfaces.PackagerStatusCallback;
 import com.facebook.react.devsupport.interfaces.RedBoxHandler;
@@ -233,7 +234,8 @@ public class ReactInstanceManager {
       @Nullable JSIModulePackage jsiModulePackage,
       @Nullable Map<String, RequestHandler> customPackagerCommandHandlers,
       @Nullable ReactPackageTurboModuleManagerDelegate.Builder tmmDelegateBuilder,
-      @Nullable SurfaceDelegateFactory surfaceDelegateFactory) {
+      @Nullable SurfaceDelegateFactory surfaceDelegateFactory,
+      @Nullable DevLoadingViewManager devLoadingViewManager) {
     FLog.d(TAG, "ReactInstanceManager.ctor()");
     initializeSoLoaderIfNecessary(applicationContext);
 
@@ -261,7 +263,8 @@ public class ReactInstanceManager {
             devBundleDownloadListener,
             minNumShakes,
             customPackagerCommandHandlers,
-            surfaceDelegateFactory);
+            surfaceDelegateFactory,
+            devLoadingViewManager);
     Systrace.endSection(TRACE_TAG_REACT_JAVA_BRIDGE);
     mBridgeIdleDebugListener = bridgeIdleDebugListener;
     mLifecycleState = initialLifecycleState;
@@ -384,7 +387,7 @@ public class ReactInstanceManager {
     try {
       handleCxxErrorFunc = ReactInstanceManager.class.getMethod("handleCxxError", parameterTypes);
     } catch (NoSuchMethodException e) {
-      FLog.e("ReactInstanceHolder", "Failed to set cxx error hanlder function", e);
+      FLog.e("ReactInstanceHolder", "Failed to set cxx error handler function", e);
     }
     ReactCxxErrorHandler.setHandleErrorFunc(this, handleCxxErrorFunc);
   }
@@ -551,9 +554,7 @@ public class ReactInstanceManager {
   private void toggleElementInspector() {
     ReactContext currentContext = getCurrentReactContext();
     if (currentContext != null && currentContext.hasActiveReactInstance()) {
-      currentContext
-          .getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)
-          .emit("toggleElementInspector", null);
+      currentContext.emitDeviceEvent("toggleElementInspector");
     } else {
       ReactSoftExceptionLogger.logSoftException(
           TAG,
@@ -920,10 +921,11 @@ public class ReactInstanceManager {
       if (mViewManagers == null) {
         synchronized (mPackages) {
           if (mViewManagers == null) {
-            mViewManagers = new ArrayList<>();
+            ArrayList<ViewManager> viewManagers = new ArrayList<>();
             for (ReactPackage reactPackage : mPackages) {
-              mViewManagers.addAll(reactPackage.createViewManagers(catalystApplicationContext));
+              viewManagers.addAll(reactPackage.createViewManagers(catalystApplicationContext));
             }
+            mViewManagers = viewManagers;
             return mViewManagers;
           }
         }
@@ -1357,6 +1359,15 @@ public class ReactInstanceManager {
     }
 
     reactContext.initializeWithInstance(catalystInstance);
+
+    if (ReactFeatureFlags.unstable_useRuntimeSchedulerAlways) {
+      // On Old Architecture, we need to initialize the Native Runtime Scheduler so that
+      // the `nativeRuntimeScheduler` object is registered on JS.
+      // On New Architecture, this is normally triggered by instantiate a TurboModuleManager.
+      // Here we invoke getRuntimeScheduler() to trigger the creation of it regardless of the
+      // architecture so it will always be there.
+      catalystInstance.getRuntimeScheduler();
+    }
 
     if (ReactFeatureFlags.useTurboModules && mTMMDelegateBuilder != null) {
       TurboModuleManagerDelegate tmmDelegate =

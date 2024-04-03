@@ -10,6 +10,7 @@
 
 'use strict';
 
+import {isPublicInstance as isFabricPublicInstance} from '../Renderer/public/ReactFabricPublicInstanceUtils';
 import useRefEffect from '../Utilities/useRefEffect';
 import {AnimatedEvent} from './AnimatedEvent';
 import NativeAnimatedHelper from './NativeAnimatedHelper';
@@ -52,7 +53,7 @@ export default function useAnimatedProps<TProps: {...}, TInstance>(
   //   2) Update `onUpdateRef`.
   //   3) Update listeners for `AnimatedEvent` props.
   //
-  // Ideally, each of these would be separat "effects" so that they are not
+  // Ideally, each of these would be separate "effects" so that they are not
   // unnecessarily re-run when irrelevant dependencies change. For example, we
   // should be able to hoist all `AnimatedEvent` props and only do #3 if either
   // the `AnimatedEvent` props change or `instance` changes.
@@ -183,7 +184,7 @@ function getEventTarget<TInstance>(instance: TInstance): TInstance {
 // $FlowFixMe[unclear-type] - Legacy instance assumptions.
 function isFabricInstance(instance: any): boolean {
   return (
-    hasFabricHandle(instance) ||
+    isFabricPublicInstance(instance) ||
     // Some components have a setNativeProps function but aren't a host component
     // such as lists like FlatList and SectionList. These should also use
     // forceUpdate in Fabric since setNativeProps doesn't exist on the underlying
@@ -192,13 +193,9 @@ function isFabricInstance(instance: any): boolean {
     // If these components end up using forwardRef then these hacks can go away
     // as instance would actually be the underlying host component and the above check
     // would be sufficient.
-    hasFabricHandle(instance?.getNativeScrollRef?.()) ||
-    hasFabricHandle(instance?.getScrollResponder?.()?.getNativeScrollRef?.())
+    isFabricPublicInstance(instance?.getNativeScrollRef?.()) ||
+    isFabricPublicInstance(
+      instance?.getScrollResponder?.()?.getNativeScrollRef?.(),
+    )
   );
-}
-
-// $FlowFixMe[unclear-type] - Legacy instance assumptions.
-function hasFabricHandle(instance: any): boolean {
-  // eslint-disable-next-line dot-notation
-  return instance?.['_internalInstanceHandle']?.stateNode?.canonical != null;
 }

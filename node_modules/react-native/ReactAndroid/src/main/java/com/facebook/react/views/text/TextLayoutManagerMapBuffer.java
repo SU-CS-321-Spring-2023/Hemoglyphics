@@ -76,7 +76,6 @@ public class TextLayoutManagerMapBuffer {
 
   private static final String INLINE_VIEW_PLACEHOLDER = "0";
 
-  private static final Object sSpannableCacheLock = new Object();
   private static final boolean DEFAULT_INCLUDE_FONT_PADDING = true;
   private static final LruCache<MapBuffer, Spannable> sSpannableCache =
       new LruCache<>(spannableCacheSize);
@@ -228,12 +227,12 @@ public class TextLayoutManagerMapBuffer {
 
     // TODO T31905686: add support for inline Images
     // While setting the Spans on the final text, we also check whether any of them are images.
-    int priority = 0;
-    for (SetSpanOperation op : ops) {
+    for (int priorityIndex = 0; priorityIndex < ops.size(); ++priorityIndex) {
+      final SetSpanOperation op = ops.get(ops.size() - priorityIndex - 1);
+
       // Actual order of calling {@code execute} does NOT matter,
-      // but the {@code priority} DOES matter.
-      op.execute(sb, priority);
-      priority++;
+      // but the {@code priorityIndex} DOES matter.
+      op.execute(sb, priorityIndex);
     }
 
     if (reactTextViewManagerCallback != null) {
@@ -253,8 +252,8 @@ public class TextLayoutManagerMapBuffer {
     Layout layout;
     int spanLength = text.length();
     boolean unconstrainedWidth = widthYogaMeasureMode == YogaMeasureMode.UNDEFINED || width < 0;
-    TextPaint textPaint = sTextPaintInstance;
-    float desiredWidth = boring == null ? Layout.getDesiredWidth(text, textPaint) : Float.NaN;
+    float desiredWidth =
+        boring == null ? Layout.getDesiredWidth(text, sTextPaintInstance) : Float.NaN;
 
     if (boring == null
         && (unconstrainedWidth
@@ -267,7 +266,7 @@ public class TextLayoutManagerMapBuffer {
         layout =
             new StaticLayout(
                 text,
-                textPaint,
+                sTextPaintInstance,
                 hintWidth,
                 Layout.Alignment.ALIGN_NORMAL,
                 1.f,
@@ -275,7 +274,7 @@ public class TextLayoutManagerMapBuffer {
                 includeFontPadding);
       } else {
         layout =
-            StaticLayout.Builder.obtain(text, 0, spanLength, textPaint, hintWidth)
+            StaticLayout.Builder.obtain(text, 0, spanLength, sTextPaintInstance, hintWidth)
                 .setAlignment(Layout.Alignment.ALIGN_NORMAL)
                 .setLineSpacing(0.f, 1.f)
                 .setIncludePad(includeFontPadding)
@@ -296,7 +295,7 @@ public class TextLayoutManagerMapBuffer {
       layout =
           BoringLayout.make(
               text,
-              textPaint,
+              sTextPaintInstance,
               boringLayoutWidth,
               Layout.Alignment.ALIGN_NORMAL,
               1.f,
@@ -310,7 +309,7 @@ public class TextLayoutManagerMapBuffer {
         layout =
             new StaticLayout(
                 text,
-                textPaint,
+                sTextPaintInstance,
                 (int) width,
                 Layout.Alignment.ALIGN_NORMAL,
                 1.f,
@@ -318,7 +317,7 @@ public class TextLayoutManagerMapBuffer {
                 includeFontPadding);
       } else {
         StaticLayout.Builder builder =
-            StaticLayout.Builder.obtain(text, 0, spanLength, textPaint, (int) width)
+            StaticLayout.Builder.obtain(text, 0, spanLength, sTextPaintInstance, (int) width)
                 .setAlignment(Layout.Alignment.ALIGN_NORMAL)
                 .setLineSpacing(0.f, 1.f)
                 .setIncludePad(includeFontPadding)
@@ -357,7 +356,7 @@ public class TextLayoutManagerMapBuffer {
       if (sTagToSpannableCache.containsKey(cacheId)) {
         text = sTagToSpannableCache.get(cacheId);
         if (ENABLE_MEASURE_LOGGING) {
-          FLog.e(TAG, "Text for spannable found for cacheId[" + cacheId + "]: " + text.toString());
+          FLog.e(TAG, "Text for spannable found for cacheId[" + cacheId + "]: " + text);
         }
       } else {
         if (ENABLE_MEASURE_LOGGING) {
@@ -377,7 +376,7 @@ public class TextLayoutManagerMapBuffer {
             ? paragraphAttributes.getBoolean(PA_KEY_INCLUDE_FONT_PADDING)
             : DEFAULT_INCLUDE_FONT_PADDING;
     int hyphenationFrequency =
-        TextAttributeProps.getTextBreakStrategy(
+        TextAttributeProps.getHyphenationFrequency(
             paragraphAttributes.getString(PA_KEY_HYPHENATION_FREQUENCY));
 
     if (text == null) {
@@ -385,11 +384,6 @@ public class TextLayoutManagerMapBuffer {
     }
 
     BoringLayout.Metrics boring = BoringLayout.isBoring(text, textPaint);
-    float desiredWidth = boring == null ? Layout.getDesiredWidth(text, textPaint) : Float.NaN;
-
-    // technically, width should never be negative, but there is currently a bug in
-    boolean unconstrainedWidth = widthYogaMeasureMode == YogaMeasureMode.UNDEFINED || width < 0;
-
     Layout layout =
         createLayout(
             text,
@@ -417,7 +411,10 @@ public class TextLayoutManagerMapBuffer {
       calculatedWidth = width;
     } else {
       for (int lineIndex = 0; lineIndex < calculatedLineCount; lineIndex++) {
-        float lineWidth = layout.getLineWidth(lineIndex);
+        boolean endsWithNewLine =
+            text.length() > 0 && text.charAt(layout.getLineEnd(lineIndex) - 1) == '\n';
+        float lineWidth =
+            endsWithNewLine ? layout.getLineMax(lineIndex) : layout.getLineWidth(lineIndex);
         if (lineWidth > calculatedWidth) {
           calculatedWidth = lineWidth;
         }
@@ -425,6 +422,13 @@ public class TextLayoutManagerMapBuffer {
       if (widthYogaMeasureMode == YogaMeasureMode.AT_MOST && calculatedWidth > width) {
         calculatedWidth = width;
       }
+    }
+
+    // Android 11+ introduces changes in text width calculation which leads to cases
+    // where the container is measured smaller than text. Math.ceil prevents it
+    // See T136756103 for investigation
+    if (android.os.Build.VERSION.SDK_INT > android.os.Build.VERSION_CODES.Q) {
+      calculatedWidth = (float) Math.ceil(calculatedWidth);
     }
 
     float calculatedHeight = height;
@@ -465,12 +469,15 @@ public class TextLayoutManagerMapBuffer {
           // the last offset in the layout will result in an endless loop. Work around
           // this bug by avoiding getPrimaryHorizontal in that case.
           if (start == text.length() - 1) {
+            boolean endsWithNewLine =
+                text.length() > 0 && text.charAt(layout.getLineEnd(line) - 1) == '\n';
+            float lineWidth = endsWithNewLine ? layout.getLineMax(line) : layout.getLineWidth(line);
             placeholderLeftPosition =
                 isRtlParagraph
                     // Equivalent to `layout.getLineLeft(line)` but `getLineLeft` returns
                     // incorrect
                     // values when the paragraph is RTL and `setSingleLine(true)`.
-                    ? calculatedWidth - layout.getLineWidth(line)
+                    ? calculatedWidth - lineWidth
                     : layout.getLineRight(line) - placeholderWidth;
           } else {
             // The direction of the paragraph may not be exactly the direction the string is
@@ -544,9 +551,8 @@ public class TextLayoutManagerMapBuffer {
       MapBuffer paragraphAttributes,
       float width) {
 
-    TextPaint textPaint = sTextPaintInstance;
     Spannable text = getOrCreateSpannableForText(context, attributedString, null);
-    BoringLayout.Metrics boring = BoringLayout.isBoring(text, textPaint);
+    BoringLayout.Metrics boring = BoringLayout.isBoring(text, sTextPaintInstance);
 
     int textBreakStrategy =
         TextAttributeProps.getTextBreakStrategy(
@@ -569,31 +575,5 @@ public class TextLayoutManagerMapBuffer {
             textBreakStrategy,
             hyphenationFrequency);
     return FontMetricsUtil.getFontMetrics(text, layout, sTextPaintInstance, context);
-  }
-
-  // TODO T31905686: This class should be private
-  public static class SetSpanOperation {
-    protected int start, end;
-    protected ReactSpan what;
-
-    public SetSpanOperation(int start, int end, ReactSpan what) {
-      this.start = start;
-      this.end = end;
-      this.what = what;
-    }
-
-    public void execute(Spannable sb, int priority) {
-      // All spans will automatically extend to the right of the text, but not the left - except
-      // for spans that start at the beginning of the text.
-      int spanFlags = Spannable.SPAN_EXCLUSIVE_INCLUSIVE;
-      if (start == 0) {
-        spanFlags = Spannable.SPAN_INCLUSIVE_INCLUSIVE;
-      }
-
-      spanFlags &= ~Spannable.SPAN_PRIORITY;
-      spanFlags |= (priority << Spannable.SPAN_PRIORITY_SHIFT) & Spannable.SPAN_PRIORITY;
-
-      sb.setSpan(what, start, end, spanFlags);
-    }
   }
 }

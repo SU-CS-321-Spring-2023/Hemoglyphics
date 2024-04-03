@@ -21,21 +21,21 @@ import {
   NativeTouchEvent,
   TargetedEvent,
 } from '../../Types/CoreEventTypes';
-import {EventEmitter} from '../../vendor/emitter/EventEmitter';
+import EventEmitter from '../../vendor/emitter/EventEmitter';
 import {AccessibilityProps} from '../View/ViewAccessibility';
 import {ViewProps} from '../View/ViewPropTypes';
 
 export type KeyboardType =
   | 'default'
-  | 'email-address'
-  | 'numeric'
-  | 'phone-pad'
   | 'number-pad'
-  | 'decimal-pad';
+  | 'decimal-pad'
+  | 'numeric'
+  | 'email-address'
+  | 'phone-pad'
+  | 'url';
 export type KeyboardTypeIOS =
   | 'ascii-capable'
   | 'numbers-and-punctuation'
-  | 'url'
   | 'name-phone-pad'
   | 'twitter'
   | 'web-search';
@@ -69,6 +69,15 @@ export type ReturnKeyTypeOptions =
   | ReturnKeyType
   | ReturnKeyTypeAndroid
   | ReturnKeyTypeIOS;
+
+export type EnterKeyHintTypeAndroid = 'previous';
+export type EnterKeyHintTypeIOS = 'enter';
+export type EnterKeyHintType = 'done' | 'go' | 'next' | 'search' | 'send';
+
+export type EnterKeyHintTypeOptions =
+  | EnterKeyHintType
+  | EnterKeyHintTypeAndroid
+  | EnterKeyHintTypeIOS;
 
 type DataDetectorTypes =
   | 'phoneNumber'
@@ -272,6 +281,16 @@ export interface TextInputIOSProps {
    * If false, scrolling of the text view will be disabled. The default value is true. Only works with multiline={true}
    */
   scrollEnabled?: boolean | undefined;
+
+  /**
+   * Set line break strategy on iOS.
+   */
+  lineBreakStrategyIOS?:
+    | 'none'
+    | 'standard'
+    | 'hangul-word'
+    | 'push-out'
+    | undefined;
 }
 
 /**
@@ -768,6 +787,12 @@ export interface TextInputProps
    * Determines how the return key should look.
    */
   returnKeyType?: ReturnKeyTypeOptions | undefined;
+
+  /**
+   * Determines what text should be shown to the return key on virtual keyboards.
+   * Has precedence over the returnKeyType prop.
+   */
+  enterKeyHint?: EnterKeyHintTypeOptions | undefined;
 
   /**
    * If true, the text input obscures the text entered so that sensitive text like passwords stay secure.

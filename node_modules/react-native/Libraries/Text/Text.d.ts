@@ -27,7 +27,7 @@ export interface TextPropsIOS {
   adjustsFontSizeToFit?: boolean | undefined;
 
   /**
-   * The Dynamic Text scale ramp to apply to this element on iOS.
+   * The Dynamic Type scale ramp to apply to this element on iOS.
    */
   dynamicTypeRamp?:
     | 'caption2'
@@ -53,6 +53,16 @@ export interface TextPropsIOS {
    * default, a gray oval highlights the text on press down.
    */
   suppressHighlighting?: boolean | undefined;
+
+  /**
+   * Set line break strategy on iOS.
+   */
+  lineBreakStrategyIOS?:
+    | 'none'
+    | 'standard'
+    | 'hangul-word'
+    | 'push-out'
+    | undefined;
 }
 
 export interface TextPropsAndroid {
@@ -107,7 +117,7 @@ export interface TextProps
    */
   allowFontScaling?: boolean | undefined;
 
-  children?: React.ReactNode;
+  children?: React.ReactNode | undefined;
 
   /**
    * This can be one of the following values:

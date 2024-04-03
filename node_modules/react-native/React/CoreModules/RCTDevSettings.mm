@@ -53,7 +53,7 @@ void RCTDevSettingsSetEnabled(BOOL enabled)
   devSettingsMenuEnabled = enabled;
 }
 
-#if RCT_DEV_MENU
+#if RCT_DEV_MENU || RCT_REMOTE_PROFILE
 
 @interface RCTDevSettingsUserDefaultsDataSource : NSObject <RCTDevSettingsDataSource>
 
@@ -117,6 +117,7 @@ void RCTDevSettingsSetEnabled(BOOL enabled)
 
 #if RCT_DEV_SETTINGS_ENABLE_PACKAGER_CONNECTION
 static RCTHandlerToken reloadToken;
+static RCTHandlerToken devMenuToken;
 static std::atomic<int> numInitializedModules{0};
 #endif
 
@@ -195,6 +196,14 @@ RCT_EXPORT_MODULE()
         }
                          queue:dispatch_get_main_queue()
                      forMethod:@"reload"];
+#if RCT_DEV_MENU
+    devMenuToken = [[RCTPackagerConnection sharedPackagerConnection]
+        addNotificationHandler:^(id params) {
+          [self.bridge.devMenu show];
+        }
+                         queue:dispatch_get_main_queue()
+                     forMethod:@"devMenu"];
+#endif
   }
 #endif
 
@@ -246,6 +255,9 @@ RCT_EXPORT_MODULE()
 
   if (--numInitializedModules == 0) {
     [[RCTPackagerConnection sharedPackagerConnection] removeHandler:reloadToken];
+#if RCT_DEV_MENU
+    [[RCTPackagerConnection sharedPackagerConnection] removeHandler:devMenuToken];
+#endif
   }
 #endif
 }
@@ -618,7 +630,9 @@ RCT_EXPORT_METHOD(addMenuItem : (NSString *)title)
 
 - (RCTDevSettings *)devSettings
 {
-#if RCT_DEV_MENU
+#if RCT_REMOTE_PROFILE
+  return [self moduleForClass:[RCTDevSettings class]];
+#elif RCT_DEV_MENU
   return devSettingsMenuEnabled ? [self moduleForClass:[RCTDevSettings class]] : nil;
 #else
   return nil;
