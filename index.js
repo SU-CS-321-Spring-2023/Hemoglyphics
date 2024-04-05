@@ -26,14 +26,12 @@ app.post('/register',(req,res)=>{
     const salt = makeSalt(16);
     var hash = salt.concat(pass);
     hash = createHash('sha256').update(hash).digest('hex');
-    console.log(hash);
 
     try {
       db.query('INSERT INTO userInfo (userName, passWord, salt, email) VALUES(?,?,?,?);', [userName, hash, salt, email], (err, result)=>{
-        res.send("success registered");
       });
     } catch (error) {
-        console.error("Error registering user:", error);
+        console.log("Error registering user:", error);
     }
 });
 
