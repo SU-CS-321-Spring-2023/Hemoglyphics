@@ -29,6 +29,7 @@ app.get("/user", (req, res) => {
 });
 
 app.post('/register',(req,res)=>{
+<<<<<<< HEAD
   const pass = req.body.password;
   const userName = req.body.userName;
   const email = req.body.email;
@@ -41,6 +42,26 @@ app.post('/register',(req,res)=>{
   });
 });
 
+=======
+    const pass = req.body.password;
+    const userName = req.body.userName;
+    const email = req.body.email;
+    const salt = makeSalt(16);
+    var hash = salt.concat(pass);
+    hash = createHash('sha256').update(hash).digest('hex');
+
+    try {
+      db.query('INSERT INTO userInfo (userName, passWord, salt, email) VALUES(?,?,?,?);', [userName, hash, salt, email], (err, result)=>{
+      });
+    } catch (error) {
+        console.log("Error registering user:", error);
+    }
+});
+
+app.listen(12000, () => {
+    console.log('running on port 12000')
+});
+>>>>>>> e6d1dd6fc58ebb85d3f460b5b618692e4585e4a7
 function makeSalt(length) {
   let result = '';
   const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@!#$&_';
@@ -52,7 +73,10 @@ function makeSalt(length) {
   }
   return result;
 }
+<<<<<<< HEAD
 
 app.listen(12000, ()=>{
   console.log("Server running on port 12000")
 });
+=======
+>>>>>>> e6d1dd6fc58ebb85d3f460b5b618692e4585e4a7
