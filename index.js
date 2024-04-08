@@ -1,10 +1,9 @@
-const express = require('express');
+import express from "express";
 const {createHash} = require('crypto');
+import cors from "cors";
+import mysql from "mysql";
+
 const app = express();
-const bodyParser = require('body-parser');
-const mysql = require('mysql');
-var cors = require('cors');
-app.use(cors());
 
 const db = mysql.createPool({
   host: 'users.c18kycqqwfsz.us-east-1.rds.amazonaws.com',
@@ -14,34 +13,34 @@ const db = mysql.createPool({
   connectionLimit: 15
 });
 
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(express.json());
+app.use(cors());
+
 app.get("/test", (req, res) => {
   res.send("Hello, world!");
 });
 
+app.get("/user", (req, res) => {
+  const q = "SELECT id FROM userName TheFireGolem";
+  db.query(q, (err, data)=>{
+    if(err) return res.json(err);
+    return res.json(data);
+  });
+});
+
 app.post('/register',(req,res)=>{
-    const pass = req.body.password;
-    const userName = req.body.userName;
-    const email = req.body.email;
-    const salt = makeSalt(16);
-    var hash = salt.concat(pass);
-    hash = createHash('sha256').update(hash).digest('hex');
-    console.log(hash);
-
-    try {
-      db.query('INSERT INTO userInfo (userName, passWord, salt, email) VALUES(?,?,?,?);', [userName, hash, salt, email], (err, result)=>{
-        res.send("success registered");
-      });
-    } catch (error) {
-        console.error("Error registering user:", error);
-    }
-
-    res.send("hello steve");
+  const pass = req.body.password;
+  const userName = req.body.userName;
+  const email = req.body.email;
+  const salt = makeSalt(16);
+  var hash = salt.concat(pass);
+  hash = createHash('sha256').update(hash).digest('hex');
+  db.query('INSERT INTO userInfo (userName, passWord, salt, email) VALUES(?);', [userName, hash, salt, email], (err, data)=>{
+    if (err) return res.json(err);
+    return res.json("user registered succesfully");
+  });
 });
 
-app.listen(80, () => {
-    console.log('running on port 80')
-});
 function makeSalt(length) {
   let result = '';
   const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@!#$&_';
@@ -53,3 +52,7 @@ function makeSalt(length) {
   }
   return result;
 }
+
+app.listen(12000, ()=>{
+  console.log("Server running on port 12000")
+});
