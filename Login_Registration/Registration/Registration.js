@@ -1,59 +1,64 @@
 import React, { useState, useEffect } from 'react';
 import Axios from "axios";
 import { StatusBar } from 'expo-status-bar';
-import { SafeAreaView, Dimensions, ScrollView, StyleSheet, Text, TextInput, View, TouchableOpacity, Animated, Easing } from 'react-native';
+import { SafeAreaView, ScrollView, StyleSheet, Text, TextInput, View, TouchableOpacity, Animated, Easing } from 'react-native';
 
-export default function Registration({navigation}) {
+export default function Registration({ navigation }) {
   const [email, setEmail] = useState('');
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [reEnterPassword, setReEnterPassword] = useState('');
   const [circlePosition, setCirclePosition] = useState(new Animated.Value(0));
+  var userId;
 
   useEffect(() => {
     // Move the circles when the component mounts
     moveCircles();
   }, []);
 
-  const handleRegistration = () => {
-    Axios.post("http://52.188.142.237:80/register", {
-    userName: username,
-    password: password,
-    email: email
-}).then(() => {
-        navigation.navigate('Welcome');
-    }).catch(error => {
-        console.error("Registration failed:", error);
-        // Handle the error here
-    });
-};
-
+  const handleRegistration = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await Axios.post("http://146.190.61.157:12000/register", {
+        userName: username,
+        password: password,
+        email: email
+      });
+      const responseData = response.data;
+      userId = responseData.userId;
+      if (responseData.userId) {
+        console.log("userId");
+      }
+    } catch (err) {
+      console.log(err);
+    }
+  };
 
   const moveCircles = () => {
     Animated.sequence([
       Animated.timing(circlePosition, {
-        toValue: 1.1, // Slightly overshoot the final value
-        duration: 200, // Duration of the animation
-        easing: Easing.out(Easing.quad), // Ease out animation
-        useNativeDriver: false, // Required for animations not supported by native driver
+        toValue: 1.1,
+        duration: 200,
+        easing: Easing.out(Easing.quad),
+        useNativeDriver: false,
       }),
       Animated.timing(circlePosition, {
-        toValue: 1, // End value
-        duration: 3000, // Duration of the animation
-        easing: Easing.bounce, // Bounce effect
-        useNativeDriver: false, // Required for animations not supported by native driver
+        toValue: 1,
+        duration: 3000,
+        easing: Easing.bounce,
+        useNativeDriver: false,
       })
-    ]).start(); // Start the animation
+    ]).start();
   };
 
   const circle1Position = circlePosition.interpolate({
     inputRange: [0, 1],
-    outputRange: [-220, 500], // Start and end positions for circle1
+    outputRange: [-220, 500],
   });
 
   const circle2Position = circlePosition.interpolate({
     inputRange: [0, 1],
-    outputRange: [500, -220], // Start and end positions for circle2
+    outputRange: [500, -220],
   });
 
   return (
@@ -104,7 +109,6 @@ export default function Registration({navigation}) {
             placeholder="Re-enter your password"
           />
 
-          {/* Button container */}
           <TouchableOpacity onPress={handleRegistration} style={styles.button}>
             <Text style={styles.buttonText}>Register</Text>
           </TouchableOpacity>
@@ -118,22 +122,22 @@ const styles = StyleSheet.create({
   circle: {
     width: 400,
     height: 400,
-    borderRadius: 1000, // Half of the width/height to make it a circle
+    borderRadius: 1000,
     borderColor: '#6b4596',
-    borderWidth: 4, // Border width
-    backgroundColor: 'white', // Color of the circle
+    borderWidth: 4,
+    backgroundColor: 'white',
     position: 'absolute',
-    right: 0, // Adjust the right value to position it horizontally
+    right: 0,
   },
   circle2: {
     width: 400,
     height: 400,
-    borderRadius: 1000, // Half of the width/height to make it a circle
-    backgroundColor: '#6b4596', // Color of the circle
+    borderRadius: 1000,
+    backgroundColor: '#6b4596',
     borderColor: 'white',
-    borderWidth: 4, // Border width
+    borderWidth: 4,
     position: 'absolute',
-    left: 0, // Adjust the right value to position it horizontally
+    left: 0,
   },
   circleContainer: {
     position: 'relative',
@@ -164,7 +168,6 @@ const styles = StyleSheet.create({
     marginBottom: 0,
     paddingTop: 100,
     paddingLeft: 15,
-    
   },
   input: {
     height: 40,
@@ -190,4 +193,3 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
 });
-

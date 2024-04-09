@@ -21,7 +21,7 @@ const Navigation = () => {
     return(
         <NavigationContainer>
             <Stack.Navigator initialRouteName='Login'>
-                <Stack.Screen name="Welcome!" component={HomeScreen} options={{
+                <Stack.Screen name="Welcome" component={HomeScreen} options={{
                     title: "Welcome",
                     headerStyle: {
                         backgroundColor: 'rgba(249, 217, 250, 1)', 
