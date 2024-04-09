@@ -47,11 +47,14 @@ app.post('/register', (req, res) => {
   const salt = makeSalt(16);
   var hash = salt.concat(pass);
   hash = createHash('sha256').update(hash).digest('hex');
-  db.query('INSERT INTO userInfo (userName, passWord, salt, email) VALUES (?, ?, ?, ?);', [userName, hash, salt, email], (err, data) => {
+  db.query('INSERT INTO userInfo (userName, passWord, salt, email) VALUES (?, ?, ?, ?);', [userName, hash, salt, email], (err, result) => {
     if (err) return res.json(err);
-    return res.json("user registered successfully");
+    const userId = result.insertId;
+    const responseData = { userId: userId};
+    return res.json(responseData);
   });
 });
+
 
 app.listen(12000, () => {
   console.log("Server running on port 12000");
