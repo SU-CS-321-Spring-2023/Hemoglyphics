@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Axios from "axios";
 import { StatusBar } from 'expo-status-bar';
-import { SafeAreaView, ScrollView, StyleSheet, Text, TextInput, View, TouchableOpacity, Animated, Easing } from 'react-native';
+import { SafeAreaView, ScrollView, StyleSheet, Text, TextInput, View, TouchableOpacity, Animated, Easing, Alert } from 'react-native';
 
 export default function Registration({ navigation }) {
   const [email, setEmail] = useState('');
@@ -12,12 +12,14 @@ export default function Registration({ navigation }) {
   var userId;
 
   useEffect(() => {
-    // Move the circles when the component mounts
     moveCircles();
   }, []);
 
-  const handleRegistration = async (e) => {
-    e.preventDefault();
+  const handleRegistration = async () => {
+    if (!validateInputs()) {
+      return;
+    }
+
     try {
       const response = await Axios.post("http://146.190.61.157:12000/register", {
         userName: username,
@@ -27,11 +29,26 @@ export default function Registration({ navigation }) {
       const responseData = response.data;
       userId = responseData.userId;
       if (responseData.userId) {
-        console.log("userId");
+        console.log(userId);
+        navigation.navigate("Welcome");
       }
     } catch (err) {
       console.log(err);
     }
+  };
+
+  const validateInputs = () => {
+    if (!email || !username || !password || !reEnterPassword) {
+      Alert.alert('Error', 'Please fill out all fields!');
+      return false;
+    }
+
+    if (password !== reEnterPassword) {
+      Alert.alert('Error', 'Passwords do not match.');
+      return false;
+    }
+
+    return true;
   };
 
   const moveCircles = () => {
