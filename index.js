@@ -1,7 +1,7 @@
-import express from "express";
+const express = require( "express");
 const {createHash} = require('crypto');
-import cors from "cors";
-import mysql from "mysql";
+const cors = require("cors");
+const mysql = require("mysql");
 
 const app = express();
 
