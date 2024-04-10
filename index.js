@@ -96,7 +96,7 @@ app.post('/login', (req, res) => {
     }
 
     const user = result[0];
-    const hash = createHash('sha256').update(user.salt + password).digest('hex');
+    const hash = crypto.createHash('sha256').update(user.salt + password).digest('hex');
 
     if (hash !== user.passWord) {
       return res.status(400).json({ error: 'Invalid credentials.' });
@@ -106,6 +106,7 @@ app.post('/login', (req, res) => {
     return res.status(200).json(responseData);
   });
 });
+
 
 app.get("/test", (req, res) => {
   res.send("Hello, world!");
