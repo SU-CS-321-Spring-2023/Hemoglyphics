@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { SafeAreaView, ScrollView, StyleSheet, Text, TextInput, View, Button, Animated, Easing, TouchableOpacity } from 'react-native';
+import { SafeAreaView, ScrollView, StyleSheet, Text, TextInput, View, Button, Animated, Easing, TouchableOpacity, Alert } from 'react-native';
+import Axios from "axios";
+
 
 export default function App({ navigation }) {
   const [email, setEmail] = useState('');
@@ -12,9 +14,27 @@ export default function App({ navigation }) {
     moveCircles();
   }, []);
 
-  const handleLogin = () => {
-    console.log('Login button clicked!');
-    navigation.navigate('Welcome!');
+  const handleLogin = async () => {
+    try {
+      if (!email || !password) {
+        Alert.alert('Missing Information', 'Please enter both email and password.');
+        return;
+      }
+
+      const response = await Axios.post("http://146.190.61.157:12000/login", {
+        email: email,
+        password: password,
+      });
+      const responseData = response.data;
+      if (responseData.success) {
+        navigation.navigate('Welcome', { userId: responseData.userId });
+      } else {
+        Alert.alert('Login Failed', responseData.error);
+      }
+    } catch (error) {
+      console.error(error);
+      Alert.alert('Error', error);
+    }
   };
 
   const moveCircles = () => {
@@ -53,7 +73,7 @@ export default function App({ navigation }) {
       </View>
 
       <ScrollView showsVerticalScrollIndicator={false}>
-        <View style={styles.titleContainer}>
+        <View style={styles.container}>
           <Text style={styles.title}>Login</Text>
         </View>
 
