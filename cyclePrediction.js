@@ -113,6 +113,6 @@ function calculateNextStartDate(lastPeriodDate, predictedCycleLength) {
   return nextStartDate.format("YYYY-MM-DD");
 }
 
-// Example usage
+// Example 
 const nextStartDate = calculateNextStartDate(lastPeriodDate, predictedCycle);
 console.log("Next period start date:", nextStartDate);
