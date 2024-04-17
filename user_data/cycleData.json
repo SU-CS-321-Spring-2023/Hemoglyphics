@@ -1,0 +1,19 @@
+{
+  "dataEntries": [
+    {
+      "startDate": "2024-04-02",
+      "periodLength": 3,
+      "cycleLength": 27
+    },
+    {
+      "startDate": "2024-04-02",
+      "periodLength": 3,
+      "cycleLength": 28
+    },
+    {
+      "startDate": "2024-04-02",
+      "periodLength": 3,
+      "cycleLength": 28
+    }
+  ]
+}
