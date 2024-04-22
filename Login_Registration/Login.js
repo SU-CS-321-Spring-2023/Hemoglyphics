@@ -26,7 +26,7 @@ export default function App({ navigation }) {
         password: password,
       });
       const responseData = response.data;
-      if (responseData.success) {
+      if (responseData) {
         navigation.navigate('Welcome', { userId: responseData.userId });
       } else {
         Alert.alert('Login Failed', responseData.error);
