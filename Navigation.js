@@ -8,11 +8,14 @@ import Circle from './pages/Circle.js';
 import Maps from './pages/Maps.js';
 import Messages from './pages/Messages.js'
 import Message_Board from './pages/MessageBoard.js';
+import Symptoms from './pages/Symptoms.js';
 import Login from './Login_Registration/Login.js';
 import Registration from './Login_Registration/Registration/Registration.js';
 import Log from './pages/Log.js';
 import NewCircleScreen from './pages/NewCircleScreen.js';
 import ManageCircleScreen from './pages/ManageCircleScreen.js';
+import Settings from './pages/Settings.js';
+import MessageListScreen from './pages/MessageList.js';
 
 const Stack = createStackNavigator();
 
@@ -27,6 +30,7 @@ const Navigation = () => {
                         backgroundColor: 'rgba(249, 217, 250, 1)', 
                     }
                 }}/> 
+                
                 <Stack.Screen name="Friends List" options={{
                     title: "Friends List",
                     headerStyle: {
@@ -46,6 +50,7 @@ const Navigation = () => {
                     }
                 }}
                 /> 
+                <Stack.Screen name="Symptoms" component={Symptoms} />
                 <Stack.Screen name="NewCircleScreen" component={NewCircleScreen} options ={{
                     headerShown:false,
                 }}/>
@@ -57,6 +62,14 @@ const Navigation = () => {
                 />
                 <Stack.Screen name="Messages" component={Messages} options={{
                     title:''
+                }}
+                />
+                 <Stack.Screen name="Settings" component={Settings} options={{
+                    title:'User Settings'
+                }}
+                />
+                <Stack.Screen name="MessageList" component={MessageListScreen} options={{
+                    title:'Message List'
                 }}
                 />
             </Stack.Navigator>

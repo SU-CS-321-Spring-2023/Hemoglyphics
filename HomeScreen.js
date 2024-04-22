@@ -1,32 +1,108 @@
-import React from 'react';
-import { StatusBar } from 'expo-status-bar';
-import { TouchableOpacity, StyleSheet, Text, View, Button, Pressable} from 'react-native';
+import React, { useState, useEffect } from 'react';
+import { TouchableOpacity, StyleSheet, Text, View, Animated, Easing } from 'react-native';
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
+import { faGear } from '@fortawesome/free-solid-svg-icons';
 
-// defining the circle object (this should go somewhere else)
-const Circle = ({ circleStyle, text, onPress}) => {
+const HomeScreen = ({ navigation }) => {
+  const [circlePositions] = useState([
+    new Animated.Value(0),
+    new Animated.Value(0),
+    new Animated.Value(0),
+    new Animated.Value(0),
+    new Animated.Value(0),
+  ]);
+
+  const [spinAnimation] = useState(new Animated.Value(0)); // Animation for spinning motion
+
+  useEffect(() => {
+    moveCircles();
+  }, []);
+
+  const Circle = ({ circleStyle, text, onPress, backgroundColor, index }) => {
+    const circleTransform = circlePositions[index].interpolate({
+      inputRange: [0, 1],
+      outputRange: [0, 30],
+    });
+
+    return (
+      <TouchableOpacity onPress={onPress} style={[styles.circle, circleStyle, { backgroundColor, transform: [{ translateY: circleTransform }] }]}>
+        <Text style={styles.circleText}>{text}</Text>
+      </TouchableOpacity>
+    );
+  };
+
+  const moveCircles = () => {
+    circlePositions.forEach((position, index) => {
+      Animated.loop(
+        Animated.sequence([
+          Animated.timing(position, {
+            toValue: 1,
+            duration: 5000 + index * 500,
+            easing: Easing.inOut(Easing.quad),
+            useNativeDriver: true,
+          }),
+          Animated.timing(position, {
+            toValue: 0,
+            duration: 5000 + index * 500,
+            easing: Easing.inOut(Easing.quad),
+            useNativeDriver: true,
+          }),
+        ])
+      ).start();
+    });
+  };
+
+  const handleSettingsPress = () => {
+    // Perform spinning animation
+    Animated.sequence([
+      Animated.timing(spinAnimation, {
+        toValue: 1,
+        duration: 500,
+        easing: Easing.linear,
+        useNativeDriver: true,
+      }),
+      Animated.timing(spinAnimation, {
+        toValue: 0,
+        duration: 0,
+        useNativeDriver: true,
+      }),
+    ]).start(() => {
+      // Navigate to settings screen after animation completes
+      navigation.navigate('Settings');
+    });
+  };
+
+  const spin = spinAnimation.interpolate({
+    inputRange: [0, 1],
+    outputRange: ['0deg', '360deg'],
+  });
+
   return (
-        <TouchableOpacity onPress={onPress} style={[styles.circle, circleStyle]}>
-            <Text style={styles.circleText}>{text}</Text>
-        </TouchableOpacity>
+    <View style={styles.appContainer}>
+      <Circle circleStyle={{ top: '5%', right: 40, elevation: 5 }} text="Maps" onPress={() => navigation.navigate('Maps')} backgroundColor="rgba(107, 69, 150, 1)" index={0} />
+      <Circle circleStyle={{ top: '20%', left: 40, elevation: 5 }} text="Friends" onPress={() => navigation.navigate('Friends List')} backgroundColor="rgba(107, 69, 150, 1)" index={1} />
+      <Circle circleStyle={{ top: '37%', right: 38, elevation: 5 }} text="Messages" onPress={() => navigation.navigate('MessageList')} backgroundColor="rgba(107, 69, 150, 1)" index={2} />
+      <Circle circleStyle={{ top: '51%', left: 29, elevation: 5 }} text="Circle" onPress={() => navigation.navigate('Circle')} backgroundColor="rgba(107, 69, 150, 1)" index={3} />
+      <Circle circleStyle={{ top: '66%', right: 46, elevation: 5 }} text="Log" onPress={() => navigation.navigate('Log')} backgroundColor="rgba(107, 69, 150, 1)" index={4} />
+      
+      <TouchableOpacity style={styles.settingsButton} onPress={handleSettingsPress}>
+        <Animated.View style={{ transform: [{ rotate: spin }] }}>
+          <FontAwesomeIcon icon={faGear} size={40} style={{ color: "rgba(107, 69, 150, 1)" }} />
+        </Animated.View>
+      </TouchableOpacity>
+    </View>
   );
 };
 
-// layout for Home screen
-const HomeScreen = ({navigation}) => {
-    return(
-      <View style={styles.appContainer}>
-         <Circle circleStyle={[styles.circle1, { zIndex: 4 },{ top: '20%', left: 40 }]} text="Friends" onPress={() => navigation.navigate('Friends List')}/>
-         <Circle circleStyle={[styles.circle2, { zIndex: 2 },{ top: '51%', left: 29 }]} text="Circle" onPress={() => navigation.navigate('Circle')}/> 
-         <Circle circleStyle={[styles.circle3, { zIndex: 5 },{ top: '5%', right: 40 }]} text="Maps" onPress={() => navigation.navigate('Maps')}/> 
-         <Circle circleStyle={[styles.circle5, { zIndex: 3 },{ top: '37%', right: 38 }]} text="Messages" onPress={() => navigation.navigate('Messages')}/> 
-         <Circle circleStyle={[styles.circle4, { elevation: 0 },{ top: '66%', right: 46 }]} text="Log" onPress={() => navigation.navigate('Log')}/> 
-      </View>
-    )
-}
-
-// Styling
-const CircleColor = 'rgba(107, 69, 150, 1)';
 const styles = StyleSheet.create({
+  settingsButton: {
+    position: 'absolute',
+    bottom: 10,
+    left: 10,
+    padding: 10,
+    borderRadius: 50,
+  },
+
   appContainer: {
     flex: 1,
     paddingTop: 10,
@@ -37,7 +113,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(249, 217, 250, 1)',
   },
   circle: {
-   borderWidth : 2,
+    borderWidth: 2,
     borderColor: 'pink',
     width: 190,
     height: 190,
@@ -51,23 +127,6 @@ const styles = StyleSheet.create({
     color: 'white',
     textAlign: 'center',
   },
-  // we must consolidate this int one class
-  circle1: {
-    backgroundColor: 'rgba(107, 69, 150, 1)',
-  },
-  circle2: {
-    backgroundColor: 'rgba(107, 69, 150, 1)',
-  },
-  circle3: {
-    backgroundColor: 'rgba(107, 69, 150, 1)',
-  },
-  circle4: {
-    backgroundColor: 'rgba(107, 69, 150, 1)',
-  },
-  circle5: {
-    backgroundColor: 'rgba(107, 69, 150, 1)',
-  },
 });
-
 
 export default HomeScreen;

@@ -14,6 +14,7 @@ export default function App({ navigation }) {
     moveCircles();
   }, []);
 
+<<<<<<< HEAD
   const handleLogin = async () => {
     try {
       if (!email || !password) {
@@ -35,6 +36,14 @@ export default function App({ navigation }) {
       console.error(error);
       Alert.alert('Error', error);
     }
+=======
+  const handleLogin = () => {
+    console.log('Login button clicked!');
+    // Trigger spin animation for circles
+    spinCircles();
+    // Navigate to Welcome screen
+    navigation.navigate('Welcome!');
+>>>>>>> origin/symptoms
   };
 
   const moveCircles = () => {
@@ -54,9 +63,20 @@ export default function App({ navigation }) {
     ]).start();
   };
 
+  const spinCircles = () => {
+    Animated.parallel([
+      Animated.timing(circlePosition, {
+        toValue: 2,
+        duration: 1000,
+        easing: Easing.linear,
+        useNativeDriver: false,
+      }),
+    ]).start();
+  };
+
   const circle1Position = circlePosition.interpolate({
     inputRange: [0, 1],
-    outputRange: [-220, 500],
+    outputRange: [-220, 550],
   });
 
   const circle2Position = circlePosition.interpolate({
@@ -122,7 +142,6 @@ const styles = StyleSheet.create({
     position: 'absolute',
     right: -50,
     bottom: 200,
-
   },
   circle2: {
     width: 400,
@@ -145,10 +164,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   textContainer: {
-    marginTop: 60,
+    marginTop: 0,
     marginBottom: 80,
     paddingHorizontal: 30,
-    paddingVertical: 30,
+    paddingVertical: 20,
     width: '90%',
     backgroundColor: 'rgba(107, 69, 150, 0.1)',
     borderRadius: 20,
@@ -157,11 +176,16 @@ const styles = StyleSheet.create({
     shadowRadius: 6,
     shadowOpacity: 0.8,
   },
+  titleContainer: {
+    width: '100%',
+    alignItems: 'flex-start',
+    marginTop: -18,
+  },
   title: {
     fontSize: 60,
     fontWeight: 'bold',
     color: '#6b4596',
-    marginBottom: -50,
+    marginBottom: 0,
     marginLeft: 20,
     textAlign: 'left',
   },
@@ -192,13 +216,10 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     color: '#000',
-    
-    
   },
   signupPromptLink: {
     fontSize: 18,
     color: '#6b4596',
     fontWeight: 'bold',
-    
   },
 });
