@@ -95,15 +95,14 @@ app.post('/login', (req, res) => {
       return res.status(406).json({ error: 'Invalid credentials.' });
     }
 
-    const user = result[0];
+    const user = result;
     const hash = createHash('sha256').update(user.salt + password).digest('hex');
 
     if (hash !== user.passWord) {
-      return res.status(407).json({ error: 'Invalid credentials.' });
+      return res.status(407).json({ error: 'Invalid password.' });
     }
 
-    const responseData = { success: true, userId: user.id };
-    return user.id;
+    return result;
   });
 });
 
