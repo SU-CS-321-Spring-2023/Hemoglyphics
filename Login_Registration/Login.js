@@ -14,7 +14,6 @@ export default function App({ navigation }) {
     moveCircles();
   }, []);
 
-<<<<<<< HEAD
   const handleLogin = async () => {
     try {
       if (!email || !password) {
@@ -36,16 +35,7 @@ export default function App({ navigation }) {
       console.error(error);
       Alert.alert('Error', error);
     }
-=======
-  const handleLogin = () => {
-    console.log('Login button clicked!');
-    // Trigger spin animation for circles
-    spinCircles();
-    // Navigate to Welcome screen
-    navigation.navigate('Welcome!');
->>>>>>> origin/symptoms
-  };
-
+  }
   const moveCircles = () => {
     Animated.sequence([
       Animated.timing(circlePosition, {
