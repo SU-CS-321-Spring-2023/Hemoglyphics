@@ -81,25 +81,25 @@ app.post('/login', (req, res) => {
   }
 
   if (!validateEmail(email)) {
-    return res.status(400).json({ error: 'Invalid email format.' });
+    return res.status(401).json({ error: 'Invalid email format.' });
   }
 
   if (!validatePassword(password)) {
-    return res.status(400).json({ error: 'Password must be at least 8 characters long.' });
+    return res.status(402).json({ error: 'Password must be at least 8 characters long.' });
   }
 
   db.query('SELECT * FROM userInfo WHERE email = ?', [email], (err, result) => {
     if (err) return res.status(500).json({ error: 'Database error.' });
 
     if (result.length === 0) {
-      return res.status(400).json({ error: 'Invalid credentials.' });
+      return res.status(406).json({ error: 'Invalid credentials.' });
     }
 
     const user = result[0];
     const hash = createHash('sha256').update(user.salt + password).digest('hex');
 
     if (hash !== user.passWord) {
-      return res.status(400).json({ error: 'Invalid credentials.' });
+      return res.status(407).json({ error: 'Invalid credentials.' });
     }
 
     const responseData = { success: true, userId: user.id };
