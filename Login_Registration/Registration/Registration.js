@@ -70,11 +70,8 @@ export default function Registration({ navigation }) {
 
   const circle1Position = circlePosition.interpolate({
     inputRange: [0, 1],
-<<<<<<< HEAD
     outputRange: [-220, 500],
-=======
     outputRange: [-220, 600], // Start and end positions for circle1
->>>>>>> origin/symptoms
   });
 
   const circle2Position = circlePosition.interpolate({
@@ -184,19 +181,16 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 60,
     fontWeight: 'bold',
-<<<<<<< HEAD
     fontFamily: 'Avenir',
     color: '#bc8da0',
     marginBottom: 0,
     paddingTop: 100,
     paddingLeft: 15,
-=======
     color: '#6b4596',
     marginBottom: 120,
     marginLeft: 20,
     textAlign: 'left',
     
->>>>>>> origin/symptoms
   },
   input: {
     height: 40,
