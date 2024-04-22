@@ -96,28 +96,20 @@ app.post('/login', (req, res) => {
     }
 
     const user = result[0];
-    const hash = crypto.createHash('sha256').update(user.salt + password).digest('hex');
+    const hash = createHash('sha256').update(user.salt + password).digest('hex');
 
     if (hash !== user.passWord) {
       return res.status(400).json({ error: 'Invalid credentials.' });
     }
 
     const responseData = { success: true, userId: user.id };
-    return res.status(200).json(responseData);
+    return user.id;
   });
 });
 
 
 app.get("/test", (req, res) => {
   res.send("Hello, world!");
-});
-
-app.get("/user", (req, res) => {
-  const q = "SELECT id FROM users WHERE userName = 'TheFireGolem';";
-  db.query(q, (err, data) => {
-    if (err) return res.json(err);
-    return res.json(data);
-  });
 });
 
 app.listen(12000, () => {
