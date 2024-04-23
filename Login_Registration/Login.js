@@ -8,7 +8,7 @@ export default function App({ navigation }) {
 
   const handleLogin = async () => {
     try {
-      const response = await fetch('http://localhost:12000/login', {
+      const response = await fetch('http://146.190.61.157:12000/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -17,8 +17,8 @@ export default function App({ navigation }) {
       });
       const data = await response.json();
       if (response.ok) {
-        console.log(data); // handle the response data as needed
-        navigation.navigate('Welcome!');
+        console.log(data);
+        navigation.navigate('Welcome');
       } else {
         throw new Error(data.error || 'Login failed');
       }
