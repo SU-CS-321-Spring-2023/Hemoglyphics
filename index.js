@@ -40,7 +40,7 @@ function validatePassword(password) {
 }
 
 app.post('/register', (req, res) => {
-  const pass = req.body.password;
+  var pass = req.body.password;
   const userName = req.body.userName;
   const email = req.body.email;
 
@@ -56,6 +56,9 @@ app.post('/register', (req, res) => {
     return res.status(400).json({ error: 'Password must be at least 8 characters long.' });
   }
 
+  var salt = makeSalt(16);
+  var hash = createHash('sha256').update(salt + pass).digest('hex');
+
   db.query('SELECT * FROM userInfo WHERE userName = ? OR email = ?', [userName, email], (err, result) => {
     if (err) return res.status(500).json({ error: 'Database error.' });
 
@@ -63,9 +66,6 @@ app.post('/register', (req, res) => {
       return res.status(400).json({ error: 'Username or email already exists.' });
     }
 
-    const salt = makeSalt(16);
-    var hash = salt.concat(pass);
-    hash = createHash('sha256').update(hash).digest('hex');
     db.query('INSERT INTO userInfo (userName, passWord, salt, email) VALUES (?, ?, ?, ?);', [userName, hash, salt, email], (err, result) => {
       if (err) return res.status(500).json({ error: 'Database error.' });
 
