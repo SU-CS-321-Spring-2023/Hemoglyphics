@@ -1,59 +1,38 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { SafeAreaView, ScrollView, StyleSheet, Text, TextInput, View, Button, Animated, Easing, TouchableOpacity } from 'react-native';
+import { SafeAreaView, ScrollView, StyleSheet, Text, TextInput, View, Button, TouchableOpacity, Alert } from 'react-native';
 
 export default function App({ navigation }) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const [circlePosition, setCirclePosition] = useState(new Animated.Value(0));
-
-  useEffect(() => {
-    moveCircles();
-  }, []);
-
-  const handleLogin = () => {
-    console.log('Login button clicked!');
-    navigation.navigate('Welcome!');
+  const handleLogin = async () => {
+    try {
+      const response = await fetch('http://localhost:12000/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email, password }),
+      });
+      const data = await response.json();
+      if (response.ok) {
+        console.log(data); // handle the response data as needed
+        navigation.navigate('Welcome!');
+      } else {
+        throw new Error(data.error || 'Login failed');
+      }
+    } catch (error) {
+      console.error('Error:', error.message);
+      Alert.alert('Error', error.message);
+    }
   };
-
-  const moveCircles = () => {
-    Animated.sequence([
-      Animated.timing(circlePosition, {
-        toValue: 1.1,
-        duration: 500,
-        easing: Easing.out(Easing.quad),
-        useNativeDriver: false,
-      }),
-      Animated.timing(circlePosition, {
-        toValue: 1,
-        duration: 2000,
-        easing: Easing.bounce,
-        useNativeDriver: false,
-      })
-    ]).start();
-  };
-
-  const circle1Position = circlePosition.interpolate({
-    inputRange: [0, 1],
-    outputRange: [-220, 500],
-  });
-
-  const circle2Position = circlePosition.interpolate({
-    inputRange: [0, 1],
-    outputRange: [500, -220],
-  });
 
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar style="auto" />
-      <View style={styles.circleContainer}>
-        <Animated.View style={[styles.circle, { top: circle1Position }]} />
-        <Animated.View style={[styles.circle2, { top: circle2Position }]} />
-      </View>
-
       <ScrollView showsVerticalScrollIndicator={false}>
-        <View style={styles.titleContainer}>
+        <View style={styles.textContainer}>
           <Text style={styles.title}>Login</Text>
         </View>
 
@@ -92,32 +71,6 @@ export default function App({ navigation }) {
 }
 
 const styles = StyleSheet.create({
-  circle: {
-    width: 400,
-    height: 400,
-    borderRadius: 200,
-    borderColor: '#6b4596',
-    borderWidth: 4,
-    backgroundColor: 'white',
-    position: 'absolute',
-    right: -50,
-    bottom: 200,
-
-  },
-  circle2: {
-    width: 400,
-    height: 400,
-    borderRadius: 200,
-    backgroundColor: '#6b4596',
-    borderColor: 'white',
-    borderWidth: 4,
-    position: 'absolute',
-    left: -100,
-  },
-  circleContainer: {
-    position: 'relative',
-    height: 200,
-  },
   container: {
     flex: 1,
     backgroundColor: 'rgba(249, 217, 250, 1)',
@@ -172,13 +125,10 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     color: '#000',
-    
-    
   },
   signupPromptLink: {
     fontSize: 18,
     color: '#6b4596',
     fontWeight: 'bold',
-    
   },
 });
