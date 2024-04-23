@@ -2,6 +2,8 @@ const express = require("express");
 const { createHash } = require('crypto');
 const cors = require("cors");
 const mysql = require("mysql");
+const fs = require('fs');
+const path = require('path');
 
 const app = express();
 
@@ -66,8 +68,11 @@ app.post('/register', (req, res) => {
     hash = createHash('sha256').update(hash).digest('hex');
     db.query('INSERT INTO userInfo (userName, passWord, salt, email) VALUES (?, ?, ?, ?);', [userName, hash, salt, email], (err, result) => {
       if (err) return res.status(500).json({ error: 'Database error.' });
+
       const userId = result.insertId;
       const responseData = { userId: userId };
+      const userDir = path.join(__dirname, 'users', String(userId));
+      fs.mkdirSync(userDir, { recursive: true });
       return res.status(200).json(responseData);
     });
   });
@@ -95,7 +100,7 @@ app.post('/login', (req, res) => {
       return res.status(406).json({ error: 'Invalid credentials.' });
     }
 
-    const user = result[0]; // assuming only one user with given email
+    const user = result[0];
     const hash = createHash('sha256').update(user.salt + password).digest('hex');
 
     if (hash !== user.passWord) {
@@ -105,7 +110,6 @@ app.post('/login', (req, res) => {
     return res.status(200).json({ userId: user.id });
   });
 });
-
 
 app.get("/test", (req, res) => {
   res.send("Hello, world!");
