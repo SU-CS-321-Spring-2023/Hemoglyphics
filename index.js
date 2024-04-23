@@ -57,9 +57,7 @@ app.post('/register', (req, res) => {
   }
 
   var salt = makeSalt(16);
-  console.log('Generated Salt:', salt);
   var hash = createHash('sha256').update(salt + pass).digest('hex');
-  console.log('Generated Hash:', hash);
 
   db.query('SELECT * FROM userInfo WHERE userName = ? OR email = ?', [userName, email], (err, result) => {
     if (err) return res.status(500).json({ error: 'Database error.' });
@@ -104,7 +102,6 @@ app.post('/login', (req, res) => {
 
     const user = result[0];
     const hash = createHash('sha256').update(user.salt + password).digest('hex');
-    console.log('Input Hash:', hash);
 
     if (hash !== user.passWord) {
       return res.status(407).json({ error: 'Invalid password.' });
