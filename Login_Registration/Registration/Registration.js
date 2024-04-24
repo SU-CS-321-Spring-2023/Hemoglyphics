@@ -19,7 +19,6 @@ export default function Registration({ navigation }) {
     if (!validateInputs()) {
       return;
     }
-
     try {
       const response = await Axios.post("http://146.190.61.157:12000/register", {
         userName: username,
@@ -33,7 +32,12 @@ export default function Registration({ navigation }) {
         navigation.navigate("Welcome");
       }
     } catch (err) {
-      console.log(err);
+      console.error(err);
+      if (err.response && err.response.data && err.response.data.error) {
+        Alert.alert('Error', err.response.data.error);
+      } else {
+        Alert.alert('Error', 'Registration failed. Please try again later.');
+      }
     }
   };
 
@@ -70,7 +74,7 @@ export default function Registration({ navigation }) {
 
   const circle1Position = circlePosition.interpolate({
     inputRange: [0, 1],
-    outputRange: [-220, 600], // Start and end positions for circle1
+    outputRange: [-220, 600],
   });
 
   const circle2Position = circlePosition.interpolate({
