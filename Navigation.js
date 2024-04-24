@@ -27,14 +27,13 @@ const Navigation = () => {
                 <Stack.Screen name="Welcome" component={HomeScreen} options={{
                     title: "Welcome",
                     headerStyle: {
-                        backgroundColor: 'rgba(249, 217, 250, 1)', 
+                        backgroundColor: 'rgba(249, 217, 250, 1)',
                     }
-                }}/> 
-                
+                }}/>
                 <Stack.Screen name="Friends List" options={{
                     title: "Friends List",
                     headerStyle: {
-                        backgroundColor: 'rgba(249, 217, 250, 1)', 
+                        backgroundColor: 'rgba(249, 217, 250, 1)',
                     }
                 }}
                     component={Friends} />

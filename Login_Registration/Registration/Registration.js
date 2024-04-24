@@ -29,7 +29,7 @@ export default function Registration({ navigation }) {
       userId = responseData.userId;
       if (responseData.userId) {
         console.log(userId);
-        navigation.navigate("Welcome");
+        navigation.navigate("Welcome",{userID: userId});
       }
     } catch (err) {
       console.error(err);
