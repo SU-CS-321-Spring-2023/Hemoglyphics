@@ -1,15 +1,25 @@
 const fs = require('fs');
 const moment = require('moment');
 
-function predictCycleLength(periodData, lastPeriodDate) {
-  const lastEntry = periodData[periodData.length - 1];
-  const lastPeriodStartDate = moment(lastEntry.startDate);
-  const currentDate = moment(lastPeriodDate);
-  const elapsedDays = currentDate.diff(lastPeriodStartDate, 'days');
+function predictCycleLength(periodData) {
+  // Filter out entries with invalid cycleLength
+  const validPeriodData = periodData.filter(entry => 
+    typeof entry.cycleLength === 'number' && 
+    !isNaN(entry.cycleLength) && 
+    entry.cycleLength > 0
+  );
 
-  const averageCycleLength = periodData.reduce((acc, entry) => acc + entry.cycleLength, 0) / periodData.length;
+  // If there are no valid entries, return early
+  if (validPeriodData.length === 0) {
+    console.error('No valid cycle lengths in data');
+    return;
+  }
 
-  const predictedCycleLength = Math.round((averageCycleLength * elapsedDays) / lastEntry.cycleLength);
+  // Calculate the average cycle length from valid entries
+  const averageCycleLength = validPeriodData.reduce((acc, entry) => acc + entry.cycleLength, 0) / validPeriodData.length;
+
+  // Round the average to the nearest whole number
+  const predictedCycleLength = Math.round(averageCycleLength);
   
   return predictedCycleLength;
 }
@@ -32,7 +42,7 @@ fs.readFile('user_data/cycleData.json', 'utf8', (err, data) => {
   const jsonData = JSON.parse(data);
 
   const lastPeriodDate = jsonData.dataEntries[jsonData.dataEntries.length - 1].startDate;
-  const predictedCycle = predictCycleLength(jsonData.dataEntries, lastPeriodDate);
+  const predictedCycle = predictCycleLength(jsonData.dataEntries);
   const predictedPeriod = predictPeriodLength(jsonData.dataEntries);
   const nextStartDate = calculateNextStartDate(lastPeriodDate, predictedCycle);
 
