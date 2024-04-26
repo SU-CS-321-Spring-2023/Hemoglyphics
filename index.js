@@ -12,7 +12,7 @@ const db = mysql.createPool({
   user: 'hemoglyph',
   password: '100%clEan',
   database: 'users',
-  connectionLimit: 15
+  connectionLimit: 5
 });
 
 app.use(express.json());
@@ -39,12 +39,74 @@ function validatePassword(password) {
   return password.length >= 8;
 }
 
+app.post("/addFriend", async (req, res) => {
+  try {
+    const username = req.body.userName;
+    const userId = req.body.userId;
+
+    if (!username || !userId) {
+      return res.status(400).json({ error: 'Invalid input data.' });
+    }
+
+    db.query('SELECT id FROM userInfo WHERE userName = ?', [username], (err, result) => {
+      if (err) return res.status(500).json({ error: 'Database error.' });
+      if (result.length === 0) {
+        return res.status(404).json({ error: 'User not found.' });
+      }
+
+      const friendUserId = result[0].id;
+
+      fs.readFile('users/' + userId + '/friends.json', 'utf8', (err, data) => {
+        if (err) return res.status(500).json({ error: 'Internal server error.' });
+
+        var friends = { friends: {} };
+        try {
+          friends = JSON.parse(data);
+        } catch (error) {
+          return res.status(500).json({ error: 'Internal server error.' });
+        }
+
+        if (friends.friends[friendUserId]) {
+          return res.status(400).json({ error: 'Friend already added.' });
+        }
+
+        friends.friends[friendUserId] = username;
+        const withNewFriend = JSON.stringify(friends);
+        fs.writeFile('users/' + userId + '/friends.json', withNewFriend, 'utf-8', (err) => {
+          if (err) return res.status(500).json({ error: 'Internal server error.' });
+          return res.status(200).json({ message: 'Friend added successfully.' });
+        });
+      });
+    });
+  } catch (error) {
+    return res.status(500).json({ error: 'Internal server error.' });
+  }
+});
+
+app.post("/friendsList", async (req, res) => {
+  const userId = req.body.userId;
+  if (!userId) {
+    return res.status(400).json({ error: 'Invalid input data.' });
+  }
+
+  fs.readFile('users/'+userId+'/friends.json', 'utf8', (err, data) => {
+      if (err) return res.status(500).json({ error: 'Internal server error.' });
+
+      try {
+          const friendsData = JSON.parse(data);
+          return res.status(200).json(friendsData);
+      } catch (parseError) {
+          return res.status(500).json({ error: 'Error parsing JSON data.' });
+      }
+  });
+});
+
 app.post('/register', (req, res) => {
-  var pass = req.body.password;
+  const password = req.body.password;
   const userName = req.body.userName;
   const email = req.body.email;
 
-  if (!userName || !pass || !email) {
+  if (!userName || !password || !email) {
     return res.status(400).json({ error: 'All fields are required.' });
   }
 
@@ -52,12 +114,12 @@ app.post('/register', (req, res) => {
     return res.status(400).json({ error: 'Invalid email.' });
   }
 
-  if (!validatePassword(pass)) {
+  if (!validatePassword(password)) {
     return res.status(400).json({ error: 'Password must be at least 8 characters long.' });
   }
 
-  var salt = makeSalt(16);
-  var hash = createHash('sha256').update(salt + pass).digest('hex');
+  const salt = makeSalt(16);
+  const hash = createHash('sha256').update(salt + password).digest('hex');
 
   db.query('SELECT * FROM userInfo WHERE userName = ? OR email = ?', [userName, email], (err, result) => {
     if (err) return res.status(500).json({ error: 'Database error.' });
@@ -81,6 +143,7 @@ app.post('/register', (req, res) => {
 app.post('/login', (req, res) => {
   const email = req.body.email;
   const password = req.body.password;
+
   if (!email || !password) {
     return res.status(400).json({ error: 'Email and password are required.' });
   }
