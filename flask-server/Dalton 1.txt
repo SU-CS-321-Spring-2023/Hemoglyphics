@@ -1,0 +1,2939 @@
+The OB/GYN Survival
+
+           Guide
+
+An Introduction to Obstetrics and
+          Gynecology
+  at the University of Michigan
+
+
+
+
+                                    1
+This handbook was written by University of
+
+Michigan residents and faculty for University of
+
+Michigan students, new residents and other
+
+guests to the department. Some information may
+
+not apply to off-site locations; however, we hope
+
+all will find it helpful.
+           Revised 2013: Maya Hammoud, MD
+           Revised 2011
+           Michael Lanham, MD
+           Helen Kang Morgan, MD
+
+           Revised 2008
+           Kirsten Salmeen, MD
+           Katy Penington, MD
+
+           Revised 2005
+           Deborah Berman, MD
+           Jeness Connell,MD
+           Sangeeta Senapati, MD
+
+           Revised 2002
+           Aletha Akers, MD
+           Khurram Rehman, MD
+
+           Written 1997
+           Shereen Binno, MD
+                                               2
+                 Table of Contents
+INTENDED LEARNING OUTCOMES……………………………..6
+
+OBSTETRICS
+Logistics………………………………………………………………10
+Conference Schedule…………………………………………….....14
+Student Expectations……………………………………………..…14
+Documentation: OB H&P, Labor Progress Note………………….18
+Delivery Note…………………………………………………………22
+C-Section Note………………………………………………….…...23
+Postpartum Note…………………………………………………..…24
+Fetal Heart Rate Tracing…………………………………………....25
+OB Patient Presentations…………………………………….……..29
+OB Paperwork: Orders………………………………………………31
+Discharge Prescriptions……………………………………………..33
+Discharge Issues………………………………………………….....34
+Postpartum Contraception………………………………………….35
+Breastfeeding Basics………………………………………………..37
+Triage………………………………………………………………….38
+Selected Ob Topics: Chorioamnionitis, Endometritis, PPROM,
+Postpartum Hemorrhage……………………………………………39
+Basic Prenatal Care…………………………………….……...……43
+Prenatal Care for Patients with BMI>40…………………………..44
+Prenatal care for Diabetic Patients………………………………..45
+Diabetics in Labor……………………………………….…………..46
+GBS Protocol…………………………………………………….…..47
+Antenatal Testing Guidelines………………………………………48
+OB Acronyms………………………………………………………..49
+Radiation Exposure in Pregnancy…………………………………50
+
+
+                                                        3
+GYNECOLOGY
+Logistics…………………………………………………………….52
+Student expectations………………………………………………55
+GYN Paperwork……………………………………………………58
+Pre-Op Resident and Student Form……………………………..58
+Gyn H&P…………………………………………………………….60
+Progress Notes……………………………………………………..63
+OR Note…………………………………….……………………….64
+Post Op Check……………………………….……………………..64
+Admit Orders………………………………………………………..64
+Calculating I/Os……………………………………………………..66
+Inpatient Presentations…………………………………………….67
+Selected Teaching Outlines: Ectopic Pregnancy, PID, Uterine
+Fibroids, Hysteroscopy, D&C, Tubal Ligation,
+Hysterectomy……………….……………….………………………68
+
+ST. JOSEPH MERCY HOSPITAL
+General information………………………………………………….72
+Lectures and Conferences…..……………...………………………76
+Obstetrics……………………………………………………………..77
+Gynecology…………………………………………………………..80
+Oncology……………………………………………………...………81
+Night Float & Weekend Call……………….………………….……82
+Ambulatory Clinic…………………………………………………….83
+Scheduling……………………………………………………………85
+Writing Notes…………………………………………………………87
+End of Clerkship……………………………………………………..88
+
+Useful Numbers…………………………………………………….89
+Directions to commonly used locations……………………….90
+
+
+
+                                                          4
+               WELCOME!
+
+ Welcome to Obstetrics and Gynecology
+     at the University of Michigan!
+
+   We are excited to have you join our
+ obstetrics and gynecology teams. This
+booklet was written to orient students, new
+    residents, and other guests to our
+               department.
+
+The obstetrics and gynecology services are
+   clinically separate and are presented
+          separately in this guide.
+
+
+
+
+                                          5
+     Obstetrics and Gynecology M3 Clerkship
+     Intended Learning Outcomes 2013-2014
+1. You should plan to complete all of the ILOs. Even if you do not
+participate in every subspecialties listed, you are still responsible
+for completing the associated ILOs.
+2. If you do not encounter a patient, participate in a didactic
+session or a simulation corresponding to a particular ILO, please
+go to APGO.org, click on “Objectives.” read the associated
+outline/sample case and answer the questions.
+4. This is not a substitute for completing your CLTP. You must
+also complete your CLTP as you go.
+
+Gynecology (Outpatient Clinic)
+1. Develop competence in the medical interview and physical
+examination of women and will incorporate ethical, social and
+diversity perspectives to provide culturally competent health care.
+           □ Perform pelvic exam (including speculum and
+bimanual examination)
+           □ Perform clinical breast exam
+           □ Conduct, record and present GYN patient H & P
+2. Apply recommended prevention strategies to women
+throughout the lifespan.
+           □ Annual well-woman exam
+3. Recognize your role as a leader and advocate for women.
+(one of following)
+           □ Domestic violence screening, teen pregnancy
+4. Describe menstrual cycle physiology, discuss puberty and
+menopause, and explain normal and abnormal bleeding.
+           □ Menopause/perimenopause
+           □ Abnormal uterine bleeding
+
+                                                                    6
+5. Develop a thorough understanding of contraception, including
+abortion and sterilization.
+           □ Contraceptive counseling
+6. Provide a preliminary assessment of patients with sexual
+concerns.
+           □ Take a sexual history
+7. Demonstrate knowledge of common benign gynecological
+conditions.
+           □ Vulvar/vaginal benign disease
+           □ Fibroids
+           □ Endometriosis
+8. Formulate a differential diagnosis of the acute abdomen and
+chronic pelvic pain.
+           □ Pelvic pain
+           □ Ectopic pregnancy
+9. Describe the etiology and evaluation of infertility
+10. Describe common breast conditions and outline the
+evaluation of breast complaints.
+           □ Perform clinical breast examination
+           □ Breast mass
+           □ Nipple discharge
+           □ Mastitis
+11. Pelvic Organ Prolapse-
+           □ Discuss the levels of pelvic organ support
+           □ Identify symptoms
+           □ Identify risk factors
+           □ Identify surgical and non-surgical treatment options
+for prolapse
+12. Lower Urinary Tract Symptoms
+           □ Take a history regarding voiding and storage
+disorders to identify symptoms of irritation, obstruction, and
+incontinence
+
+                                                                    7
+           □ Define types of urinary incontinence: stress, urge,
+mixed, overflow, functional, continuous
+           □ Explain primary evaluation for urinary incontinence:
+urinalysis, post void residual, voiding diary, stress test
+           □ Identify treatments for Incontinence: physical
+therapy, behavioral, medications, pessary, surgery
+           □ UTI management- antibiotic choice, prophylaxis
+13. Describe gynecologic malignancies including risk factors,
+signs and symptoms and initial evaluation.
+           □ Abnormal Pap smear
+           □ Postmenopausal bleeding
+           □ Adnexal mass/cyst
+Gynecology Surgery
+1. Gynecology Perioperative Care-
+           □ Perform pelvic exam and digital rectal exam. (may be
+under anesthesia)
+           □ Insert Foley catheter
+           □ Demonstrate ability to write the following notes-
+                       i.   GYN preoperative note, including
+appropriate studies and prophylaxis
+                       ii. GYN operative note
+                       iii. GYN postoperative note
+                      iv. GYN postoperative progress note
+2. Demonstrate familiarity with gynecologic procedures.
+           □ Observe hysterectomy
+           □ Observe laparoscopy
+           □ Observe other gynecology procedure (enter below)
+                       i.   ____________________
+                       ii. ____________________
+                       iii. ____________________
+
+
+
+                                                               8
+Obstetrics
+1. Demonstrate knowledge of preconception care including the
+impact of genetics, medical conditions and environmental factors
+on maternal health and fetal development.
+       □ Preconception care
+       □ 1st trimester care
+       □ Prenatal diagnosis
+2. Explain the normal physiologic changes of pregnancy including
+interpretation of common diagnostic studies.
+           □ New OB prenatal visit
+           □ Routine prenatal care follow-up visit
+           □ Conduct, record and present OB patient history
+3. Describe common problems in obstetrics.
+           □ Diabetes in pregnancy
+           □ Preeclampsia/eclampsia
+           □ 3rd trimester bleeding
+           □ Peripartum infection
+           □ 1st trimester bleeding
+4. Demonstrate knowledge of intrapartum care.
+           □ Clinical course of labor
+           □ Premature rupture of membranes (PROM)
+           □ Preterm labor (PTL)
+           □ Normal Spontaneous Vaginal Birth (NSVD),
+participate/observe
+           □ Observe perineal laceration repair
+           □ Write delivery note
+5. Demonstrate knowledge of postpartum care
+           □ Postpartum discharge instructions
+           □ Current breastfeeding recommendations
+           □ Postpartum hemorrhage
+           □ Write postpartum note
+           □ Present postpartum patient
+
+                                                              9
+OBSTETRICS
+Welcome to Labor and Delivery (L&D) at the University of
+Michigan. This portion of the guide is designed to give you an
+idea of how L&D works and what to expect.
+
+For medical students, the goals are for you to become familiar
+with normal and high-risk pregnancies, to understand normal and
+abnormal labor courses, to understand and be able to recognize
+obstetric emergencies, to understand when and why cesarean
+sections are performed, and hopefully to deliver some babies!
+
+GENERAL INFORMATION
+
+Logistics of L&D
+                                      th
+Labor and Delivery is located on the 9 floor of the CS Mott
+Children’s and VonVoightlander Women’s Hospital.
+
+There are five services who admit patients to Labor and Delivery:
+1.UMOG (University of Michigan Ob-Gyn)
+2. MFM (Maternal Fetal Medicine)
+3. WH (Women’s Health),\
+4. CNM (Certified Nurse Midwives)
+5. FMB (Family/Mother/Baby)
+
+ As a student on Ob-Gyn, you will follow patients belonging to the
+UMOG, MFM, and WH services. Generally, students are not
+involved in caring for patients on the CNM or FMB services unless
+those patients require intervention from the obstetricians.
+
+
+
+                                                                 10
+Team Members
+
+         Students
+         OB/GYN Residents
+         Other Residents (Emergency Medicine, Family
+          Medicine)
+         Attendings
+         Triage CNMs
+
+Students:
+The M3 Clerkship Director assigns students to the L&D service for
+blocks of time. During that time, you will be an integral part of the
+team. There are also occasionally M4 MFM sub-interns on Labor
+and Delivery. There is a floating pager number 35489 that should
+be signed out to one M3 per shift.
+
+Ob-Gyn Residents:
+There are generally six OB residents on the L&D team every
+month.
+                         th
+There is a day-chief (a 4 year resident) who is responsible for
+the entire unit. He or she runs the floor Monday through Friday
+                                                 rd
+during the day. There is also a night-chief (a 3 year resident)
+who is responsible for the unit Sunday through Thursday at night.
+Over the weekend, (Friday night, Saturday for 24 hours, Sunday
+                                                rd    th
+day), the chief position is shared by rotating 3 and 4 year
+residents.
+
+There is one junior resident who works Sunday through Thursday
+nights. There are three other junior residents who cover the floor
+as well as high risk obstetrical clinics Monday through Friday
+                                                                  11
+during the days. On the weekends (Friday night, Saturday for 24
+hours, and Sunday day) there is one junior resident on the floor.
+
+Residents are responsible for all the UMOG, WH, and MFM
+patients on the floor. The chief resident also is responsible for
+knowing other patients on the floor (CNM and FMB). Residents
+will make every attempt to attend all deliveries on the UMOG,
+WH, and MFM services.
+
+Other Residents:
+There are occasionally Family Medicine or Emergency Medicine
+residents who rotate with the OB team on Labor and Delivery.
+They generally help manage the lower-risk laboring patients.
+Their goals are generally to gain experience with normal vaginal
+deliveries and lower-risk obstetrical issues.
+
+Attendings:
+There is always an attending in-house 24 hours per day, 7 days
+per week known as the “Supercall.” He or she staffs the UMOG
+and MFM services and serves as backup for any emergencies or
+other issues. There is also always a WH attending on-call who
+may or may not be in-house depending on the status of the WH
+service. There is always an MFM backup faculty who is available
+for back-up or for high-risk OB consults. Attendings are present at
+every delivery and every cesarean section .
+
+Triage Certified Nurse Midwives (CNMs):
+There is a CNM in triage 24 hours per day, 7 days per week who
+primarily evaluates any OB triage patient. They then discuss
+patients with either the chief resident on-call or with the WH
+attending as indicated. They are also available for back-up in the
+
+
+                                                                    12
+event of multiple simultaneous deliveries or other emergencies
+requiring assistance.
+
+L&D Flow
+Each day (including weekends) starts with postpartum rounds,
+which are to be completed, including notes and orders, before
+board signout or any teaching. The residents generally gather in
+the boardroom at approximately 6:00 AM to divide the postpartum
+patients and begin pre-rounding.
+
+Board sign-out occurs in the boardroom every day at 7:00 AM,
+except on Thursdays when it starts at 6:30AM (to accommodate
+grand-rounds). There is teaching at 6:50AM on Monday,
+Wednesday, and Friday in the boardroom. Sign-out will start with
+the night-chief and night-junior signing out the high risk patients,
+antepartum patients, and laboring patients. The OR schedule for
+the day is then discussed. Finally, each postpartum patient is
+discussed. The day-chief and the attending attempt to incorporate
+as much teaching as possible into board sign-out, however, the
+business-to-teaching ratio is heavily dependent on the volume of
+patients.
+
+After board sign-out and any conferences (see below for
+conference schedule), some residents will leave the floor to
+attend clinics; however, at least one junior resident will stay on the
+floor. There is a schedule posted in the board room so you can
+see what resident is staying on the floor. On most days, there are
+scheduled cesarean sections or other scheduled procedures
+(postpartum tubal ligations, cerclage placements, etc.). These
+procedures will start as soon as possible after board sign-out or
+conferences.
+
+
+                                                                   13
+Otherwise, the flow of the day will depend on the number of
+patients in labor or needing care. Some days, there is quite a bit
+of down time and many days you will run nonstop. The chief will
+always try and get everyone on the team a chance to get lunch,
+but you are most likely to be involved in the most action if you do
+not have to leave the floor, so it might be a smart idea to bring
+some food that you can eat between deliveries.
+
+The board is signed out again every day at 6:00 PM. At evening
+rounds, we do not routinely discuss all the postpartum patients.
+
+ Conferences
+Day                     Conferences
+Monday 8:00 AM          Pericu Conference (OB Board Room)
+Monday 5:00 PM          M&M (MCHC Auditorium)
+Wednesday 8:00 AM       Strip Rounds (OB Board Room)
+Wednesday 3:00 PM       Resident CORE (MFM Conf. Room)
+Thursday 7:30 AM        Grand Rounds (MCHC Auditorium)
+Thursday 12:30 PM       Teratology Conference (MFM Conf. Room
+                        – clinic residents)
+Friday 8:00 AM          High Risk Conference (VVL clinic Hall A )
+
+STUDENT EXPECTATIONS
+
+Pre-Rounds:
+The residents will typically help the students determine which
+postpartum patients to see, however, each student typically sees
+2-3 patients. You should preferentially see patients whose
+deliveries you participated in, however, if there are no postpartum
+patients in-house who you know, you may be asked to see other
+patients. These patients still present valuable learning
+                                                                 14
+opportunities. Please see below for details on postpartum rounds
+and documentation, however, you should plan to have your
+patients seen and their notes written in TraceVue by 6:45 AM (or
+6:35AM when teaching starts at 6:50AM), so that the resident can
+go through the note and the plan with you. You will not be able to
+write notes during board sign out.
+
+
+Rounds:
+You will be expected to present the patients on whom you
+rounded during morning board sign-out. Please see below for
+details on presenting postpartum patients. Sometimes the
+residents forget which patients have been seen by students, so
+feel free to interrupt – if you saw the patient, you should present
+her.
+
+The Workday:
+After board sign-out, you may participate in Cesarean sections,
+be involved in caring for laboring patients and participate in their
+deliveries. The floor can occasionally be quite slow, so if you are
+assigned to a place that does not have much going on, you
+should check with the residents about other opportunities. On the
+other hand, if there is a lot going on and there are clinical
+opportunities that are being missed because you are involved in
+something else, let the other students know.
+
+When assigned to the low risk side, you should divide the laboring
+patients among the students and follow them closely throughout
+their labor and delivery course. You should divide the multiparous
+patients and nulliparous patients evenly, as the multiparous
+patients are much more likely to deliver during your shift. In
+general, you should see each laboring patient every two hours to
+
+                                                                  15
+check on her progress. Sometimes you will do cervical exams
+(although you should never do a cervical exam without a resident
+or attending), and other times you will review the strip and check
+on the patient without doing a cervical exam. You should always
+send the junior resident a page when you have seen a patient if
+there are any pertinent updates. You should write a progress note
+in TraceVue whenever you see a patient with a resident or
+attending (see below for details on labor progress notes),
+although you do not need to write a note if you have stopped in to
+check on a patient alone.
+
+It is highly recommended that you follow at least one patient from
+admission to delivery including assisting the patient in the second
+(pushing) stage of labor. You should not attend a delivery without
+having met the patient first. After each delivery, you should be
+able to completely describe the labor course and curve, interpret
+the fetal heart rate strip, explain the labor management plan, and
+write the delivery note.
+
+If you are going to participate in scheduled cesarean sections,
+you should look the patient up in TraceVue, determine the reason
+she is having a cesarean section and review her history.
+Important things to know about a patient before a cesarean
+section (in addition to the indication for the surgery) are: her pre-
+operative hematocrit, the location of the placenta, if there were
+any complications in any prior cesarean sections, any other
+abdominal surgeries and the presentation of the fetus. You should
+meet the patient in the recovery area before she is taken back to
+the OR. During the cesarean section, you will be asked to assist
+with retraction, and may be invited to sew fascia or staple the skin
+if time permits. After the procedure, you should write an operative
+note in Tracevue and help move the patient out of the OR.
+
+                                                                  16
+If you are assigned to triage, you should introduce yourself to the
+Certified Nurse Midwives, and they will direct you from there.
+Triage is a wonderful opportunity to learn about how women
+present in labor and about other pregnancy-related problems.
+
+In general, the more time you spend out on the floor, the more
+you’ll see and do. No active patient issues or deliveries occur in
+the boardroom. Follow the junior resident around as he or she is
+seeing patients, as you will have many more learning
+opportunities. Lots of teaching and clarification can happen in the
+halls, walking from one room to the next. Not only do the
+residents and faculty appreciate your evaluations, input and time,
+but the patients also value your efforts.
+
+Lectures/Conferences:
+It is mandatory that you attend all your scheduled student
+lectures, small groups, and conferences including all listed above
+except for resident core. These preclude any clinical
+responsibilities you have on the floor. You should notify the
+residents of the times you need to be leave each day to ensure
+that you are not held up and late for conferences.
+
+We all work together as a team. Communication with attendings,
+residents, anesthesia and nurses is the key to a smoothly run
+unit. If you have questions about where to go or what to do, ask
+anyone; we’re all happy to help.
+
+
+
+
+                                                                 17
+DOCUMENTATION
+
+All charting for inpatients goes in TraceVue under the “Progress
+Notes” Tab, in admission/labor section (i.e., the pregnant woman
+entering the hospital icon). Triage notes are written in the
+“Progress Notes” Tab in the prenatal section (i.e., the growing
+pregnant woman).
+
+H&Ps
+Any patient who is admitted needs an H&P in TraceVue. For
+uncomplicated patients admitted in labor, this tab, in addition to a
+brief summary in the “progress notes” tab, is sufficient. Patients
+admitted to the East side will require the “Admission” tab to be
+filled out, a more thorough note in TraceVue and an H&P in
+CareWeb. Any patient admitted to the East side should have an
+updated “Problem List,” as this is our primary method for
+communicating with our colleagues who are taking over the
+service from us at the end of our shift.
+
+FULL OB H&P
+Introduction: Age, gravidity and parity (gravidity is the total
+number of pregnancies (twins count as one), parity is in the
+following format: T – term deliveries, P – preterm deliveries (20 to
+37 weeks), A – abortions, spontaneous (< 20 weeks) or elective,
+including ectopic pregnancies, and L – living children), weeks of
+gestation, presenting problem.
+HPI: What brought the patient into triage? Labor symptoms,
+bleeding, leakage of fluid, pre-eclamptic symptoms, reduced fetal
+movement. For contractions, ask about how long the contractions
+have been felt, how far apart they are, and how strong they are
+subjectively, eg could you sleep through the contractions? Are
+you ‘breathing through’ the contractions? Are they getting
+
+                                                                  18
+stronger? For bleeding, assess onset, subjective amount,
+whether bright red or not, if there is any associated abdominal
+pain, cramping or contractions. For possible ruptured
+membranes, ask about the onset of leakage, the amount and
+color of the fluid, if there is ongoing drainage of fluid?
+Current pregnancy: Try to obtain a history of important events in
+this pregnancy. Establish dating of the pregnancy (by last
+menstrual period, first or second trimester ultrasound), and ask if
+there have been any problems. Was the pregnancy planned, and
+did pre-conceptional care occur? Ask about ultrasounds and any
+abnormal tests. Ask about amniocentesis/chorionic villus
+sampling for mothers over 35, abnormal First Trimester Screen or
+Quad test, if there are fetal anomalies, or if baby is growth-
+restricted.
+Prenatal Labs: Blood type / Antibody screen / Rubella immunity /
+VDRL / Hep B surface Ag / 1 hour glucose tolerance test / Pap /
+GC and Chlamydia / GBS screening / hemoglobin
+electrophoreses / amniocentesis / quad test / chorionic villous
+sampling (these can be obtained from TraceVue or CareWeb).
+Past OB History: For each pregnancy, ask about the date of
+delivery, gestational age (express in weeks not months), type of
+delivery (spontaneous vaginal, vacuum, forceps or Cesarean
+section), sex, birth weight, and any complications in pregnancy or
+labor. For C-sections ask the patient what the reason for the C-
+section was, as well as if the patient was told she would need a
+repeat C-section (? classical C-section). Ask specifically about
+other pregnancies, such as miscarriages (spontaneous
+abortions), abortions (elective abortions), or ectopic pregnancies.
+Don’t assume that the patient’s partner or family members are
+aware of previous losses or elective abortions. Some patients will
+specifically ask you not to mention these.
+
+
+                                                                19
+Past Gyn History: Ask about abnormal Pap smears, sexually
+transmitted infections, GYN surgeries. Ask myomectomy patients
+if they were told they needed a C-section in the future. Cone
+biopsy and LEEP procedures may cause cervical incompetence
+or cervical scarring, so don't forget to ask about these. Also ask
+about menarche and regularity of menses and a sexual history
+when appropriate (i.e., the patient’s family is not in the room).
+Past Medical History: Ask about diabetes, hypertension, seizure
+disorders, depression, etc. Include sickle cell disease/trait for
+African-American patients.
+Past Surgical History: Especially abdominal surgery.
+Drugs / Allergies
+Family History: Ask about abnormal births, genetic disorders
+such as cystic fibrosis, and about hemoglobinopathies for non-
+caucasian patients.
+Social History: Include smoking, alcohol and drug use pre-
+pregnancy and during the current pregnancy.
+Physical Exam: Start with vitals (BP, pulse, temp, respiratory
+rate). Comment on fetal heart tones, and contraction pattern (e.g.
+FHT 130 reactive, toco – contractions q 3 – 5 minutes). Examine
+heart, lungs, breast exam (only for initial prenatal visit, or
+postpartum fever), abdomen, extremities (edema, calf tenderness,
+reflexes). Always do Leopold’s maneuvers for fetal lie and
+presentation, as well as an estimate of fetal weight – try to
+estimate to the nearest 500g (roughly 1 pound). Speculum exam,
+if appropriate, eg for Pap smear, GC and chlamydia in the
+prenatal clinic, or in triage to confirm rupture of membranes, or
+obtain cultures and fetal fibronectin assay in preterm labor.
+Vaginal exam, if appropriate (always with a resident or staff
+present) consists of cervical dilatation and effacement, and station
+of the presenting part, written 4cm / 50% / -1 station. Note if clear
+fluid, bleeding, or meconium if the membranes are ruptured.
+
+                                                                  20
+Presentation may be confirmed on vaginal exam and/or
+ultrasound.
+It is very good practice to perform a brief ultrasound to assess
+presentation unless you are very certain on exam.
+Assessment: A one or two sentence summary of the patient, eg
+“25 year old G2 P1001 at 33 weeks 6 days by 1st trimester
+ultrasound, in preterm labor following preterm premature rupture
+of membranes yesterday at 6pm.
+Plan: Depends on the patient, but you should always formulate a
+plan on your own before presenting. This is the best way to learn
+management of obstetrical issues.
+
+Labor Progress Note:
+Subjective: Pain? Bleeding? Other issues?
+Objective: Vitals (although “afeb/VSS” is a convenient shorthand,
+in general, the actual vitals should be written), FHTs: comment
+on baseline, variability, presence of accelerations or
+decelerations, Toco: contraction frequency, rate of pitocin (if
+used); if IUPC in place, include montevideo units , SVE (sterile
+vaginal exam): dilation, effacement, station. If medication was
+placed, amniotomy performed (comment on fluid color), or fetal
+position is checked, theses can also be noted here.
+Assessment: X year old G#P# at X weeks, admitted for (SOL,
+SROM, IOL, etc). Fetal status reassuring (if it is).
+Plan: Type of action taken while assessing patient (AROM, IUPC,
+FSE, type of anesthesia given, etc), start or stop pitocin, patient to
+begin pushing, taking patient for operative delivery (cesarean
+section, forceps, vacuum), etc.
+
+
+
+
+                                                                   21
+Delivery Note:
+
+Stage I: (Beginning of labor through pushing stage)
+X year old G#P# at X weeks, admitted for (SOL, SROM, IOL, etc).
+Pitocin was/was not used for augmentation. The patient received
+(morphine, spinal, epidural, etc.) for analgesia. AROM/SROM was
+performed/occurred at X time. Amniotic fluid was (clear,
+meconium-stained, bloody, etc). Antibiotics were/were not
+required (due to chorio, for GBS prophylaxis, etc). Include any
+other significant events during labor.
+
+Stage II: (Pushing through delivery)
+-Patient progressed to complete at < > time and pushed for < >
+hours, to deliver from a < > position (e.g. ROA, OP)
+-If an episiotomy was cut, state what type and the indication.
+- If a vacuum or forceps were used, state what type and the
+indication. Also describe the number of pulls required (e.g. pulls
+with 3 contractions), and fetal station and position.
+- Mouth and nose were/were not bulb suctioned at the perineum.
+- Note presence of nuchal/body cords and maneuvers needed to
+resolve them (e.g. easily reduced or clamped and cut at the
+perineum)
+- Body delivered without difficulty (or, if there was a shoulder
+dystocia, describe the maneuvers performed to relieve the
+dystocia and the length of time to deliver the baby)
+-Note if the baby was given directly to the mom or to the
+pediatricians. If pediatricians were present, explain why they were
+called (e.g. for mec, for maternal chorio, etc.)
+-Note the baby’s weight, apgars and umbilical cord gases
+
+
+
+
+                                                                22
+Stage III: (Delivery of baby through delivery of placenta/repair)
+-Describe how the placenta delivered (spontaneously or requiring
+manual removal), how the placenta looked, including whether or
+not it was intact, insertion of cord, number of vessels, and any
+other notations made at the time of delivery.
+-Describe any perineal lacerations (location, degree)
+-Describe the type of repair performed including the type of suture
+(e.g. 3-0 vicryl) and any extra analgesia provided (e.g. 1%
+lidocaine for local anesthesia).
+Results of rectal exam, if performed.
+Estimated blood loss
+Physicians present, Rubella status and Rh type.
+
+C-Section Note:
+Preop Diagnosis:
+Postop Diagnosis:
+Procedure:
+Surgeon:
+Residents:
+Medical Students:
+Type of Anesthesia (e.g. spinal, epidural, GA):
+IVF:
+UO:
+EBL:
+Indication:
+Findings:
+- A __gm male/female infant was delivered from a __ position
+(e.g. ROA, OP, etc.) with Apgars of __/__.
+- Umbilical cord gases were:
+- Comment on appearance of uterus, ovaries, fallopian tubes.
+
+
+                                                                23
+- Comment on placenta (intact, insertion of cord, number of
+vessels, and any other notations made at the time of delivery).
+- Any other interesting findings.
+Complications:
+Specimens:
+Disposition: To recovery room in stable condition.
+
+
+Postpartum Note:
+Subjective: Include pain control, ambulation, voiding, PO intake,
+lochia (postpartum vaginal bleeding) (ie. is she having normal
+bleeding, or problems with heavy bleeding?), passing flatus,
+breast or bottle feeding (and if breast breastfeeding, is it going
+well?), contraception plans.
+Objective: Vital signs, including I/O for postop patients (although
+some may write “afeb, VSS” it is good practice to get in the habit
+of writing out the vital signs)
+Physical exam including: general appearance, heart/lungs,
+abdominal exam (soft, NT, ND, +BS), fundal position/tone (eg.
+fundus firm below umbilicus), inspect abdominal incision if patient
+has had c-section (dressing clean/dry/intact, or incision intact, no
+exudates or erythema), perineum, if indicated (sometimes done
+by resident if problems/pain or with large lacerations, sulcal tears,
+forceps or vacuum delivery – students do not need to do this part
+of the exam), extremities (lack of calf tenderness)
+Labs when appropriate: (C-section patients have a CBC drawn
+on POD#1)
+Assessment: X year old G#P# -> # + 1 (e.g. if pt just had her
+second baby, you would write G2P1->2), post-partum/post-
+operative day #X from a NSVD/FAVD/VAVD/C-section, (and if
+operative delivery: performed due to X) who is recovering
+appropriately or with X problem.
+
+                                                                  24
+Plan: Depends on the patient and situation. Generally, you may
+include:
+-Breast/bottle feeding going well/poorly
+-Contraception plan (eg. Deferred, Micronor, IUD at postpartum
+visit, etc.)
+-Rh status and rubella; comment if given RhoGAM and/or
+Rubella vaccination (if appropriate)
+-Anticipated date for discharge
+-Anticipated discharge medications (generally iron, motrin, colace,
++/- narcotic, +/- contraception)
+-Follow up with VNA, follow up with OB in 6 weeks postpartum
+
+FETAL HEART TRACINGS
+
+Internal versus external monitoring:
+External monitors are most commonly used to monitor both the
+mother's contraction pattern and the fetal heart rate (FHR)
+pattern. External fetal heart rate monitors use doppler technology
+to monitor fetal heart rate. This is sufficient in most cases.
+However, sometimes you want a more direct assessment of the
+fetal heart rate. You may consider placing an FSE (fetal scalp
+electrode) for internal monitoring when: the patient is obese and
+external monitoring difficult, the patient is tachycardic and it is
+difficult to differentiate between maternal and fetal pulse, when
+the fetal heart rate tracing is non-reassuring and you need a more
+direct and constant assessment to help with your management
+decisions, or when you are having trouble keeping the fetal
+tracing continuous for any reason. A maternal pulse-oximeter,
+which can be continuously recorded, can also be helpful in
+differentiating between maternal and fetal pulses.
+
+
+
+                                                                25
+The external contraction monitor (tocodynamometer or toco for
+short) measures changes in the shape of the mother's abdomen
+to identify when contractions occur. As you can imagine, anything
+that causes a change in the mother's abdomen will also cause the
+toco to register. Therefore, normal breathing, movement in bed,
+vomiting, walking, external compression of the abdomen, etc. may
+all cause changes in an external monitor. Usually, external toco
+is sufficient. However, you may consider placement of an
+intrauterine pressure catheter (IUPC) when the patient is in the
+active phase of labor but is not progressing or when the FHR
+tracing is non-reassuring and you want to know the exact
+relationship between decelerations and contractions. An IUPC is
+also necessary if you wish to perform an amnioinfusion for any
+reason. IUPCs are long, thin plastic tubes with a pressure sensor
+at their tip that are placed into the uterus. Care should be taken
+during placement to avoid the placenta, as placental abruption
+may be a complication of IUPC placement. Amniotomy (or
+previously ruptured membranes) is necessary for IUPC
+placement. IUPCs are convenient because, in contrast to an
+external toco, they allow one to assess the strength of a uterine
+contraction. To determine if contraction strength is adequate to
+cause cervical dilation, the patient must first be in the active
+phase of labor (prior to the active phase, contraction strength
+does not have a direct correlation with cervical change). After
+the IUPC is in place and functioning well, isolate a ten-minute
+timeframe on the tracing and count and sum the number of boxes
+beneath each contraction above the baseline. Each box
+represents 10 montevideo units. A value of >180-200mVU
+indicates adequate contraction strength to create cervical change.
+
+
+
+
+                                                               26
+Contraction Pattern:
+When assessing the contraction pattern, know that contractions
+are recorded on the lower half of the monitoring strip. Notice that
+the strip has light and dark red lines. From one dark red line to
+the next represents a one-minute interval. Thus, count the
+number of dark red lines to determine how far apart the
+contractions are. In a normal labor pattern, a patient typically has
+regular contractions every ~ 2-5 minutes.
+
+Abnormal contraction patterns include:
+Coupling: 2 contractions coming very close together (e.g. 30
+seconds) with a long space between the next set of 2
+contractions. Triplets, quadruplets, etc. are also sometimes seen
+during labor.
+Uterine tachysystole: 5+ contractions in 10 minutes (< 1.5 minutes
+between contractions) with regularity, but without changes in the
+fetal heart rate tracing.
+Uterine hyperstimulation: 5+ contractions in 10 minutes (< 1.5
+minutes between contractions) with regularity and with associated
+non-reassuring fetal heart rate tracing.
+
+Fetal Heart Rate Pattern:
+To describe a fetal heart rate tracing, discuss each of the
+following components:
+Baseline: normal is 110-160s
+Variability: refers to variability in the heart rate. Note that the
+distance between two small, horizontal lines on the monitoring
+strip is equivalent to 10.
+Absent: refers to a flat tracing
+Minimal: 0-5 beats per minute
+Moderate: 5-25 beats per minute
+Marked: >25 beats per minute
+
+                                                                      27
+Accelerations: rises above baseline in the FHR
+Decelerations: dips below baseline in the FHR
+Variable decelerations: Variable decelerations are characterized
+by sharp decline below baseline with rapid return to baseline.
+They are classically “V” shaped. These can occur before, after, or
+with a contraction. These are due to umbilical cord compression
+and usually are not associated with fetal hypoxemia.
+
+Early decelerations: Early decelerations by definition occur with
+contractions and the slope mirrors the contraction. There is a
+slow decline below the baseline with slow return to baseline with
+the nadir occurring at the exact same time as the peak of the
+contraction. The fetal heart rate returns to baseline at the same
+time as the contraction ends. These are due to head
+compression and are not associated with fetal hypoxemia.
+Late decelerations: Late decelerations are decelerations in the
+fetal heart rate that occur after the start of a contraction and do
+not return to baseline until after a contraction has ended. These
+are usually due to utero-placental insufficiency. In contrast to
+variable or early decelerations, recurrent and persistent late-
+decelerations can be associated with fetal hypoxemia and warrant
+intervention.
+Bradycardia: Bradycardia is defined as a deceleration in the fetal
+heart rate for greater than 10 minutes.
+If a prolonged or sudden deceleration occurs, stop. Think
+logically about what could be the cause: hypotension from a
+recent epidural placement, uterine hyperstimulation, fetal
+manipulation, umbilical cord prolapse, etc. The following should
+all be done together in order to attempt intrauterine resuscitation
+of the fetus: turn off pitocin infusion if one has been running,
+reposition the patient to her left side or knee-chest position, which
+maximizes cardiac output, add supplemental oxygen by face
+
+                                                                  28
+mask, give a fluid bolus if hypotension is a possible etiology,
+consider ephedrine administration if hypotension is still
+suspected, do a vaginal exam to rule out cord prolapse or rapid
+fetal head descent and to assess progress in labor. Consider
+terbutaline 0.25 mg subcutaneously for tetanic contractions.
+Always remember, call for help and do it early. Consider
+activating the birth center pager and moving to the OR if a fetal
+heart rate deceleration does not appear to resolve with the above
+interventions in 2-3 minutes.
+
+
+
+OB PATIENT PRESENTATIONS
+
+Below are example patient presentations for various types of
+situations. All the information to be included should be available in
+the patient’s delivery note or other TraceVue notes.
+
+Postpartum Vaginal Delivery:
+“Ms. Smith is a 27yo Gravida 2 Para 1 now 2 who is postpartum
+day number one after a normal spontaneous vaginal delivery. (If
+there were any complications in her pregnancy, put them here...
+e.g., her pregnancy was complicated by insulin-requiring
+gestational diabetes, which was well-controlled.) Her labor course
+and delivery were uncomplicated (or if they were complicated,
+explain how, e.g., her delivery was complicated by postpartum
+hemorrhage requiring methergine and hemabate). She is feeling
+well this morning. She has minimal pain, minimal lochia and is
+voiding and ambulating. She is breastfeeding without difficulty.
+She has been afebrile. BP range, pulse range, urine output. Her
+physical exam was unremarkable. Her fundus was firm and 2
+finger breadths below the umbilicus. She plans to use Micronor
+
+                                                                  29
+for contraception. We will plan to discharge her when she is 24
+hours postpartum. She will follow-up in 6 weeks for a postpartum
+visit.”
+Postpartum Operative Vaginal Delivery:
+“Ms. Smith is a 27yo Gravida 2 Para 1 now 2 who is postpartum
+day number one status post forceps (or vacuum) assisted vaginal
+delivery secondary to arrest of descent. A mediolateral
+episiotomy was/was not cut. A < > degree perineal laceration
+was sustained and repaired. She is doing well this morning. Her
+pain is well controlled, she is having minimal lochia and she is
+voiding without difficulty. On exam, she has been afebrile, BPs,
+Pulse, Urine output. Her fundus is firm and below the umbilicus.
+There is no evidence of hematoma on vaginal exam. (This exam
+would need to have been performed with a physician.) She plans
+to use condoms for contraception. She was advised of the need
+to keep her stools soft and we discussed using miralax and
+mineral oil as needed. We plan to discharge her when she is 24
+hours postpartum. She will follow-up in 6 weeks for a postpartum
+visit.”
+
+Postpartum Cesarean Delivery:
+“Ms. Smith is a 27yo Gravida 2 Para 1 now 2 who is postoperative
+day number one status post a low transverse cesarean section
+secondary to arrest of dilation. She is doing well this morning and
+is breastfeeding, ambulating, and urinating without difficulty
+(alternately, the patient’s Foley catheter may still be in place –
+watch for that). Her pain is well-controlled on PO pain
+medication. She is afebrile, BP, Pulse, urine output. Her incision
+is clean, dry, and intact. Her fundus is firm and below the
+umbilicus. Her post-operative hematocrit is < >. She plans to use
+the mini-pill for birth control. We plan to discharge her when she is
+48 hours postpartum.”
+
+                                                                  30
+High Risk Patients:
+Presentation of high risk patients will vary considerably depending
+on the patient. Each patient’s presentation should begin with the
+patient’s age, g’s and p’s, gestational age, mechanism for dating
+(e.g. LMP and first trimester ultrasound), and why she was
+admitted. Important things to include are: if/when betamethasone
+was administered, recent EFW/AFI, fetal presentation, prior OB
+history, consents obtained, results of cultures (GBS, GC/Chl,
+urine, etc.). Otherwise, the presentation will depend on the clinical
+situation.
+
+Laboring Patients:
+Include: patient’s age, g’s and p’s, gestational age, mechanism for
+dating, reason for admission (labor, PROM). Also include fetal
+status, most recent cervical exam with the time, progress in labor,
+augmentation, presence of epidural, GBS/rubella/Rh status
+
+
+OB PAPERWORK
+
+Labor and Delivery is almost paperless. Our charting system is
+TraceVue, and we do all our orders in CareLink. However, the
+various “administrative” tasks are outlined below.
+
+Orders:
+Our orders are all done in CareLink
+
+There are order sets available for most clinical scenarios. These
+order sets are located by opening CareLink, selecting the patient
+who needs orders and clicking on the “clipboard” icon at the top
+left of the screen next to the patient’s name. From that screen,
+
+                                                                  31
+click on “Order Sets, Adult,” in the left hand column, then “OB-
+GYN or Women’s” (this changes periodically). You may then
+select the given scenario and select your orders.
+
+Remember that in CareLink, every patient needs to have their
+allergies verified before any order may be placed and all orders
+need to be submitted before they will be processed.
+
+Typical Admission Orders:
+Admit Reason
+Patient Condition
+Vital Sign frequency
+Activity (usually Up Ad Lib or Bedrest with Bathroom Privileges)
+Continuous external fetal and uterine monitoring
+Diet (clear liquid for laboring patients, NPO for anyone with a high
+      likelihood of going to the OR)
+Lactated Ringers @ 125 cc/hr
+Type and Screen and CBCP
+GBS Prophylaxis if needed
+
+Postpartum Orders:
+All admit orders must be discontinued in CareLink before entering
+postpartum orders.
+
+Typical Postpartum Orders:
+Admit Reason
+Procedure
+Patient Condition
+Vital Signs Progression (depends on delivery method)
+Activity (usually ambulate as tolerated)
+Perineal Care
+Foley (if cesarean section or other indication)
+
+                                                                   32
+Diet (usually adult regular)
+Lactated Ringers @ 125 cc/hr, saline lock when tolerating PO
+PRN’s: usually milk of magnesia, Maalox, simethicone,
+docusate, diphenhydramine, and lanolin
+MMR and RhoGAM if indicated
+Pain Medication: acetaminophen, ibuprofen.
+If cesarean section: toradol (if clinically acceptable), and a
+narcotic
+AM lab (if cesarean section): CBCP
+
+Every patient gets a home-care agency (VNA) visit
+
+Other orders can be placed by typing an order in the box that
+appears at the top of the screen after clicking on the “clipboard”
+icon.
+
+Discharge Prescriptions:
+After a normal spontaneous vaginal delivery, patients should
+receive these prescriptions:
+Ibuprofen 600mg PO Q 6-8 hours PRN pain (usually # 90 with 1
+refill)
+Colace 100mg PO BID PRN constipation (usually # 60 with 2
+refills)
+FeSo4 325mg PO BID (usually # 60 with 2 refills) – ONLY IF
+CONSIDERABLY ANEMIC
+
+Patients who have had cesarean sections, postpartum tubal
+ligations, or a complicated delivery may also get narcotic pain
+medications. Options include:
+Percocet 5/325mg: 1-2 tabs PO Q4-6hours PRN for pain
+Norco 5/325 mg: 1-2 tabs PO Q4-6hours PRN for pain
+
+
+                                                                  33
+The number of tabs administered depends on the situation and by
+physician preference, however, in general, cesarean sections
+should get at least # 90 with 0 refills, postpartum tubals or
+complicated vaginal deliveries may get # 40 with 0 refills.
+
+Patients may also request refills on a prenatal vitamin or
+contraception.
+
+Prescriptions are written in CareWeb, printed, and placed in the
+front of the patient’s chart at the clerk’s station. They are usually
+most conveniently done immediately upon admission. It is very
+time-consuming to have to print all the discharge prescriptions for
+the postpartum patients you see during rounds before board sign-
+out.
+
+
+DISCHARGE ISSUES
+
+As a general rule, most patients are discharged home 24 hours
+after a vaginal delivery and 48 hours after a cesarean section. If a
+patient delivers after 8 pm, they may stay the following night if
+they choose. Patients who are otherwise ready for discharge but
+who have a baby in the NICU may also be candidates for nesting,
+if available. The charge nurse determines which patients will
+go to which nesting rooms. Never promise a patient a nesting
+room as there are elaborate protocols for distributing these limited
+rooms. Tell the patient her nurse will help her coordinate this and
+she may stay in her room if there are no nesting rooms available.
+
+Discharge instructions:
+After any delivery, we recommend pelvic rest for six weeks, which
+means no heavy lifting, no sexual intercourse, and no tampons/
+
+                                                                  34
+douching or other objects in the vagina. If patients are on a
+narcotic pain medication, they should not drive while continuing to
+take them as they can cause impaired function. If a patient
+underwent a cesarean section, she should not drive for a
+minimum of two weeks post-operatively, or until she no longer
+requires narcotic pain medication.
+
+On the day of discharge, patients should be counseled that triage
+is available for any issues until they are 6 weeks postpartum.
+They should contact their doctor or triage with any heavy vaginal,
+bleeding, excessive or worsening pain, fevers > 100.5, breast
+pain or redness, incisional redness/irritation/opening if applicable,
+or with other issues.
+
+Most patients can follow-up with a postpartum visit in 6 weeks,
+although if you are concerned about postpartum depression, the
+patient had a particularly complicated course, or with other issues,
+patients may be seen by their primary OB earlier.
+
+POSTPARTUM CONTRACEPTION
+We like to ensure that any patient who would like a prescription
+for contraception postpartum has one before she is discharged,
+but not every patient has to go home with a definitive plan for birth
+control. It is important to remind patients that they may conceive
+while breastfeeding if they are not utilizing an alternate form of
+contraception. It is also a common misperception that a woman
+cannot conceive before she has a period following a delivery and
+it is important that patients understand that they could become
+pregnant before having a period. In general, if a patient prefers to
+not be discharged with a prescription this is ok, as contraception
+can be discussed more in-depth at the postpartum visit. If there is
+a particularly complicated patient, or someone in whom another
+
+                                                                  35
+pregnancy in the near future would be contraindicated, we may be
+more aggressive in our discussions about contraception.
+
+It is sometimes helpful to simply ask: “Would you like to discuss
+options for birth control when you are discharged?” or “Would you
+like any prescriptions for contraception to go home with?”
+
+Common Postpartum Contraceptive Options:
+1. Abstinence
+2. Condoms
+3. Micronor (a progesterone-only pill, AKA the “mini-pill”) - Safe
+for women who are breast-feeding (should not reduce milk
+supply). Patients should start taking the pill two weeks after
+delivery. The most important thing to discuss is that it has to be
+taken at the *same time* every day (i.e., within the same hour).
+4. Combination OCPs/OrthoEvra Patch/NuvaRing - A relative
+contraindication in early breast feeding (may decrease milk
+supply). If patient is not breastfeeding or decides this is her best
+option, she should wait until at least 4 weeks, preferably 6 weeks,
+after delivery to start it due to the potentially increased risk of
+blood clots.
+5. Depo Provera - an IM progesterone shot every 3 months –
+Patient may receive prior to discharge. Average weight gain is 10
+lbs.
+5. IUDs – Either Mirena IUD or ParaGard - Can be placed at the
+postpartum visit, and are the most effective form of contraception
+we have to offer (even more effective than tubal ligation, with the
+additional benefit that they are not permanent, in case the patient
+changes her mind).
+7. Implanon - a subcutaneously inserted progesterone-only
+implant that is good for 3 years. This should not affect milk supply
+
+
+                                                                 36
+and can be placed at a postpartum visit or potentially prior to
+discharge if indicated.
+8. Permanent sterilization (bilateral tubal ligation, Essure
+procedure)
+9. Vasectomy
+10. Natural family planning” or “rhythm method”- we don’t usually
+bring this method up, as it has a very high typical use failure rate
+(up to 25%). If the patient mentions it, they should be informed
+about the potential failure rate, as well as told that in order to use
+the method, they need very regular and predictable periods
+(which is not always the case right after delivery/breastfeeding).
+
+BREASTFEEDING BASICS
+
+Breastfeeding is considered the optimal form of nutrition for a
+neonate according to pediatricians. There are many neonatal
+benefits. Breast milk provides an excellent source of nutrition and
+maternal antibodies that cannot be duplicated by formula.
+Breastfed children have a lower incidence of asthma and
+allergies, and fewer childhood illnesses in general.
+
+There are also many maternal benefits to breastfeeding. It
+stimulates oxytocin release, which increases uterine contractions
+and decreases postpartum bleeding. Hormones released during
+lactation are also believed to contribute to feeling of relaxation
+and attachment. Furthermore, breastfeeding is associated with a
+decreased risk of breast cancer. The incidence of pregnancy
+induced long-term obesity is also reduced.
+
+Women who may have difficulty with breastfeeding include
+younger moms (<18), those with poor nutrition status, women with
+flat nipples, those with hypoplastic or tubular breasts, and women
+
+                                                                    37
+who have had breast surgery in which complete severing of the
+lactiferous ducts has occurred. Women who should not
+breastfeed are those who take street drugs or are alcohol
+abusers, have infant with galactosemia, have HIV (in developed
+countries), have active/untreated TB, take certain medications
+(bromocriptine, cocaine, cyclosporin, doxorubicin, ergotamine,
+lithium, methotrexate, radioactive iodine or other radio-labeled
+elements), are being treated for breast or certain other cancers,
+and have certain infections (e.g., varicella). Hepatitis B , hepatitis
+C, and chronic CMV (in an immunocompetent mother) do not
+preclude breastfeeding.
+Colostrum is the fluid secreted immediately following delivery. It
+usually comes in within the first 24 hours. It has a high level of
+IgA and other proteins. During the 4-7 days following delivery,
+protein and mineral concentration decrease and water, fat and
+lactose increase. Women need an additional 500kcal per day
+while breastfeeding and should maintain a calcium intake of
+1000mg per day.
+
+Feeding problems are common in preterm infants and in babies
+born with anomalies.
+
+
+TRIAGE
+
+Triage is essentially an ER for pregnant women. Pregnant women
+with any issue may be seen in triage. Any acutely life-threatening
+issue or clearly non-pregnancy related issue that requires
+immediate attention (e.g. shortness of breath, chest pain, trauma,
+broken bones, etc.) will be evaluated first in the ED, then sent to
+triage for evaluation of any pregnancy-related issues.
+
+
+                                                                    38
+Certified Nurse Midwives staff triage 24 hours a day, 7 days a
+week. The midwife will notify the chief-resident of any UMOG
+patients. The midwife may ask the residents to evaluate a patient
+for any number of reasons. Typically, the midwife will call the chief
+resident; however, the chief may ask the junior to see a patient if
+and when it is appropriate and especially when it poses a
+valuable learning opportunity. Students may be assigned to
+triage for two-week blocks. They should plan to work closely with
+the midwives.
+
+Conditions frequently seen in triage include rupture of
+membranes, labor, vaginal bleeding, decreased fetal movement,
+premature labor, pyelonephritis, gastroenteritis, preeclampsia,
+first trimester bleeding and hyperemesis gravidarum.
+
+
+SELECTED TOPICS:
+
+CHORIOAMNIONITIS
+
+Criteria: Temperature of ≥ 38 degrees Celsius, no other obvious
+source of fever, AND one or more of the following signs or
+symptoms:
+-maternal baseline heart rate > 110 beats per minute (lasting at
+least 10 minutes)
+-uterine tenderness
+-foul smelling amniotic fluid
+-fetal baseline heart rate of > 160 beats per minute (lasting at
+least 10 minutes)
+-fever of > 38.4 degrees Celsius
+
+
+
+                                                                  39
+If the patient has an isolated elevated temperature of ≥ 38.0 but ≤
+38.4 degrees Celsius, without any of the above listed signs or
+symptoms, then the diagnostic criteria are not met and antibiotics
+do not need to be initiated. In this scenario, a 36-hour postpartum
+neonatal observation period is not indicated.
+
+When diagnostic criteria for chorioamnionitis are met, the
+attending should be notified and antibiotic treatment initiated.
+First-line treatment is with Ampicillin and Gentamicin. Treat with
+Ampicillin 2gm IV q 6 hours (NOTE: this means increasing the
+dose for patients previously receiving amp for GBS prophylaxis)
+and Gentamicin 5mg/kg IV q24 hours. If the patient is allergic to
+penicillins, you may treat with Clindamicin 900mg IV q 8 hours
+with Gentamicin at the above dose.
+
+If the patient delivers vaginally, discontinue antibiotics after
+delivery. If the patient delivers by cesarean section, treat with
+prophylactic endometritis antibiotics (Gentamicin/Clindamycin as
+dosed above) for 24 hours after surgery. If a patient has a fever
+after delivery (NSVD or C/S), you should treat for endometritis
+(see below).
+
+ENDOMETRITIS
+
+Defined as a post-partum temperature greater then 38.0,
+persistently elevated temperature, uterine tenderness, or an
+elevated white count. Treat with Clindamycin 900 mg IV q 8
+hours and Gentamicin 5mg/kg IV q 24hrs until 24 hours afebrile if
+the patient had a vaginal delivery, and 48 hours afebrile if the
+patient had a Cesarean delivery. If a patient continues to be
+febrile after receiving 24-48 hours of antibiotics, consider adding
+Ampicillin (2g IV q6h) to cover enterococcus and clinda-resistant
+
+                                                                 40
+GBS (not covered by Clindamycin/Gentamicin) and switching to
+metronidazole (500mg IV q8h) from clinda for better anaerobic
+coverage. Penicillin allergic patients may be treated with
+Cephalosporins or Vancomycin if needed. Other causes of
+postpartum fever include wound infection, mastitis, septic pelvic
+thrombophlebitis, and non-obstetrical causes (e.g. URI, UTI,
+pyelonephritis, etc).
+
+
+PPROM PROTOCOL
+
+Erythromycin 250 mg IV q6 hr x 2 days, then 250 mg PO TID x 5
+days
+Ampicillin 2g IV q6 hr x 2 days, then Amoxicillin 250 mg PO TID x
+5 days
+Total treatment time is seven days to increase the latency from
+PPROM to labor
+
+POSTPARTUM HEMORRHAGE
+
+If you get called regarding a patient with postpartum bleeding, this
+is a potential obstetrical emergency – the patient must be
+assessed immediately. Consider: uterine atony (assess for
+uterine tone, check for and evacuate any clots in the lower uterine
+segment which may prevent the uterus from clamping down),
+undiagnosed or unrepaired lacerations (especially cervical
+lacerations which may be very difficult to visualize in an
+uncomfortable postpartum patient); retained products of
+conception; a full bladder preventing the uterus from clamping
+down.
+
+
+
+                                                                 41
+Risk factors for uterine atony include: multiple gestation, rapid
+delivery, very prolonged labor, polyhydramnios, prolonged use of
+pitocin, chorioamnionitis, and general anesthesia.
+
+Treatments for postpartum hemorrhage include:
+Draining the bladder (this can really help)
+Uterine massage/evacuating uterus of clots
+Pitocin 20-30U in 1L NS or LR
+Cytotec 800 mcg rectally
+Methergine 0.2mg IM. Contraindications: hypertension,
+preeclampsia, eclampsia.
+Hemabate 0.25mg IM. Contraindications: asthma.
+D&C
+Bakri Balloon
+O’Leary uterine artery ligation
+B-Lynch suture
+Uterine artery embolization
+Hysterectomy
+
+
+
+
+                                                               42
+Basic Prenatal Care
+Initial Visit:
+Labs: T&S, CBCP, RPR, HepBsAg, Rubella
+Offer mv testing
+Pap, if no pap in the last 2 years, see ACOG pap guidelines
+GC and Chlamydia if age < 26 yr, or history of STD's
+Urine culture
+Off genetics screening (CF, Hgb electroph, Tay-Sachs,
+Canavans, AFD)
+Depression Screen
+11-14 weeks:
+Offer First Trimester screening or
+Offer CVS testing
+15-20 weeks:
+Offer second trimester screening if first trimester screening was
+not done, or
+Offer amniocentesis
+18-20 weeks:
+Fetal Survey
+24-28 weeks:
+CBCP
+1 hour Glucola
+Antibody screen ifRH negative
+RhoGAM ifRh neg and ABS is negative @28 weeks
+26-30 weeks:
+Depression Screen
+36 weeks:
+GBS screening
+(Not needed if patient has GBS-bacteriuria)
+41 weeks:
+Recommend induction of labor
+If expectant management; twice weekly NST/AFI
+
+                                                                    43
+Prenatal Care for Patients with BMI>40
+
+Add to routine prenatal labs:
+Liver panel
+Renal panel
+PR/Cr ration
+TSH
+HgbA1C
+25 Hydro Vitamin D
+B12, for patients who had bariatric surgery
+Nutrition counseling, please check whether insurance will cover
+EKG and maternal cardiac ECHO
+First trimester ultrasound to assess gestational age
+Glucola at 12 weeks, repeat at 24 weeks
+Transvaginal survey at 14 15 weeks
+Fetal survey at 20 weeks
+Ultrasound for fetal growth at 26 and 32 weeks
+Anesthesia consult Weekly NST/AFI starting at 36 weeks
+Delivery recommendations:
+If no co morbidities present, await spontaneous labor
+If co morbidities present, consider induction at 39 weeks
+
+
+
+
+                                                              44
+45
+DIABETICS IN LABOR
+
+Insulin-requiring diabetics (IR-GDM, type I or Type 2) will need
+both insulin and D5LR in labor to prevent hyperglycemia in mom
+and hypoglycemia in the newborn. (see Appendix 5 for insulin
+drip protocol in labor). A recent EFW should be available in a
+term pregnancy to assess for macrosomia. If a patient has
+diabetes in pregnancy and an EFW > 4500 g, a primary elective
+cesarean section may be considered.
+
+INSULIN DRIP (GTT) PROTOCOL
+
+Run D5LR at 125cc/hr
+Place 50 units of regular insulin in a glass bottle containing 500cc
+of normal saline
+Check the blood sugar every 2 hours in early labor and every
+hour once in active labor.
+
+You should run the insulin drip as follows if a Pregestational Type
+I Diabetic (insulin DEPENDENT):
+
+      Blood Sugar                 GTT
+      <100                        0.5 U/hr
+      101 – 140                   1.0 U/hr
+      141 – 180                   1.5 U/hr
+      181 – 220                   2.0 u/hr
+      >221                        2.5U/hr
+
+You should run the insulin drip as follows is a Pregestational Type
+II, or Insulin-Requiring Gestational Diabetic (IRGDM):
+         Blood Sugar               GTT
+                                                                 46
+      <110                        0.0 U/hr
+      110 – 140                   1.0 U/hr
+      141 – 180                   1.5 U/hr
+      181 – 220                   2.0 u/hr
+      >221                        2.5U/hr
+
+
+GROUP B STREPTOCOCCUS PROTOCOL
+
+Indications for GBS prophylaxis:
+A patient with a positive GBS vaginal/perianal culture at 35-37
+weeks in this pregnancy.
+A patient with a GBS positive urine culture this pregnancy
+(anytime during the pregnancy)
+A patient with a history of a GBS-affected infant in a previous
+pregnancy
+GBS status unknown within 5 weeks of delivery, and: <37 wks
+GA (unless delivered by cesarean section with intact membranes
+and no labor) or prolonged ROM (>18 hours), or Maternal
+temperature >100.4 F (38.0° C) – use ampicillin and gentamicin if
+chorioamnionitis suspected as cause of fever
+
+Antibiotic choices:
+First line: Ampicillin 2 grams IV load then 1 gram IV q 4 hours until
+delivery.
+If PCN allergic with low-risk for anaphylaxis allergy: cefazolin 2
+grams IV x 1, then 1 gram IV q 8 hrs until delivery.
+If PCN allergic and high-risk for anaphlaxis (previous anaphylaxis,
+urticaria, PCN allergy + h/o asthma): Clindamycin–sensitive GBS:
+Clindamycin 900mg IV q 8 hours until delivery Clindamycin–
+resistant GBS: Vancomycin 1 g IV q. 12 hours until delivery.
+
+                                                                  47
+Antenatal Testing Guidelines
+
+
+
+
+                               48
+OB ACRONYMS
+
+AFI:              Amniotic fluid index
+BPP:              Biophysical Profile
+BTL*:             Bilateral tubal ligation
+BV:               Bacterial vaginosis
+DCGDM*:           Diet Controlled Gestational Diabetes Mellitus
+EDC*:             Estimated date of confinement (i.e. due date)
+EFM*:             Electronic fetal monitoring
+FAVD*:            Forceps assisted vaginal delivery
+FHT(s)*:          Fetal heart tones or fetal heart tracing
+FSE:              Fetal scalp electrode
+GBS:              Group B Streptococcus
+GTT:              Glucose tolerance test
+IUPC:             Intrauterine Pressure catheter
+IRGDM:            Insulin Requiring Gestational Diabetes
+Mellitus
+LOF*:            Leakage of fluid
+LTCS*:           Low transverse cesarean section
+MFM:             Maternal Fetal Medicine
+MVA:             Motor Vehicle Accident OR
+                 Manual vacuum aspiration
+OCPs:            Oral contraceptive pills
+NSVD:            Normal spontaneous vaginal delivery
+NST:             Non-stress test
+PLTCS*:          Primary low transverse cesarean section
+POL*:            Premature Onset of Labor
+PPD*:            Postpartum day
+PPROM:           Preterm, premature rupture of membranes
+(pronounced P-PROM)
+PPTL*:           Postpartum tubal ligation
+
+                                                            49
+Pre-E*:            Preeclampsia
+PTL*:              Preterm labor
+RLTCS*             Repeat low transverse cesarean section
+SOL*:              Spontaneous onset of labor
+SROM:              Spontaneous rupture of membranes
+SVE:               Sterile vaginal exam
+TOL*:              Trial Of Labor (After Cesarean Section)
+TVCL:              Trans-vaginal Cervical Length
+VAVD*:             Vacuum assisted vaginal delivery
+VBAC:              Vaginal Birth After Cesarean section
+
+
+RADIATION EXPOSURE IN PREGNANCY
+
+According to ACOG guidelines, radiation exposure up to 5 rads
+has NOT been associated with increases in fetal anomalies or
+pregnancy loss.
+
+      Study                    Radiation exposure
+      CXR (2views)             0.02-0.07 mrad
+      Abd XR (1 view)          100 mrad
+      IVP                      <1 rad
+      Hip film (1view)         200 mrad
+      Mammogram                7-20 mrad
+      Barium                   2-4 rads
+      enema/SBseries
+      CT Head/Chest            <1 rad
+      CT Abd/Spine             3.5 rad
+      CT pelvimetry            250 mrad
+      USN/MRI                  NONE
+
+* 2005 ACOG Compendium of Selected Publications
+                                                                50
+SUMMARY/WAYS TO HAVE A GREAT EXPERIENCE
+
+If you have a question, ask for advice. The chief, attendings,
+residents and nurses are all available and very happy to help. We
+work as a team, and no one should ever feel alone.
+
+Any call or page about bleeding (in triage, post-partum or
+antepartum patients) takes precedence over all else going on at
+the moment. Other potential emergent situations include pages
+for bradycardia, and if you get any page for help for a potential
+shoulder dystocia, run to that room. Of course, if you are in the
+midst of something else that is critical, call for help. Make sure
+you mobilize help (attendings, chief resident, anesthesia, the OR)
+as soon as possible.
+
+If you are feeling overwhelmed, get help. Call your chief and let
+her/him know what is on your plate. Her or she can help you to
+prioritize and should help to shoulder the work-load when things
+get very busy. Remember, you are not alone. If your chief is
+busy, call the attending.
+
+
+
+
+                                                                51
+GYNECOLOGY
+
+The goals of the gynecology portion of your rotation are for you to
+become familiar with common (and sometimes some uncommon)
+gynecologic complaints, understand the pathology associated
+with those complaints, be exposed to common gynecologic
+procedures, and learn about the management of gynecologic
+problems.
+
+To accomplish the goals of your rotation, you will be assigned by
+the Clerkship Director to various clinics, including specialist and
+generalist clinics (both attending clinics and resident clinics), and
+spend time on one or more of the inpatient teams described
+below.
+
+GENERAL INFORMATION
+
+Logistics
+There are five inpatient gynecology services, each covered by
+different residents. These services are briefly described below.
+
+Benign Gynecology Team
+The benign gynecology team is typically covered by one fourth-
+year, one third-year, one second-year, and one first-year resident.
+The benign team takes care of the inpatient benign gynecology
+patients (both surgical and nonsurgical admits), covers OR cases,
+and sees inpatient and ER consults. Residents are also
+responsible for attending a number of clinics. Each day is a little
+different depending on the OR schedule, clinic schedules, and the
+number of consults requested. Students should prioritize OR
+cases first, then clinics, then seeing ER or inpatient consults,
+
+
+                                                                   52
+unless something particularly unique or interesting is occurring in
+the ER or elsewhere.
+
+Urogynecology Team
+The urogynecology service is always covered by one fellow and is
+often, but not always covered by a separate third or fourth year
+resident. There may also be an intern on the team. These patients
+are cared for by Drs. Mitch Berger, John DeLancey, Dee Fenner,
+Megan Shimpf and Dan Morgan. You may be assigned to the
+urogynecology service, or you may simply cover some
+urogynecology cases while on the benign gynecology service.
+Your roles while on urogynecology are the same as your roles on
+the benign gynecology service. You can ask any member of the
+benign service for help if you are uncertain about what to do.
+There is also always a fellow covering the urogynecology service
+who you can ask for direction. Each week there is an Educational
+Conference from 1-3 pm in room L4053. One hour is dedicated to
+the next week’s pre-operative review. You will be expected to
+present a patient each week using the UROGYN-TEMPLATE.
+The fellow will assign the case the week before you present. In
+addition, you will be given a schedule for the following week that
+will inform you of your clinic and OR responsibilities. You are
+expected to read about the patients before coming to the OR or
+clinic. You should select three clinic patients per half day session
+and read about them before coming to clinic. You are expected to
+work with attending in developing a treatment plan for those
+patients. The students will meet with an attending every
+Wednesday from 3:00-3:30 for a Urogyn Review.
+
+MIS (Minimally Invasive Surgery) Team
+The MIS service is always covered by one fellow and is often, but
+not always covered by a separate third or fourth year resident.
+
+                                                                 53
+These patients are cared for by Drs. Suzie As-Sani and Bethany
+Skinner. You may be assigned to the MIS service, or you may
+simply cover some MIS cases while on the benign gynecology
+service. Your roles while on MIS are the same as your roles on
+the benign gynecology service. You can ask any member of the
+benign service for help if you are uncertain about what to do.
+There is also always a fellow covering the MIS service who you
+can ask for direction.
+
+Reproductive Endocrinology and Infertility Team
+The REI service is always covered by one fellow and often by one
+resident (of various levels). There is not always a resident on REI.
+REI attendings are Drs. John Randolph, Yolanda Smith, Gregory
+Chrisman, and Senait Fisseha. Much of the REI service is based
+in outpatient clinics; however, you may cover REI cases while on
+the benign gynecology service. Otherwise, you may be assigned
+to clinics. You can ask any member of the benign gynecology
+service for help with REI patients. There is also always a fellow
+covering the REI service who you can ask for direction.
+
+Gynecological Oncology Team
+The oncology service is labeled as GYO in CareWeb. This service
+is always covered by one fellow, one third-year resident (the
+chief), one second-year resident, and one first-year resident.
+There is a rotating pager which will help you get in touch with the
+GYN-onc team: # 33189. Our gynecologic oncology attendings
+are Drs. R. Kevin Reynolds, J. Rebecca Liu, Carolyn Johnston,
+and Karen Mclean. The Onc team is entirely separate from the
+benign services. You will cover gynecologic oncology clinics and
+OR cases depending on the day. The gynecologic oncology
+senior resident will give you more information about what to do
+and where to go; however, briefly, Mondays are typically spent in
+
+                                                                 54
+Dr. Johnston’s clinic, Tuesdays and Wednesdays are in the OR,
+and Dr. Mclean has clinic on Tuesday afternoon. Thursdays are
+either in Dr. Liu’s clinic or in the OR, and Fridays are in Dr.
+Reynolds’ clinic. Remember, you can page # 33189 with
+questions or to identify the onc team at any given time.
+
+STUDENT EXPECTATIONS
+
+When you are assigned to your continuity clinic, being in clinic is
+your priority. If you have an off-site clinic in the AM, you may or
+may not come in to round before clinic, but discuss this with your
+chief.
+
+In general, the team will tell you where to go and what to do.
+Although most days you will wear scrubs, if you are uncertain, it is
+always best to err on the side of wearing “professional” attire and
+changing into scrubs if you will be in the OR.
+
+You can get in touch with a member of the gynecology team 24/7
+by paging 0005. This pager is rotated amongst the residents and
+will always be held by an in-house gynecology resident.
+
+For students, lectures and assigned continuity clinics take
+priority over the OR. You should then try to cover all OR cases,
+with extra students attending general or specialty clinics, seeing
+patients in the ER, reading, or taking part in small-group teaching
+organized by the residents. Check with your team to determine
+what to do each day.
+
+Rounds
+After the residents get sign-out from the night team, every day
+starts with rounds. Morning rounds for each of the gynecology
+
+                                                                  55
+services are teaching and working rounds every day. In order to
+give you the opportunity to be more involved in caring for your
+patients, you will be asked to pre-round on certain patients. The
+team will then round together and see each patient. There is
+sometimes an attending who rounds with the teams and
+sometimes it is just residents. It is a bit unpredictable when to
+expect an attending and your team will be able to tell you what to
+expect.
+
+The timing of morning rounds varies each day according to the
+number of patients and when the day starts. The senior resident
+or fellow will decide the prior afternoon what time the team will
+round. You should try to find out what time rounds will occur
+before going home for the day, but if it’s a weekend or holiday or
+you just didn’t hear, you can page 0005 (with a call back number)
+and they can either point you in the right direction or tell you what
+time rounds will occur. You should always know what time rounds
+will occur before 8:00 pm (i.e. don’t page the chief at 10:00 pm to
+find out what time rounds will be in the morning – he or she will
+probably be asleep.).
+
+Each team also rounds sometime in the afternoon, but this is
+much less formal and often includes only certain members of the
+team (i.e. those not in the OR or clinic). You will not be expected
+to pre-round for afternoon rounds and we do not typically write
+notes in the afternoon.
+
+ORs
+The OR schedule can be found by going to the clinical home
+page, “connect to other systems,” “OR schedule.” You may
+contact the administrator at: CAS-Help@med.umich.edu to
+request a login. This can be very helpful to do in advance. You
+
+                                                                  56
+can also look in CareWeb under the attendings for your service to
+determine the OR schedule for the day. Your residents will help
+you, however, the students on a team should divide the OR cases
+evenly to optimize exposure to various cases. It is very difficult
+for the residents to keep track of what cases each medical
+student has seen, and they may ask you to divide yourselves
+fairly.
+
+Prior to a case, students should look up the patient on
+CareWeb. The more you know about the patient and the case,
+the more you will get out of being in the OR and the more
+opportunities you will have to participate. Reading a little about
+the clinical scenario, the procedure, and especially the anatomy is
+highly recommended. We meet patients in the pre-op holding
+area. You should introduce yourself to any patient whose
+procedure you will observe. Patients who are being admitted
+postop need an op note and postop orders (described below).
+Outpatient surgery has more associated paperwork, including an
+op note, postop orders, prescriptions, and postop instructions.
+You should help with as much of this as you feel comfortable.
+
+Students are encouraged to scrub in on as many cases as
+possible. Exceptions include some minor cases and cases where
+there may be three surgeons and a scrub nurse involved. For
+many operative laparoscopic procedures, limited room around the
+table means that students can see better unscrubbed. Check
+with the attending and/or resident if in doubt. Where time allows,
+students may help to close rectus fascia and subcuticular skin
+closures at the discretion of the surgical team.
+
+Before entering the OR, be sure you have the following:
+ Scrubs
+
+                                                                57
+    Hair-cover
+    Mask
+    Shoe Covers
+
+Before Scrubbing-In, be sure you have done the following:
+ Checked with the attendings/residents that it’s time to scrub
+ Pulled your gloves for the scrub nurse
+ Removed any watches/rings/bracelets, etc from your hands
+     and wrists
+ Covered your eyes with goggles or a mask with built-in face
+     shield
+
+Consults
+Members of the benign gynecology team respond to inpatient or
+ED consults that come in during the day. The consulting resident
+obtains an H&P and students can participate by doing an H&P in
+advance and presenting the patient to the residents. Consults
+give you a great opportunity to perform H&Ps, physical exams,
+and to review imaging studies with the residents and occasionally,
+a radiologist.
+
+PAPERWORK
+
+The GYN side is essentially paperless; however, there are a
+number of administrative type tasks described below.
+
+PRE-OP RESIDENT AND STUDENT FORM
+NAME
+REG NUMBER
+DAGE OF SURGERY
+ROOM
+ATTENDING
+
+                                                               58
+PROCEDURE
+HPI:
+SA:     SUI:        DD:         BB: N
+Height: Weight: 142 BMI: BP:
+POP-Q:
+Aa | Ba | C
+GH | PB | TVL
+Ap | Bp | D
+Demonstrable SUI: (Method)
+PVR: UA: neg
+OTHER TESTS:
+PMH:
+PSH:
+Meds:
+Allergies:
+ PREOP ISSUES:
+( ) H&P ( ) Consent
+( ) Labs:
+PREOP ORDERS:
+(x) EKG:
+(x) CXR
+(x) DVT
+(x) Abx:
+(x) Bowel prep:
+() Clearance: anesthesia cleared
+ ISSUES:
+INDICATION FOR SURGERY:
+WHY PARTICULAR PROCEDURE CHOSEN:
+SUCCESS/RISKS OF PROCEDURE:
+REFERENCES:
+
+
+
+                                        59
+Admit H&P’s
+Patients having scheduled OR cases have the H&P done at their
+pre-op visit, which is usually dictated on CareWeb.
+
+For ER and clinic admits, the resident will complete the H&P, but
+if it will be a learning opportunity, the student may be asked to
+start it.
+
+Even as we move toward fully electronic medical records,
+students should take every opportunity to hone their history-taking
+skills in clinic and in the ER. The residents may ask you to type
+an H&P and email it to them. When you write these, do your best
+to commit yourself to a plan.
+
+GYN History and Physical:
+Chief Complaint: A one-line summary of the patient’s problem.
+(e.g. 32 year old g3p3 with menorrhagia and symptomatic
+anemia)
+
+HPI: Gyn patients usually have symptoms such as heavy or
+irregular menses, pelvic pain, infertility, discharge, dyspareunia,
+postmenopausal bleeding, etc. The HPI follows the conventional
+format of onset, nature, duration, location of symptoms,
+exacerbating and relieving factors, associated symptoms,
+treatments and their effectiveness, etc. In chronic disease, such
+as chronic pelvic pain, try to assess the impact on the patient’s
+life, including work, emotions and relationships.
+
+Review of systems: As a minimum, ask relevant direct questions
+such as urinary or bowel symptoms.
+
+
+
+                                                                 60
+Past Gyn History: Ask about menses – menarche, cycle duration,
+length, heaviness, intermenstrual bleeding, dysmenorrhea, and
+menopause (if relevant). If heavy menses, ask about passage of
+clots, and attempt to quantify pad or tampon use. Enquire about
+abnormal Pap tests including date of last Pap, other sexually
+transmitted infections such as chlamydia/gonorrhea, PID, herpes,
+genital warts, and other Gyn problems such as fibroids. The
+extent of the sexual history needed varies depending on the
+presenting problem, but as a minimum should include whether the
+patient is currently sexually active, and for women of reproductive
+age what kind of birth control method they are using, if any, and
+how reliably they are using it. For postmenopausal women, ask
+about hypoestrogenic symptoms such as hot flashes or night
+sweats, vaginal dryness, and about current and past use of
+hormone/estrogen replacement therapy.
+
+Past OB History: For each pregnancy beyond the first trimester,
+ask about the date of delivery, gestational age, type of delivery,
+sex, birthweight, and any complications. Ask specifically about
+other pregnancies, including spontaneous abortions, elective
+interruptions of pregnancy, ectopics, etc. For ectopic
+pregnancies, try to determine whether they were ruptured or
+unruptured, medically or surgically treated, and whether the tube
+was conserved or removed if laparoscopy or laparotomy was
+performed.
+
+Past Medical History / Past Surgical History: Ask about any
+chronic/ongoing medical problems including, diabetes,
+cardiovascular disease, pulmonary disease, neurologic problems,
+GI issues, etc.
+
+
+
+                                                                61
+Health Maintenance: Ask about mammograms, colonoscopies,
+bone scans, etc.
+
+Drugs / Allergies
+
+Family History: Especially cervical, endometrial, ovarian, breast
+and colon cancers.
+
+Social History: Relationship status, work, tobacco / alcohol / drug
+use.
+
+Physical Exam: Start with vitals (BP, pulse, temp, respiratory
+rate, O2 sat). Look for other general signs, eg hirsuitism, acne, or
+virilization as directed by the history. Examine thyroid, lymph
+nodes, heart, lungs, breasts, abdomen, extremities. Look for
+surgical scars on the abdomen, evidence of distension or ascites,
+and palpate for masses, organomegaly, or herniation. Inspect the
+vulva, urethra, and perineum. Speculum exam as needed.
+Vaginal exam and bimanual palpation of the cervix, uterus, and
+adnexa. Rectovaginal examination is performed for most patients
+with known or suspected Gyn malignancies, as well as for
+endometriosis, pelvic pain, or adnexal masses. Stool hemoccult
+for Oncology patients.
+
+Assessment: A one or two sentence summary of the patient, eg
+“65-year-old G4 P4 with a one-year history of postmenopausal
+bleeding, and a past medical history significant for Stage 1 breast
+carcinoma. She has been taking tamoxifen for the last 3 years”.
+
+Plan: Commit to your best plan. This is the area of your H&P that
+truly shows your knowledge. Think in systems (neuro,
+cardiovascular, respiratory, GU, GI, musculoskeletal, ID,
+
+                                                                 62
+hematologic, etc.). When able, try to include some literature to
+back up your plan.
+
+
+Progress Notes
+These are written before morning rounds, and later on in the day
+only if significant events occur. We utilize the CareWeb “signout”
+function to generate notes each AM. Your team can show you
+how to do this if it’s new to you. In general, your note should
+follow a SOAP format and include the following:
+
+S: Does the patient have good pain control? Any nausea or
+vomiting? Is she tolerating clears or regular diet as appropriate;
+does the patient feel thirsty/hungry? Any flatus? Any difficulty
+voiding? Any other problems?
+
+O: Vitals – include T current and T max with time. For postop
+patients, write I/O over last 8 hr shift as well as over the previous
+24 hrs. Physical exam – general, cardiovascular, respiratory,
+abdomen including tenderness, distension, bowel sounds and
+state of incision (?erythema, serous or purulent discharge).
+Extremities, including calf tenderness & presence of SCDs.
+
+A: eg. 44 yo P3 POD #1 s/p VH for complex endometrial
+hyperplasia, doing well
+
+P: Number if you like – 1. D/C Foley and ambulate. 2. clear
+liquids as tolerated. 3. check CBCp, basic. For complex patients
+with significant comorbidity, and all ICU patients, divide your plan
+into systems such as FEN, Heme, CVS, RS, Renal, Endo, Pain,
+Dispo.
+
+
+                                                                     63
+Short OR Note Template:
+Pre-op Dx: e.g. symptomatic uterine fibroids/abnormal uterine
+bleeding/adnexal mass, etc.
+Postop Dx:
+Procedure:
+Surgeon: Attending
+Residents:
+Students:
+Anesthesia: GET/LMA/spinal/sedation/local, etc
+Complications: none
+EBL:
+UO:
+Fluids:
+Findings: EUA and operative - generally, leave more than one
+line for this section
+Specimens: all specimens sent to pathology (don’t forget things
+like pelvic washings)
+Drains: e.g JP (location of JP drain), Foley
+Dispo: PACU, extubated, in stable condition
+
+Post-Op Check: Basically a SOAP note as above, paying extra
+attention to pain control, nausea, vitals (hypotension, tachycardia,
+and/or low urine output are red flags), and physical exam.
+Include a calculation of total ins and outs.
+
+Admit Orders:
+Orders vary a little from case to case, but the following are fairly
+general. A mnemonic to remember the orders is “ADC VAN
+DISMAL.”
+Admit: To 8B
+Service: GY2 (GY1 for REI or GYO for Gyn Onc)
+
+
+                                                                   64
+Diagnosis: either s/p (name of operation) or reason for surgery
+such as symptomatic fibroids
+Condition: fair (guarded for ICU admits)
+Vitals: q. 1’ x 1, q 2’ x 2, q 4’ x 4, q shift
+Activity: dangle legs tonight, OOB on day #1
+Nursing: Foley to DD (dependent drainage), strict I/O’s q 4’
+
+DVT Prophy: SCDs at all times when not ambulating OR Heparin
+5000U SQ BID-TID
+Incentive Spirometer: to bedside, use 10/hr while awake
+Notify MD: T >100.4 (38 C), BP >160/90 < 90/50 P > 110 < 60,
+U.O. < 120 cc/4 hrs
+Diet: sips and chips for abdominal surgery, clear liquids as
+tolerated for vaginal surgery and laparoscopy
+IV: typically D5 1/2 NS + 20 mEq KCl at 125 cc/hr, calculate
+maintenance fluids by weight for patients with major comorbidity
+eg. CHF
+Special: eg. strip J-P drain q shift
+Meds: Pain meds, typically PCA per Anesthesiology, APS to
+follow. Unless contraindicated, add toradol 30 mg IVPB q 6’ ATC
+x 4 doses (15 mg for older patients, eg. over 65).
+Prophylactic orders – anzemet 12.5-25 mg IV q 6 hrs PRN,
+benadryl 25-50 mg iv/po q 6’ PRN
+Home Meds: Continue patient’s typical home-meds, although
+typically hold ACE-inhibitors, NSAIDs, some BP meds in the
+immediate post-operative period
+Labs:       Typically a CBCP next am, add basic if on
+diuretics/excessive EBL/chronic disease, etc.
+
+
+
+
+                                                                  65
+ Calculating Total OR “Ins and Outs” (I/O)
+ To determine total “outs” intraoperatively, add:
+ EBL x 3 (because of increased oncotic pressure of blood) + UOP
+ + hrs open x 1000 (e.g. total insensible losses are 1000cc/hr
+ open) + ascites
+
+ To determine total “ins” intraoperatively, add:
+ IVF + blood transfusions (# units x 350 cc/unit x 3)
+ Hespan, albumin and other colloid fluids do not use a multiplier
+
+  Some like the following table:
+                OR                              PACU       Floor
+EBL             EBL x 3 =                       --         --
+UOP
+Open Time       # of hrs (1L/hr)                --         --
+IVF
+Other Ins       e.g. PRBCs # units x 350 x 3    --         --
+
+
+ Discharge summaries and prescriptions: You can help the team
+ quite a bit by working on the Discharge Navigator. This will
+ ultimately be the DC Summary for this patient. You may add
+ information about the patient’s history, medical course and
+ anything else you feel comfortable with.
+
+ Discharge Prescriptions
+ Varies greatly depending on the reason for admission, surgery
+ etc.
+ Most surgical patients get discharged with:
+ Norco 5/325, 1 - 2 tabs po q 4-6’ PRN #60 with 0 refills
+ Ibuprofen 600 mg po q 6’ PRN #60 with 1-2 refills
+ Colace 100 mg po bid #60 with 1-2 refills
+                                                                    66
+INPATIENT PRESENTATIONS
+
+Individual presentation styles vary. This is a guideline for an initial
+full presentation on the first postop day.
+
+“Ms ___ is a 41-year-old, gravida 3 para 2, who is postop day #1
+status post total abdominal hysterectomy/bilateral salpingo-
+oophorectomy for chronic pelvic pain. Her past medical history is
+non-significant. Her past surgical history is significant for three
+laparoscopies for pelvic pain with lysis of adhesions and ablation
+of endometriosis. Intraoperatively she was found to have stage IV
+endometriosis and extensive adhesions. EBL was 300 cc.
+Subjectively, she is doing well with her morphine PCA for pain
+control, had mild nausea last night, but feels thirsty this morning.
+Objectively, her vitals are ___, she is alert and oriented. Heart
+and lungs are clear. Her abdomen is soft, appropriately tender,
+and non-distended, with normoactive bowel sounds. Her incision
+is clean, dry, and intact with steristrips in place. Her calves are
+non-tender and she is wearing SCDs. In summary she is doing
+well. The plan is to D/C her Foley, start clear liquids as tolerated,
+and check a CBC today”.
+
+On subsequent days assume we already know the patient, so you
+can skip the past history and intraoperative findings. You can also
+present only pertinent positives and negatives in the physical
+exam for speed.
+
+
+
+
+                                                                    67
+SELECTED GYN TEACHING OUTLINES:
+These are intended as frameworks for discussing some common
+Gyn topics when the opportunity presents itself.
+
+Ectopic pregnancy
+Epidemiology (rates)
+Risk factors
+Anatomy, i.e. common locations
+Diagnostic tests – beta-HCG, ultrasound
+Differential diagnosis
+                     Presentation / exam findings
+                     Fluids / resuscitation
+Medical treatment – indications and contraindications
+Surgical options – laparoscopy, laparotomy, D&C
+                     Recurrence rate and implications for future
+fertility
+Spontaneous abortion
+                     Incidence
+                     Types – threatened, inevitable, incomplete,
+                                complete, missed
+                     Diagnostic tests – ultrasound, beta-HCG
+                     Differential diagnosis
+                     Presentation / exam findings
+                     Use of anti-D immunoglobulin
+                     Expectant management
+                     Surgical options – manual vacuum aspiration,
+                                D&C
+                     Complications / septic abortion
+                     Recurrent pregnancy loss – diagnosis,
+treatment, prognosis
+
+
+                                                              68
+PID
+Epidemiology
+Risk factors
+Organisms
+Diagnostic criteria – how accurate are they?
+Differential diagnosis
+Presentation / exam findings
+Medical treatment - outpatient and inpatient
+Reasons for hospitalization
+Surgical treatment
+Complications and implications for future fertility
+
+
+Uterine fibroids
+Epidemiology
+Risk factors
+Pathology
+Location – submucosal, intramural, subserosal
+Diagnostic tests
+Differential diagnosis
+                     Clinical presentation / exam findings
+                     Medical treatments
+                     Uterine artery embolization
+Surgical options – abdominal myomectomy vs. hysterectomy
+                     Hysteroscopic and laparoscopic
+myomectomy
+                     Implications for fertility
+
+
+
+
+                                                             69
+Hysteroscopy/D&C
+
+Diagnostic vs. operative
+Office alternatives – endometrial biopsy, H/S, SHG
+Dilators
+Distension fluids vs. CO2
+Perforation / complications
+Asherman’s syndrome
+
+Tubal ligation
+Social considerations
+Alternatives – vasectomy, Mirena, copper IUD, Depo-Provera
+Anatomy
+Methods
+Failure rate
+                       Risks / complications
+Reversibility, risk factors for requesting reversal
+
+Hysterectomy
+Indications
+Alternatives, i.e. UA embolization, endometrial ablation
+Route – abdominal, vaginal, laparoscopic
+Supracervical or total, oophorectomy decision-making
+Anatomy – uterus, ovaries, tubes, round ligaments
+Supporting ligaments
+Blood supply to the uterus / ovaries
+                      Relations of the ureter
+                      Sites of ureteral injury
+Risks / complications
+                      Post-op care
+
+
+
+                                                             70
+      Saint Joseph Mercy Hospital
+
+Obstetrics and Gynecology Survival Guide
+
+
+
+
+                                           71
+    Saint Joseph Mercy Ob/Gyn Clerkship Survival Guide
+
+
+
+Welcome to Ob/Gyn at St. Joseph Mercy! This student-to-student
+
+guide is meant to provide you with some essential information
+
+about the Ob-Gyn clerkship so that you can hit the ground
+
+running. Have fun!
+
+General Information
+
+Schedule:
+
+Your time will be divided as follows:
+
+            Ambulatory: 7-8 days
+
+            Gyn: 4-5 days
+
+            Onc: 2-3 days
+
+            Ob (L&D): 5-6 days
+
+            Night float: 3 nights 6p - 8a
+
+            Weekend call: 1 day 8a - 8p
+
+            NICU: 1 day
+
+
+                                                                72
+            MFM: 1 afternoon
+
+There are usually two students per service (can range from zero
+
+to four). In addition to the five UM students, there are usually two
+
+students from Wayne State, and one student from University of
+
+Toledo. It is possible to make small changes to your schedule if
+
+necessary (see “Can I change my schedule?”).
+
+Contacts:
+
+     ●      Clerkship Directors
+
+                 ○    Anne Frantz, MD (pager 670 3697) --
+
+                      oversees UM students
+
+                 ○    Joanne Vicari-Block (pager 651 4138) --
+
+                      oversees Wayne and UT students
+
+     ●      Ob-Gyn Coordinator
+
+                 ○    Emily Lawrence -- (phone 712 5171) --
+
+                      contact for all administrative questions
+
+
+
+
+                                                                 73
+Employee Health Response Line: For immediate care of body
+
+fluid exposures, notify your resident and dial 23297 or 734 712
+
+3297; listen to instructions; leave your name, what happened, and
+
+call back number; a nurse in employee health services will be
+
+paged automatically and will call you back.
+
+
+
+Parking: Park in the patient lot on the day of orientation. You will
+
+receive a parking pass on the first day of orientation that will allow
+
+you to park in lot D. The hospital can also be reached in 20-25
+
+minutes by bicycle starting from the University Hospital. Take the
+
+B2B path along the river until Dixboro Rd, head south on the path
+
+next to Dixboro Rd for ½ mile. A bike rack is conveniently
+
+available in front of the family birthing center, downstairs from the
+
+medical student call room.
+
+
+
+
+                                                                   74
+Food: Your St. Joe’s ID card comes charged with $100. On the
+
+1st of the month the card will be reset to a balance of $100. In
+
+the main hospital: the cafeteria is surprisingly good; Joe’s Java
+
+also has bagels, coffee, and sandwiches. In Reichert: another
+
+Joe’s Java has a small selection of pastries, sushi, and coffee.
+
+Nick’s cafe does not accept card swipes. Bring food for night
+
+float.
+
+
+
+Medical Records System: St. Joe’s uses PowerChart for
+
+inpatients, paper charts for AOGP clinic patients, and OB
+
+TraceVue for obstetric patients. There is a two hour training
+
+session on PowerChart during orientation. See “Notes” section
+
+for some tips on note writing at SJM. IMPORTANT: medical
+
+students DO NOT have off-site access to the record system, so it
+
+is important to check patient lists and schedules before leaving
+
+the hospital to prepare for the following day.
+
+
+                                                                   75
+Paging: Bring your UM pager, there is a link to UM paging on the
+
+St. Joe’s clinical homepage and the residents know how to page
+
+your UM pager. From within the hospital use the paging link
+
+(WebXchange) on the clinical home page for SJM pagers. Off-
+
+site use www.myairmail.com (sign in: obgynres, password: baby).
+
+
+
+Lectures & Conferences
+
+Grand Rounds are Thursday 8a-10a in the Education Center
+
+Auditorium. The department meeting is held on the fourth
+
+Thursday of every month from 8a-9a in the Michigan Heart &
+
+Vascular Institute Auditorium. In addition to your UM lectures,
+
+you will have lectures given by the St. Joe’s attendings and
+
+residents every Thursday from 10a-1p following Grand Rounds. If
+
+on the Ob service during the 2nd Thursday of the month you will
+
+attend the high risk lunch at noon in the Education Center.
+
+
+                                                                  76
+Obstetrics
+
+General: Labor and Delivery is located on the third floor of the
+
+main hospital. Taking the central elevators to the third floor puts
+
+you directly onto the unit. The medical student and resident call
+
+rooms are also located here. There are lockers where you may
+
+store your belongings (bring your own padlock).
+
+Pre-rounding: Arrive by 6a to pre-round on Mother-Baby (3
+
+North). Pick up a patient list from the clerk on L&D. You should
+
+see AOGP patients first (they will be circled on the patient list),
+
+and then see cesarean section patients if time permits. Medical
+
+students should not pre-round on vaginal deliveries unless doing
+
+so on an AOGP patient. Write a “medical student progress note”
+
+similar to a surgical progress note except add: 1) whether patient
+
+is breast or bottle feeding 2) comment on lochia 3) palpate uterus
+
+4) Rh type and 5) rubella status. On cesarean patients, the
+
+
+                                                                      77
+bandage should be removed on POD#1 so that you can inspect
+
+the incision, and staples should be removed on POD#3. Discuss
+
+contraception with AOGP patients, but do not discuss
+
+contraception with non-AOGP patients. Pre-round and have at
+
+least two notes completed by 6:45a so the resident can sign your
+
+note before table rounds.
+
+Table Rounds: Attend table rounds in the L&D conference room
+
+from 7a-8a. If a medical student has seen one or more AOGP
+
+patients during pre-rounds, that student is expected to present
+
+those patients to the team. Medical students do not, however,
+
+present non-AOGP cesarean patients (even if a medical student
+
+has pre-rounded on these patients, they will be presented by the
+
+resident). Students will be assigned one 5-10 min education talk
+
+to be presented during table rounds (you may pick the topic).
+
+During the day: From 8a-5p round on labor patients and scrub
+
+cesarean sections, using the boardroom as your home base.
+
+
+                                                                  78
+Progress notes must be written on every laboring patient every
+
+two hours (see UM section on progress notes). Check the board
+
+for patients on magnesium sulfate, these patients will need a
+
+“mag check” every two hours. A “mag check” consists of the
+
+following:
+
+             S: HA, changes to vision, N/V, URQ abd pain,
+
+             dizziness
+
+             O: heart/lungs/abd exams, check extremities for
+
+             edema, clonus, and reflexes. Note UOP for last 1-2
+
+             hrs. (what the nurse has noted plus volume in the bag).
+
+             A/P: __yo G_ now P_ s/p ____ for _____ etc.
+
+                         -continue mag checks q 2 hr.
+
+                         -continue to monitor blood pressures
+
+It is polite to introduce yourself to the nurse and ask permission to
+
+enter a particular patient’s room. The nurse’s name will be written
+
+in that patient’s box on the board. Once you have met a patient
+
+
+                                                                  79
+you should also write “your name MS” on that patient’s box. Try
+
+to coordinate your visits with the nurse whenever possible.
+
+
+
+Gynecology
+
+Rounds start at 7:30a in the Physician Zone (contact resident the
+
+day before starting). The chief will assign patients, though he or
+
+she will often allow you to pick cases that you are interested in.
+
+Whenever possible, introduce yourself to the patient and
+
+attending in pre-op prior to scrubbing. Cases preceded by an “M”
+
+occur in the main OR on the second floor, cases preceded by an
+
+“A” are minor outpatient surgeries performed in Reichert. If you
+
+scrub a major case (an “M”), you are expected to pre-round on
+
+that patient the following morning and write a progress note
+
+(standard surgical note).
+
+
+
+
+                                                                     80
+Occasionally there may be slow days. You are expected to stay
+
+until 5p to see consults that may be called in, feel free to sit on the
+
+medical student call room and read. Occasionally you may be
+
+allowed to attend a different service for the day, see “Can I
+
+change my schedule?” for more information.
+
+Students will be assigned one 5-10 min educational talk during
+
+this service (you may pick the topic). Handouts are encouraged,
+
+but not required. Primary literature is appreciated.
+
+
+
+Oncology
+
+Schedule varies, check with your resident, but in general:
+
+          Monday: oncology clinic
+
+          Tuesday: surgery
+
+          Wednesday: morning in AOGP clinic, afternoon in
+
+          oncology clinic
+
+          Thursday: oncology clinic
+
+
+                                                                    81
+          Friday: surgery
+
+
+
+Important: Because of the variable schedule and because there
+
+is only one student on service at once, a proper handoff to the
+
+next student is important! On your last day, find out what time the
+
+next student should arrive in the morning and get a patient list for
+
+him/her. If for some reason this is not possible you may page the
+
+resident, but they prefer that the students handoff to one another.
+
+If you happen to be on Oncology on a “slow” day your resident
+
+may send you to another service. See “Can I change my
+
+schedule?” for more information.
+
+
+
+Night Float & Weekend Call
+
+Night Float: The expectation for Night Float is that you will be
+
+awake and alert all night. Arrive by 6p and expect to stay until 8a.
+
+Nights are covered by one attending, a senior resident, a junior
+
+
+                                                                   82
+resident, an off-service resident (FP or ER), and one medical
+
+student. Nights often present the best opportunity for medical
+
+students to participate in vaginal deliveries! Just like L&D, you
+
+will be writing progress notes, mag checks, and scrub cesarean
+
+deliveries. Medical students may see consults with the senior
+
+resident. You are expected to pre-round at 6a and attend table
+
+rounds at 7a.
+
+
+
+Weekend Call: Students are assigned one day of weekend call,
+
+8a-8p. Similar to night float.
+
+
+
+Ambulatory (AOGP Clinic)
+
+General: Clinic starts at 8a every day, arrive 5-10 minutes early.
+
+The clinic is located on the second floor of the Reichert Research
+
+Center, adjacent to the residency and clerkship directors’ offices
+
+and the conference room where lectures and orientation are held.
+
+
+                                                                    83
+Because paper charts are used, you are not expected (or able) to
+
+read up on patients the day before. The nurse will distribute a
+
+printed patient list as soon as the residents and attending arrive
+
+and the attending will assign patients for you to see. Patients in
+
+clinic are commonly there for: annual exams, urogyn complaints,
+
+prenatal care, postpartum visits, and post-op visits. Consider
+
+reading on these topics prior to arriving in clinic on the first day.
+
+Always wear professional attire to clinic. Ask where to sit,
+
+residents and attendings have preferred computers!
+
+Maternal Fetal Medicine: One afternoon (Tuesday or Thursday)
+
+while you are on Ambulatory. The office is located at the SW
+
+corner of Clark and Golfside, just outside the SJM campus, walk
+
+SW from Reichert. Page the attending the day before to confirm
+
+(she may have you come in the morning if there are only a few
+
+patients scheduled for the afternoon).
+
+
+
+
+                                                                        84
+NICU: One full day on a Wednesday while you are on
+
+Ambulatory. The NICU is down the hall from L&D, toward the
+
+Mother-Baby unit. Arrive at the NICU no later than 8a and tell the
+
+nurse at the front desk that you are scheduled to work with the
+
+pediatricians. You will attend all cesarean sections and vacuum-
+
+assisted deliveries that occur during your shift to evaluate the
+
+neonate. Wear scrubs.
+
+
+
+Can I Change My Schedule?
+
+Early in the rotation make copy of the student schedule to post in
+
+call room, it will make life easier for everyone. You may swap
+
+shifts with another student if need be, but be sure to ask
+
+permission from the chief residents involved and e-mail Emily so
+
+she is aware of the change.
+
+From time to time you there will not be many (or any) patients to
+
+care for on a particular service. If this is the case you may be
+
+
+                                                                   85
+sent to another service for the day. If this happens, tread
+
+carefully, use good judgment, and follow these rules:
+
+     ●    Take care that you are not encroaching on other
+
+          students’ experiences. It polite to ask the students on
+
+          the service what activities you can participate in.
+
+     ●    There may never be more than one student on Onc at a
+
+          time.
+
+     ●    Do not go to any service where there are already three
+
+          students.
+
+     ●    Always communicate with the chiefs involved.
+
+     ●    If assigned to Onc and there are no patients, your
+
+          resident may send you to Gyn, in which case you may
+
+          scrub cases not already selected by medical students
+
+          on that service (check with the other students!).
+
+     ●    If assigned to Gyn and there are no patients, your
+
+          resident may send you to Ob, in which case you may
+
+
+                                                                86
+          scrub cesarean sections not attended by students on
+
+          that service (check with the students!). You may also
+
+          assist in triage if there is no student there.
+
+     ●    If assigned to L&D and there are few patients you may
+
+          help the midwives in triage.
+
+     ●    If assigned to Ambulatory, you will likely be sent home
+
+          early.
+
+
+
+Writing Notes at St. Joe’s
+
+Per SJM policy, medical students must always write notes using
+
+the medical student templates (found in a drop down menu when
+
+creating a new note). All of the templates will have “Medical
+
+Student Note” in large red font at the top. Officially, you are only
+
+allowed to write admission H&P and progress notes. If you ask
+
+nicely you may be allowed to write a post-op note or delivery note
+
+under the supervision of a resident. Avoid copying previously
+
+
+                                                                  87
+written notes; it is better to create a new note and write from
+
+scratch, though you may use the previous note as a reference.
+
+When writing notes you may refer to the documentation sections
+
+of the UM survival guide.
+
+End of Clerkship
+
+Check-out with Dr. Frantz at any point during the last day. Bring
+
+your “student vote” sheet with the names of the resident and
+
+attending that most contributed to your education. If you lost your
+
+sheet you may write the names on a blank piece of paper. Also
+
+print a copy of your CLTP patient list for Dr. Frantz. At the end of
+
+the day, turn in your ID badge and parking pass to Emily, or at
+
+security, located on the main corridor (1st floor). The security
+
+office will likely be closed, but if you pick up the phone outside the
+
+door someone will be there to assist you shortly.
+
+
+
+
+                                                                   88
+USEFUL NUMBERS
+OB Numbers
+Anesthesia Pager 9016
+Charge Nurse Pager 2777
+BOARD ROOM 232-7994, 232-7993, 232-7993
+WEST CLERK DESK: 232-7999
+CENTRAL CLERK DESK: 232-7986
+EAST CLERK DESK: 232-7900
+OR 1: 232-8921
+OR 2: 232-8919
+OR 3: 232-8914
+OR 4: 232-8915
+Triage Phone 764-8134
+GYN Numbers
+GYN Junior Pager: 0005
+ONC Pager: 33189
+OB chief 35555
+OB juniors 33333/34444
+8B Clean Room Code: 1-3-5
+8C Clean Room Code: 2&4 together, then 3
+8B Conference Room 5-8524
+8B Call Room 6-4743
+8B Desk 6-4674
+8B Fax 3-4076
+8C Desk 6-4660
+Surgical Observation Unit 6-1153
+Main OR Desk 6-8470
+Phase II (pre-op) 6-4282
+Main OR Anesthesia Pager 8003
+Recovery 6-4281
+Radiology resident on call (nights and weekends)
+1700 plain films, 1800 CT/USN/MRI
+
+                                                   89
+      Directions to Frequently Used Locations
+
+Dr. Maya Hammoud’s Office
+
+3rd Floor, Women’s Hospital. L3616
+
+F4834 Mott Hospital (MFM Conference Room)
+ th                                                          th
+4 Floor, Mott Hospital. Take the West Elevators to the 4 Floor.
+
+Turn right off the elevators and make an immediate right.
+
+Proceed towards the doors and they will open automatically.
+
+Continue down the ramp. Turn left when you reach a door
+
+marked: Once inside, turn right and the F4834 conference room
+
+is on your left. This is also called the MFM conference room.
+
+L4503 Women’s Hospital (Admin Conference Room)
+ th                                                                 th
+4 Floor, Women’s Hospital. Take the East Elevators to the 4
+
+Floor. At the main hallway off the elevator, turn left. The first
+
+doorway on the right is the hallway to the OBGYN/Admin offices.
+
+You will need to swipe your UMID to gain access before entering.
+
+At the first junction, turn right. Proceed ¾ of the way down this
+
+
+                                                                         90
+hallway. Just before the copy machine on the left is the L4503
+
+conference room. It is the last door on your left.
+
+MCHC Auditorium (F2304 Mott Hospital)
+                                   nd
+The MCHC Auditorium is on the 2 Floor in the Towsley Triangle.
+
+This is where Towsley, Mott, and Women’s Hospital Meet.
+
+L3113 Women’s Hospital
+
+3rd Floor, Women’s Hospital.
+
+L2020 Women’s Hospital
+
+2nd Floor, Women’s Hospital.
+
+Sheldon Dining Room (Room#G1320)
+
+The Sheldon Dining Room is in the basement of Towsley Center.
+
+If you go to the basement, it is around the corner from the
+
+Sheldon Auditorium entrance.
+
+Med Sci I Auditorium MSI-5330
+                            th
+This auditorium is on the 5 floor of Med Sci I Building. Take the
+                  th
+elevators to the 5 Floor.
+
+
+                                                                 91
+2C224-UH (University Hospital)
+
+2C224 is in University Hospital. Take the East Entrance to the
+
+Cafeteria. Turn Right just after the newspaper stand. The Room
+
+will be the second on the right.
+
+CVC 2314 (Danto Auditorium)
+                         nd
+This is located on the 2 Floor of the new CVC Cardio Vascular
+
+Center. It is located near the Atrium, so follow the signs.
+
+2C108-UH (University Hospital)
+
+2C108 is in University Hospital. If you are at the East Entrance to
+
+the Cafeteria, follow the hallway towards Ford Auditorium. The
+
+Room will be just past the gift shop on the right hand side of the
+
+hallway. This is before you get to Ford Auditorium.
+
+UHB1-H102 (University Hospital)
+
+UHB1-H102 is in University Hospital. Take the UH West elevator
+
+to B1. Exit the elevator area to the left, H102 is on your left just
+
+beyond the new hallway to CVC.
+
+
+                                                                       92
+

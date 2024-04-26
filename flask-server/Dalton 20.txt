@@ -1,0 +1,1570 @@
+Guide to
+menstrual hygiene
+materials
+May 2019
+
+First edition
+
+Supply Division / Water, Sanitation & Education Centre
+Programme Division / Water, Sanitation & Hygiene
+3 United Nations Plaza
+New York, NY 10017 USA
+www.unicef.org
+
+Commentaries represent the personal views of the authors and do not necessarily reflect
+the positions of the United Nations Children’s Fund (UNICEF). The designations employed
+in this publication and the presentation of the material do not imply on the part of UNICEF
+the expression of any opinion whatsoever concerning the legal status of any country or
+territory, or of its authorities or the delimitations of its frontiers.
+
+Edited by Phil Poirier and designed by Noha Habaieb
+Cover illustration credits : © Noha Habaieb
+
+
+
+For more information on this document, please contact:
+Anne Cabrera-Clerget, Contracts Manager acabreraclerget@unicef.org
+Brooke Yamakoshi, WASH Specialist, byamakoshi@unicef.org
+         Guide to
+menstrual hygiene materials
+                Contents
+
+Acknowledgements                                       6
+Key terms                                              7
+Overview                                               8
+Introduction                                           9
+Procuring menstrual hygiene materials and supplies    12
+Consulting with girls and women                       16
+Understanding menstrual hygiene materials            20
+     Menstrual cloth                                 22
+     Reusable pad                                    24
+     Disposable sanitary pad                         26
+     Tampon                                          28
+     Menstrual Cup                                   30
+Summary of materials                                 32
+Monitoring and learning                              34
+Annex I: Additional resources                        36
+                             Guide to menstrual hygiene materials
+
+
+
+
+                                                               5
+© UNICEF/UNI132359/Nesbitt
+Guide to menstrual hygiene materials
+
+
+
+
+                        Acknowledgements
+            This guidance was prepared by Sophia Roeckel, menstrual hygiene management intern,
+            Anne Cabrera-Clerget, Contracts Manager, and Brooke Yamakoshi, WASH Specialist, at
+            UNICEF. Special thanks to all of the contributors to the guidance and background literature
+            review, who shared information and documentation: Marni Sommer (Columbia University);
+            Nancy Muller (PATH); Paul LaBarre (UNICEF); Gerda Larsson and Sarah Anwar (The Case
+            for Her); Lhamo Yangchen Sherpa and Leah Meadows (PSI); Leisa Hirtz (Women's Global
+            Health Innovations); Penny Phillips-Howard (Liverpool School of Tropical Medicine); Mariane
+            Tellier and Laura Hytti (WoMena); and Michael Moscherosch (Johnson & Johnson). Sincere
+            gratitude to UNICEF internal reviewers: Peter Harvey, Djani Zadi, and Jessica Tribbe from
+            Supply Division; Patty Alleman, Lizette Burgers, Leisa Gibson, Ayuko Matsuhashi, and
+            Megan Tucker from Programme Division; Massimiliano Sani and Florence Wanjira Munyiri
+            from the Eastern and Southern Africa Regional Office; and Claire Buty and Paola Babos
+            from the West and Central Africa Regional Office. Thanks to Monica Serrano, knowledge
+            management consultant with Programme Division (WASH) in NY, for her assistance in
+            finalising the guidance.
+
+
+
+
+6
+                                                                                          Guide to menstrual hygiene materials
+
+
+
+
+Key terms
+Menstruation or menses is the natural bodily process of releasing blood and associated
+matter from the uterus through the vagina as part of the menstrual cycle.
+
+Menarche is the onset of menstruation, the time when a girl has her first menstrual
+period.
+
+Menstrual hygiene management (MHM) refers to management of hygiene associated
+with the menstrual process. WHO and UNICEF Joint Monitoring Programme (JMP) for
+drinking water, sanitation, and hygiene has used the following definition of MHM: ‘Women
+and adolescent girls are using a clean menstrual management material to absorb or collect
+menstrual blood, that can be changed in privacy as often as necessary for the duration of
+a menstrual period, using soap and water for washing the body as required, and having
+access to safe and convenient facilities to dispose of used menstrual management
+materials. They understand the basic facts linked to the menstrual cycle and how to
+manage it with dignity and without discomfort or fear1.
+
+Menstrual health and hygiene (MHH) encompasses both MHM and the broader
+systemic factors that link menstruation with health, well-being, gender equality, education,
+equity, empowerment, and rights. These systematic factors have been summarised by
+UNESCO as accurate and timely knowledge, available, safe, and affordable materials,
+informed and comfortable professionals, referral and access to health services, sanitation
+and washing facilities, positive social norms, safe and hygienic disposal and advocacy and
+policy.
+
+A menstruator is a person who menstruates and therefore has menstrual health and
+hygiene needs – including girls, women, transgender and non-binary persons. Throughout
+this guidance, the term ‘girls and women’ is used as a shorthand term to increase
+readability and refers to all menstruators regardless of gender identity.
+
+Menstrual hygiene materials are the products used to catch menstrual flow, such as
+pads, cloths, tampons or cups.
+
+Menstrual supplies are other supportive items needed for MHH, such as body and
+laundry soap, underwear and pain relief items.
+
+Menstrual facilities are those facilities most associated with a safe and dignified
+menstruation, such as toilets and water infrastructure.
+
+
+
+
+1WHO/UNICEF     (2012) Consultation on draft long list of goal, target and indicator options for future global
+monitoring of water, sanitation and hygiene. Available at https://washdata.org/sites/default/files/documents/
+reports/2017-06/JMP-2012-post2015-consultation.pdf
+
+
+                                                                                                                            7
+Guide to menstrual hygiene materials
+
+
+
+
+                                         overview
+            This document provides guidance for staff from UNICEF Supply Division and Programme
+            Division (WASH, Education, and Protection sections) on the selection and procurement of
+            appropriate materials and supplies for menstrual hygiene management, particularly during
+            humanitarian response.
+
+            The guide is meant to familiarise UNICEF staff members with the key characteristics
+            and requirements for the most common menstrual hygiene materials: menstrual cloths,
+            reusable pads, disposable pads, menstrual cups and tampons. For each menstrual
+            material, the environmental, health, and financial aspects are highlighted in individual
+            tables – along with considerations of availability, user experience, and standards and
+            regulations. Technical specifications are provided for each material. The guide concludes
+            with a summary table of these key attributes.
+
+            This guide is intentionally narrow in scope and does not cover other elements of
+            menstrual health and hygiene programmes, which are instead outlined and explored in the
+            companion piece Guidance on Menstrual Health and Hygiene. There are other additional
+            rich resources for menstrual hygiene programming in emergencies which complement this
+            guidance, including WaterAid’s comprehensive Menstrual Hygiene Matters and Columbia
+            University and IRC’s MHM in Emergencies Toolkit.
+
+
+
+
+8
+                                                                            Guide to menstrual hygiene materials
+
+
+
+
+introduction
+Access to safe and dignified menstruation is a fundamental need for women and girls.
+UNICEF envisions a world where every girl can learn, play, and safeguard her own health
+without experiencing stress, shame, or unnecessary barriers to information or supplies
+during menstruation. Meeting the hygiene needs of all adolescent girls and women in all
+settings is enables human rights, dignity, and public health.
+
+A growing evidence base from low- and middle-income countries shows that many girls
+are not able to manage their menses and associated hygiene with ease and dignity.
+This deprivation is even more acute for girls and women in emergencies. These girls and
+women cannot practice good menstrual health and hygiene at home, at school, at work
+or in other public settings, due to a combination discriminatory social environments,
+inaccurate information, poor facilities, and limited choice of absorbent materials. Public
+infrastructure and policies in health, WASH, and education under-prioritise and under-
+resource menstrual hygiene, support, and knowledge. In addition, myths and taboos often
+promote a high level of secrecy about even the most basic menstruation facts – leading
+to shame and exclusion for women and girls. Inaccessible WASH facilities, access to
+information and materials are barriers for women and girls with disabilities manging their
+menstruation hygienically and with dignity.
+
+Globally, there is growing attention to menstrual health and hygiene in the development
+and humanitarian communities. UNICEF is helping to lead this expansion, with an
+increasing number of country offices reporting menstrual health and hygiene (MHH)
+activities in both their development and humanitarian programmes. And MHH has
+been approved by UNICEF’s Executive Board as one of UNICEF’s five core priorities for
+adolescent girls in its Gender Action Plan (2018-2021), with specific targets in the Strategic
+Plan covering the same time period. Improving MHH has become a central part of
+UNICEF’s commitment to ensure that girls grow up healthy and reach their full potential.
+For both adolescent girls and women, UNICEF commits to programming that strives to
+increase confidence, knowledge, and skills – and improve access to materials and facilities
+– for them to manage their menstruation safely and with dignity.
+
+UNICEF works to improve girls’ and women’s menstrual health and hygiene in four areas:
+social support, knowledge and skills, facilities and services, and access to absorbent
+materials and supportive supplies.
+
+
+
+
+                                                                                                              9
+Guide to menstrual hygiene materials
+
+
+
+
+10
+ © UNICEF/UN0145554/Schermbrucker
+                                                                           Guide to menstrual hygiene materials
+
+•   Social support: Many girls and women face discriminatory attitudes and beliefs
+    around menstruation that lead them to experience their menses with shame and
+    embarrassment. Girls’ experiences in schools reveal common challenges, often due
+    to unsupportive social environments: stress, teasing, and a range of restrictions on
+    everything from school attendance to food choices are common. Girls should be
+    able to participate in daily activities during their period without being subjected to
+    stigma or exclusion from peers, parents, teachers, or community leaders. Community
+    involvement, which specifically includes boys and men, and traditional and religious
+    leaders, is key to changing perceptions, practices and, ultimately, national policies.
+
+•   Knowledge and skills: Many girls reach menarche without critical information about
+    menstruation, resulting in fear and stress. This information may come too late, after
+    a girl has had her first period, or not at all, due taboos around puberty education
+    linked to sexual and reproductive health. Before they reach menarche, girls need an
+    understanding of the biology of the menstrual cycle and the opportunities to learn
+    the skills to safely and privately manage menstruation – and the pain that they may
+    experience during it. Boys similarly need an understanding of the changes to their
+    bodies and those of their female peers, delivered in a way that cultivates solidarity and
+    builds social support. Teachers, parents, and traditional leaders have a similar need
+    for accurate information, so that they are in a better position to support girls as they
+    approach menarche and during menstruation.
+
+•   Facilities and services: Girls and women frequently lack the water, toilets, and
+    disposal mechanisms to manage their menstruation at school, at home, at work, and
+    in other public institutions such as healthcare facilities or government buildings. In
+    some cases, it can be barrier to school attendance, causing girls to miss out on their
+    education. MHH facilities and services should be established in a sustainable, safe and
+    appropriate manner. Environmentally friendly, culturally-appropriate, safe and efficient
+    hygiene and waste management approaches should be based on the best solution
+    depending on the context. WASH facilities and reliable services must allow women
+    and girls to safely, comfortably, and privately manage menstruation – and must be
+    accessible to girls and women with disabilities.
+
+•   Materials: Access to high quality, appropriate hygienic absorbent materials to manage
+    menstruation is lacking for most girls and women in UNICEF programme countries.
+    UNICEF works to ensure that girls and women have access to a range of affordable
+    and appropriate options rather than promoting any one option. This may involve
+    working with government and the private sector to set standards for products, sharing
+    research findings with the private sector to stimulate innovation to meet demand, or
+    other approaches. There is no one menstrual material or product that suits every girl
+    and woman in all settings. Girls and women have different needs and preferences
+    for MHH materials, and these may change further depending on whether they are at
+    school, at home, at work, or in other public settings. Girls and women with different
+    types of disabilities may also have specific preferences depending on their situation.
+    There is need to increase efforts to increase availability and choice of menstrual
+    hygiene materials, considering affordability, sustainability, disposal, and local market
+    considerations. For example, solutions looking at wider market actions, such as the
+    development of manufacturing standards or removing tariffs on sanitary products,
+    should be considered.
+
+These are UNICEF’s four ‘pillars’ for MHH programming, and they are described in more
+detail in the Guidance on Menstrual Health and Hygiene. This document is a companion
+piece to that guidance, and it gives more detailed advice on specific considerations for the
+identification, assessment and procurement of MHH materials, particularly in humanitarian
+response. The 2012 WaterAid publication Menstrual Hygiene Matters and the MHM
+in Emergencies Toolkit, published by Columbia University and the IRC in 2017, offer
+additional and complementary technical resources on MHM.
+
+
+                                                                                                              11
+Guide to menstrual hygiene materials
+
+
+
+
+                   Procuring menstrual
+                     hygiene materials
+                        and supplies
+
+
+
+
+12
+                                                                            Guide to menstrual hygiene materials
+
+
+
+
+When should UNICEF directly procure menstrual hygiene materials and supplies?
+
+There is no overall rule that dictates when UNICEF should or should not procure
+menstrual hygiene materials and supplies. UNICEF offices make procurement
+decisions based on their specific context and needs.
+
+A rapid review of country office annual reports and records show that UNICEF offices
+most frequently directly procure menstrual hygiene materials and supporting supplies
+during humanitarian response. Procurement is often required to support displaced
+women and girls who have lost access to their usual possessions, and the income and
+markets through which they could replace them. UNICEF supply assistance may be
+best suited to the beginning of a rapid onset emergency, but will vary by context, and
+may be replaced by gender-sensitive cash or voucher systems as time progresses.
+
+Generally, direct procurement of materials for recurrent provision to girls and women
+in development programmes is heavily dependent on external funding and therefore
+may not be advisable unless systems are in place for recurrent costs. Experiences
+from UNICEF offices further show that supply assistance through development
+programmes may offer only limited choice of materials and supplies to girls and
+women, so this needs careful needs assessment and evaluation. However, as
+governments around the world from the UK to South Africa pass legislation requiring
+public funding for menstrual hygiene materials in schools, UNICEF can play a role in
+advising governments and generating evidence on these programmes.
+
+
+
+
+Menstrual hygiene materials are those used to catch menstrual flow, such as cloths,
+reusable and disposable pads, menstrual cups and tampons. Menstrual supplies are other
+supportive items for menstrual hygiene and health more broadly, such as soap, underwear
+and pain relief.
+
+A wide range of menstrual hygiene materials, under many different product names, are
+available around the world. Many products are promoted by their manufacturers based
+on claims of appropriateness, culturally acceptability, cost effectiveness or reduced
+environmental impact. However, few of these claims are backed with credible data on
+usability and cultural acceptance of users.
+
+To fill this gap and provide an evidence base for this guidance, UNICEF carried out a
+review of the literature on menstrual hygiene materials and their use in development and
+emergency contexts. This review can be found on the UNICEF intranet, and can be obtained
+through country offices, and is the source for the tables found in this document.
+
+As with all aspects of menstrual health and hygiene programmes, consultations with girls,
+women, and other menstruators is essential, to understand the range of materials that are
+available, which ones are currently used, and which are preferred in a specific context, along
+with what common practices exist around their use. The next section provides information
+on such consultations.
+
+Menstrual hygiene materials can be sourced locally or regionally by country offices. All
+standard UNICEF procurement processes and procedures apply to the procurement of
+menstrual hygiene materials and supplies. The country office should always assess local or
+regional markets to identify the best sourcing options, rather than assuming a broad national
+assessment of sourcing solutions will be either appropriate or effective.
+
+                                                                                                              13
+Guide to menstrual hygiene materials
+
+
+
+                   Vendors supplying menstrual hygiene materials range from large multinational companies
+                   to small manufacturers, social enterprises and non-profit organisations. In high-income
+                   countries, disposable sanitary pads account for the majority of the market, and three
+                   multinational companies dominate their manufacture and sale. In low- and middle-income
+                   countries (LMICs), market reach and the size of manufacturers and distributors varies
+                   dramatically and assessments are frequently lacking2. As a result, in LMICs, the majority
+                   of girls and women use cloth to manage their menstruation. As you will read in this guide,
+                   cloth is an acceptable alternative for menstrual hygiene where it is preferred and can be
+                   hygienically managed by girls and women.
+
+                   An increasing number of small- and medium-sized social enterprises that manufacture,
+                   distribute, and/or sell menstrual hygiene materials have entered the market in recent years in
+                   LMICs, though they have faced challenges to scale3. Social enterprises sometimes provide
+                   menstrual hygiene materials along with programme support, such as education, and may
+                   be non-profit, for profit, or a combination of both. Other non-profits (sometimes known as
+                   non-governmental organisations, or NGOs) may also produce or distribute menstrual hygiene
+                   materials.
+
+                   In typical procurement situations, social enterprises may often find it difficult to compete
+                   with for-profit organisations in a traditional bidding process based on unit costs, as they often
+                   have costs reflecting local production based on fair salaries, training and education costs.
+                   Keep in mind that NGOs working in the provision of menstrual hygiene materials could be
+                   a good fit as a partner organisation, as their principles and approach are often in alignment
+                   with UNICEF’s and they may mobilize additional resources towards partnership. Country
+                   offices should decide whether procurement or a partnership is more appropriate with this in
+                   mind, in line with UNICEF’s Supply Manual and the its Procedure on Working with Civil
+                   Society Organisations.
+
+                   In humanitarian response, UNICEF often procures menstrual hygiene materials and
+                   supplies, also included in WASH & Dignity kits, particularly in the initial stages of a rapid
+                   onset emergency when girls and women lack their normal possessions and coping
+                   mechanisms. It is especially important to provide materials that girls and women are
+                   familiar with and can use in their new context. For example, if cloth is widely used before an
+                   emergency, this may be desired by girls and women as part of supply assistance. However,
+                   if girls and women are displaced and without access to water, laundry soap, or private places
+                   to wash and dry menstrual cloth, they may prefer another option that they can manage more
+                   easily, such as disposable pads. For effective response, preparedness is essential – when
+                   existing information on the preferences and practices of girls and women are available,
+                   ensure it is integrated into supply planning.
+
+                   In emergencies, supply assistance helps UNICEF fulfil the Core Commitments to Children
+                   in Humanitarian Action. Such supply assistance must be informed by consultation
+                   with affected people and in line with SPHERE or locally-defined standards, and based on
+                   assessment results or reasonable assumption that affected girls and women lack menstrual
+                   hygiene materials. Despite the need for individual choice, procurement decisions will
+                   frequently be based on the majority preference. Cash and voucher systems are alternatives
+                   that can provide greater individual choice based on needs; however, care must be taken to
+                   ensure girls and women retain agency over the use of cash.
+
+                   When preparing emergency preparedness plans, incorporate information from the
+                   development programme on girls’ and women’s current practices and preferences for
+
+
+                   2FSG (2016) An Opportunity to Address Menstrual Health and Gender Equity. Washington, D.C. FSG.
+                   Available at https://www.fsg.org/publications/opportunity-address-menstrual-health-and-gender-equity.
+                   3Ibid.
+
+
+
+14
+                                                                                      Guide to menstrual hygiene materials
+
+
+
+menstrual hygiene management and materials. If you are in a country that experiences
+frequent emergencies, review previous experiences with MHM in emergencies from
+UNICEF or WASH or Protection Cluster partners. Next, include menstrual hygiene materials
+and supplies in your plans for supply prepositioning or LTAs. Preparedness is also the stage
+to include MHM education together with hygiene promotion and community engagement
+activities in your contingency PCAs with programme partners and prepare or provide training
+for implementing partners. Depending on the context, communication materials from a
+development programme may also be appropriate during emergency response.
+
+In humanitarian response, first consult with women and girls on their situation, needs, and
+preferences (refer to the next section on consulting with women and girls). Based on their
+needs and preferences, review the materials guide along with the products available on the
+local market and validate or adjust your procurement and programme strategies accordingly.
+
+The recovery phase following an emergency can provide an opportunity for MHH education
+and training, as well as the introduction of new materials that may be more suitable or
+preferred by girls and women, as part of a development transition.
+
+In development programmes, UNICEF generally does not procure menstrual hygiene
+materials and supplies as such direct supply assistance is unsustainable over the longer
+term. UNICEF can instead play a key role in strengthening the state, market, and community
+systems that can sustainably supply menstrual hygiene materials without reliance on
+external funding. UNICEF can support a ministry of education to budget for the provision of
+menstrual hygiene materials for girls, or work with local school management committees
+on a local recurrent fundraising mechanism. For example, at the community level, Village
+Savings and Loan Associations have been shown to support women effectively to save and
+invest in strategic goods including MHM products4.
+
+Expanding access to a range of materials, rather than offering or promoting only one option,
+ensures freedom of choice and dignity, enabling girls and women to decide based on their
+own preferences and individual needs. To support the introduction of new materials on the
+market, some UNICEF offices have worked with government to develop national product
+standards – which should of course be informed by an analysis of the situation with supply
+and programme colleagues.
+
+
+
+
+4FSG (2016) Available at https://www.fsg.org/publications/opportunity-address-menstrual-health-and-gender-
+equity.
+
+                                                                                                                        15
+Guide to menstrual hygiene materials
+
+
+
+
+                  Consulting with girls
+                      and women
+
+
+
+
+16
+                                                                          Guide to menstrual hygiene materials
+
+Girls and women manage their menstruation using many different materials and
+strategies, each developed for the specific context of her life. Consultations and
+participatory programming is central to UNICEF’s efforts to support girls and women to
+manage their menstruation safely and with dignity, in both development and humanitarian
+settings. Consultations are an effective way of getting in-depth information about the
+beliefs, attitudes, perceptions, and practices related to menstrual health and hygiene in a
+given context. They can be complemented by other qualitative and quantitative methods of
+data collection.
+
+
+
+
+Methods for collecting data on menstrual hygiene materials
+Qualitative methods are used to explore beliefs or perceptions, specific aspects of
+a programme and to capture beneficiaries’ direct, voiced experiences. These methods
+provide in-depth information and are useful when discussing sensitive topics.
+
+Examples of qualitative methods are:
+
+•   Focus group discussions of age-segmented groups of girls or women (8-10
+    participants), led by a female facilitator.
+•   Structured interviews with key individuals – for example female WASH
+    committee members, girls and women from the target population, or programme
+    staff.
+•   Semi-structured interviews or discussions with local staff, which are most
+    useful when staff are from the same population as the female beneficiaries or
+    have worked with the population for a long time.
+
+Quantitative methods are used to measure the extent of coverage, changes in
+impact, and to obtain statistical data on knowledge and perceptions, such as on the
+usefulness or satisfaction with an intervention.
+
+•   Checklists/walk-throughs include physical inspections of existing WASH
+    facilities (communal, family and schools) and can utilise qualitative methods as
+    well, such as during a safety audit.
+•   Surveys (i.e., post distribution monitoring, or a Knowledge, Attitudes and Practice
+    survey) can assess supply availability and identify gaps in knowledge and access.
+•   Market assessments can explore the availability of products locally, to inform
+    procurement decisions or the decision to move to a cash or voucher system.
+
+Adapted from Columbia University and IRC (2017) MHM in Emergencies Toolkit
+
+
+
+
+UNICEF and its partners have tested a range of tools and approaches to consultations.
+These experience are mostly documented from development settings, and can be adapted
+and used when deciding how to gather evidence on materials for menstrual hygiene.
+In 2012, UNICEF and the Center for Global Safe Water at Emory University initiated a
+programme to support collaborative research focused specifically on exploring the MHM
+barriers faced by female students, and describes how consultations, including those
+around materials preferences, were effectively carried out. The data collection tools and
+methodology for this collaboration were published in 2013 in the resource document Tools
+for Assessing MHM in Schools and have been used widely, in at least 20 countries
+around the world.
+
+When choosing which materials to procure, there are specific aspects that need
+consideration.
+
+                                                                                                            17
+Guide to menstrual hygiene materials
+
+                            Table I below includes a (non-exhaustive) list of considerations and discussion starting
+                            points for consultations with implementing partners in five categories: culture and context,
+                            health, financial and economic, use and care, and disposal.
+
+Table 1. Some considerations for consultation and procurement
+(non-exhaustive)
+                                                               CATEGORIES
+       Culture                           Health                Financial and              Use                     Disposal
+     and context                                                  economic              and care
+
+•     What are the              •      Is the material     •    What is the         •   Are girls and        •   How frequently
+      local menstrual                  associated with          one-off cost of a       women familiar           must the material
+      beliefs and                      health risks?            material?               with the material?       be disposed of?
+      practices?                •      What is the         •    What is the life-   •   How frequently       •   What are the
+•     What are the                     average age of           cycle cost?             does the material        local beliefs about
+      local levels of                  menarche?           •    Are funds for           need to be               different methods
+      knowledge about           •      Is female genital        replenishment           changed?                 of disposal?
+      MHH?                             mutilation or            available?          •   Does the material    •   Are discreet
+•     Which materials                  cutting practiced   •    Can the material        require supportive       disposal points
+      are currently used               locally?                 and supportive          supplies and are         available for used
+      and available?                                            supplies be             they available?          materials?
+•     Which materials                                           procured locally    •   How is the           •   Is there a waste
+      are preferred?                                            through the             material cleaned         collection system
+•     Which materials                                           market?                 and are supplies         and endpoint
+      are preferred                                        •    Are girls and           available?               disposal site?
+      by girls and                                              women able to       •   Are water, private   •   Are girls and
+      women with                                                afford material         spaces for               women aware
+      different types of                                        without external        washing, drying          of disposal
+      disabilities?                                             assistance?             and changing             mechanisms?
+•     Are staff trained                                                                 available?
+      and able to                                                                   •   How absorbent/
+      discuss MHH?                                                                      comfortable/
+•     Is there an                                                                       fast-drying is the
+      emergency?                                                                        material?
+      What type? Are
+      distribution points
+      and facilities
+      accessible for
+      girls and women,
+      including those
+      with disabilities?
+•     Is it wet or dry
+      season?
+
+
+
+
+                            Practical tips for effective consultations and data collection on MHH, to keep in mind when
+                            thinking about MH materials research include:
+
+                            •       When appropriate, include adolescent girls and women within the research team and
+                                    provide them with training and support to lead discussions with other adolescent girls
+                                    and women.
+
+                            •       Engage girls with disabilities in the community and their caregivers – if needed
+                                    working through organisations of people with disabilities to help to plan and carry out
+                                    appropriate consultations.
+
+
+
+18
+                                                                                 Guide to menstrual hygiene materials
+
+•     Include men and boys, particularly those who are involved in programme delivery or
+      humanitarian response – for example, men who manage NFI distribution in emergencies.
+
+•     Ensure an ethical and confidential consultation process.
+
+•     Disseminate the findings widely to reduce duplication of effort and help others quickly
+      access information.
+
+Additional guidance on MHH consultations in humanitarian settings can be found in the
+MHM in Emergencies Toolkit5.
+
+
+
+
+                                      Photos
+
+
+
+
+    © UNICEF/UN0236446/Nakibuuka
+
+
+
+
+5Available at https://www.rescue.org/resource/menstrual-hygiene-management-mhm-emergencies-toolkit.
+
+
+                                                                                                                   19
+Guide to menstrual hygiene materials
+
+
+
+
+                          Understanding
+                            menstrual
+                         hygiene materials
+
+
+
+
+20
+                                                                                      Guide to menstrual hygiene materials
+
+To procure appropriate menstrual hygiene materials for women and girls in both
+development and emergency contexts, it is important to understand the potential
+advantages and disadvantages of these products in different contexts. This section
+presents an overview of each menstrual material, and it is followed by a summary
+comparison table of all materials, illustrating similarities and differences.
+
+For each material, this guide considers their effects on health, the environment, waste
+management systems, and affordability – as well as user experience and cultural
+considerations. The summary pages also highlight various existing global standards,
+regulations and technical specifications. This is in line with UNICEF’s Procedure for
+Sustainable Procurement6 (SUPPLY/PROCEDURE/2018/001), which stipulates that
+economic, social, and environmental aspects of supply planning should be considered.
+This means striving for the best value for money considering whole lifecycle costs,
+reducing environmental impact and promoting local markets and human rights.
+
+The guide below considers menstrual cloths, reusable pads, disposable pads, menstrual
+cups and tampons. Suppliers and vendors of these products are also included in a
+database hosted by UNICEF’s Supply Division7. While other MHH materials, such as
+integrated or absorbent underwear, menstrual sponges and reusable tampons are
+available, they not included in this guidance because of the lack of available research on
+these materials8.
+
+
+
+Which material should UNICEF promote?
+No single material will be preferred by all girls or all women, all the time, and all
+materials have aspects that girls and women may like and dislike for different reasons.
+According to a landscape analysis carried out by FSG in 2016, it is estimated that over
+75% of women and girls in high- and upper middle-income countries use commercially
+produced products, while over half of women and girls in LMICs use homemade
+products9.
+
+Both commercial and homemade products have advantages and disadvantages,
+and it is not the role of UNICEF to promote one over the other, so long as the health
+and dignity needs of girls are being met. Where widespread unhygienic or harmful
+practices are followed for MHM, then UNICEF should actively promote alternatives
+that do not put girls and women at risk of infection.
+
+In development programmes, existing information on practices and preferences may
+already be available, and UNICEF programmes should be responsive to the situation
+while still respecting that there is no ‘one-size-fits-all’ solution. Though a majority of
+girls and women may prefer one material, this should not preclude choice for those
+with other preferences.
+
+The provision of menstrual hygiene materials in humanitarian response should
+be informed by formative consultations with girls and women, on their current
+practices and preferences, and how these may have changed since the emergency.
+Consultations can also inform preparation for an emergency, and they are encouraged
+as part of country office preparedness strategies.
+
+
+
+6Available at https://www.unicef.org/supply/files/UNICEF_Procedure_on_Sustainable_Procurement.pdf.
+7For more details on the database of suppliers and vendors, please contact: acabreraclerget@unicef.org.
+8For a brief discussion on these alternative products, see the Literature Review on the UNICEF intranet
+(access for UNICEF staff)
+9FSG (2016) Available at https://www.fsg.org/publications/opportunity-address-menstrual-health-and-
+gender-equity.
+
+
+                                                                                                                        21
+Guide to menstrual hygiene materials
+
+
+
+
+                      Menstrual cloth
+     Characteristic     Specific information of relevance for UNICEF procurement
+       / attribute
+
+                       Cloths are reusable pieces of fabric worn externally to the body, in underwear or tied to
+                       the waist to absorb menstrual flow. They are made from either newly purchased pieces
+      Description      of fabric (mostly cotton) or old fabric repurposed from clothing or another use. There is
+                       no guidance on how long cloths can be reused, but it is generally agreed that this should
+                       be for no longer than 1 year. They are consumables and require regular assessment of
+                       supply, availability and affordability.
+
+
+
+                       There is very little literature on cloths – and most studies merely refer to cloth as a
+       Identified      method for MHH. While few studies exist on the health effects of cloth, some parallels
+       literature      can be drawn to reusable pads made from cotton. Distinguishing between material
+                       failure and behavioural use is difficult.
+
+
+
+
+       Context         Cloth is cheap and available in most contexts. While cloth for MHM is increasingly
+                       replaced by disposable pads, cloth remains widely used in low-income countries and is
+        of use
+                       often distributed in humanitarian response.
+
+
+
+
+                       Proper washing and drying is crucial for safe use, though often difficult due to lack of privacy
+          User         and stigma. Training on good user practice, provision of soap, underwear and storage bags,
+     experience and    and the availability of private places for washing and drying is important. Thickness, colour,
+        cultural       absorbency and softness of fabric, drying-time and number of pads provided are important
+     considerations    to consider. The provision of underwear is crucial as girls and women often do not own
+                       underwear. This is of particular importance in emergency settings.
+
+
+
+
+22
+                                                                              © UNICEF/UN0214925/Vishwanathan
+                                                                       Guide to menstrual hygiene materials
+
+
+                  Compared to reusable pads, cloth is often not recommended for menstrual hygiene
+                  management as their use has been associated with abnormal vaginal discharge, skin
+    Health        irritations and urogenital infections. Whether this is an inherent characteristic of cloth,
+   impacts        or simply indicative of poor conditions of use, is not clear, however; and in some cases,
+                  cloth can be hygienically managed. In general, wearing damp or unclean material can lead
+                  to rashes and infections.
+
+
+
+     Waste        Cloths are environmentally friendly as they can be reused and are mostly made from
+management and    natural fabrics. However, in some contexts they are discarded after one use. In the
+ environmental    absence of a functioning waste-management system they are often disposed of in the
+    impacts       environment. There is a lack of evidence-based guidance on disposal of used cloth.
+
+
+
+
+                  Cloths are cheap to procure locally. The average cost is about US$ 2 per square metre. It
+                  is important to provide girls and women with information on how to properly use, wash,
+ Affordability
+                  dry and store cloths as well as the means to do so (e.g. soap and possibly underwear),
+                  because this contributes to recurrent costs.
+
+
+
+
+ Standards and    There are no standards and regulations for menstrual cloth as it is not specifically made
+   regulation     for MHH, but rather is available on markets as cloths made from 100% cotton.
+
+
+
+
+                  Soft, light brown or grey multipurpose cloth made from 100% cotton with a size of ca.
+                  1 m x 1.5 m, fabric weight of 170-180 g/m2, awrap of minimum 21 threads per cm, a weft
+                  of 18.5 threads per cm. Inclusion of use and care instructions in English and other UN
+   Technical      languages.
+ specifications
+                  Supportive supplies required: soap for handwashing, laundry detergent, bucket for
+                  washing, clothes line, bag for storage, and scissors. These consumables require regular
+                  assessment of supply, availability and affordability.
+
+
+
+
+                                                                                                                23
+© UNICEF/UN0270271/Knowles-Coursin
+Guide to menstrual hygiene materials
+
+
+
+
+                      reusable pad
+     Characteristic     Specific information of relevance for UNICEF procurement
+       / attribute
+
+                       Reusable pads are worn externally to the body in the underwear, to absorb menstrual
+                       flow and held in place usually by snaps. They are made from a variety of natural or
+      Description      synthetic materials. After use, they are washed, dried and re-used for approximately one
+                       year. They are consumables which require regular assessment of supply, availability and
+                       affordability.
+
+
+
+
+                       Evidence on reusable pads is scarce and limited to Uganda, Kenya and India. Few
+       Identified      intervention studies exist, limiting generalisation. There are challenges to identify if
+       literature      a failure or problem using the material is due to the product or the user not using it
+                       properly.
+
+
+
+
+                       Prevalence of use is not well-documented and depends on awareness, affordability
+       Context         and availability. There are very few large-scale producers of reusable pads and they are
+        of use         not readily available in many contexts due to supply chain limitations. Several initiatives
+                       exist where girls and women are taught how to produce reusable pads for individual or
+                       commercial use, though with varying quality and scale.
+
+
+
+
+                       Compared to cloths, reusable pads are often perceived better by girls and women,
+                       though in some cases girls and women prefer cloth due to familiarity. When compared
+                       to disposable pads they are sometimes found inconvenient. Proper washing and drying
+          User
+                       is crucial for safe use, though often difficult due to stigma and lack of privacy. Training on
+     experience and
+        cultural       good user practice, provision of soap, underwear and storage bags, availability of private
+     considerations    places for washing and drying is important. Thickness, colour, absorbency and softness of
+                       fabric, drying-time and number of pads provided are important to consider. The provision
+                       of underwear is crucial as girls and women often do not own underwear, which is of
+                       particular importance in emergency settings.
+
+
+
+
+24
+                                                                                © UNICEF/UN0236422/Nakibuuka
+                                                                         Guide to menstrual hygiene materials
+
+
+
+                   There is very little evidence of health impacts of reusable pad use. There might be an
+    Health         association with urinary tract infections and bacterial vaginosis, and the use of damp
+   impacts         materials can lead to skin irritations. A private and comfortable place for changing as well
+                   as proper washing and drying is important.
+
+
+
+
+     Waste
+                   Reusable pads can be used for approximately one year and thus produce significantly less
+management and
+                   solid waste than single-use, disposable materials. Their use requires laundry soap and
+ environmental
+                   clean water for washing as well as access to private spaces for drying.
+    impacts
+
+
+
+
+                   Reusable pads are generally cost-effective when annualised, but initial investment is
+ Affordability     often high. The average cost is between US $ 1.50 and US $ 3 per pad. Girls and women
+                   must be educated on safe use and care and supportive supplies provided.
+
+
+
+
+ Standards and
+   regulation      Standards for reusable pads exist in Uganda and Kenya but are lacking in most countries.
+
+
+
+
+                   A set should comprise a minimum of five light coloured, washable and reusable
+                   sanitary pads made from soft absorbent cotton, preferably flannel with synthetic
+                   moisture-impermeable backing, of which a minimum of three pads should have wings.
+                   Additionally, the set should include a minimum of two holders with ribbon bands with
+                   edges stitched by over-locking or other adequate fixation to secure the pads in position.
+                   Workmanship and quality should be adequate to withstand multiple washes for at least
+   Technical       one year. A cotton bag for storage and use, as well as pad care instructions in English and
+ specifications    other UN languages should be included.
+
+                   Supportive supplies required: Soap for handwashing, laundry detergent, bucket for
+                   washing, clothes line, and underwear. These consumables require regular assessment of
+                   supply, availability and affordability.
+
+                   For reference, in 2017 Ugandan Bureau of Standard (UNBS) developed a «Reusable
+                   sanitary towels — Specification» Reference number US 1782 : 2017
+
+
+
+
+                                                                                                                  25
+© UNICEF/Bolivia
+Guide to menstrual hygiene materials
+
+
+
+
+Disposable sanitary pad
+     Characteristic     Specific information of relevance for UNICEF procurement
+       / attribute
+
+                       Disposable pads are worn externally to the body in the underwear to absorb menstrual
+                       flow. They are disposed of after a maximum of 8 hours; they are therefore consumables
+     Description       which require regular assessment of supply, availability and affordability. Pads come in
+                       various sizes, absorbencies and materials and consist of a layered design made of blends
+                       of plastics, rayon and cotton. Pads should include wings to prevent leakage and keep the
+                       pad more securely in place.
+
+
+
+
+      Identified       Only 5 intervention studies were identified. Evidence is limited to Kenya, Ghana, Somalia
+                       and India. Few laboratory studies assess health effects, and there is risk of confounding,
+      literature
+                       social desirability bias, and recall bias affecting results.
+
+
+
+
+                       Local procurement is often easy and cheap as disposable pads are available in most
+                       contexts, but not in very remote areas. Locally produced disposable pads are sometimes
+       Context         available, though with varying quality. There is a lack of cheap, high-quality biodegradable
+                       disposable pads on the market. A problem in emergencies is the lack of continuous
+        of use
+                       supply of disposable pads and additional challenges with disposal and solid and liquid
+                       waste management. Distributing enough pads and ensuring replenishment is important –
+                       and distributing disposable and reusable pads simultaneously could be explored.
+
+
+
+
+                       Disposable pads are often preferred and considered aspirational by girls and women as
+                       they are cited to be reliable, hygienic, comfortable, easy to use (especially in contexts
+       User
+                       with limited privacy) and require no access to water for cleaning. Unfamiliar users
+  experience and
+     cultural          sometimes reuse them. Disposable pad distribution should include education on proper
+  considerations       use and safe disposal, while taking local beliefs and practices (e.g. burial, perceptions of
+                       blood) into account. The provision of underwear is crucial as girls and women often do
+                       not own underwear, which is of particular importance in emergency settings.
+
+
+
+
+26
+                                                                              © UNICEF/UN063165/Altaf Ahmad
+                                                                          Guide to menstrual hygiene materials
+
+
+                  In most studies, no significant adverse health effects are reported, though there is
+                  inconclusive evidence on the impact of disposable pad use and bacterial vaginosis, as
+                  well as reproductive tract infections especially in relation to prolonged wear time. Skin
+    Health        compatibility is very high and disposable pads are well tolerated by users in different
+   impacts        parts of the world, though quality control is important. Disposal of used pads in flush
+                  toilets can lead to clogged pipes and sewage backflow into buildings, presenting a
+                  serious health risk and maintenance problem; provision of proper disposal through waste
+                  management services is crucial.
+
+
+                  As pads are disposed after one use they create large quantities of litter, accumulate in
+                  landfills, block sanitation systems when thrown in toilets, and release toxins when burned
+                  incorrectly. An appropriate waste-management chain must be in place from on-point to end-
+                  point. As cultural beliefs and stigma influence individual disposal, users must change their
+     Waste        disposal behaviour to manage disposable pads.
+management and
+ environmental    Suppliers often claim biodegradability of a product without indicating the exact conditions
+    impacts       (e.g. temperature, humidity) and timeframe. Thus, it often remains unclear if a product
+                  is 100% biodegradable and how long and under which conditions the biodegradation
+                  would take place. In theory, biodegradable pads would a lower impact on environment,
+                  but their precise impact is poorly understood and the vast majority of pads used are non-
+                  biodegradable.
+
+
+
+                  Relatively higher prices and reoccurring costs render disposable pads unaffordable
+ Affordability    for many. The average cost lays between US $ 0.10 to US $ 0.30 per pad. While local
+                  procurement is often possible and cheap, costs for replenishment, underwear, education
+                  on use and disposal and ensuring an enabling infrastructure must be considered.
+
+
+
+
+                  Recently, Kenya and Uganda have developed standards for disposable pads. In other
+ Standards and    regions, voluntary guidelines were put in place by the industry. There is a need to better
+   regulation     understand conditions of biodegradability and there is a lack of cheap, high quality
+                  biodegradable pads on the market.
+
+
+
+                  Single use, unscented ultra-thin menstrual pads with wings to absorb medium to high
+                  flow, with adhesive backing to attach to underwear. One ‘unit’ is a pack containing a
+                  minimum of 20 pads. Two units per woman of menstruating age are usually required per
+   Technical      distribution, covering a three-month timeframe. Use and care instructions in English and
+ specifications   other UN languages should be provided.
+
+                  Supportive supplies required: Soap for handwashing, underwear, lidded bins inside toilet
+                  stalls. These consumables require regular assessment of supply, availability and affordability.
+
+
+
+
+                                                                                                                    27
+© UNICEF/UN0122319/Faffin
+Guide to menstrual hygiene materials
+
+
+
+
+                      Tampon
+     Characteristic     Specific information of relevance for UNICEF procurement
+       / attribute
+
+                       Tampons are absorbent materials made from cotton and/or rayon that are inserted into
+                       the vagina to absorb menstrual flow. They expand with moisture and thereby avoid
+      Description      leakage. They can be worn for up to 8 hours, after which they are removed using the
+                       removal string, and disposed of. They come in a variety of sizes, materials and with or
+                       without an applicator to assist insertion. Tampons are consumables which require regular
+                       assessment of supply, availability and affordability.
+
+
+
+                       No feasibility or acceptability study with tampons in development and emergency
+       Identified      settings could be identified. However, similarities exist to menstrual cup (insertion) and
+       literature      disposable pads (waste management and environmental impacts) and there is a vast
+                       amount of literature from high-income countries on health aspects.
+
+
+
+       Context
+                       Tampons are often not available and are rarely used in low-income countries.
+        of use
+
+
+
+
+                       There is a lack of awareness of tampons and prevalence of use is as low as 1%-4%
+                       in low-income countries. When known about, girls and women often express fear
+          User         of pain and the tampon getting stuck as reasons for non-use. Tampons have to be
+     experience and    inserted into the vagina, which presents a barrier for uptake in many cultures as it is
+        cultural       inaccurately associated with tearing the hymen and loss of virginity. However, studies on
+     considerations    menstrual cups report high acceptability of insertable devices even when met with initial
+                       scepticism. Education on safe use and disposal and discussion of myths is crucial. No
+                       underwear is required for use.
+
+
+
+
+28
+                                                                                    © UNICEF/UNI159374/Pirozzi
+                                                                          Guide to menstrual hygiene materials
+
+
+                  Tampon use is associated with toxic shock syndrome, a rare but potentially fatal
+                  disease. To lower this risk, the use of a tampon with the lowest absorbency required is
+    Health        recommended, and the tampon should be changed after a maximum of 8 hours. Residual
+   impacts        chemical and fragrance can lead to allergic reactions. Soap for handwashing and access
+                  to clean water is important to avoid UTIs and vaginal infections. Tampons can be used
+                  with an intrauterine device.
+
+
+
+                  As tampons are disposed after one-time wear, they create large amounts of waste. The
+                  flushing of tampons in toilets can lead to clogging of pipes, service disruption and increased
+     Waste
+                  maintenance costs. When burned incorrectly, they can release furans (a highly volatile
+management and
+                  chemical compound) and toxins. Only tampons made from natural fibres biodegrade, while
+ environmental
+                  those containing plastics remain in the environment. Education on appropriate disposal and
+    impacts
+                  the availability of an appropriate waste-management chain from on-point to end-point is
+                  important.
+
+
+
+                  The (perceived) lack of demand leads to a lack of interest from manufactures to supply
+                  tampons, making them rarely available in low-income contexts. If available, they are
+ Affordability    unaffordable for many. They require continuous purchasing as well as training on safe use
+                  and disposal, and education on myths related to virginity. Bins for disposal, and soap can
+                  add to programme costs. The average cost is between US $ 0.20 and US $ 0.30.
+
+
+
+                  While regulations of tampons vary between countries, many high-income governments
+ Standards and
+   regulation     require tampons not to contain dangerous chemicals. No regulations or standards were
+                  identified for low-income countries.
+
+
+
+                  Single use menstrual tampons to absorb low to high flow made from cotton or other
+                  materials with similar absorbency and biocompatibility. There is an attached withdrawal
+                  cord for removal and the tampon comes with or without applicator. They usually come in
+                  two sizes for absorbency; light and regular flow, and to cater for the needs of both young
+                  girls and women who have given birth. One ‘unit’ is a pack containing a minimum of 20
+   Technical
+                  individually wrapped tampons. Inclusion of use and care instructions in English and other
+ specifications
+                  UN languages is needed.
+
+                  Supportive supplies required: soap for handwashing, lidded bins inside toilet stalls, and a
+                  regular waste management system. Consumables require regular assessment of supply,
+                  availability and affordability.
+
+
+
+
+                                                                                                                   29
+© UNICEF/UN0306434/Abdul
+Guide to menstrual hygiene materials
+
+
+
+
+                      Menstrual Cup
+     Characteristic     Specific information of relevance for UNICEF procurement
+       / attribute
+
+                       The menstrual cup is a non-absorbent bell-shaped device that is inserted into the vagina to
+                       collect menstrual flow. It creates a seal and is held in place by the walls of the vagina. It is
+                       typically made of medical-grade silicone. It collects three times more blood than pads or
+     Description       tampons and needs to be emptied every 6-12 hours, after which it is rinsed and re-inserted
+                       (if facilities allow). After each menstrual cycle the cup must be boiled for 5-10 minutes. Most
+                       manufactures offer at least two sizes, and different shapes are becoming more common.
+                       Cups are reusable for 5-10 years.
+
+
+
+
+      Identified       There is increasing interest on the acceptability of cups in low-income contexts but the
+      literature       few existing studies are of varying quality. All studies have been in Eastern and Southern
+                       Africa and South Asia. There is only one study in an emergency context.
+
+
+
+       Context         Menstrual cups are not yet widely promoted in low-income countries but
+        of use         there is increasing interest and growing evidence of their acceptability.
+
+
+                       Even in contexts where insertable menstrual products are not known of or used, many
+                       studies report high acceptability for the cup after initial behavioural barriers are overcome.
+                       However, insertion can present other cultural barriers to cup use, at it is incorrectly
+                       associated with breaking the hymen and loss of virginity. Education and discussion of
+      User             myths and perceptions are crucial for cup acceptability, as well as continued support
+ experience and        and access to knowledge. Cups are often perceived as better than pads or cloths in relation
+                       to ease and discretion of washing, drying and storing, comfort, leakage protection, odour
+    cultural
+                       development, quality and length of wear. Soap for handwashing and a container for boiling
+ considerations        and storing are required. No underwear is needed for its use. It is often recommended that
+                       cups are rinsed with clean water after emptying and before re-insertion. However, this step
+                       is not necessarily required if no water is available in stalls. If desired, an option could
+                       be to bring a small bottle of clean water inside stalls to rinse the cup. At the end of the
+                       cycle, the cup should be boiled for 5-10 minutes.
+
+
+
+
+30
+                                                                                       © UNICEF/UN0226198/KHOY
+                                                                                 Guide to menstrual hygiene materials
+
+
+
+                           Based on literature from high- and low-income countries, no significant health risks are
+      Health               reported. Since cups do not disrupt vaginal flora and pH, health risks like toxic shock
+     impacts               syndrome, infections and skin irritations are minimal in comparison to other materials.
+                           Cups can be worn with an intrauterine device. Good hand hygiene is important for safe
+                           cup use.
+
+
+
+      Waste
+                           The cup can be used for 5-10 years and thus produces significantly less waste than other
+ management and
+                           MHH materials. While cups require water for boiling, they need far less than reusable pads or
+  environmental
+                           cloths.
+     impacts
+
+
+
+
+                           The cup allows its user to safely handle menstruation without reoccurring costs for many
+   Affordability
+                           years. However, as the high initial investment of US$ 10 to US$ 40 presents a barrier for
+                           uptake, there is a need for less expensive, high-quality cups on the market.
+
+
+
+                           There is a lack of regulations and standards for menstrual cups, though there is consen-
+Standards and regu-        sus of the importance of high-quality materials for manufacturing such as medical grade
+       lation              silicone. Furthermore, low-quality cups often do not form an effective seal, which can
+                           lead to leakage.
+
+
+
+
+                           A reusable, biocompatible menstrual cup made of medical grade silicone or thermoplastic
+                           elastomer, to be worn inside the vagina to collect around 10-30 ml. of menstrual flow.
+                           Workmanship and quality to maintain its function and shape for a minimum of 5 years
+                           are needed. Cups can be provided in two sizes: a bigger menstrual cup for females who
+     Technical             have given birth vaginally and a smaller cup for females who have not. A cotton bag
+   specifications          for storage, as well as use and care instructions in English and other UN languages is
+                           needed.
+
+                           Supportive supplies required: soap for handwashing, containers for boiling, and for
+                           bringing water to toilet stalls for rinsing the cup.
+
+
+
+
+                      31                                                                                                   31
+ © UNICEF/UN050929/
+Guide to menstrual hygiene materials
+
+
+
+
+                 Summary of materials
+                 The table below compares aspects of menstrual hygiene materials. The table should be
+                 interpreted with caution as the classification of low, medium, and high is highly dependent on
+                 contextual factors. For example, the health risk of tampons is generally accepted to be low,
+                 but insertion without proper hand hygiene can lead to infections, and prolonged wear time
+                 increases the risk for toxic shock syndrome.
+
+
+
+                 Menstrual cloth      Reusable pad       Disposable pad      Menstrual cup         Tampon
+
+
+
+
+     Insertion           -                  -                   -                 Yes                 Yes
+
+
+
+
+  Reusable        Max. 1 year*           1+ year                -              5-10 years              -
+
+
+
+
+ Wear time        Approximately        Approx. 3-6        Approx. 3-6        Approx. 6-12
+                                                                                                Max. 8 hours
+                   2-4 hours*            hours              hours               hours
+
+*There is a lack of guidance on safe wear- and life-time of cloths. The stated timeframes are estimates.
+
+
+   Amount
+ needed for             1*             Minimum 5              12-22                1                 12-22
+  one cycle
+
+*Depending on the size of the cloth provided, and whether it is reused or disposed of.
+
+
+
+Price for one
+    item                               US $ 1.50-3       US $ 0.10-0.30       US $ 10-40        US $ 0.20-0.30
+                 US $ 2 for 1m x
+                      1.5m
+
+
+
+ Estimated
+cost for one          US $ 2           US $ 1.5-3         US $ 30-90           US $ 1-8           US $ 60-90
+   year*
+*Based on an average cycle length of 5 days and 13 menstrual cycles per year and 22 tampons/pads per cycle.
+
+
+32
+                                                                                         Guide to menstrual hygiene materials
+
+                   Menstrual cloth          Reusable pad          Disposable pad         Menstrual cup               Tampon
+
+
+
+
+Health risks*          Medium                  Medium                    Low                 Medium                 Medium
+
+
+*Depending on context and general hygiene aspects.
+
+
+
+
+Maintenance               High                   High                    Low                 Medium                    Low
+
+
+
+
+  Learning
+                       Medium                  Medium                    Low                    High                  High
+   costs
+
+
+
+                         Soap for
+                                                Soap for
+                       handwashing,
+                                              handwashing,            Soap for               Soap for                  Soap for
+  Supportive        laundry detergent,
+                                           laundry detergent,       handwashing,           handwashing,             handwashing,
+   supplies        bucket for washing,
+                                          bucket for washing,     underwear, lidded          container           lidded bins inside
+   needed          clothesline, storage
+                                          clothes line, storage   bins inside toilet.       for boiling.              toilet stall.
+                      bag, underwear,
+                                             bag, underwear.
+                         scissors.
+
+                     Sufficient water
+                                                                                              Water for
+                   for washing (daily),     Sufficient water          Solid waste                                  Solid waste
+                                                                                          sterilisation (one
+  Supportive         private washing      for washing (daily),       management                                   management
+                                                                                           time per cycle),
+ environment          space, drying         private washing         system in place                              system in place
+                                                                                           hygienic space
+   needed          space, solid waste        space, drying        from on-site to end-                             from on-site
+                                                                                         for storage, water
+                      management                 space.                  point.                                   to end-point.
+                                                                                          inside toilet stall.
+                         system.
+
+
+
+ Availability of
+  local manu-
+ facturers for
+                          High                 Medium                 Medium                    Low                    Low
+procurement *
+
+*Depending on context and general hygiene aspects.
+
+
+
+
+                                                                                                                                      33
+   © UNICEF/UN0269641/Hajra
+Guide to menstrual hygiene materials
+
+
+
+
+                            Monitoring and
+                               learning
+
+
+
+
+34
+                                                                                      Guide to menstrual hygiene materials
+
+Effective monitoring and evaluation of MHH interventions along a given theory of change
+remains a priority globally, and generating evidence on materials and supplies can help
+increase knowledge of this critical component.
+
+Monitoring and evaluation is of course critical for accountability to children and their
+caretakers, and to governments, but is also critical to improving the quality of UNICEF’s
+work. There is much more to learn about increasing access to menstrual hygiene
+materials and supplies – and UNICEF can help to build the global evidence base through
+effective assessment, monitoring and evaluation. Some of the priority areas for research
+surrounding increasing access to MHH materials and supplies were outlined by leading
+MHM researchers and practitioners in 201610, and are outlined in Table II below.
+
+With regard to menstrual hygiene materials and supply assistance, most monitoring may
+be at the input or activity and output level – such as monitoring the number of women
+and girls who received or were satisfied with supply assistance. In humanitarian settings,
+monitoring might be done through quantitative post-distribution monitoring surveys, or
+perhaps using a mix of methods described in the consultation section above. Ensure that
+data are disaggregated by sex, age, and disability status.
+
+
+Table II. MHH topics and research questions for adolescent girls (selection
+of topics relevant to menstrual hygiene materials and supplies)
+    Topic area               Research question - related to menstrual hygiene materials and supplies
+
+
+   Environmental            What are cost-effective menstrual waste disposal systems?
+   infrastructure           How can safe, hygienic, sustainable, and environmentally friendly disposal systems be developed?
+
+
+
+                            How can programmes improve access to menstrual products, such as sanitary pads, other
+                            absorbents, or menstrual cups, and availability of underwear?
+                            Are certain MHM products only culturally acceptable in some countries?
+                            How does culture or religion affect uptake?
+                            Can acceptability and use be promoted globally?
+      Hygiene
+      products
+                            How can programmes measure the benefits and risks of traditional hygiene materials (such
+                            as cloth) in LMIC and support safe practices?
+
+
+                            Can cluster randomised controlled trials define the cost-effectiveness of MHM products on
+                            hard outcome measures?
+
+
+                            Can cluster randomised controlled trials define the cost-effectiveness of MHM products on
+                            hard outcome measures?
+
+
+                            What health impact would MHM products have on reproductive tract infections, vaginal
+    Girls’ health
+                            discharge and odour, and urinary tract infections?
+
+
+                            What impact would effective MHM products have in reducing transactional (or coerced) sex
+                            to obtain money for sanitary pads?
+
+                                                                                   Adapted from Phillips-Howard, P.A., et al. (2016)
+
+10Phillips-Howard, P. A., Caruso, B., Torondel, B., Zulaika, G., Sahin, M., & Sommer, M. (2016). ‘Menstrual
+hygiene management among adolescent schoolgirls in low-and middle-income countries: research priorities.’
+In Global Health Action, 9(1), 33032.
+Available at https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5148805/
+
+
+                                                                                                                                 35
+Guide to menstrual hygiene materials
+
+
+
+
+Annex I: Additional resources
+  Author, title and link                     Relevance
+
+  The Impact of Water, Sanitation and        This evidence paper looks at 10 areas identified by SHARE and
+  Hygiene on Key Health and Social           UNICEF on which WASH can plausibly have a strong impact:
+  Outcomes: Review of Evidence               diarrhoea, nutrition, complementary food hygiene, female
+                                             psychosocial stress, violence, maternal and newborn health,
+  UNICEF and SHARE Consortium (2016)         menstrual hygiene management, school attendance, oral vaccine
+                                             performance, and neglected tropical diseases. The paper indicates
+                                             where evidence-based consensus is emerging or has been established.
+
+
+  Menstrual Hygiene Matters: A resource      This resource brings together accurate, straightforward, non-
+  for improving menstrual hygiene            judgmental knowledge and practice on menstrual hygiene
+  around the world                           programming from around the world to encourage the development
+                                             of comprehensive and context-specific approaches to menstrual
+  SHARE & WaterAid (2012)                    hygiene.
+  Modules and Toolkits 3 Menstrual
+  hygiene – sanitary protection              Module and toolkit 3 provide information on menstrual materials,
+                                             supplies, and disposal.
+
+
+  UNICEF Supply Manual                       Provides all resources to explain and support UNICEF’s Procurement
+                                             Policies including links to other relevant procedures and principles.
+
+
+  UNICEF Toolkit for working with Civil      Provides all resources to explain and support UNICEF’s Procedure for
+  Society Organizations                      working with Civil Society Organizations with key reference documents
+                                             for partnering with CSOs.
+
+
+  An Opportunity to Address Menstrual        This report gives a concise overview of 1) the state of the evidence
+  Health and Gender Equity: A Global         linking menstrual health to health, education, and equality outcomes;
+  Menstrual Health Landscape Analysis        2) a brief landscape of the menstrual health sector, including areas
+                                             of progress and existing gaps; and 3) conclusions and perspectives
+  FSG (2016)                                 on opportunities for working in menstrual health. The report was
+                                             prepared with support from the Bill & Melinda Gates Foundation. It
+                                             is the result of a review of over 150 peer-reviewed articles and grey
+                                             literature, interviews with 37 global experts, 70-plus interviews with
+                                             experts and practitioners in India, Kenya, and Ethiopia, and a review
+                                             of relevant programming focused on menstruation, MHM, and
+                                             sexual and reproductive health and rights.
+
+
+  Tools for Assessing Menstrual              In 2012, UNICEF and the Center for Global Safe Water at Emory
+  Hygiene Management in Schools              University initiated a programme to support collaborative research
+                                             focused on MHM in Bolivia, the Philippines, Rwanda and Sierra
+  UNICEF and Emory University (2013)         Leone. The assessment results are now published as a series of
+                                             reports. All of the tools presented here are meant to be used and
+                                             adapted for assessments around the world.
+
+
+  MHM in Emergencies Toolkit: Full           The MHM in Emergencies Toolkit provides streamlined guidance
+  guide, mini-guide and training resources   to support organisations and agencies seeking to rapidly integrate
+                                             MHM into existing programming across sectors and programme
+  Columbia University and the IRC (2017)     phases. This toolkit was informed by an extensive desk review,
+                                             qualitative assessments with a range of humanitarian actors and
+                                             organisations, and direct discussions with girls and women living in
+                                             emergency contexts and directly affected by this issue.
+
+
+
+
+36
+                                                                           Guide to menstrual hygiene materials
+
+
+Violence, Gender & WASH: A                   This toolkit was developed in response to an acknowledgement
+Practitioner’s Toolkit – Making water,       that although the lack of access to appropriate WASH services is
+sanitation and hygiene safer through         not the root cause of violence, it can lead to increased vulnerabilities
+improved programming and services.           to violence of varying forms. It includes tools like safety audits
+                                             and transect walks that can be used with girls, women, and other
+House, S., Ferron, S., Sommer, M., Cavill,   menstruators.
+S. (2014)
+
+
+
+UNICEF Guidance on WASH & Dignity            This guidance is meant for WASH and Child Protection specialists
+Kits                                         who are procuring WASH & Dignity Kit – First Response (S9901153)
+                                             through UNICEF Supply Division. The kit helps fulfil UNICEF’s
+UNICEF (2018)                                commitment to provide gender-specific ‘non-food items’ (NFIs)
+                                             to women and adolescent girls in line with their rights to health,
+(Available internally to UNICEF only)        dignity and protection in emergencies.
+
+
+
+Menstrual hygiene management in              This report details the status of MHM in schools in South Asia.
+schools in South Asia: Synthesis report      Progress and gaps are identified in achieving sustainable and
+                                             inclusive MHM services at scale, and the report draws together
+UNICEF & WaterAid (2017)                     opportunities for further promoting and mainstreaming MHM in
+                                             schools across South Asia.
+
+                                             The findings are presented in an overall report, a summary, and 8
+                                             country specific reports.
+
+
+Menstrual Health Management in East          This review provides an overview of MHM policies and programmes
+and Southern Africa: A Review Paper          in the Eastern and Southern Africa region, with a focus on education,
+                                             school and community-based sexuality education, WASH, sexual
+UNFPA (2018)                                 and reproductive health, workplace support and humanitarian
+                                             programming, as well as opening up the discussion regarding
+                                             marginalized groups of women and girls such as disabled, prisoners
+                                             and transgender men. It addresses barriers and enablers for scalability
+                                             of MHM programmes such as knowledge, attitudes, and cultural
+                                             perceptions, availability of menstrual products and supplies and
+                                             sanitation facilities as well as policy.
+
+
+Supporting the Rights of Girls and           A comprehensive overview and analysis of the experiences of girls
+Women through Menstrual Hygiene              and women, to establish the current status of MHM programming
+Management in the East Asia and              and action across the East Asia and the Pacific region. The review
+Pacific Region: Realities, Progress and      not only focuses on the school context linked to WASH in Schools
+                                             programming, but also explores MHM in relation to out-of-school
+Opportunities
+                                             youth, as well as MHM at community level, in humanitarian
+                                             contexts and in the workplace.
+UNICEF (2016)
+                                             The findings are presented in two documents:
+                                             (1) A regional synthesis report titled “Realities, Progress and
+                                             Opportunities”
+                                             (2) An implementation guidance note with selected good practices
+                                             titled “Regional Good Practice Guidance Note”
+
+
+
+
+                                                                                                                       37
+For more information on this publication and menstrual hygiene management as part of WASH in schools
+programmes, contact Brooke Yamakoshi at UNICEF, byamakoshi@unicef.org
+

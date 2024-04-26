@@ -1,0 +1,560 @@
+                                                                                                                                   14470756, 2023, 2, Downloaded from https://obgyn.onlinelibrary.wiley.com/doi/10.1111/jog.15484 by Fielding Graduate University, Wiley Online Library on [20/02/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+doi:10.1111/jog.15484                                           J. Obstet. Gynaecol. Res. Vol. 49, No. 2: 510–518, February 2023
+
+
+
+Premenstrual disorders: Premenstrual syndrome
+and premenstrual dysphoric disorder
+
+Takashi Takeda
+Division of Women’s Health, Research Institute of Traditional Asian Medicine, Kindai University School of Medicine,
+Osaka, Japan
+
+
+
+Abstract
+  Recently, the term premenstrual disorders (PMDs), which includes premenstrual syndrome and premen-
+  strual dysphoric disorder as a continuum, has been proposed. Although the precise etiology of PMDs
+  remains unknown, the involvement of hormonal ﬂuctuations is clear. The brain transmitters, serotonin
+  and γ-amino butyric acid, also seem to be involved. Serotonin reuptake inhibitors and oral contraceptives
+  are the current mainstay of treatment, but these are insufﬁcient. Even the currently used prospective two-
+  period symptom diary is not widely used in actual clinical practice, creating a major problem of discrep-
+  ancy between research and clinical practice. In this review, I would like to outline the latest information
+  and problems in the etiology, diagnosis, and treatment of PMDs, with an emphasis on promising new
+  therapies.
+  Key words: allopregnolone, PMDD, PMDs, PMS, serotonin.
+
+
+INTRODUCTION                                                       Diagnostic criteria
+                                                                   Although weak premenstrual symptoms can be con-
+Premenstrual symptoms are characterized by a vari-                 sidered a physiological condition, among biological
+ety of psycho-physical symptoms that are present in                women of reproductive age, 20–30% are diagnosed
+the luteal phase before menstruation and impair the                with PMS and 1.2–6.4% with PMDD.1 The American
+quality of life of many women.1 Epidemiological                    College of Obstetricians and Gynecologists (ACOG)’s
+studies show that the prevalence of premenstrual                   PMS diagnostic criteria require one or more affective
+symptoms, including mild cases, is very high, rang-                or somatic symptoms that impair social, work, or
+ing from 80% to 90%.2 As diseases with intense pre-                school performance for a diagnosis of PMS.4 PMDD is
+menstrual symptoms, they have been classiﬁed as                    diagnosed mainly by its psychiatric symptoms,
+premenstrual syndrome (PMS) in the ﬁeld of gyne-                   according to the Diagnostic and Statistical Manual
+cology and as premenstrual dysphoric disorder                      of Mental Disorders (DSM). The most updated
+(PMDD) in the ﬁeld of psychiatry. In recent years,                 version is the DSM Fifth Edition, Text Revision.5
+they have been recognized under the name of pre-                   According to these criteria, at least ﬁve symptoms
+menstrual disorders (PMDs), which encompasses                      including affective symptoms with functional impair-
+both.3 The exact pathophysiology of PMDs remains                   ment are necessary for diagnosis. In actual clinical
+unclear. In this review, I will examine the current                practice, premenstrual symptoms may indicate severe
+status and challenges of diagnosis and treatment                   impairment of social life, although they do not meet
+in PMDs.                                                           the diagnostic criteria for PMDD. In contrast, the
+
+Received: October 14 2022.
+Accepted: October 20 2022.
+Correspondence: Takashi Takeda, Division of Women’s Health, Research Institute of Traditional Asian Medicine, Kindai University
+School of Medicine, 377-2, Ohno-Higashi, Osaka-Sayama, Osaka 589-8511, Japan.
+Email: take@med.kindai.ac.jp
+
+
+510                                                                       © 2022 Japan Society of Obstetrics and Gynecology.
+                                                                                                                   14470756, 2023, 2, Downloaded from https://obgyn.onlinelibrary.wiley.com/doi/10.1111/jog.15484 by Fielding Graduate University, Wiley Online Library on [20/02/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                                                                         Premenstrual disorders
+
+
+diagnostic criteria for PMD proposed by Interna-         Epidemiology
+tional Society for Premenstrual Disorders (ISPMD)        Due to the complexities of forward-looking diary-
+have no restrictions regarding the number of symp-       based assessments, there are actually few studies on
+toms and match the needs of patients seeking treat-      the incidence of PMS and PMDD using rigorous
+ment (Figure 1). According to these criteria, ISPMD      criteria. Studies of community populations have
+deﬁnes the classic PMS as core PMDs. Among the           shown that the prevalence of PMS is 20  30% and
+core PMDs, PMDD is deﬁned as a severe disorder           that of PMDD is 1.2%  6.4%.1 In the old days, PMS
+with affective symptoms as the main symptom. It          was a Western culture-speciﬁc disease,10 but data
+has been found that patients tend to overestimate        from retrospective studies show that it exists world-
+premenstrual symptoms because they are cyclic, pre-      wide.11 One prospective evaluation study conducted
+sent only in the luteal phase, and resolve after the     in Asia, involving 815 participants in China, has been
+onset of menstruation.6,7 Therefore, each of the diag-   reported.12 According to this study, the prevalence of
+nostic criteria of ACOG, DSM, and ISPMD also             PMS is 21.1% and that of PMDD is 2.1%, which are
+requires the inclusion of a symptom diary for two        somewhat lower than that in Western countries. In
+cycles of a prospective menstrual cycle. While pro-      Japan, only retrospective data exist, but one report
+spective evaluation is useful for accurate diagnosis,    showed a lower incidence of PMS (5.3%) and PMDD
+it may be problematic for the patient to maintain        (1.2%) than the Chinese results.13 As both studies
+                                                         used the questionnaire using the DSM-based premen-
+such a diary, which she may ﬁnd difﬁcult. In a sur-
+                                                         strual symptoms, I could compare the prevalence of
+vey of family physicians and gynecologists in the
+                                                         each symptom. The most frequent symptoms were
+US, only 11.5% of physicians performed a prospec-
+                                                         different between the patients in the two countries;
+tive two-cycle symptom.8 In a recent survey con-
+                                                         irritability (91.2%) in China and physical symptoms
+ducted by the Japanese Society of Obstetrics and
+                                                         (81.2%) in Japan.
+Gynecology, the prospective two-cycle symptom               Although the highest percentage of those receiving
+diary practice rate was 8.4%, a rate as low as in the    medical care are reported to be in their 30s,14 many
+US. A recent survey of 2512 patients treated for         studies reported that PMDs are also recognized in
+PMDD symptoms reported that 68% of cases were            adolescents.15–17 One report from Japan indicates that
+diagnosed with PMDD by a diagnostic method other         the severity of PMDs is higher in adolescents than in
+than a prospective daily chart.9 These data show that    adults, based on comparisons using the same survey
+a disconnect exists between research recommenda-         instrument.16 PMDs are not only a negative impact on
+tions and actual practice in the diagnosis of PMDD.      academics, but also an important issue for the perfor-
+In the future, it will be necessary to develop new,      mance of female athletes, many of whom are teen-
+simpler diagnostic methods, such as biomarker            agers at the midpoint of their careers.18–21
+development, to add to the currently practice of            Along with PMDs, menorrhagia, the most common
+diagnosis based upon symptoms.                           symptom associated with menstruation, is known to
+                                                         begin around 6 to 12 months after menarche.22 There
+                                                         is a correlation between the severity of menstrual pain
+                                                         and premenstrual symptoms, and perhaps the two
+                                                         inﬂuence each other.23 A study of Japanese high
+                                                         school students aged 15 to 19 years showed that they
+                                                         began to notice premenstrual symptoms at a median
+                                                         age of 15 years (IQR: 14–16 years). From menarche,
+                                                         the median age was 2 years, and this value was
+                                                         inversely correlated with age at menarche (ρ = 0.47,
+                                                         p < 0.001). A Cox proportional hazards regression
+                                                         analysis showed that early menarche (≤11) was signif-
+  FIGURE 1 Premenstrual disorders. HRT, hormone          icantly associated with a lower cumulative risk of
+    replacement therapy; OCP, oral contraceptive;
+    PMDD, premenstrual dysphoric disorder; PMDs, pre-    developing premenstrual symptoms (OR: 0.73 [95%
+    menstrual disorders; PMS, premenstrual syndrome;     CI 0.58 to 0.91]). This means that while menstrual
+    TAH, total abdominal hysterectomy.                   pain begins to appear with the establishment of the
+
+
+
+© 2022 Japan Society of Obstetrics and Gynecology.                                                          511
+                                                                                                                        14470756, 2023, 2, Downloaded from https://obgyn.onlinelibrary.wiley.com/doi/10.1111/jog.15484 by Fielding Graduate University, Wiley Online Library on [20/02/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Takeda
+
+
+ovulatory cycle after menarche, premenstrual symp-          shown to be sound. More recently, the short-form of
+toms are inﬂuenced not just by endocrine factors, but       the PSQ (PSQ-S), consisting of nine items from the
+perhaps by social factors as well. One can speculate        PSQ was developed and analyzed by CTT and IRT.32
+about the pathophysiological differences between            In CTT, the PSQ-S showed the same ability as the
+the two.                                                    PSQ in the aspect of reliability, structural validity,
+                                                            and concurrent validity. Moreover, IRT showed that
+Screening and diagnostic questionnaires                     the all nine items in the PSQ-S performed well. Even
+To avoid recall bias, as mentioned above, a pro-            though the PSQ-S reduced the number of questions
+spective two menstrual cycle symptom record is              from the PSQ to 64.3%, the maximum information
+necessary for accurate diagnosis, but it is also com-       content was maintained at 87.5%, indicating that the
+plicated. Although a detailed interview of the              PSQ-S is useful as a shortened version of the PSQ.
+patient is necessary, the use of screening tools for           After interview and use of a validated screening
+PMDs is helpful for an efﬁcient examination. In a           tool, an accurate diagnosis requires a prospective
+survey of family physicians and gynecologists in the        symptom assessment of two menstrual cycles. The
+United States, 23.0% of physicians performed a              Diary Record of Severity of Problems (DRSP) is the
+screening questionnire.8 The Premenstrual symptom           most universally used diary for recording symptoms,
+screening tool (PSST) is a screening tool originated        based on the DSM-IV PMDD criteria, worldwide, and
+from the DSM-IV PMDD criteria.15,24 The PSST was            is included in the UK’s Green Top Guidelines.33 The
+translated from English to many languages, such as          original English version has been adequately tested
+German,25 Portuguese,26 Arabic,27 and so on. The            for reliability validity, but psychometric properties
+PMDD scale in Japanese is essentially the Japanese          have not been fully examined.34 For Asian languages,
+version of PSST.28 Despite its general use around the       Chinese and Japanese versions have been created and
+world, the original English version has not been ade-       validity and reliability have been examined.35–40 Two
+quately validated for reliability, and psychometric         types of questionnaires exist in the Japanese version:
+properties have not been adequately analyzed.13 The         the DRSP-J36–38 and the J-DRSP,39,40 which were
+PSST consists of 12 symptoms listed in the DSM-IV           developed independently. The Chinese version of the
+criteria for PMDD, with “Insomnia or hypersomnia”           DRSP and DRSP-J showed strong evidence of validity
+divided into “Insomnia” and “Hypersomnia” as                and reliability as compared with the original DRSP.
+separate symptoms. The PSST also includes ﬁve               As for the J-DRSP, it has the disadvantage that test–
+items on functional impairment; in total, 17 items are      retest reliability is somewhat problematic, especially
+included in the PSST. Recently, an analysis using           in the follicular phase. As to the structural validity of
+item response theory (IRT) was reported for the             DRSP-J, conﬁrmatory factor analysis (CFA) showed
+PSST.29 The IRT complements the traditional classi-         that a two-factor model (Mood and Behavior/Physi-
+cal test theory (CTT) and allows a more detailed            cal) was an acceptably good ﬁt.38 Conversely, J-DRSP
+examination of individual survey items such as the          showed poor ﬁt for CFA The short form of J-DRSP
+quality.30 According to this report, “Insomnia” is a        was shown to be a relatively good ﬁt, but only two
+dimension independent of PMDs. In the PSST, there           evaluation methods were used.40
+seems to be no signiﬁcance in separating “insomnia”
+and “hypersomnia” into individual items.                    Etiology
+   On the other hand, the PSQ is a screening tool           Although the precise etiology of PMDs is remains
+developed in Japan independently of the PSST, and           unknown, there is no doubt about the involvement of
+consists of 14 items in total, including 11 premenstrual    hormonal ﬂuctuations, as symptoms do not appear
+symptoms listed in the DSM-IV criteria and three            before menarche, during pregnancy, or after meno-
+items to evaluate the degree of social disability caused    pause. In PMDD patients, the administration of
+by these symptoms.13 The PSQ exists only in Japanese        leuprolide, a Gonadotropin-releasing hormones
+and is used in many epidemiological and clinical            (GnRH) agonists, which suppresses ovulation, sup-
+studies.14,23–30 The PSQ is essentially the short form of   presses premenstrual symptoms, but estrogen and
+the PSST and has been conﬁrmed to be in agreement           progesterone replacement has been reported to cause
+with the PMDD scale, the Japanese version of PSST.31        a recurrence of premenstrual symptoms.41 Under the
+Furthermore, the PSQ has been adequately validated          same circumstances, it has been reported that premen-
+for reliability, and psychometric properties have been      strual symptoms are more pronounced in the ﬁrst
+
+
+512                                                              © 2022 Japan Society of Obstetrics and Gynecology.
+                                                                                                                        14470756, 2023, 2, Downloaded from https://obgyn.onlinelibrary.wiley.com/doi/10.1111/jog.15484 by Fielding Graduate University, Wiley Online Library on [20/02/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                                                                             Premenstrual disorders
+
+
+month of hormone replacement and less pronounced
+later, when hormone levels have stabilized.42 This fact
+indicates the importance of hormonal ﬂuctuations in
+the etiology of PMDs.
+   As far as neurotransmitters are concerned, two
+have been proposed to be involved in the pathology
+of PMDs: serotonin and γ-amino butyric acid
+(GABA).43 Serotonin is a well-known etiologic factor
+in mood and anxiety disorders as well as PMS.44
+Serotonin is activated by estrogen, so serotonin
+levels are physiologically low before menstrua-
+tion.45,46 With regard to serotonin reuptake inhibi-
+tors (SSRI), which are antidepressants, the fact that
+they are considered in the ﬁrst-line treatment for
+PMS/PMDD supports the importance of serotonin
+in the etiology of PMDs.4,33 Removal of tryptophan,
+a precursor of serotonin, from the diet has been
+reported to cause premenstrual symptoms, which
+further suggests serotonin involvement in etiology.47
+Neuro-imaging is a very advanced method in neuro-
+science to evaluate neurotransmission in the brain,
+and has been applied to PMDD.48 A report using               FIGURE 2 Progesterone synthesis and metabolism
+neuroimaging showed a difference in the serotonin              route
+receptor 1A availability between PMDD patients
+and control women from the follicular to the luteal
+phase.49                                                      Several reports using neuro-imaging showed some
+   Another neurotransmitter, GABA, is known to             relationships between PMDD and GABAergic system
+have inhibitory effects on the central nervous system.50   in brain.58,59 Proton magnetic resonance spectroscopic
+Allopregnanolone (ALLO), a metabolite from proges-         ﬁndings of cortical GABA showed that GABA levels
+terone, is a potent positive allosteric modulator of       decreased from the follicular to the luteal phase in
+GABAA receptor and acts as a neuroactive steroid           normal subjects, whereas they increased in PMDD
+(Figure 2).51 ALLO is metabolized from progesterone        patients.58
+with 5-alpha reductase. Both progesterone and ALLO            Brain derived neuro trophic factor (BDNF), which
+increase in the luteal phase and rapidly decrease          is essential for nerve cell growth, is thought to interact
+around menstruation. An animal model of PMDD cre-          with serotonin systems in mood disorders.60 The asso-
+ated by rapid progesterone depletion reported              ciation of lower levels of BDNF and BDNF Val66Met
+enhanced anxiety behavior and altered GABA receptor        polymorphism with increased risk for depression has
+function.52,53 With regard to blood levels of ALLO in      been reported.61,62 PMDD patients with BDNF
+humans, it has been reported that in the luteal phase,     Val66Met polymorphism have lower front-cingulate
+these are decreased in PMDD patients compared with         cortex activation in the luteal phase compared with
+those in controls.54,55 Dutasteride, a 5-alpha reductase   controls with the Met allele.63 Serum BDNF levels in
+inhibitor showed signiﬁcant improvement in PMDD            the luteal phase are higher in PMDD patients than in
+symptoms in a preliminarily placebo-controlled             controls, and conversely lower in PMS patients.64,65
+randomized controlled trial (RCT).56 This study            Thus, further research is needed on the relationship
+indicates that ﬂuctuations in ALLO are involved in         between PMDs and BDNF.
+the etiology of PMDD. For an ALLO antagonist,                 The gut microbiota-brain axis has been the focus of
+Sepranolone, the placebo-controlled phase 2 trial          much attention, and many studies have been con-
+showed fairly promising results, but did not differ        ducted on psychiatric disorders, including depression,
+signiﬁcantly from placebo in efﬁcacy on the primary        and gut microbiota.66–70 A study comparing the gut
+endpoint.57 Further study is needed to conﬁrm its          microbiota of PMDs patients and healthy controls
+applicability to humans.                                   showed that certain characteristics of the gut
+
+
+© 2022 Japan Society of Obstetrics and Gynecology.                                                               513
+                                                                                                                      14470756, 2023, 2, Downloaded from https://obgyn.onlinelibrary.wiley.com/doi/10.1111/jog.15484 by Fielding Graduate University, Wiley Online Library on [20/02/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Takeda
+
+
+microbiota were associated with premenstrual symp-          improving premenstrual symptoms because they
+toms.71 Linear discriminant effect size analysis            eliminate the hormone-free period compared with
+showed that organisms such as Parabacteroides,              regimens with classical withdrawal periods.33 There
+Butyricicoccus, and Megasphaera were decreased in           are reports suggesting the effectiveness of sequential
+patients with PMDs. Parabacteroides is a GABA-              dosing.79,80
+producing bacterium, and Butyricicoccus, and Mega-             GnRH agonists suppress ovulation and improve
+sphaera contribute to BDNF production via butyric           the PMS symptoms.81,82 Low estrogen status results
+acid production. The gut microbiota may be involved         in symptoms of vasomotor symptoms, bone loss, and
+in PMDs via brain transmitters.                             vaginal atrophy, similar to those seen after meno-
+                                                            pause, requiring estrogen add-back. Because of this
+Treatments                                                  invasive nature of the treatment, GnRH agonists are
+Usually, ﬁve types of treatments are used: (1) non-         not ﬁrst-line drugs and are indicated for SSRIs and
+pharmacologic, (2) antidepressants, (3) hormone ther-       OCPs invalid cases.33
+apy, (4) vitamin and complementary medicine, and
+(5) surgery.
+                                                            Vitamins and complementary medicine
+Nonpharmacologic treatments                                 A variety of alternative medicines are being used
+It is a good alternative when symptoms are mild, or         around the world, but the evidence is limited.33
+when premenstrual symptoms are present but do not              Among them, vitamin B6 (pyridoxine) has been
+meet the diagnostic criteria for PMS or PMDD.               extensively studied and moderate beneﬁt was
+Because it is less invasive, it is positioned as the ﬁrst   reported in 100 mg of pyridoxine treatment for pre-
+step in treatment.                                          menstrual symptoms.83 In the RCOG guidelines, vita-
+   Many efﬁcacy studies, including three RCTs, have         min B6 is listed as one of the ﬁrst choices in the
+been conducted on cognitive behavioral therapy              treatment algorithm.33
+(CBT).72 In an RCT comparing the SSRI ﬂuoxetine,               Calcium carbonate supplementation with 1200 mg
+CBT alone, and a combination of both, there was no          daily was reported to be effective compared with
+signiﬁcant difference in efﬁcacy between the three          placebo for premenstrual symptoms.84 However,
+groups after 6 months treatment.73 Interestingly, the       this effect was only weak compared with that of
+CBT group showed a signiﬁcantly lower recurrence            ﬂuoxetine.85
+rate during follow-up.                                         Vitex agnus castus (chasteberry) is widely used in
+   With regard to lifestyle improvements, better eating     Europe and has been the subject of numerous studies,
+habits and adequate exercise will be adopted. Dietary       with a meta-analysis of 17 trials reporting efﬁcacy
+intervention with complex carbohydrates (elevating          compared with placebo.86
+serum tryptophan) in the luteal phase improved PMS             In Japan, Kampo, a type of herbal medicine, has tra-
+mood and appetite symptoms compared with placebo            ditionally been used in general practice. In a survey
+food by RCT.74                                              of Japanese obstetricians and gynecologists, the fre-
+                                                            quency of use of Kampo medicine as a ﬁrst-line treat-
+Antidepressants                                             ment for PMDs was 19%, ranking second after OCPs.
+There is strong evidence for the use of SSRIs for the       Kampo medicines are available as extracted powder
+treatment of PMDD75 and they are considered a ﬁrst          manufactured as industrial products by pharmaceuti-
+line of treatment.4,33,76 Unlike the treatment of depres-   cal companies, and can be prescribed in the same way
+sion, the efﬁcacy of SSRIs administered after the onset     as Western medicines. Kampo medicines have a
+of symptoms has been reported in the case of PMDD,          high degree of uniformity of ingredients, and in the
+assuming a different mechanism of action.77                 ﬁeld of obstetrics and gynecology, their efﬁcacy in the
+                                                            treatment of menopausal symptoms was examined
+Hormone therapy                                             using a placebo-controlled trial.87 The only efﬁcacy
+The purpose of hormonal treatment is to suppress ovu-       studies for PMDD have been preliminarily conducted
+lation., Oral contraceptives (OCPs) were the ﬁrst drugs     using one of the Kampo formula Kamisyoyosan.88
+to be used. OCPs containing drospirenone and ethinyl        Kamisyoyosan has been reported to act on the brain
+estradiol signiﬁcantly improved PMDD symptoms.78            serotonin system in a mouse model of depression,89
+Continuous dosing regimens are advantageous for             making it a promising therapeutic agent for PMDs.
+
+
+514                                                              © 2022 Japan Society of Obstetrics and Gynecology.
+                                                                                                                                   14470756, 2023, 2, Downloaded from https://obgyn.onlinelibrary.wiley.com/doi/10.1111/jog.15484 by Fielding Graduate University, Wiley Online Library on [20/02/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                                                                                    Premenstrual disorders
+
+
+
+Surgery                                                     develop simpler diagnostic methods such as disease
+Surgical intervention, total hysterectomy and bilateral     markers. SSRIs and drospirenone containing OCPs
+adnexectomy, is a permanent treatment limited to            have strong supporting evidence for their efﬁcacy in
+cases of recurrence of intense symptoms.90                  the treatment of PMDs. However, these drugs may be
+                                                            ineffective in some cases, or may not be taken due to
+                                                            contraindications or side effects. In the future, the
+EXPECTED NEW TREATMENTS                                     development of minimally invasive therapies such as
+                                                            drugs for ALLO and pyridoxamine will also be
+The ALLO targeting strategy, such as a 5-alpha reduc-       pursued.
+tase inhibitor (Dutasteride) and ALLO antagonist
+(Sepranolone) are promising.56,57 These drugs are
+under development, with no indications in other dis-
+                                                            CONFLICT OF INTEREST
+eases, and further validation of their efﬁcacy and safety
+is needed before they can be put into practical use.        Author Takashi Takeda was supported by grants
+   Ulipristal Acetate (UPA), a progesterone receptor        from Tsumura Co., Ltd., Otsuka Pharmaceutical Co.,
+modulator, which functions as a progesterone antago-        Ltd. and these grants had no role in this manuscript.
+nist, has been shown to be effective for PMDD symp-         Takashi Takeda received lecture fees from Tsumura
+toms by double-blind, placebo-controlled, randomized,       Co., Ltd., Otsuka Pharmaceutical Co., and Bayer
+comparative studies.91 Since continuous UPA adminis-        Pharma Co., Ltd.
+tration suppresses ovulation, the therapeutic effect on
+PMDD is predictable. UPA differs from GnRH agonists
+in that estradiol concentrations are maintained at levels   References
+corresponding to the follicular phase.92 Therefore, it
+                                                             1. Yonkers KA, Simoni MK. Premenstrual disorders.
+has the advantage that symptoms of deﬁcient ovarian             Am J Obstet Gynecol. 2018;218:68–74.
+function are not observed. UPA has been commercial-          2. Angst J, Sellaro R, Merikangas KR, Endicott J. The epidemi-
+ized as a treatment for uterine ﬁbroids and may have            ology of perimenstrual psychological symptoms. Acta Psy-
+potential application as a treatment for PMDD.93                chiatr Scand. 2001;104:110–6.
+                                                             3. O’Brien PM, Bäckström T, Brown C, Dennerstein L,
+   Vitamin B6 is consist of three forms, pyridoxine,
+                                                                Endicott J, Epperson CN, et al. Towards a consensus on
+pyridoxal, and pyridoxamine. Among them only pyri-              diagnostic criteria, measurement and trial design of the pre-
+doxamine has an amino group and is characterized                menstrual disorders: the ISPMD Montreal consensus. Arch
+by the fact that it acts with reactive carbonyl com-            Womens Ment Health. 2011;14:13–21.
+pounds (RCOs) to eliminate their action.94 Since RCOs        4. Hofmeister S, Bodden S. Premenstrual syndrome and pre-
+                                                                menstrual dysphoric disorder. Am Fam Physician. 2016;94:
+act to degrade serotonin and GABA, pyridoxamine
+                                                                236–40.
+may help maintain these brain transmitters by remov-         5. Association AP. Diagnostic and statistical manual of mental dis-
+ing the effects of RCOs. Furthermore, pyridoxamine              orders: DSM-5. TR. Arlington: American Psychiatric Associa-
+acts to promote the synthesis of serotonin and                  tion; 2022.
+GABA,95 which may act to increase the concentration          6. Dr Fau R, Roy-Byrne P, Roy-Byrne P. Premenstrual syn-
+                                                                dromes: overview from a methodologic perspective.
+of these brain transmitters more effectively than pyri-
+                                                                Am J Psychiatry. 1984;141:163–72.
+doxine and pyridoxal.96 Considering that pyridoxine          7. Henz A, Ferreira CF, Oderich CL, Gallon CW, Castro JRS,
+treatment for premenstrual symptoms have moderate               Conzatti M, et al. Premenstrual syndrome diagnosis: a com-
+beneﬁt,83 pyridoxamine would be more effective than             parative study between the daily record of severity of prob-
+pyridoxine. A placebo-controlled, double-blind, com-            lems (DRSP) and the premenstrual symptoms screening tool
+                                                                (PSST). Rev Bras Ginecol Obstet. 2018;40:20–5.
+parative study is underway in Japan to evaluate the
+                                                             8. Craner JR, Sigmon ST, McGillicuddy ML. Does a disconnect
+therapeutic effect of pyridoxamine on PMS/PMDD.                 occur between research and practice for premenstrual dys-
+                                                                phoric disorder (PMDD) diagnostic procedures? Women
+                                                                Health. 2014;54:232–44.
+CONCLUSIONS                                                  9. Hantsoo L, Sajid H, Murphy L, Buchert B, Barone J, Raja S,
+                                                                et al. Patient experiences of health care providers in premen-
+                                                                strual dysphoric disorder: examining the role of provider
+There is a discrepancy between actual clinical practice         specialty. J Womens Health (Larchmt). 2022;31:100–9.
+and research recommendations when it comes to the           10. Johnson TM. Premenstrual syndrome as a Western culture-
+diagnosis of PMS/PMDD, and it is necessary to                   speciﬁc disorder. Cult Med Psychiatry. 1987;11:337–56.
+
+
+© 2022 Japan Society of Obstetrics and Gynecology.                                                                         515
+                                                                                                                                              14470756, 2023, 2, Downloaded from https://obgyn.onlinelibrary.wiley.com/doi/10.1111/jog.15484 by Fielding Graduate University, Wiley Online Library on [20/02/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Takeda
+
+
+11. Dennerstein L, Lehert P, Heinemann K. Epidemiology of                   of the premenstrual symptoms screening tool (PSST) and
+    premenstrual symptoms and disorders. Menopause Int. 2012;               association of PSST scores with health-related quality of life.
+    18:48–51.                                                               Braz J Psychiatry. 2017;39:140–6.
+12. Qiao M, Zhang H, Liu H, Luo S, Wang T, Zhang J, et al.            27.   Mahfoud Z, Emam R, Anchassi D, Omran S, Alhaj N, al-
+    Prevalence of premenstrual syndrome and premenstrual                    Abdulla S, et al. Premenstrual dysphoric disorder in Arab
+    dysphoric disorder in a population-based sample in China.               women: validation and cultural adaptation of the Arabic
+    Eur J Obstet Gynecol Reprod Biol. 2012;162:83–6.                        version of the premenstrual screening tool. Women Health.
+13. Takeda T, Tasaka K, Sakata M, Murata Y. Prevalence of pre-              2019;59:631–45.
+    menstrual syndrome and premenstrual dysphoric disorder            28.   Miyaoka Y, Akimoto Y, Ueda K, Ujiie Y, Kametani M,
+    in Japanese women. Arch Womens Ment Health. 2006;9:                     Uchiide Y, et al. Fulﬁllment of the premenstrual dysphoric
+    209–12.                                                                 disorder criteria conﬁrmed using a self-rating questionnaire
+14. Osborn E, Wittkowski A, Brooks J, Briggs PE, O’Brien PMS.               among Japanese women with depressive disorders. Bio-
+    Women’s experiences of receiving a diagnosis of premen-                 psychosoc Med. 2011;5:5.
+    strual dysphoric disorder: a qualitative investigation. BMC       29.   Śliwerski A, Koszałkowska K. The inﬂuence of depression
+    Womens Health. 2020;20:242.                                             on biased diagnosis of premenstrual syndrome and premen-
+15. Steiner M, Peer M, Palova E, Freeman EW, Macdougall M,                  strual dysphoric disorder by the PSST inventory. Life (Basel).
+    Soares CN. The premenstrual symptoms screening tool                     2021;11:1278.
+    revised for adolescents (PSST-A): prevalence of severe PMS        30.   Jabrayilov R, Emons WHM, Sijtsma K. Comparison of classi-
+    and premenstrual dysphoric disorder in adolescents. Arch                cal test theory and item response theory in individual
+    Womens Ment Health. 2011;14:77–81.                                      change assessment. Appl Psychol Measur. 2016;40:559–72.
+16. Takeda T, Koga S, Yaegashi N. Prevalence of premenstrual          31.   Takeda T, Yoshimi K, Yamada K. Psychometric testing of
+    syndrome and premenstrual dysphoric disorder in Japanese                the premenstrual symptoms questionnaire and the associa-
+    high school students. Arch Womens Ment Health. 2010;13:                 tion between perceived injustice and premenstrual symp-
+    535–7.                                                                  toms: a cross-sectional study among Japanese high school
+17. Lu D, Aleknaviciute J, Bjarnason R, Tamimi RM,                          students. Int J Womens Health. 2020;12:755–63.
+    Valdimarsd  ottir UA, Bertone-Johnson ER. Pubertal develop-      32.   Takeda T, Yoshimi K, Kai S, Inoue F. Development and psycho-
+    ment and risk of premenstrual disorders in young adult-                 metric testing of a new short-form of the premenstrual symptoms
+    hood. Hum Reprod. 2021;36:455–64.                                       questionnaire (PSQ-S). Int J Womens Health. 2022;14:899–911.
+18. Czajkowska M, Drosdzol-Cop A, Gałązka I, Naworska B,              33.   Management of premenstrual syndrome: Green-top Guide-
+    Skrzypulec-Plinta V. Menstrual cycle and the prevalence of              line; No. 48. BJOG. 2017;124(3):e73–e105.
+    premenstrual syndrome/premenstrual dysphoric disorder             34.   Endicott J, Nee J, Harrison W. Daily record of severity of
+    in adolescent athletes. J Pediatr Adolesc Gynecol. 2015;28:             problems (DRSP): reliability and validity. Arch Womens Ment
+    492–8.                                                                  Health. 2006;9:41–9.
+19. Takeda T, Imoto Y, Nagasawa H, Muroya M, Shiina M. Pre-           35.   Wu L, He Z, Zhao H, Ma D, Zhang S, Deng H, et al. Chinese
+    menstrual syndrome and premenstrual dysphoric disorder                  version of daily record of severity of problems: reliability
+    in Japanese collegiate athletes. J Pediatr Adolesc Gynecol.             and validity. J Adv Nurs. 2013;69:449–56.
+    2015;28:215–8.                                                    36.   Takeda T, Shiina M, Chiba Y. Effectiveness of natural S-
+20. Takeda T, Imoto Y, Nagasawa H, Takeshita A, Shiina M.                   equol supplement for premenstrual symptoms: protocol of a
+    Stress fracture and premenstrual syndrome in Japanese ado-              randomised, double-blind, placebo-controlled trial. BMJ
+    lescent athletes: a cross-sectional study. BMJ Open. 2016;6:            Open. 2018;8:e023314.
+    e013103.                                                          37.   Takeda T, Shiina M, Yamada K. Development of the
+21. Takeda T, Ueno T, Uchiyama S, Shiina M. Premenstrual                    Japanese version of the daily record of severity of problems
+    symptoms interference and equol production status in                    (DRSP): translation and linguistic validation. Clin Gynecol
+    Japanese collegiate athletes: a cross-sectional study. J Obstet         Obstet (in Japanese). 2019;73:807–11.
+    Gynaecol Res. 2018;44:488–94.                                     38.   Takeda T, Kai S, Yoshimi K. Psychometric testing of the Jap-
+22. ACOG Committee Opinion No. 760: dysmenorrhea and                        anese version of the daily record of severity of problems
+    endometriosis in the adolescent. Obstet Gynecol. 2018;132:              among Japanese women. Int J Womens Health. 2021;13:361–7.
+    e249–58.                                                          39.   Ikeda Y, Egawa M, Hiyoshi K, Ueno T, Ueda K, Becker CB,
+23. Kitamura M, Takeda T, Koga S, Nagase S, Yaegashi N. Rela-               et al. Development of a Japanese version of the daily record
+    tionship between premenstrual symptoms and dysmenor-                    of severity of problems for diagnosing premenstrual syn-
+    rhea in Japanese high school students. Arch Womens Ment                 drome. Womens Health Rep (New Rochelle). 2020;1:11–6.
+    Health. 2012;15:131–3.                                            40.   Ikeda Y, Egawa M, Okamoto K, Mandai M, Takahashi Y,
+24. Steiner M, Macdougall M, Brown E. The premenstrual                      Nakayama T. The reliability and validity of the Japanese
+    symptoms screening tool (PSST) for clinicians. Arch Womens              version of the daily record of severity of problems (J-DRSP)
+    Ment Health. 2003;6:203–9.                                              and development of a short-form version (J-DRSP [SF]) to
+25. Bentz D, Steiner M. SIPS MG: screening instrument for pre-              assess symptoms of premenstrual syndrome among
+    menstrual symptoms. The German version of premenstrual                  Japanese women. Biopsychosoc Med. 2021;15:6.
+    symptoms screening tool to assess clinically relevant distur-     41.   Schmidt PJ, Nieman LK, Danaceau MA, Adams LF,
+    bances. Nervenarzt. 2012;83:33–9.                                       Rubinow DR. Differential behavioral effects of gonadal ste-
+26. Câmara RA, Köhler CA, Frey BN, Hyphantis TN,                            roids in women with and in those without premenstrual
+    Carvalho AF. Validation of the Brazilian Portuguese version             syndrome. N Engl J Med. 1998;338:209–16.
+
+
+516                                                                           © 2022 Japan Society of Obstetrics and Gynecology.
+                                                                                                                                             14470756, 2023, 2, Downloaded from https://obgyn.onlinelibrary.wiley.com/doi/10.1111/jog.15484 by Fielding Graduate University, Wiley Online Library on [20/02/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                                                                                               Premenstrual disorders
+
+
+42. Schmidt PJ, Martinez PE, Nieman LK, Koziol DE,                          antagonist Sepranolone (UC1010): a randomized controlled
+    Thompson KD, Schenkel L, et al. Premenstrual dysphoric                  trial. Psychoneuroendocrinology. 2017;80:46–55.
+    disorder symptoms following ovarian suppression: triggered        58.   Epperson CN, Haga K, Mason GF, Sellers E, Gueorguieva R,
+    by change in ovarian steroid levels but not continuous stable           Zhang W, et al. Cortical gamma-aminobutyric acid levels
+    levels. Am J Psychiatry. 2017;174:980–9.                                across the menstrual cycle in healthy women and those with
+43. Nevatte T, O’Brien PM, Bäckström T, Brown C,                            premenstrual dysphoric disorder: a proton magnetic reso-
+    Dennerstein L, Endicott J, et al. ISPMD consensus on the                nance spectroscopy study. Arch Gen Psychiatry. 2002;59:851–8.
+    management of premenstrual disorders. Arch Womens Ment            59.   Liu B, Wang G, Gao D, Gao F, Zhao B, Qiao M, et al. Alter-
+    Health. 2013;16:279–91.                                                 ations of GABA and glutamate-glutamine levels in premen-
+44. Lin SH, Lee LT, Yang YK. Serotonin and mental disorders: a              strual dysphoric disorder: a 3T proton magnetic resonance
+    concise review on molecular neuroimaging evidence. Clin                 spectroscopy study. Psychiatry Res. 2015;231:64–70.
+    Psychopharmacol Neurosci. 2014;12:196–202.                        60.   Martinowich K, Lu B. Interaction between BDNF and seroto-
+45. McQueen JK, Wilson H, Fink G. Estradiol-17 beta increases               nin: role in mood disorders. Neuropsychopharmacology. 2008;
+    serotonin transporter (SERT) mRNA levels and the density                33:73–83.
+    of SERT-binding sites in female rat brain. Brain Res Mol Brain    61.   Elfving B, Buttenschøn HN, Foldager L, Poulsen PHP,
+    Res. 1997;45:13–23.                                                     Andersen JH, Grynderup MB, et al. Depression, the
+46. Bertrand PP, Paranavitane UT, Chavez C, Gogos A,                        Val66Met polymorphism, age, and gender inﬂuence the
+    Jones M, van den Buuse M. The effect of low estrogen state              serum BDNF level. J Psychiatr Res. 2012;46:1118–25.
+    on serotonin transporter function in mouse hippocampus: a         62.   Harrisberger F, Smieskova R, Schmidt A, Lenz C, Walter A,
+    behavioral and electrochemical study. Brain Res. 2005;1064:             Wittfeld K, et al. BDNF Val66Met polymorphism and hippo-
+    10–20.                                                                  campal volume in neuropsychiatric disorders: a systematic
+47. Menkes DB, Coates DC, Fawcett JP. Acute tryptophan                      review and meta-analysis. Neurosci Biobehav Rev. 2015;55:
+    depletion aggravates premenstrual syndrome. J Affect Disord.            107–18.
+    1994;32:37–44.                                                    63.   Comasco E, Hahn A, Ganger S, Gingnell M, Bannbers E,
+48. Dubol M, Epperson CN, Lanzenberger R, Sundström-                        Oreland L, et al. Emotional fronto-cingulate cortex activation
+    Poromaa I, Comasco E. Neuroimaging premenstrual dys-                    and brain derived neurotrophic factor polymorphism in pre-
+    phoric disorder: a systematic and critical review. Front Neu-           menstrual dysphoric disorder. Hum Brain Mapp. 2014;35:
+    roendocrinol. 2020;57:100838.                                           4450–8.
+49. Jovanovic H, Cerin A, Karlsson P, Lundberg J, Halldin C,          64.   Oral E, Kirkan TS, Yildirim A, Kotan Z, Cansever Z,
+    Nordström AL. A PET study of 5-HT1A receptors at differ-                Ozcan H, et al. Serum brain-derived neurotrophic factor dif-
+    ent phases of the menstrual cycle in women with premen-                 ferences between the luteal and follicular phases in premen-
+    strual dysphoria. Psychiatry Res. 2006;148:185–93.                      strual dysphoric disorder. Gen Hosp Psychiatry. 2015;37:
+50. Foster AC, Kemp JA. Glutamate- and GABA-based CNS                       266–72.
+    therapeutics. Curr Opin Pharmacol. 2006;6:7–17.                   65.   Cubeddu A, Bucci F, Giannini A, Russo M, Daino D, Russo N,
+51. Schüle C, Nothdurfter C, Rupprecht R. The role of all-                  et al. Brain-derived neurotrophic factor plasma variation dur-
+    opregnanolone in depression and anxiety. Prog Neurobiol.                ing the different phases of the menstrual cycle in women with
+    2014;113:79–87.                                                         premenstrual syndrome. Psychoneuroendocrinology. 2011;36:
+52. Schneider T, Popik P. An animal model of premenstrual                   523–30.
+    dysphoric disorder sensitive to antidepressants. Curr Protoc      66.   Aizawa E, Tsuji H, Asahara T, Takahashi T, Teraishi T,
+    Neurosci. 2009;9:31.                                                    Yoshida S, et al. Possible association of Biﬁdobacterium and
+53. Li Y, Pehrson AL, Budac DP, S     anchez C, Gulinello M. A             lactobacillus in the gut microbiota of patients with major
+    rodent model of premenstrual dysphoria: progesterone with-              depressive disorder. J Affect Disord. 2016;202:254–7.
+    drawal induces depression-like behavior that is differentially    67.   Morais LH, HLT S, Mazmanian SK. The gut microbiota-
+    sensitive to classes of antidepressants. Behav Brain Res. 2012;         brain axis in behaviour and brain disorders. Nat Rev
+    234:238–47.                                                             Microbiol. 2021;19:241–55.
+54. Rapkin AJ, Morgan M, Goldman L, Brann DW, Simone D,               68.   Tian P, Wang G, Zhao J, Zhang H, Chen W. Biﬁdobacterium
+    Mahesh VB. Progesterone metabolite allopregnanolone in                  with the role of 5-hydroxytryptophan synthesis regulation
+    women with premenstrual syndrome. Obstet Gynecol. 1997;                 alleviates the symptom of depression and related microbiota
+    90:709–14.                                                              dysbiosis. J Nutr Biochem. 2019;66:43–51.
+55. Monteleone P, Luisi S, Tonetti A, Bernardi F, Genazzani AD,       69.   Sanada K, Nakajima S, Kurokawa S, Barcel           o-Soler A,
+    Luisi M, et al. Allopregnanolone concentrations and premen-             Ikuse D, Hirata A, et al. Gut microbiota and major depres-
+    strual syndrome. Eur J Endocrinol. 2000;142:269–73.                     sive disorder: a systematic review and meta-analysis. J Affect
+56. Martinez PE, Rubinow DR, Nieman LK, Koziol DE,                          Disord. 2020;266:1–13.
+    Morrow AL, Schiller CE, et al. 5α-reductase inhibition prevents   70.   Cryan JF, Dinan TG. Mind-altering microorganisms: the
+    the luteal phase increase in plasma allopregnanolone levels             impact of the gut microbiota on brain and behaviour. Nat
+    and mitigates symptoms in women with premenstrual dys-                  Rev Neurosci. 2012;13:701–12.
+    phoric disorder. Neuropsychopharmacology. 2016;41:1093–102.       71.   Takeda T, Yoshimi K, Kai S, Ozawa G, Yamada K,
+57. Bixo M, Ekberg K, Poromaa IS, Hirschberg AL, Jonasson AF,               Hiramatsu K. Characteristics of the gut microbiota in
+    Andréen L, et al. Treatment of premenstrual dysphoric dis-              women with premenstrual symptoms: a cross-sectional
+    order with the GABAA receptor modulating steroid                        study. PLoS One. 2022;17:e0268466.
+
+
+
+
+© 2022 Japan Society of Obstetrics and Gynecology.                                                                                    517
+                                                                                                                                           14470756, 2023, 2, Downloaded from https://obgyn.onlinelibrary.wiley.com/doi/10.1111/jog.15484 by Fielding Graduate University, Wiley Online Library on [20/02/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Takeda
+
+
+72. Lustyk MK, Gerrish WG, Shaver S, Keys SL. Cognitive-                  premenstrual and menstrual symptoms. Premenstrual syn-
+    behavioral therapy for premenstrual syndrome and premen-              drome study group. Am J Obstet Gynecol. 1998;179:444–52.
+    strual dysphoric disorder: a systematic review. Arch Womens     85.   Yonkers KA, Pearlstein TB, Gotman N. A pilot study to
+    Ment Health. 2009;12:85–96.                                           compare ﬂuoxetine, calcium, and placebo in the treatment of
+73. Hunter MS, Ussher JM, Browne SJ, Cariss M, Jelley R,                  premenstrual syndrome. J Clin Psychopharmacol. 2013;33:
+    Katz M. A randomized comparison of psychological (cogni-              614–20.
+    tive behavior therapy), medical (ﬂuoxetine) and combined        86.   Verkaik S, Kamperman AM, van Westrhenen R, Schulte PFJ.
+    treatment for women with premenstrual dysphoric disorder.             The treatment of premenstrual syndrome with preparations
+    J Psychosom Obstet Gynaecol. 2002;23:193–9.                           of Vitex agnus castus: a systematic review and meta-analy-
+74. Sayegh R, Schiff I, Wurtman J, Spiers P, McDermott J,                 sis. Am J Obstet Gynecol. 2017;217:150–66.
+    Wurtman R. The effect of a carbohydrate-rich beverage on        87.   Takamatsu K, Ogawa M, Obayashi S, Takeda T,
+    mood, appetite, and cognitive function in women with pre-             Terauchi M, Higuchi T, et al. A multicenter, randomized,
+    menstrual syndrome. Obstet Gynecol. 1995;86:520–8.                    double-blind, placebo-controlled trial to investigate the
+75. Marjoribanks J, Brown J, O’Brien PM, Wyatt K. Selective               effects of kamishoyosan, a traditional Japanese medicine, on
+    serotonin reuptake inhibitors for premenstrual syndrome.              menopausal symptoms: the KOSMOS study. Evid Based
+    Cochrane Database Syst Rev. 2013;2013:CD001396.                       Complement Alternat Med. 2021;2021:8856149.
+76. Ismaili E, Walsh S, O’Brien PMS, Bäckström T, Brown C,          88.   Yamada K, Kanba S. Effectiveness of kamishoyosan for pre-
+    Dennerstein L, et al. Fourth consensus of the International           menstrual dysphoric disorder: open-labeled pilot study. Psy-
+    Society for Premenstrual Disorders (ISPMD): auditable stan-           chiatry Clin Neurosci. 2007;61:323–5.
+    dards for diagnosis and management of premenstrual disor-       89.   Shimizu S, Ishino Y, Takeda T, Tohyama M, Miyata S.
+    der. Arch Womens Ment Health. 2016;19:953–8.                          Antidepressive      effects    of   kamishoyosan      through
+77. Yonkers KA, Kornstein SG, Gueorguieva R, Merry B, Van                 5-HT1Areceptor and PKA-CREB-BDNF signaling in the hip-
+    Steenburgh K, Altemus M. Symptom-onset dosing of sertra-              pocampus in postmenopausal depression-model mice. Evid
+    line for the treatment of premenstrual dysphoric disorder: a          Based Complement Alternat Med. 2019;2019:9475384.
+    randomized clinical trial. JAMA Psychiat. 2015;72:1037–44.      90.   Casson P, Hahn PM, van Vugt DA, Reid RL. Lasting
+78. Lopez LM, Kaptein AA, Helmerhorst FM. Oral contracep-                 response to ovariectomy in severe intractable premenstrual
+    tives containing drospirenone for premenstrual syndrome.              syndrome. Am J Obstet Gynecol. 1990;162:99–105.
+    Cochrane Database Syst Rev. 2012;2:Cd006586.                    91.   Comasco E, Kopp Kallner H, Bixo M, Hirschberg AL,
+79. Coffee AL, Kuehl TJ, Willis S, Sulak PJ. Oral contraceptives          Nyback S, de Grauw H, et al. Ulipristal acetate for
+    and premenstrual symptoms: comparison of a 21/7 and                   treatment of premenstrual dysphoric disorder: a proof-of-
+    extended regimen. Am J Obstet Gynecol. 2006;195:1311–9.               concept randomized controlled trial. Am J Psychiatry. 2021;
+80. Machado RB, Pompei LM, Badalotti M, Ferriani R,                       178:256–65.
+    Cruz AM, Nahas E, et al. Effects of an extended ﬂexible regi-   92.   Whitaker LH, Williams AR, Critchley HO. Selective proges-
+    men of an oral contraceptive pill containing 20 μg eth-               terone receptor modulators. Curr Opin Obstet Gynecol. 2014;
+    inylestradiol and 3 mg drospirenone on menstrual-related              26:237–42.
+    symptoms: a randomised controlled trial. Eur J Contracept       93.   Rabe T, Saenger N, Ebert AD, Roemer T, Tinneberg H-R,
+    Reprod Health Care. 2017;22:11–6.                                     de Wilde RL, et al. Selective progesterone receptor
+81. Mezrow G, Shoupe D, Spicer D, Lobo R, Leung B, Pike M.                modulators for the medical treatment of uterine ﬁbroids
+    Depot leuprolide acetate with estrogen and progestin add-             with a focus on ulipristal acetate. Biomed Res Int. 2018;2018:
+    back for long-term treatment of premenstrual syndrome.                1374821.
+    Fertil Steril. 1994;62:932–7.                                   94.   Mori Y, Kakuta T, Miyakogawa T, Takekoshi S, Yuzawa H,
+82. Mortola JF. Applications of gonadotropin-releasing hormone            Kobayashi H, et al. Effect of scavenging circulating reactive
+    analogues in the treatment of premenstrual syndrome. Clin             carbonyls by oral pyridoxamine in uremic rats on peritoneal
+    Obstet Gynecol. 1993;36:753–63.                                       dialysis. Ther Apher Dial. 2016;20:645–54.
+83. Wyatt KM, Dimmock PW, Jones PW, Shaughn O’Brien PM.             95.   Sherif FM, Ahmed SS. Basic aspects of GABA-transaminase
+    Efﬁcacy of vitamin B-6 in the treatment of premenstrual syn-          in neuropsychiatric disorders. Clin Biochem. 1995;28:145–54.
+    drome: systematic review. BMJ (Clin Res Ed). 1999;318:          96.   Itokawa M, Miyashita M, Arai M, Dan T, Takahashi K,
+    1375–81.                                                              Tokunaga T, et al. Pyridoxamine: a novel treatment for
+84. Thys-Jacobs S, Starkey P, Bernstein D, Tian J. Calcium                schizophrenia with enhanced carbonyl stress. Psychiatry Clin
+    carbonate and the premenstrual syndrome: effects on                   Neurosci. 2018;72:35–44.
+
+
+
+
+518                                                                         © 2022 Japan Society of Obstetrics and Gynecology.
+

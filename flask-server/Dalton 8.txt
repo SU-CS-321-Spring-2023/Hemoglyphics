@@ -1,0 +1,999 @@
+Archives of Women's Mental Health (2022) 25:903–910
+https://doi.org/10.1007/s00737-022-01261-5
+
+ORIGINAL ARTICLE
+
+Premenstrual symptoms across the lifespan in an international
+sample: data from a mobile application
+Liisa Hantsoo1 · Shivani Rangaswamy2 · Kristin Voegtline3 · Rodion Salimgaraev4 · Liudmila Zhaunova4 ·
+Jennifer L. Payne5
+Received: 9 March 2022 / Accepted: 12 August 2022 / Published online: 26 August 2022
+© The Author(s) 2022
+
+Abstract
+Premenstrual symptoms, including physical and mood symptoms, affect a large proportion of women worldwide. Data on
+premenstrual symptoms across nations and age groups is limited. In the present study, we leveraged a large international
+dataset to explore patterns in premenstrual symptom frequency with age. A survey was administered to users of the Flo
+mobile application (app), aged 18 to 55. The survey queried app users about a range of premenstrual symptoms. Respondents
+were asked whether they experienced each symptom every menstrual cycle, some cycles, or never. Age was also captured
+and categorized as 18–27, 28–37, 38–47, 48–55. Data was summarized and Pearson’s chi square test for count data assessed
+differences in symptom frequency by age group. A sample of 238,114 app users from 140 countries responded to the survey.
+The most common symptoms reported were food cravings (85.28%), mood swings or anxiety (64.18%), and fatigue (57.3%).
+Absentmindedness, low libido, sleep changes, gastrointestinal symptoms, weight gain, headaches, sweating or hot flashes,
+fatigue, hair changes, rashes, and swelling were significantly more frequent with increasing age (p’s < 0.001). Mood swings
+and anxiety did not vary by age group. Of the respondents, 28.61% reported that premenstrual symptoms interfered with
+their everyday life each menstrual cycle. In a large international sample, the majority of women reported premenstrual food
+cravings, mood changes, and fatigue every menstrual cycle. Mood symptoms did not vary by age group, suggesting that
+premenstrual mood changes are a persistent issue among women of reproductive age.
+Keywords Menstrual cycle · Premenstrual syndrome (PMS) · Premenstrual dysphoric disorder (PMDD) · Premenstrual
+exacerbation · Perimenopause
+
+Introduction
+Premenstrual symptoms affect individuals across nations
+and cultures. Approximately 80% of women report
+experiencing at least one mood or physical symptom
+* Liisa Hantsoo
+LHantso1@jhmi.edu
+1
+
+Department of Psychiatry and Behavioral Sciences, Johns
+Hopkins University School of Medicine, Baltimore, MD,
+USA
+
+2
+
+Johns Hopkins University School of Medicine, Baltimore,
+MD, USA
+
+3
+
+Department of Pediatrics, Johns Hopkins University School
+of Medicine, Baltimore, MD, USA
+
+4
+
+Flo Health UK Limited, London, UK
+
+5
+
+Department of Psychiatry and Neurobehavioral Sciences,
+University of Virginia, Charlottesville, VA, USA
+
+premenstrually (Schoep et al. 2019). However, there is
+limited data on the occurrence of premenstrual symptoms
+across nations and by different age groups. Premenstrual
+symptoms can be physical, such as fatigue, irritability,
+bloating, or breast tenderness, or affective, such as irritability, anxiety, or mood lability, and occur on a continuum of severity (Angst et al. 2001; Borenstein et al.
+2003, 2005). Premenstrual symptoms occur during the
+late luteal phase of the menstrual cycle (roughly the week
+before menses onset), resolve within a few days of menstruation onset, and are absent in the postmenstrual week
+(Epperson et al. 2012; Halbreich 2004). Premenstrual
+syndrome (PMS) includes mild to moderate physical and/
+or mood symptoms and occurs in roughly 20% of women,
+while premenstrual dysphoric disorder (PMDD), at the
+severe end of the continuum, includes more impairing
+symptoms and is found in 3 to 8% of women (Epperson
+et al. 2012; Halbreich et al. 2003; Wittchen et al. 2002;
+
+13
+
+Vol.:(0123456789)
+
+904
+
+Yang et al. 2008). Premenstrual symptomatology in both
+PMS and PMDD is thought to be due to an abnormal
+sensitivity to steroid hormones that fluctuate across the
+menstrual cycle (Schmidt et al. 1998; Martinez et al.
+2016; Hantsoo and Epperson 2020; Schweizer-Schubert
+et al. 2021). For the purposes of this paper, we will refer
+to the general term “premenstrual symptoms” when it
+is not clear that symptoms meet criteria for either PMS
+or PMDD, and only use the terms PMS or PMDD when
+criteria are met.
+Premenstrual symptoms may occur at any point
+during the female reproductive years, from menarche
+to menopause. PMS or PMDD may initiate in the
+teen years (Rapkin and Mikacich 2013), but most
+often initiate in a woman’s 20 s (Strine et al. 2005).
+Premenstr ual symptoms may peak around age 35
+(Dennerstein et al. 2011a; Tschudin et al. 2010),
+although few studies have examined the prevalence
+of premenstrual symptoms across age groups. A large
+study of over 3500 women reported the prevalence
+of moderate to severe mood-based PMS as 10.7% in
+women aged 15–24, 8.6% in women aged 25–34, 11.2%
+in women aged 35–44, and 10.8% in women aged 45–54
+(Tschudin et al. 2010), suggesting that women in midlife were slightly more likely to experience moderate
+to severe premenstrual mood symptoms than younger
+or older groups. However, another cross-sectional
+study found that premenstrual symptoms were less
+common in women ages 36 to 44 years, compared
+with younger women (Freeman et al. 1995). It is also
+possible that certain symptoms worsen or improve
+with age. For instance, some symptoms may worsen in
+the mid-thirties (Dennerstein et al. 2011b) but improve
+prior to the menopause transition (Dennerstein et al.
+2011a), although longitudinal data is lacking. One goal
+of the present study was to examine the frequency of
+a range of premenstrual symptoms in those aged 18 to
+55, accounting for a wide age range.
+Premenstrual symptoms occur across cultures and
+nationalities. In a meta-analysis assessing the prevalence
+of PMS in twelve countries, the highest prevalence
+was reported in Iran (98%) and the lowest prevalence
+was reported in France (12%) (Direkvand-Moghadam
+et al. 2014). European countries in general reported a
+lower prevalence of PMS compared to Asian countries
+included in the study. Reports of premenstrual symptom
+severity also vary by country. Individuals in the UK,
+Brazil, Japan, Korea, and Australia reported relatively
+greater severity and duration of premenstrual symptoms,
+while those in Hong Kong and Pakistan reported the
+lowest severity and duration of symptoms (Dennerstein
+et al. 2011b).
+
+13
+
+L. Hantsoo et al.
+
+Finally, premenstrual symptoms may have a significant
+impact on an individual’s daily functioning (Halbreich et al.
+2003). In a study of over 4000 women from 19 different
+countries, those with moderate to severe premenstrual
+symptoms showed increased absenteeism and decreased
+productivity at work (Heinemann et al. 2012). In a survey of
+over 40,000 women, 38% were unable to perform activities
+of daily life due to premenstrual symptoms (Schoep et al.
+2019). Among adolescents, at least 20% reported PMS
+symptoms associated with functional impairment (Rapkin
+and Mikacich 2013). There is minimal evidence on how
+functional impairment varies by country. One study
+reported there was no decrease in work productivity in
+Asian countries among those with PMS/PMDD, while all
+other continents found work-related decreased productivity
+in those with PMS/PMDD (Heinemann et al. 2012).
+Another study assessing European and Latin American
+countries found that impairment in function was most
+severe in the home setting, followed by social, educational,
+and work settings, which was consistent across both
+continents (Dennerstein et al. 2010). Given the impairment
+caused by premenstrual symptoms, assessing and properly
+treating premenstrual symptoms is an important clinical
+and public health issue.
+The aims of the present study were to leverage a large
+international dataset, collected via a mobile application
+(app) Flo, to (1) explore prevalence of premenstrual
+symptoms across ages ranging from 18 to 55 and (2)
+explore prevalence of premenstrual symptoms by nation.
+
+Materials and methods
+a. Overview
+This was a cross-sectional survey study of women aged 18 to
+55. The survey was administered to users of the Flo Health
+mobile app, a free app available on both the Android and
+iOS platforms. The survey was administered from May 12,
+2017 to June 23, 2020 using a chatbot dialogue. Participating women who answered the “Premenstrual Syndrome
+(PMS) Survey” were included. The survey was released in
+10 languages (English, Russian, Spanish, German, French,
+Italian, Portuguese, Polish, Japanese, and Chinese) and was
+available to all women using the Flo app. The geographical
+location of the user was estimated based on the IP address.
+All participants in the study agreed to the use of their deidentified and aggregated data for research purposes. Data
+were deidentified and sent in aggregate to the Johns Hopkins research team. The Johns Hopkins Institutional Review
+Board (IRB) reviewed the protocol and acknowledged the
+application as a minimal risk secondary research protocol.
+
+Premenstrual symptoms across the lifespan in an international sample: data from a mobile…
+
+905
+
+b. Survey
+
+b. Frequency of premenstrual symptoms
+
+Survey questions addressed a range of physical and cognitive-affective premenstrual symptoms. These included
+mood swings or anxiety; absentmindedness; sleep changes;
+headaches; hot flashes or sweating; fatigue; breast soreness,
+swelling, or hypersensitivity; constipation or diarrhea; food
+craving; weight gain; increased appetite; swelling; abdominal spasms; low libido; changes in hair; or skin rashes. Participants were also asked if premenstrual symptoms interfered with their daily life. For each item, participants could
+respond “Yes, every cycle,” “Yes, but not every cycle,”
+“No,” or “Prefer not to answer.” Specific questions are listed
+in the supplementary Online Resource 1.
+
+Across the sample of 238,114 users, the most common
+symptom that participants reported experiencing every
+cycle was food cravings (85.28%), followed by mood
+swings or anxiety (64.18%) and fatigue (57.3%) (Table 1).
+All other symptoms were experienced by fewer than 50% of
+the responders. Among respondents, 28.61% reported that
+premenstrual symptoms interfered with their everyday life
+each cycle, and an additional 34.84% reported that premenstrual symptoms interfered with their everyday life some
+cycles. Percentages are based on number of participants that
+responded to an individual question, which may be fewer
+than the total sample n; frequency of all symptoms across
+the full sample is shown in Fig. 1.
+
+c. Statistical analyses
+Summary data was available by age group within the
+sample; individual level data was not available due to
+international data privacy guidelines. Data was examined
+descriptively by country. To examine age effects, data was
+categorized into four age groups: 18–27, 28–37, 38–47, and
+48–55 years old. Pearson’s chi-squared test for count data
+with independent samples was conducted to test differences
+in symptom frequency by age group, considering the frequency of the response “Yes, every cycle” for each item. A
+significant omnibus chi-square test statistic indicated a group
+difference in the symptom by age. The specific age strata
+where symptoms were more or less prevalent than in the
+total sample were probed by post hoc evaluation of residuals. Post hoc tests were based on adjusted Pearson residuals
+that measured the difference between observed and expected
+cell counts, with observed difference from expected inferred
+from Bonferroni-adjusted p values to account for multiple
+comparisons. Post hoc p values tested the deviation from
+the expected prevalence in the total sample in a specific age
+group, with the null assumption that prevalence in each age
+group was equal to prevalence in the total sample. R and R
+Studio were used to conduct analyses (R Core Team 2020).
+
+Results
+a. Participant characteristics
+Data was obtained from mobile app users across 140 countries. Only countries with at least 500 respondents were
+included. This resulted in data from n = 238,114 unique
+users who contributed data to these analyses. This sample
+included 162,390 (68.14%) in the 18–27 years age group;
+61,210 (25.69%) in the 28–37 years age group; 13,684
+(5.74%) in the 38–47 years age group, and 1026 (0.43%) in
+the 48–55 years age group.
+
+c. Frequency of premenstrual symptoms by age
+group
+We examined the frequency of symptoms in each age
+group (Table 1). Symptom frequency was significantly
+greater than expected with increasing age for most symptoms. That is, symptoms were more common in the older
+age groups than expected if symptoms were equivalent by age. These included absentmindedness (X2 (3,
+N = 211,577) = 864.3, p < 0.0001), low libido (X 2 (3,
+N = 213,000) = 2877.8, p < 0.0001), sleep changes (X2 (3,
+N = 210,880) = 611.92, p < 0.0001), gastrointestinal symptoms (X2 (3, N = 221,667) = 631.53, p < 0.0001), weight
+gain (X2 (3, N = 229,850) = 5783.4, p < 0.0001), headaches
+(X2 (3, N = 215,342) = 321.44, p < 0.0001), sweating or hot
+flashes (X2 (3, N = 214,158) = 316.49, p < 0.0001), fatigue
+(X2 (3, N = 218,169) = 1640.3, p < 0.0001), hair changes
+(X2 (3, N = 219,114) = 292.41, p < 0.0001), rashes (X2 (3,
+N = 220,470) = 2839.2, p < 0.0001), and swelling (X2 (3,
+N = 223,213) = 3812, p < 0.0001). In particular, these symptoms were less frequent than expected in the 18–27-year-old
+age group and more frequent than expected in the 28–37-,
+38–47-, and 48–55-year-old age groups.
+Frequency of abdominal spasms was significantly lower
+than expected as age increased (X2 (3, N = 231,705) = 98.503,
+p < 0.0001). Specifically, abdominal spasms were more frequent than expected in the 18–27-year-old age group and
+less frequent than expected in the 28–37-, 38–47-, and
+48–55-year-old age groups.
+Other symptoms were less frequent than expected in the
+18–27 age group, more frequent than expected in the 28–37
+and 38–47 age groups, and not significantly different than
+expected for the 48–55 age group. These symptoms were
+food cravings (X2 (3, N = 228,383) = 267.63, p < 0.0001),
+breast sensations (X2 (3, N = 216,633) = 314.17, p < 0.0001),
+and increased appetite (X 2 (3, N = 225,718) = 836.23,
+p < 0.0001).
+
+13
+
+906
+
+L. Hantsoo et al.
+
+Table 1  Premenstrual symptom frequency by age group
+Symptom
+
+Total
+
+Cravings
+Mood swings, anxiety
+Fatigue
+Appetite increase
+Breast sensations
+Weight gain
+Swelling
+Constipation/diarrhea
+Abdominal spasms
+Headaches
+Sleep changes
+Absentminded
+Sweating, hot flashes
+Low libido
+Hair changes
+Skin rashes
+Interference
+
+18–27
+
+28–37
+
+38–47
+
+48–55
+
+p value
+
+n
+
+%
+
+n
+
+%
+
+n
+
+%
+
+n
+
+%
+
+n
+
+%
+
+194,755
+134,485
+125,018
+109,245
+99,963
+89,740
+86,197
+79,794
+77,067
+62,260
+39,587
+38,282
+37,017
+20,566
+18,696
+13,659
+59,782
+
+85.28
+64.18
+57.30
+48.40
+46.14
+39.04
+38.62
+36.00
+33.26
+28.91
+18.77
+18.09
+17.28
+9.66
+8.53
+6.20
+28.61
+
+131,380
+91,160
+80,602
+71,117
+66,110
+53,090
+52,197
+51,588
+53,477
+40,807
+25,155
+23,704
+24,130
+10,623
+11,770
+8,120
+39,546
+
+84.46
+64.09
+54.37
+46.31
+44.91
+33.9
+34.4
+34.24
+33.87
+27.9
+17.58
+16.51
+16.59
+7.35
+7.9
+5.42
+27.87
+
+50,944
+34,840
+35,558
+30,674
+26,903
+28,589
+26,536
+22,624
+19,175
+16,788
+11,052
+11,318
+9,866
+7,659
+5,376
+4,482
+15,993
+
+86.84
+64.47
+63.26
+52.81
+48.2
+48.44
+46.13
+39.6
+32.24
+30.25
+20.31
+20.72
+17.87
+13.94
+9.53
+7.89
+29.71
+
+11,565
+7,908
+8,237
+6,941
+6,478
+7,465
+6,923
+5,182
+4,143
+4,324
+3,093
+2,989
+2,773
+2,099
+1,411
+986
+3,970
+
+87.78
+64.12
+64.64
+53
+51.13
+56.36
+53.31
+40.13
+31.09
+34.29
+24.92
+24
+22.09
+16.79
+11.03
+7.67
+32.31
+
+866
+577
+621
+513
+472
+596
+541
+400
+272
+341
+287
+271
+248
+185
+139
+71
+273
+
+87.56
+61.65
+64.82
+52.45
+49.42
+60.14
+55.72
+41.28
+27.23
+35.89
+30.56
+28.83
+26.11
+19.56
+14.46
+7.37
+29.17
+
+< 2.2e − 16*
+0.1569
+< 2.2e − 16*
+< 2.2e − 16*
+< 2.2e − 16*
+< 2.2e − 16*
+< 2.2e − 16*
+< 2.2e − 16*
+< 2.2e − 16*
+< 2.2e − 16*
+< 2.2e − 16*
+< 2.2e − 16*
+< 2.2e − 16*
+< 2.2e − 16*
+< 2.2e − 16*
+< 2.2e − 16*
+
+Number (%) of participants reporting symptoms every menstrual cycle by age group. P values < 0.05 were considered significant (*). P values
+refer to differences between the age groups
+
+Participants Reporting Symptom
+Every Menstrual Cycle (n)
+
+200,000
+180,000
+160,000
+140,000
+120,000
+100,000
+80,000
+60,000
+40,000
+20,000
+
+M
+
+oo
+
+d
+
+Sw Cr
+av
+in
+gs ing
+s
+,A
+nx
+ie
+In
+ty
+cr
+Fa
+ea
+t
+se
+ig
+B
+ue
+d
+re
+A
+as
+pp
+tS
+e
+en tite
+sa
+tio
+W
+ns
+ei
+g
+C
+ht
+on
+G
+st
+ai
+ip
+n
+S
+at
+w
+io
+el
+A
+lin
+bd n /
+g
+om Dia
+r
+rh
+in
+al
+e
+Sp a
+as
+H
+ea ms
+da
+Sl
+ee
+ch
+p
+es
+C
+ha
+Sw Ab
+ng
+se
+ea
+es
+tin ntM
+g,
+in
+H
+de
+ot
+d
+Fl
+as
+he
+Lo
+s
+w
+Li
+H
+b
+ai
+r C ido
+h
+Sk ang
+es
+in
+R
+as
+he
+s
+
+0
+
+Fig. 1  Frequency of premenstrual symptoms reported by survey respondents. Numbers reflect participants who reported experiencing the symptom every menstrual cycle
+
+13
+
+Premenstrual symptoms across the lifespan in an international sample: data from a mobile…
+
+Mood swings and anxiety did not differ significantly
+by age group (X2 (3, N = 209,556) = 5.2119, p = 0.1569).
+
+d. Frequency of premenstrual symptoms by country
+We examined rates of premenstrual mood and anxiety
+symptoms among the 140 countries (Fig. 2). Premenstrual mood symptoms reported every cycle were most
+common in Egypt (70.82%), Lebanon (67.42%), and
+Brazil (66.60%) and least common in Mali (27.64%),
+Gabon (26.02%), and Togo (25.99%). Participants across
+nations also reported that premenstrual symptoms caused
+interference in their functioning every cycle (Fig. 3). Participants reported interference most frequently in Egypt
+(68.59%), Pakistan (61.53%), and Brazil (64.73%) and
+least frequently in Nigeria (40.65%), Gabon (33.84%),
+and Congo (35.17%).
+
+907
+
+Discussion and conclusions
+Within a large international sample of 238,114 adults experiencing menstrual cycles, the majority reported experiencing
+premenstrual food cravings, mood swings or anxiety, and
+fatigue. Furthermore, while physical symptoms tended to
+increase with age, mood swings and anxiety were reported
+at similar frequencies across age groups.
+Our results were similar to that of Schoep and colleagues,
+who in 2019 published a study on the premenstrual symptoms among 42,879 women in the Netherlands (Schoep et al.
+2019). Schoep et al. found that the most common premenstrual symptoms were dysmenorrhea (~ 85%), psychological complaints (77%), and tiredness (71%) (Schoep et al.
+2019). In our study, psychological complaints (64.18%)
+and tiredness or fatigue (57.3%) were also among the most
+common symptoms, although less frequent than in Schoep
+et al.’s study. Also, we found food cravings (85.28%), not
+dysmenorrhea, to be the most commonly reported symptom.
+Together, our results align with those of Schoep et al. to
+
+Fig. 2  Percentages reflect
+participants within each country
+who reported experiencing
+premenstrual mood or anxiety
+symptoms every menstrual
+cycle, with darker shades representing greater percentages
+
+Fig. 3  Percentages of participants within each country who
+reported interference from
+premenstrual symptoms every
+menstrual cycle, with darker
+shades representing greater
+percentages
+
+13
+
+908
+
+suggest that premenstrual psychological complaints are a
+key symptom experienced by individuals worldwide. This is
+important information for clinicians in primary care, gynecology, or mental health settings who work with individuals
+experiencing menstrual cycles. Clinicians should be aware
+that food cravings, mood symptoms, and fatigue are common premenstrually, and that premenstrual mood symptoms
+may occur across age ranges while physical symptoms may
+be more common in older menstruators. This is particularly
+important when evaluating individuals for mental health
+concerns, as premenstrual mood symptoms may be mistaken
+for other types of mood disorders and vice versa.
+Participants in our sample also reported significant
+interference with daily activities due to their premenstrual
+symptoms. Among respondents who reported on interference, 63% reported that premenstrual symptoms interfered
+with their everyday life either every cycle or some cycles.
+The 28.61% who reported that premenstrual symptoms interfered with functioning every cycle was similar to the results
+of Schoep et al., who found that 38.4% of women reported
+interference with function during their period. This is critical, as women with PMS report reduced productivity and
+more missed days at work as well as increased frequency of
+healthcare utilization (Borenstein et al. 2003).
+Regarding changes in symptoms with age, we found that
+symptom frequency increased with age for absentmindedness, low libido, sleep changes, gastrointestinal symptoms,
+weight gain, headaches, sweating or hot flashes, fatigue, hair
+changes, and swelling. Conversely, frequency of abdominal spasms decreased with age. Findings on worsening of
+premenstrual symptoms with age have been mixed. Some
+studies suggest that premenstrual symptoms lessen with age
+(Freeman et al. 1995, 2004; Silva et al. 2008; Sternfeld et al.
+2002). For instance, a cross-sectional study found that premenstrual symptoms improved with age, with women ages
+36 to 44 being less symptomatic than those 20 to 35 years
+old (Freeman et al. 1995). However, other cross-sectional
+data on PMS symptoms in women between 15 and 54 years
+of age found that women aged 35 to 44 had the greatest
+symptom severity relative to other age groups (Tschudin
+et al. 2010). Other studies suggest that certain symptoms
+worsen with age, particularly somatic symptoms (Sylvén
+et al. 2013). Another study found an inverted U-shaped relationship between symptom severity and age, with premenstrual syndrome severity peaking at middle age (Dennerstein
+et al. 2011b). Some data report that the relationship between
+PMS and age vary depending on the particular symptom
+(Dennerstein et al. 2011a). In that study, the symptoms demonstrating an inverted U-shaped severity curve with the peak
+at 35 years of age included both physical (skin disorders,
+fatigue, appetite changes, body aches, abdominal bloating,
+swelling of extremities, breast tenderness, weight gain) and
+affective (anger, depressed mood, irritability). However, in
+
+13
+
+L. Hantsoo et al.
+
+that study, confusion, mood swings, and abdominal cramps
+decreased with age, and other symptoms had no relationship with age. Longitudinal research is needed to more fully
+characterize which premenstrual symptoms may worsen, or
+improve, over time.
+In the current sample, many of the symptoms that
+increased with age are associated with perimenopause, such
+as hot flashes, absentmindedness, and low libido. Thus, it
+makes sense that these premenstrual symptoms increased
+with age, potentially as women were approaching menopause, given that the sample included women up to age
+55. The mean age of menopause (final menstrual period) is
+51 years in the USA (Menopause - Symptoms and causes.
+2021). Our finding that abdominal spasms decreased with
+age is similar to findings by Dennerstein and colleagues, in
+which abdominal cramps decreased with age (Dennerstein
+et al. 2011a).
+Intriguingly, mood swings and anxiety did not differ significantly by age group. Indeed, across age groups, 61–64%
+of respondents reported mood or anxiety symptoms every
+menstrual cycle. This represents the majority of participants
+in this international sample across age ranges, suggesting
+that premenstrual mood symptoms are a key public health
+issue globally. Some studies suggest that premenstrual mood
+symptoms are less common among women ages 45 years
+and older (Strine et al. 2005), or lessen with age (Freeman
+et al. 1995, 2004; Silva et al. 2008; Sternfeld et al. 2002).
+However, in the present sample, our data suggests that premenstrual mood symptoms are a common, persistent complaint across age ranges. This high prevalence is important
+information for clinicians, as some may be unaware of the
+commonness of premenstrual mood complaints, leaving
+premenstrual mood symptoms underrecognized and undertreated (Hantsoo et al. 2022).
+Finally, the prevalence of mood swings and anxiety symptoms varied widely between countries. Premenstrual mood
+and anxiety symptoms were most common in Egypt, Lebanon, Brazil, Iran, and Jordan, with 64% or more participants
+reporting premenstrual affective symptoms every menstrual
+cycle. Premenstrual affective symptoms were least common
+in Cameroon, Congo, Mali, Gabon, and Togo, with fewer
+than 28% of participants reporting monthly mood changes.
+This is similar to a meta-analysis that found wide variation
+in prevalence of PMS across twelve nations, ranging from
+12% (France) to 98% (Iran) (Direkvand-Moghadam et al.
+2014). We also found wide variation in percentage of participants reporting that premenstrual symptoms affected their
+functioning, from 35.17 to 68.59%. This is novel, as there
+is little evidence to date on how functional impairment varies by country. One study reported less impact of premenstrual symptoms on work productivity in Asian countries
+compared to non-Asian countries (Heinemann et al. 2012),
+while another found that impairment was similar between
+
+Premenstrual symptoms across the lifespan in an international sample: data from a mobile…
+
+European and Latin American countries (Dennerstein et al.
+2010). As we did not query about specific impacts of premenstrual symptoms on functioning (e.g., missed days of
+work), but asked more broadly, “Do PMS symptoms interfere with your everyday life?” this may have produced the
+broad range of results, as respondents may have interpreted
+the question of interference differently.
+In sum, a majority of participants in this large international sample reported premenstrual food cravings, fatigue,
+and mood changes, with the frequency of physical symptoms increasing with age and mood symptoms occurring
+uniformly across age groups. Although additional research is
+needed before this information can be implemented in clinical settings, our data does suggest that premenstrual symptoms are common, and clinicians should be aware of this. In
+addition, longitudinal research is required to understand how
+premenstrual physical and mood symptoms progress across
+the lifetime, including reproductive transitions such as the
+postpartum or perimenopause.
+This study’s main strength was its large, international
+sample encompassing women across a range of geographic
+areas and ages. There were also several limitations. One
+limitation of the study is that it was based on aggregated,
+pooled data due to international mobile app data privacy
+rules, i.e., individual level data was not available. This
+prevented us from examining potential health or demographic mediators, such as parity or hormonal contraceptive use, on reported premenstrual symptoms. The use of
+aggregated data also prevented us from examining whether
+premenstrual symptoms may have been affected by medication use (e.g., antidepressants) or medical or psychiatric
+comorbidities. Furthermore, the data format precluded us
+from statistically testing for differences in premenstrual
+symptoms between countries. The data were collected from
+users of a mobile app, meaning that all participants needed
+access to a mobile telephone, as well as wireless internet
+or cellular internet access, which may have selected for a
+well-resourced sample. Another important limitation was
+that the data was self-report and was not based on clinician
+rating or validated scales designed specifically to measure
+premenstrual symptoms in a clinical sample. Thus, it is
+possible that participants over-reported or under-reported
+premenstrual symptoms. Indeed, this study was designed to
+examine the presence of premenstrual symptoms, not their
+severity. Relatedly, it is possible that participants interpreted
+the question of symptom interference differently between
+respondents, as described above. Other studies have used
+more objective measures of premenstrual symptom interference, such as days missed from work (Halbreich et al. 2003;
+Yang et al. 2008; Heinemann et al. 2012; Dennerstein et al.
+2010). There is also the possibility of reporting bias — it
+may be that individuals who are more aware of premenstrual symptoms are more likely to use a mobile app to track
+
+909
+
+symptoms, or are more likely to respond to a survey about
+premenstrual symptoms.
+In summary, we found that in a large international sample,
+premenstrual mood symptoms were common and occurred
+at similar frequencies across age groups. In contrast, physical premenstrual symptoms tended to increase with age.
+Finally, we found that a significant proportion of women
+reported that premenstrual symptoms interfered with daily
+functioning every cycle in the overall sample but that this
+proportion varied widely by country, indicating a need for
+further study.
+Supplementary Information The online version contains supplementary material available at https://d​ oi.o​ rg/1​ 0.1​ 007/s​ 00737-0​ 22-0​ 1261-5.
+Acknowledgements We would like to thank Gayane Yenokan, Ph.D.
+at the Johns Hopkins University School of Medicine for the guidance
+regarding the statistical analyses.
+Declarations
+This study involved analysis of aggregated data. The Johns Hopkins
+Institutional Review Board (IRB) reviewed the protocol as Not Human
+Subjects Research (NHSR). The IRB determined that the protocol did
+not constitute human subjects research under DHHS or FDA regulations and acknowledged the application as a minimal risk secondary
+research protocol.
+Competing interests R.S. and L.Z. are salaried employees of Flo
+Health Inc. J.P. owns a patent entitled “Epigenetic Biomarkers of
+Postpartum Depression.” The remaining authors report no conflict of
+interest.
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long
+as you give appropriate credit to the original author(s) and the source,
+provide a link to the Creative Commons licence, and indicate if changes
+were made. The images or other third party material in this article are
+included in the article's Creative Commons licence, unless indicated
+otherwise in a credit line to the material. If material is not included in
+the article's Creative Commons licence and your intended use is not
+permitted by statutory regulation or exceeds the permitted use, you will
+need to obtain permission directly from the copyright holder. To view a
+copy of this licence, visit http://​creat​iveco​mmons.​org/​licen​ses/​by/4.​0/.
+
+References
+Angst J, Sellaro R, Merikangas KR, Endicott J (2001) The epidemiology of perimenstrual psychological symptoms. Acta Psychiatr
+Scand 104(2):110–116
+Borenstein JE, Dean BB, Endicott J et al (2003) Health and economic impact of the premenstrual syndrome. J Reprod Med
+48(7):515–524
+Borenstein J, Chiou CF, Dean B, Wong J, Wade S (2005) Estimating direct and indirect costs of premenstrual syndrome. J Occup
+Environ Med 47(1):26–33
+da Silva CML, Gigante DP, Minten GC (2008) Premenstrual symptoms
+and syndrome according to age at menarche in a 1982 birth cohort
+
+13
+
+910
+in southern Brazil. Cad Saude Publica 24(4):835–844. https://d​ oi.​
+org/​10.​1590/​S0102-​311X2​00800​04000​14
+Dennerstein L, Lehert P, Bäckström TC, Heinemann K (2010) The
+effect of premenstrual symptoms on activities of daily life. Fertil
+Steril 94(3):1059–1064. https://​doi.​org/​10.​1016/j.​fertn​stert.​2009.​
+04.​023
+Dennerstein L, Lehert P, Heinemann K (2011) Global epidemiological study of variation of premenstrual symptoms with age and
+sociodemographic factors. Menopause Int 17(3):96–101. https://​
+doi.​org/​10.​1258/​mi.​2011.​011028
+Dennerstein L, Lehert P, Heinemann K (2011) Global study of women’s experiences of premenstrual symptoms and their effects on
+daily life. Menopause Int 17(3):88–95. https://​doi.​org/​10.​1258/​
+mi.​2011.​011027
+Direkvand-Moghadam A, Sayehmiri K, Delpisheh A, Kaikhavandi S
+(2014) Epidemiology of premenstrual syndrome (PMS)-a systematic review and meta-analysis study. J Clin Diagn Res 8(2):106–
+109. https://​doi.​org/​10.​7860/​JCDR/​2014/​8024.​4021
+Epperson CN, Steiner M, Hartlage SA et al (2012) Premenstrual dysphoric disorder: evidence for a new category for DSM-5. Am J
+Psychiatry 169(5):465–475
+Freeman EW, Rickels K, Schweizer E, Ting T (1995) Relationships
+between age and symptom severity among women seeking medical
+treatment for premenstrual symptoms. Psychol Med 25(2):309–315
+Freeman EW, Sammel MD, Rinaudo PJ, Sheng L (2004) Premenstrual syndrome as a predictor of menopausal symptoms. Obstet
+Gynecol 103(5 Pt 1):960–966. https://​doi.​org/​10.​1097/​01.​AOG.​
+00001​24804.​81095.​7f
+Halbreich U (2004) The diagnosis of premenstrual syndromes and premenstrual dysphoric disorder–clinical procedures and research
+perspectives. Gynecol Endocrinol 19(6):320–334
+Halbreich U, Borenstein J, Pearlstein T, Kahn LS (2003) The prevalence,
+impairment, impact, and burden of premenstrual dysphoric disorder
+(PMS/PMDD). Psychoneuroendocrinology 28(Suppl 3):1–23
+Hantsoo L, Epperson CN (2020) Allopregnanolone in premenstrual
+dysphoric disorder (PMDD): evidence for dysregulated sensitivity
+to GABA-A receptor modulating neuroactive steroids across the
+menstrual cycle. Neurobiology of Stress 12:100213. https://​doi.​
+org/​10.​1016/j.​ynstr.​2020.​100213
+Hantsoo L, Sajid H, Murphy L et al (2022) Patient experiences of
+health care providers in premenstrual dysphoric disorder: examining the role of provider specialty. J Womens Health (larchmt)
+31(1):100–109. https://​doi.​org/​10.​1089/​jwh.​2020.​8797
+Heinemann LAJ, Minh TD, Heinemann K, Lindemann M, Filonenko
+A (2012) Intercountry assessment of the impact of severe premenstrual disorders on work and daily activities. Health Care
+Women Int 33(2):109–124. https://​doi.​org/​10.​1080/​07399​332.​
+2011.​610530
+Martinez PE, Rubinow DR, Nieman LK et al (2016) 5α-reductase
+inhibition prevents the luteal phase increase in plasma allopregnanolone levels and mitigates symptoms in women with
+premenstrual dysphoric disorder. Neuropsychopharmacology
+41(4):1093–1102. https://​doi.​org/​10.​1038/​npp.​2015.​246
+
+13
+
+L. Hantsoo et al.
+Menopause - Symptoms and causes (2021) Mayo Clinic. Accessed May
+​ ww.m
+​ ayocl​ inic.o​ rg/d​ iseas​ es-c​ ondit​ ions/m
+​ enop​
+20, 2021. https://w
+ause/​sympt​oms-​causes/​syc-​20353​397
+R Core Team (2020) R: a language and environment for statistical computing. R Foundation for Statistical Computing https://​www.R-​
+proje​ct.​org/
+Rapkin AJ, Mikacich JA (2013) Premenstrual dysphoric disorder and
+severe premenstrual syndrome in adolescents. Paediatr Drugs
+15(3):191–202. https://​doi.​org/​10.​1007/​s40272-​013-​0018-4
+Schmidt PJ, Nieman LK, Danaceau MA, Adams LF, Rubinow DR
+(1998) Differential behavioral effects of gonadal steroids in
+women with and in those without premenstrual syndrome. N
+Engl J Med 338(4):209–216. https://​doi.​org/​10.​1056/​NEJM1​
+99801​22338​0401
+Schoep ME, Nieboer TE, van der Zanden M, Braat DDM, Nap AW
+(2019) The impact of menstrual symptoms on everyday life: a
+survey among 42,879 women. Am J Obstet Gynecol. Published
+online https://​doi.​org/​10.​1016/j.​ajog.​2019.​02.​048
+Schweizer-Schubert S, Gordon JL, Eisenlohr-Moul TA et al (2021)
+Steroid hormone sensitivity in reproductive mood disorders: on
+the role of the GABAA receptor complex and stress during hormonal transitions. Front Med (Lausanne) 7. https://​doi.​org/​10.​
+3389/​fmed.​2020.​479646
+Sternfeld B, Swindle R, Chawla A, Long S, Kennedy S (2002) Severity
+of premenstrual symptoms in a health maintenance organization
+population. Obstet Gynecol 99(6):1014–1024. https://​doi.​org/​10.​
+1016/​S0029-​7844(02)​01958-0
+Strine TW, Chapman DP, Ahluwalia IB (2005) Menstrual-related
+problems and psychological distress among women in the United
+States. J Womens Health (larchmt) 14(4):316–323. https://d​ oi.o​ rg/​
+10.​1089/​jwh.​2005.​14.​316
+Sylvén SM, Ekselius L, Sundström-Poromaa I, Skalkidou A (2013)
+Premenstrual syndrome and dysphoric disorder as risk factors for
+postpartum depression. Acta Obstet Gynecol Scand 92(2):178–
+184. https://​doi.​org/​10.​1111/​aogs.​12041
+Tschudin S, Bertea PC, Zemp E (2010) Prevalence and predictors of
+premenstrual syndrome and premenstrual dysphoric disorder in a
+population-based sample. Arch Womens Ment Health 13(6):485–
+494. https://​doi.​org/​10.​1007/​s00737-​010-​0165-3
+Wittchen HU, Becker E, Lieb R, Krause P (2002) Prevalence, incidence
+and stability of premenstrual dysphoric disorder in the community. Psychol Med 32(1):119–132
+Yang M, Wallenstein G, Hagan M, Guo A, Chang J, Kornstein S (2008)
+Burden of premenstrual dysphoric disorder on health-related quality of life. J Womens Health (larchmt) 17(1):113–121. https://​doi.​
+org/​10.​1089/​jwh.​2007.​0417
+Publisher's note Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutional affiliations.
+
+

@@ -81,6 +81,9 @@ const HomeScreen = ({ route, navigation }) => {
 
   return (
     <View style={styles.appContainer}>
+      <TouchableOpacity  onPress={() => navigation.navigate('Dalton')} style={styles.dalton}>
+            <Text style={styles.buttonText}>🤖</Text>
+      </TouchableOpacity> 
       <Circle circleStyle={{ top: '5%', right: 40, elevation: 5 }} text="Maps" onPress={() => navigation.navigate('Maps', { userID : userID })} backgroundColor="rgba(107, 69, 150, 1)" index={0} />
       <Circle circleStyle={{ top: '20%', left: 40, elevation: 5 }} text="Friends" onPress={() => navigation.navigate('Friends List', { userID : userID })} backgroundColor="rgba(107, 69, 150, 1)" index={1} />
       <Circle circleStyle={{ top: '37%', right: 38, elevation: 5 }} text="Messages" onPress={() => navigation.navigate('MessageList',{ userID : userID })} backgroundColor="rgba(107, 69, 150, 1)" index={2} />
@@ -97,6 +100,19 @@ const HomeScreen = ({ route, navigation }) => {
 };
 
 const styles = StyleSheet.create({
+   dalton: {
+      zIndex: 5,
+      bottom : '40%',
+      right: '40%',
+      backgroundColor: 'rgba(107, 69, 150, 1)',
+      padding: 10,
+      borderRadius: 190/2
+  },
+
+  buttonText: {
+      fontSize: 20,
+  },
+
   settingsButton: {
     position: 'absolute',
     bottom: 10,

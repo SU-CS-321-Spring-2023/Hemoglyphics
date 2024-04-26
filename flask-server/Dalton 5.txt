@@ -1,0 +1,512 @@
+Premenstrual Syndrome and Premenstrual
+Dysphoric Disorder
+SABRINA HOFMEISTER, DO, and SETH BODDEN, MD, Medical College of Wisconsin, Milwaukee, Wisconsin
+
+Premenstrual disorders affect up to 12% of women. The subspecialties of psychiatry and gynecology have developed
+overlapping but distinct diagnoses that qualify as a premenstrual disorder; these include premenstrual syndrome
+and premenstrual dysphoric disorder. These conditions encompass psychological and physical symptoms that cause
+significant impairment during the luteal phase of the menstrual cycle, but resolve shortly after menstruation. Patientdirected prospective recording of symptoms is helpful to establish the cyclical nature of symptoms that differentiate premenstrual syndrome and premenstrual dysphoric disorder from other psychiatric and physical disorders.
+Physicians should tailor therapy to achieve the greatest functional improvement possible for their patients. Select
+serotonergic antidepressants are first-line treatments. They can be used continuously or only during the luteal phase.
+Oral contraceptives and calcium supplements may also be used. There is insufficient evidence to recommend treatment with vitamin D, herbal remedies, or acupuncture, but there are data to suggest benefit from cognitive behavior
+therapy. (Am Fam Physician. 2016;94(3):236-240. Copyright © 2016 American Academy of Family Physicians.)
+More online
+at http://www.
+aafp.org/afp.
+CME This clinical content
+conforms to AAFP criteria
+for continuing medical
+education (CME). See
+CME Quiz Questions on
+page 208.
+
+Author disclosure: No relevant financial affiliations.
+▲
+
+Patient information:
+A handout on this topic is
+available at http://www.
+aafp.org/afp/2016/0801/
+p236-s1.html.
+
+P
+
+remenstrual disorders consist of
+psychiatric or somatic symptoms
+that develop within the luteal phase
+of the menstrual cycle, affect the
+patient’s normal daily functioning, and
+resolve shortly after menstruation. The luteal
+phase begins after ovulation and ends with
+the start of menstruation. The subspecialties
+of psychiatry and gynecology have developed
+overlapping but distinct diagnoses that qualify as a premenstrual disorder.1 The American
+Congress of Obstetricians and Gynecologists
+(ACOG) includes psychiatric and physical symptoms in describing premenstrual
+syndrome (PMS; Table 1).2 The American
+Psychiatric Association (APA) focuses predominantly on psychiatric symptoms in its
+diagnostic criteria for premenstrual dysphoric disorder (PMDD; Table 2).3 Symptoms
+can occur anytime between menarche and
+menopause. The burden of disease can be
+high; women with PMS have higher rates of
+work absences, higher medical expenses, and
+lower health-related quality of life.4
+Epidemiology
+About 80% of women report at least one
+physical or psychiatric symptom during the
+luteal phase of their menstrual cycle; however, most do not report significant impairment in their daily life.5 In a study of 2,800
+
+French women, about 12% met the diagnostic criteria for PMS, and 4% reported severe
+symptoms.6 The prevalence of PMS is not
+associated with age, educational achievement, or employment status.6 Symptom
+persistence and severity tend to fluctuate.
+One study found that only 36% of women
+who were diagnosed with PMS continued to
+meet the diagnostic criteria one year later.6
+Women who gained weight or had a stressful
+event in the past year are more likely to be
+diagnosed with PMS.6 Fewer patients meet
+the more rigorous diagnostic criteria for
+PMDD; its prevalence is 1.3% to 5.3%.5
+Etiology
+There is a poor understanding of the etiology
+of premenstrual disorders. Several studies
+suggest that cyclical changes in estrogen and
+progesterone levels trigger the symptoms.7-9
+Postmenopausal women who had previously been diagnosed with PMS had recurrent psychiatric and physical symptoms
+when they received cyclical progestogen
+therapy.7 Furthermore, the suppression of
+estrogen with gonadotropin-releasing hormone analogues has been shown to significantly improve PMS symptoms.8 Changes
+in mood may be attributable to the effect
+estrogen and progesterone have on the serotonin, γ-aminobutyric acid, and dopamine
+
+236Downloaded
+Americanfrom
+Family
+Physician
+www.aafp.org/afp
+Volume
+94, Number
+3 ForAugust
+1, 2016
+the American
+Family Physician website at www.aafp.org/afp.
+Copyright © 2016 American Academy
+of Family
+Physicians.
+the private,
+non◆
+
+commercial use of one individual user of the website. All other rights reserve`d. Contact copyrights@aafp.org for copyright questions and/or permission requests.
+
+PMS and PMDD
+SORT: KEY RECOMMENDATIONS FOR PRACTICE
+Clinical recommendation
+The Daily Record of Severity of Problems is a
+useful tool to help diagnose PMS and PMDD.
+Selective serotonin reuptake inhibitors may
+be used as first-line treatment for severe
+symptoms of PMS and PMDD.
+Oral contraceptives are effective for treatment
+of PMS and PMDD.
+Calcium supplementation of 1,000 to 1,200 mg
+per day may improve PMS symptoms.
+Cognitive behavior therapy may improve PMS
+and PMDD symptoms.
+
+Evidence
+rating
+
+References
+
+C
+
+12
+
+A
+
+14
+
+A
+
+17-19
+
+be more sensitive to fluctuations in these sex
+hormones are lacking.6 Monozygotic twin
+studies suggest a possible genetic component to premenstrual disorders; however, no
+genes have been identified.10
+
+Diagnosis
+Establishing the timing of symptoms is
+essential when evaluating for PMS and
+B
+29
+PMDD. Symptoms must occur during the
+luteal phase and resolve shortly after the
+PMDD = premenstrual dysphoric disorder; PMS = premenstrual syndrome.
+onset of menstruation. Other conditions,
+A = consistent, good-quality patient-oriented evidence; B = inconsistent or limitedsuch as depression or anxiety, may worsen
+quality patient-oriented evidence; C = consensus, disease-oriented evidence, usual
+during the luteal phase, but these can be dispractice, expert opinion, or case series. For information about the SORT evidence
+rating system, go to http://www.aafp.org/afpsort.
+tinguished from PMS because they persist
+throughout the menstrual cycle. Migraines,
+anemia, endometriosis, and hypothyroidism
+systems.9 These can also alter the renin-angiotensin- may produce symptoms similar to PMS or PMDD and
+aldosterone system, which could explain some of the should also be considered. Diagnostic laboratory testing
+bloating and swelling that occur during the luteal phase.9 or imaging should be directed at ruling out alternative
+Sex hormone levels alone cannot fully explain premen- medical diagnoses.
+strual disorders. Studies show that women diagnosed
+ACOG has defined PMS as a condition in which a
+with a premenstrual disorder do not have higher levels woman experiences at least one affective symptom and
+of estrogen or progesterone than the general population, one somatic symptom that cause dysfunction in social,
+and accepted explanations as to why some women could academic, or work performance. These symptoms must
+be cyclical, beginning after ovulation and resolving
+shortly after the onset of menstruation (Table 1).2 To
+Table 1. Diagnostic Criteria for Premenstrual
+meet the diagnostic criteria for PMDD, a patient must
+Syndrome
+have at least five of the symptoms listed in Table 2 in the
+week before menses, and these symptoms must improve
+Premenstrual syndrome can be diagnosed if the patient
+within a few days after the onset of menses.3
+reports at least one of the following affective and somatic
+Prospective questionnaires are the most accurate way
+symptoms during the five days before menses in each of
+to diagnose PMS and PMDD because patients greatly
+the three previous menstrual cycles*
+overestimate the cyclical nature of symptoms, when in
+Affective symptoms
+Somatic symptoms
+fact they are erratic or simply exacerbated during their
+Angry outbursts
+Abdominal bloating
+luteal phase.2,3,11 The Daily Record of Severity of ProbAnxiety
+Breast tenderness or swelling
+lems (DRSP) is a valid and reliable tool that can be used
+Confusion
+Headache
+to diagnose PMS or PMDD12 (eTable A). It is a daily log of
+Depression
+Joint or muscle pain
+symptoms that correlate with the diagnostic criteria for
+Irritability
+Swelling of extremities
+PMS and PMDD. Patients rate their symptoms through
+Social withdrawal
+Weight gain
+at least two menstrual cycles, which requires a significant
+investment of time and effort. Administering the DRSP
+*—These symptoms must be relieved within four days of the onset
+of menses, without recurrence until at least day 13 of the cycle, and
+on the first day of menses may be an acceptable way to
+must be present in the absence of any pharmacologic therapy, horscreen for premenstrual disorders. A cutoff value of 50
+mone ingestion, or drug or alcohol use. The symptoms must occur
+provides a positive predictive value of 63.4% and a negareproducibly during two cycles of prospective recording. The patient
+must exhibit identifiable dysfunction in social, academic, or work
+tive predictive value of 90%.13
+B
+
+20, 21
+
+performance.
+
+Adapted with permission from American College of Obstetricians
+and Gynecologists. Guidelines for Women’s Health Care: A Resource
+Manual. 4th ed. Washington, DC: American College of Obstetricians
+and Gynecologists; 2014:608.
+
+August 1, 2016 ◆ Volume 94, Number 3
+
+Treatment
+Treatment of PMS and PMDD focuses on relieving physical and psychiatric symptoms. Many of the medications used address the body’s hormonal activity through
+
+www.aafp.org/afp
+
+American Family Physician 237
+
+PMS and PMDD
+
+Table 2. Diagnostic Criteria for Premenstrual Dysphoric Disorder
+A.	In the majority of menstrual cycles, at least five symptoms must be present in the final week before the onset of menses, start
+to improve within a few days after the onset of menses, and become minimal or absent in the week postmenses.
+B.	One (or more) of the following symptoms must be present:
+1.	Marked affective lability (e.g., mood swings; feeling suddenly sad or tearful, or increased sensitivity to rejection).
+2.	Marked irritability or anger or increased interpersonal conflicts.
+3.	Marked depressed mood, feelings of hopelessness, or self-deprecating thoughts.
+4.	Marked anxiety, tension, and/or feelings of being keyed up or on edge.
+C.	One (or more) of the following symptoms must additionally be present, to reach a total of five symptoms when combined with
+symptoms from Criterion B above.
+1.	Decreased interest in usual activities (e.g., work, school, friends, hobbies).
+2.	Subjective difficulty in concentration.
+3.	Lethargy, easy fatigability, or marked lack of energy.
+4.	Marked change in appetite; overeating; or specific food cravings.
+5.	Hypersomnia or insomnia.
+6.	A sense of being overwhelmed or out of control.
+7.	Physical symptoms such as breast tenderness or swelling, joint or muscle pain, a sensation of “bloating,” or weight gain.
+NOTE: The symptoms in Criteria A–C must have been met for most menstrual cycles that occurred in the preceding year.
+
+D.	The symptoms are associated with clinically significant distress or interference with work, school, usual social activities, or
+relationships with others (e.g., avoidance of social activities; decreased productivity and efficiency at work, school, or home).
+E.	The disturbance is not merely an exacerbation of the symptoms of another disorder, such as major depressive disorder, panic
+disorder, persistent depressive disorder (dysthymia), or a personality disorder (although it may co-occur with any of these
+disorders).
+F. 	Criterion A should be confirmed by prospective daily ratings during at least two symptomatic cycles. (note: The diagnosis may
+be made provisionally before this confirmation.)
+G.	The symptoms are not attributable to the physiologic effects of a substance (e.g., a drug of abuse, a medication, other
+treatment) or another medical condition (e.g., hyperthyroidism).
+Reprinted with permission from the American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders. 5th ed. Washington, DC:
+American Psychiatric Association; 2013:171-172.
+
+suppression of ovulation, whereas others affect the
+concentration of neurotransmitters such as serotonin,
+norepinephrine, or dopamine in the brain. A third
+group of complementary or alternative agents with varying mechanisms of action are also used. In the United
+States, selective serotonin reuptake inhibitors (SSRIs)
+are approved for primary treatment. Although SSRIs are
+considered psychiatric medications, when used to treat
+premenstrual disorders they improve physical and psychiatric symptoms in most patients.14 Physicians should
+tailor therapy based on patient tolerance and response to
+each medication.
+PHARMACOLOGIC TREATMENTS
+
+Serotonergic Antidepressants. SSRIs are first-line treatment for severe symptoms of PMS and PMDD. Sertraline
+(Zoloft), paroxetine (Paxil), fluoxetine (Prozac), citalopram (Celexa), and escitalopram (Lexapro) can be used
+to treat the psychiatric symptoms of PMS and PMDD and
+have been shown to relieve some of the physical symptoms.14 A 2013 Cochrane review analyzed 31 randomized
+controlled trials that compared SSRIs with placebo for
+symptom relief of PMS.14 Each of the five SSRIs studied
+238 American Family Physician
+
+had statistically significant benefits on patient-reported
+symptoms when taken continuously or only during the
+luteal phase, but more direct studies comparing luteal
+phase administration with continuous administration
+are needed.14 Adverse effects include nausea, asthenia,
+fatigue, and sexual dysfunction.14 All SSRI doses seemed
+to be effective for psychiatric symptoms, and ultimately
+could be titrated to the patient’s tolerability.14 Higher
+doses are needed for relief of physical symptoms. Bupropion (Wellbutrin) was not effective for symptom relief of
+PMS or PMDD.14
+Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs).
+SNRIs such as venlafaxine have been used off-label to
+treat PMDD in women with predominantly psychological symptoms.15 The effect is achieved over a relatively short period, three to four weeks, and sustained
+throughout subsequent menstrual cycles.15
+Quetiapine (Seroquel). This antipsychotic has been
+studied as an adjunctive treatment with an SSRI or
+SNRI in patients with PMS or PMDD. The goal was
+to improve luteal phase mood in women who did not
+respond to SSRI or SNRI therapy alone.16 In a small
+study, 20 women were started on 25 mg of quetiapine
+
+www.aafp.org/afp
+
+Volume 94, Number 3 ◆ August 1, 2016
+
+PMS and PMDD
+
+WHAT IS NEW ON THIS TOPIC: PREMENSTRUAL
+SYNDROME AND PREMENSTRUAL DYSPHORIC
+DISORDER
+Prospective questionnaires are the most accurate way
+to diagnose premenstrual syndrome and premenstrual
+dysphoric disorder because patients have been found
+to greatly overestimate the cyclical nature of symptoms,
+when realistically, they are erratic or simply exacerbated
+during the luteal cycle.
+
+and followed for three menstrual cycles.16 Luteal phase
+mood lability, anxiety, and irritability were reduced in
+the quetiapine group.16
+Oral Contraceptives. Studies have suggested that oral
+contraceptives provide benefit when treating physical
+and psychiatric symptoms of PMS or PMDD. Researchers analyzed four moderate-quality trials of continuous
+oral contraceptive use (90 mcg levonorgestrel/20 mcg
+ethinyl estradiol) in women who tracked their symptoms on the DRSP.17 Although results were somewhat
+inconsistent, an improvement in depressive and physical
+symptoms (from 30% to 59%) was identified. A higher
+placebo response occurred in women with PMDD, which
+suggests that a greater improvement occurred in women
+with predominantly psychiatric, placebo-responsive
+symptoms at baseline.17,18 A separate PMDD trial found
+that continuous treatment for 112 days resulted in the
+most improvement in DRSP scores.18
+A 2012 Cochrane review of oral contraceptives containing drospirenone evaluated five trials with 1,920
+women.19 High drop-out rates were noted in all but one
+trial. Results showed that the drospirenone combination pill reduced impairments in productivity and social
+functioning in women with PMDD, but there was insufficient evidence of benefit for those with PMS.19 Oral
+contraceptives with and without drospirenone seem to
+be effective at relieving abdominal bloating, mastalgia,
+headache, weight gain, and swelling of extremities. Trials
+that extend beyond three months are needed for further
+analysis.19
+Other Medications. Calcium supplementation has been
+evaluated as treatment for PMS. Women with PMS and
+mood instability have been noted to have associated
+cyclic changes in their calcium levels; the exact mechanism of action is unknown.20 A randomized controlled
+trial of 179 Tehran University students who met criteria
+for PMS without another psychiatric diagnosis found a
+50% reduction in depression, appetite, and fatigue in
+women who received 500 mg of supplemental calcium
+carbonate twice daily for three months.21 This result
+August 1, 2016 ◆ Volume 94, Number 3
+
+was also demonstrated in a U.S. study of more than 400
+women who supplemented with 1,200 mg of calcium
+carbonate daily.20
+Vitamin D supplementation for treatment of PMS
+and PMDD symptoms was reviewed in a cross-sectional
+analysis of a large study.22 The cross-section analyzed was
+too small to make strong conclusions about the benefit of
+vitamin D.22 A separate study followed 401 women for
+16 years and compared those who developed PMS with
+those who did not.23 The analysis concluded that low
+vitamin D levels were not associated with an increased
+risk of PMS.23 Further studies are needed to support the
+use of vitamin D as a treatment for symptoms of PMS
+and PMDD. Vitamin B6 at a dosage of 80 mg per day has
+also been studied and recommended as treatment for
+primarily psychological symptoms of PMS, but these
+studies are small and more data is needed to recommend
+it as first-line treatment.24
+Guidelines from the International Society of Premenstrual Disorders addressed gonadotropin-releasing hormone agonists as potential treatment of PMS and PMDD
+by eliminating luteal phase symptoms.25 Although these
+medications have been used since the 1980s and are
+effective, they are not practical for long-term use because
+of the increased cardiovascular and osteoporosis risks
+associated with extended use.25 Long-term users often
+need hormone add-back therapy to counteract many of
+their hypoestrogenic effects, which may cause a return of
+PMS symptoms.26
+COMPLEMENTARY AND NONPHARMACOLOGIC
+TREATMENTS
+
+Herbal Preparations and Acupuncture. Many small,
+poorly conducted studies have reviewed the effectiveness
+of Chinese herbal supplements and acupuncture in the
+treatment of premenstrual symptoms.27 This evidence is
+too limited and study quality is too poor to suggest benefit.27 A 2010 Cochrane review of Chinese herbal supplements for PMS also did not find evidence that was strong
+enough to support their use.28 The studies evaluated use
+of saffron, St. John’s wort, ginkgo, vitex agnus-castus,
+peppermint, angelica root, dragon’s teeth, turmeric, tangerine leaf, and bitter orange, among others.27,28 Larger,
+more extensive trials are needed to support the use of
+these agents as first-line treatment.
+Cognitive Behavior Therapy. A 2009 meta-analysis analyzed seven trials, three of which were randomized controlled trials, and showed improvement in functioning
+and depression scores for patients with PMS or PMDD.29
+The frequency and duration of therapy were not defined.
+However, the results suggest that mindfulness-based
+
+www.aafp.org/afp
+
+American Family Physician 239
+
+PMS and PMDD
+
+exercises and acceptance-based cognitive behavior
+therapy may be helpful for reducing symptoms. Further
+studies are needed to support the use of cognitive behavior therapy as first-line therapy.
+Data Sources: Research was conducted in the PubMed and Cochrane
+databases using the terms PMS and PMDD, PMS and PMDD treatment,
+and PMS and PMDD definition. We also used articles located in an Essential Evidence Plus report on the topic premenstrual dysphoric disorder,
+topic 248. External sources such as the Diagnostic and Statistical Manual of Mental Disorders, 5th ed., and publications from the American
+Congress of Obstetricians and Gynecologists were accessed separately
+and directly through our institutional licensing agreement at the Medical
+College of Wisconsin. Search date: August 1, 2015.
+This review updates a previous article on this topic by Biggs and Demuth.30
+
+The Authors
+SABRINA HOFMEISTER, DO, is an assistant professor in the Department
+of Family and Community Medicine at the Medical College of Wisconsin,
+Milwaukee.
+SETH BODDEN, MD, is an assistant professor in the Department of Family
+and Community Medicine at the Medical College of Wisconsin.
+Address correspondence to Sabrina Hofmeister, DO, Medical College of Wisconsin, 1121 E. North Ave., Milwaukee, WI 53212 (e-mail:
+shofmeister@mcw.edu). Reprints are not available from the authors.
+REFERENCES
+1. O’Brien PM, Bäckström T, Brown C, et al. Towards a consensus on
+diagnostic criteria, measurement and trial design of the premenstrual
+disorders: the ISPMD Montreal consensus. Arch Womens Ment Health.
+2011;14(1):13-21.
+2. American College of Obstetricians and Gynecologists. Guidelines for
+Women’s Health Care: A Resource Manual. 4th ed. Washington, DC:
+American College of Obstetricians and Gynecologists; 2014:607-613.
+3. American Psychiatric Association. Diagnostic and Statistical Manual of
+Mental Disorders. 5th ed. Washington, DC: American Psychiatric Association; 2013.
+4. Mishell DR Jr. Premenstrual disorders: epidemiology and disease burden. Am J Manag Care. 2005;11(16 suppl):S473-S479.
+5. Wittchen HU, Becker E, Lieb R, Krause P. Prevalence, incidence and
+stability of premenstrual dysphoric disorder in the community. Psychol
+Med. 2002;32(1):119-132.
+6. Potter J, Bouyer J, Trussell J, Moreau C. Premenstrual syndrome prevalence and fluctuation over time: results from a French population-based
+survey. J Womens Health (Larchmt). 2009;18(1):31-39.
+7. Hammarbäck S, Bäckström T, Holst J, von Schoultz B, Lyrenäs S. Cyclical
+mood changes as in the premenstrual tension syndrome during sequential estrogen-progestagen postmenopausal replacement therapy. Acta
+Obstet Gynecol Scand. 1985;64(5):393-397.
+8. Kumar P, Sharma A. Gonadotropin-releasing hormone analogs: understanding advantages and limitations. J Hum Reprod Sci. 2014;​7(3):​
+170-174.
+
+11. Gehlert S, Song IH, Chang CH, Hartlage SA. The prevalence of premenstrual dysphoric disorder in a randomly selected group of urban and
+rural women. Psychol Med. 2009;39(1):129-136.
+12. Endicott J, Nee J, Harrison W. Daily Record of Severity of Problems (DRSP):
+reliability and validity. Arch Womens Ment Health. 2006;9(1):41-49.
+13. Borenstein JE, Dean BB, Yonkers KA, Endicott J. Using the daily record
+of severity of problems as a screening instrument for premenstrual syndrome. Obstet Gynecol. 2007;109(5):1068-1075.
+14. Marjoribanks J, Brown J, O’Brien PM, Wyatt K. Selective serotonin reuptake inhibitors for premenstrual syndrome. Cochrane Database Syst Rev.
+2013;6:CD001396.
+15. Hsiao MC, Liu CY. Effective open-label treatment of premenstrual dysphoric disorder with venlafaxine. Psychiatry Clin Neurosci. 2003;​57(3):​
+317-321.
+16. Jackson C, Pearson B, Girdler S, et al. Double-blind, placebo-controlled
+pilot study of adjunctive quetiapine SR in the treatment of PMS/PMDD.
+Hum Psychopharmacol. 2015;30(6):425-434.
+17. Freeman EW, Halbreich U, Grubb GS, et al. An overview of four studies of a continuous oral contraceptive (levonorgestrel 90 mcg/ethinyl
+estradiol 20 mcg) on premenstrual dysphoric disorder and premenstrual
+syndrome. Contraception. 2012;85(5):437-445.
+18. Halbreich U, Freeman EW, Rapkin AJ, et al. Continuous oral levonorgestrel/ethinyl estradiol for treating premenstrual dysphoric disorder.
+Contraception. 2012;85(1):19-27.
+19. Lopez LM, Kaptein AA, Helmerhorst FM. Oral contraceptives containing
+drospirenone for premenstrual syndrome. Cochrane Database Syst Rev.
+2012;(2):CD006586.
+20. Thys-Jacobs S, Starkey P, Bernstein D, Tian J; Premenstrual Syndrome
+Study Group. Calcium carbonate and the premenstrual syndrome:
+effects on premenstrual and menstrual symptoms. Am J Obstet Gynecol.
+1998;179(2):444-452.
+21. Ghanbari Z, Haghollahi F, Shariat M, Foroshani AR, Ashrafi M. Effects
+of calcium supplement therapy in women with premenstrual syndrome.
+Taiwan J Obstet Gynecol. 2009;48(2):124-129.
+22. Bertone-Johnson ER, Chocano-Bedoya PO, Zagarins SE, Micka AE, Ronnenberg AG. Dietary vitamin D intake, 25-hydroxyvitamin D3 levels and
+premenstrual syndrome in a college-aged population. J Steroid Biochem
+Mol Biol. 2010;121(1-2):434-437.
+23. Bertone-Johnson ER, Hankinson SE, Forger NG, et al. Plasma 25-hydroxy­
+vitamin D and risk of premenstrual syndrome in a prospective cohort
+study. BMC Womens Health. 2014;14:56.
+24. Kashanian M, Mazinani R, Jalalmanesh S. Pyridoxine (vitamin B6) therapy
+for premenstrual syndrome. Int J Gynaecol Obstet. 2007;96(1):43-44.
+25. Nevatte T, O’Brien PM, Bäckström T, et al.; Consensus Group of the
+International Society for Premenstrual Disorders. ISPMD consensus on
+the management of premenstrual disorders. Arch Womens Ment Health.
+2013;16(4):279-291.
+26. Imai A, Ichigo S, Matsunami K, Takagi H. Premenstrual syndrome: management and pathophysiology. Clin Exp Obstet Gynecol. 2015;​42(2):​
+123-128.
+27. Jang SH, Kim DI, Choi MS. Effects and treatment methods of acupuncture and herbal medicine for premenstrual syndrome/premenstrual
+dysphoric disorder: systematic review. BMC Complement Altern Med.
+2014;14:11.
+28. Jing Z, Yang X, Ismail KM, Chen X, Wu T. Chinese herbal medicine
+for premenstrual syndrome. Cochrane Database Syst Rev. 2009;​(1):​
+CD006414.
+
+9. Halbreich U. The etiology, biology, and evolving pathology of premenstrual syndromes. Psychoneuroendocrinology. 2003;28(suppl 3):55-99.
+
+29. Lustyk MK, Gerrish WG, Shaver S, Keys SL. Cognitive-behavioral therapy for premenstrual syndrome and premenstrual dysphoric disorder:
+a systematic review. Arch Womens Ment Health. 2009;12(2):85-96.
+
+10. Jahanfar S, Lye MS, Krishnarajah IS. The heritability of premenstrual
+syndrome. Twin Res Hum Genet. 2011;14(5):433-436.
+
+30. Biggs WS, Demuth RH. Premenstrual syndrome and premenstrual dysphoric disorder. Am Fam Physician. 2011;84(8):918-924.
+
+240 American Family Physician
+
+www.aafp.org/afp
+
+Volume 94, Number 3 ◆ August 1, 2016
+
+

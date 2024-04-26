@@ -16,7 +16,7 @@ import NewCircleScreen from './pages/NewCircleScreen.js';
 import ManageCircleScreen from './pages/ManageCircleScreen.js';
 import Settings from './pages/Settings.js';
 import MessageListScreen from './pages/MessageList.js';
-
+import Dalton from './pages/Dalton.js';
 const Stack = createStackNavigator();
 
 // all possible pages that we have (at this moment)
@@ -24,6 +24,11 @@ const Navigation = () => {
     return(
         <NavigationContainer>
             <Stack.Navigator initialRouteName='Login'>
+                <Stack.Screen name="Dalton" component={Dalton} options={{
+                    headerStyle: {
+                        backgroundColor: 'rgba(249, 217, 250, 1)',
+                    }
+                }}/>
                 <Stack.Screen name="Welcome" component={HomeScreen} options={{
                     title: "Welcome",
                     headerStyle: {

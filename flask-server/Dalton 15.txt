@@ -1,0 +1,706 @@
+21 July 2011
+EMA/CHMP/607022/2009
+Committee for Medicinal Products for Human Use (CHMP)
+
+
+
+
+Guideline on the treatment of premenstrual dysphoric
+disorder (PMDD)
+
+
+
+Draft Agreed by Efficacy Working Party                                                                             April 2010
+
+Adoption by CHMP for release for consultation                                                                    20 May 2010
+
+End of consultation (deadline for comments)                                                             30 November 2010
+
+Agreed by CNS Working Party                                                                                          April 2011
+
+Adoption by CHMP                                                                                                 21 July 2011
+
+Date for coming into effect                                                                                 1 February 2012
+
+
+
+Keywords                    Premenstrual Dysphoric Disorder, Guidance
+
+
+
+
+7 Westferry Circus ● Canary Wharf ● London E14 4HB ● United Kingdom
+Telephone +44 (0)20 7418 8400 Facsimile +44 (0)20 7418 8416
+E-mail info@ema.europa.eu Website www.ema.europa.eu                                     An agency of the European Union
+
+
+             © European Medicines Agency, 2011. Reproduction is authorised provided the source is acknowledged.
+Guideline on the treatment of Premenstrual Dysphoric
+Disorder (PMDD)
+Table of contents
+Executive summary ..................................................................................... 3
+1. Introduction (background)...................................................................... 3
+1.1.   Epidemiology and classification of PMDD................................................................ 3
+1.2.   Diagnostic criteria .............................................................................................. 3
+1.3.   Pathophysiology of PMDD .................................................................................... 4
+1.4.   Treatment......................................................................................................... 4
+1.5.   Differential diagnosis .......................................................................................... 4
+
+2. Scope....................................................................................................... 5
+3. Legal basis .............................................................................................. 5
+4. Pharmacological treatment trials in PMDD .............................................. 5
+4.1. Subject characteristics and selection of subjects ..................................................... 5
+4.1.1. Inclusion criteria ............................................................................................. 6
+4.1.2. Exclusion criteria ............................................................................................. 6
+4.2. Methods to assess efficacy and assessment tools .................................................... 7
+4.2.1      Definition of the primary endpoints ................................................................ 7
+4.2.2      Definition of secondary endpoints .................................................................. 7
+4.3. Strategy and design of clinical trials ...................................................................... 8
+4.3.1      Pharmacokinetics/ Pharmacodynamics, dose finding and interaction ................... 8
+4.3.2      Therapeutic confirmatory studies ................................................................... 8
+4.3.3      Study duration ............................................................................................ 8
+4.4. Studies in special populations .............................................................................. 9
+4.4.1. Adolescents .................................................................................................... 9
+4.5. Clinical safety evaluations ................................................................................... 9
+4.5.1. General considerations ..................................................................................... 9
+4.5.2. Specific adverse events .................................................................................... 9
+4.5.3. Rebound/Withdrawal phenomena/Dependence .................................................... 9
+4.5.4. Long-term safety............................................................................................. 9
+
+LIST OF ABBREVIATIONS .......................................................................... 10
+Definitions ................................................................................................. 11
+References ................................................................................................ 13
+
+
+
+
+                                                                                                                      2/14
+Executive summary
+There are substantial research data available to support premenstrual dysphoric disorder (PMDD) as a
+diagnostic entity of a severe form of premenstrual disorder, which causes clinically relevant functional
+impairment and requires treatment. It is considered a disorder with substantial clinical and public
+health impact in a [small] subpopulation of menstruating women. The aim of this guideline is to
+provide guidance for the evaluation of medicinal products in the treatment of PMDD.
+
+The present document should be conceived as general guidance, and should be read in conjunction
+with other applicable EU and ICH guidelines (see Section 3).
+
+
+1. Introduction (background)
+
+1.1. Epidemiology and classification of PMDD
+
+Up to 70-90 % of women of reproductive age have one or more signs of physical discomfort or
+emotional symptoms in the premenstrual, i.e. luteal phase of their menstrual cycle. About 20-40 % of
+menstruating women have premenstrual syndrome (PMS) and experience luteal phase symptoms that
+are bothersome. A smaller number, up to 8 %, experience more severe symptoms, which lead to
+substantial distress or functional impairment and are referred to as premenstrual dysphoric disorder
+(PMDD) (10, 11, 13, 14, 23, 38, 39, 42). Although PMDD, like PMS includes physical symptoms, it
+always involves a worsening of mood that interferes significantly with the woman’s quality of life. The
+burden of illness of PMDD results from the severity of luteal phase symptoms, the chronicity of the
+disorder and the impairment in work, relationships and activities.
+
+In the last decades a very broad diagnostic concept of the premenstrual disorders PMS and PMDD has
+been used in clinical research, which produced different diagnostic criteria and highly heterogeneous
+study populations.
+
+Recent advances and research data improved the knowledge on diagnosis, frequency, pathophysiologic
+mechanisms, and treatment options in PMDD. This led to treatment recommendations by learned
+societies for PMDD.
+
+
+1.2. Diagnostic criteria
+
+In the ICD-10 the syndrome is mentioned as ‘premenstrual tension syndrome’ in the Gynaecology
+Section. At least one symptom out of a broad range of physical and emotional symptoms should be
+present without specification of severity. These criteria are not helpful for definition of study
+populations in clinical trials.
+In 1987, the DSM-III included criteria for ‘Late Luteal Phase Dysphoric Disorder’ (LLPDD). In the DSM-
+IV, the name was changed from LLPDD to PMDD, with criteria that were almost identical to those of
+LLPDD. The DSM-IV includes PMDD as an example of a “depressive disorder not otherwise specified”
+(see Definitions Table 1).
+
+The DSM-IV diagnostic criteria define the most severe subpopulation of the broader concept of PMS
+and were accepted by regulatory bodies outside Europe as an indication for several serotonergic
+antidepressants and hormonal products. Although the symptoms themselves are not unique, the
+restriction of the symptoms to the luteal phase of the menstrual cycle and their cyclical recurrence is
+considered pathognomonic of PMDD.
+
+A criticism on these criteria has been that they are in the appendix of DSM-IV (further studies needed)
+and that many women with clinically significant PMS symptoms do not fulfil the full diagnostic criteria
+of the DSM-IV (e.g. prominent mood syndrome or minimum of five different symptoms).
+
+The ACOG (American College of Obstetricians and Gynaecologists) recommended criteria defining
+moderate to severe PMS (see Definitions Table 2). The criteria include the presence of at least one
+psychological or physical symptom that causes significant impairment (experienced by women during
+the 5 days before menses and remit within 4 days of onset of menses with no recurrence at least until
+day 13 of the cycle, in at least three consecutive cycles) and are confirmed by means of prospective
+ratings.
+
+
+
+
+                                                                                                      3/14
+In conclusion, for the time being, the most homogeneous study population that can be recruited is with
+the DSM-IV diagnostic criteria and this population should therefore be used for clinical trials in PMDD
+(12, 20). As research criteria these DSM-IV criteria are in the process of being updated and further
+validated, particularly with regard to better quantification of the different domains affected. These
+changes may influence the position presented in this guideline.
+
+
+1.3. Pathophysiology of PMDD
+
+The exact pathophysiology of PMDD is not well understood and clarified. The aetiology is considered
+multi-factorial. Research data have shown abnormalities in the hypothalamus-pituitary-ovary axis and
+brain serotonergic system in this patient population (16, 26).
+
+Symptom pattern is linked to the menstrual cycle with pronounced symptoms in the period preceding
+menses (the luteal phase), symptom remission during the menstrual flow and a symptom-free period
+in the follicular phase of the cycle. Despite numerous efforts to identify endocrine disturbances in
+patients with PMDD, there are very few consistent endocrine findings. It seems that ovulatory cycles
+are a prerequisite for developing PMDD. However, the evidence suggests that ovulating women with
+and without PMDD do not differ with respect to levels of gonadal steroids (40). Studies on PMDD rather
+favour the notion that women with PMDD display higher responsiveness with respect to the influence of
+sex steroids on the brain than symptom-free women suggesting abnormal hypothalamic-pituitary
+regulation across the menstrual cycle and abnormal luteal phase cortical excitability as underlying
+mechanism (26). During anovulatory cycles the cyclicity of symptoms disappears and symptoms remit
+after menopause, during pregnancy or after bilateral ovariectomy.
+It is likely that there is a genetic component to the existence and severity of premenstrual symptoms,
+as women whose mothers reported premenstrual symptoms are more likely to develop PMS compared
+to women whose mothers have not been affected. In addition, higher concordance rates are observed
+in monozygotic twins compared with dizygotic twins (18, 36).
+
+
+1.4. Treatment
+
+Based on theories regarding the underlying causes of PMDD, two main treatment options have been
+developed: (1) targeting the hypothalamus-pituitary-ovary axis by abolishing fluctuations in gonadal
+hormone levels (e.g. GnRH analogues, oestradiol, combined oral contraceptives (COCs)) and (2)
+targeting brain serotonergic synapses by increasing central serotonergic transmission (e.g. SSRI,
+NSRI) (4, 22, 31, 32). Since PMDD is an intermittent, cyclic illness periodic and continuous treatment
+interventions should be considered which may have different impacts on treatment compliance (see
+4.3.3) and on long-term safety (see 4.5.3) (6, 15, 21, 43).
+
+Other therapeutic approaches include pharmacological treatment of physical symptoms as well as non-
+pharmacological methods including psycho-behavioural approaches, lifestyle changes and dietary
+modifications, which are not specifically addressed in this guideline (17).
+
+
+1.5. Differential diagnosis
+
+The diagnosis of PMDD requires interdisciplinary expertise. PMDD should be separated from differential
+diagnostic categories including both psychiatric and nonpsychiatric disorders and physicians should be
+trained in handling the DSM-IV criteria (see DSM-IV criterion C, Table 1).
+
+Most chronic psychiatric or medical conditions will be apparent throughout the whole menstrual cycle
+(24). However, many conditions are also subject to menstrual magnification and are exacerbated in
+the late luteal or menstrual phase of the cycle leading women to believe that they may be experiencing
+PMDD. The underlying mechanism of this increase in symptoms is not understood.
+
+Dysthymia, Major Depressive Disorder (MDD), Panic Disorder (PD) and Generalised Anxiety Disorder
+(GAD) are the most common axis I psychiatric disorders that may be concurrent or exacerbated
+premenstrually, with less evidence for bipolar disorders, posttraumatic stress disorder, social phobia,
+eating disorders and substance abuse (see Section 4.1).
+
+Symptoms of endometriosis, polycystic ovary disease, adrenal system disorders and
+hyperprolactinemia may mimic symptoms of PMDD (1, 23).
+
+Other medical disorders that may demonstrate a premenstrual increase in symptoms include migraines,
+asthma, seizure disorders, irritable bowel syndrome, diabetes, chronic fatigue symptom, allergies and
+autoimmune disorders. Differentiating these conditions from PMDD is usually straightforward because
+
+
+                                                                                                     4/14
+the key symptoms are not part of the typical PMDD set of symptoms and emotional symptoms are not
+prominent (23).
+
+It is therefore important that the diagnosis of PMDD is accurately documented and other conditions
+excluded (see 4.1).
+
+
+2. Scope
+The scope of the present document is to provide guidance in the identification of the target population
+including special populations (adolescents), study duration, efficacy and safety endpoints to establish
+efficacy and safety in PMDD.
+
+Due to the chronic nature of the disorder special attention should be paid to maintenance of effect and
+long-term safety, and the presence and acceptance of comorbidity (see sections 1.5 and 4.1).
+With the most recent developments in the diagnosis and understanding of PMDD, it is considered an
+appropriate target for the development of pharmacological treatment. However, careful considerations
+on the adequate trial design of clinical studies are required. Up till now no medicinal products are
+approved in the EU for treatment of PMDD but data referring to the efficacy in the treatment of
+patients meeting PMDD diagnostic criteria according to DSM-IV are rather described in section 5.1 of
+the SmPC of some medicinal products, namely fluoxetine-containing medicinal products.
+
+
+3. Legal basis
+This guideline should be read in conjunction with Directive 2001/83 (as amended) and the following
+CHMP and ICH guidelines:
+      Note for Guidance on Good Clinical Practice - CPMP/ICH/135/95 (ICH E6);
+      Note for Guidance on General Considerations for Clinical Trials - CPMP/ICH/291/95 (ICH E8);
+      Dose-Response information to Support Drug Registration – CPMP/ICH/378/95 (ICH E4);
+      Statistical Principles for Clinical Trials – CPMP/ICH/363/96 (ICH E9);
+      Choice of Control Group in Clinical Trials – CPMP/ICH/364/96 (ICH E10);
+      Clinical investigation of medicinal products in the paediatric population – CPMP/ICH/2711/99
+       (ICH E11);
+      Point to consider on adjustment for baseline covariates – CHMP/EWP/2863/99;
+      Guideline on missing data in confirmatory clinical trials – CPMP/EWP/1776/99 ;
+      Points to consider on Multiplicity issues in clinical trials - CPMP/EWP/908/99;
+
+      Points to consider on application with 1. Meta-analysis; 2. one pivotal study -
+       CPMP/EWP/2330/99;
+      Extent of Population Exposure to Assess Clinical Safety – CPMP/ICH/375/95 (ICH E1);
+      Pharmacokinetic studies in man - EudraLex vol. 3C C3A;
+      Note for guidance on the investigation of drug interactions CPMP/EWP/560/95;
+
+      Note for guidance on clinical investigation of medicinal products in the treatment of depression
+       – CPMP/EWP/518/97;
+
+      Guideline on clinical investigation of steroid contraceptives in women –
+       EMEA/CPMP/EWP/519/98.
+
+
+4. Pharmacological treatment trials in PMDD
+
+4.1. Subject characteristics and selection of subjects
+
+PMDD can occur in menstruating women of any age (see section 4.4). Typically symptoms emerge in
+early adulthood and increase with age (3, 7, 28, 29). Premenstrual symptoms seem to affect women
+
+
+                                                                                                     5/14
+irrespective of cultural background or socioeconomic status, although specific symptoms may vary in
+frequency by culture background.
+
+Diagnosis of PMDD should be based on reliable screening methods. The diagnostic criteria for PMDD
+require the presence of five out of the 11 Daily Record of Severity of Problems items, at least one
+being one of four “essential” mood symptoms (criterion A), as well as “interference with
+work/school/social activity” (criterion B). Criterion A symptoms must be “present for most of the time
+during the last week of the luteal phase” and must be “absent in the week post menses”, while the
+criterion B symptom must “markedly interfere with work or school or with usual social activities and
+relationships with others” (see Tables 1 and 3). The method of standardizing and operationalizing
+DSM-IV criteria should be described in studies of PMDD (33). A minimum duration of 4 days for
+symptom presence in the last week of the luteal phase is required.
+
+Prospective daily monitoring of symptoms for two consecutive menstrual cycles is an absolute
+requirement to meet DSM-IV criteria and until now considered to be the gold standard in PMDD clinical
+studies (see Table 1, DSM-IV criterion D, 7). As none of the symptoms are unique to the syndrome,
+patients need to keep a daily diary of symptoms for at least 2 menstrual cycles to establish the
+temporal relationship between the onset of symptoms and the premenstrual period and the absence of
+symptoms or a chronic underlying disorder during the follicular phase (12).
+
+Several assessment instruments to establish diagnosis of PMDD are available: e.g. the DRSP (Daily
+Record of Severity of Problems) (30), the DSR (Penn Daily Symptom Rating), and the MDQ (Menstrual
+Distress Questionnaire) (10). The method of standardizing and operationalizing DSM-IV criteria should
+be described in studies of PMDD (33). The choice of the instrument should be justified and validated in
+the target population (8). Retrospective reporting is not acceptable as retrospective recall of symptoms
+is unreliable (27).
+
+In any method of assessment of PMDD symptoms severity, it is important to determine baseline levels
+from which to quantify the actual change and cyclicity in symptom severity levels, especially symptom
+severity pre- and postmenstrually. Various scoring methods compare the average of symptom scores
+during the premenstrual days with the average of symptom scores postmenses.
+
+Although the core element of making a diagnosis of PMDD is the daily, prospective self-report of
+symptoms, this diary-based information should be supplemented by a structured interview conducted
+by the study raters (e.g. physicians), who should be properly trained for assessment of patients with
+the applied rating scales. Methods should be foreseen in the study protocol to assess inter-rater
+reliability (see 4.2.2).
+Presence and acceptance of comorbidities
+
+PMDD may be a comorbid condition with other axis I disorders of the DSM-IV classification, particularly
+depression and anxiety disorders (see section 1.5). The most difficult differential diagnosis for
+clinicians to make is distinguishing between PMDD and MDD. Although the lifetime comorbidity
+between the two disorders is significant, ranging from 30 to 70%, there is consistent evidence to
+support the distinct nature of each diagnosis. A key feature of depressive disorders is that symptoms
+are almost always present every day of the cycle. However, diagnosis of PMDD in the context of
+another axis I disorder raises a difficult diagnostic issue and to assure the integrity of the diagnosis of
+PMDD concurrent axis I disorders are not recommended in the study population (19, 42).
+
+4.1.1. Inclusion criteria
+
+The following inclusion criteria should be met for phase 3 trials:
+       PMDD should be diagnosed using the DSM-IV criteria. A careful diagnosis based on clearly
+        defined, replicable severity criteria via prospective ratings for two run-in cycles is essential (see
+        sections 4.1 and 4.2 (14)).
+
+       A regular menstrual cycle: the length varies among individuals and varies slightly within an
+        individual. Therefore cycles within the lower limit of 24 days and an upper limit of 35 days are
+        considered to be within a normal range.
+
+The determination of ovulatory cycles is required for pharmacodynamic trials where ovulation-related
+underlying mechanisms are studied (14).
+
+4.1.2. Exclusion criteria
+
+       Not menstruating, including pregnant
+
+
+                                                                                                         6/14
+       Any axis I disorder (e.g. Dysthymia, MDD, PD, GAD, anxiety disorders), alcoholism or
+        substance abuse during the last 2 years prior to the trial.
+
+       Any medication for PMS or PMDD including, but not limited to hormones, bromocriptine, GnRH
+        agonists, vitamin B6 (>100mg), calcium supplements (>1500 mg/day), sterols and plant-
+        derived products, anxiolytics, and antidepressants during the 3-month period prior to screening
+        and during the study. In case hormonal contraceptives are used before the start of the trial as
+        baseline therapy for contraception (depending on the medication studied), stratified analysis
+        for add-on medication should be pre-specified.
+       Contraindication to study medication depending on the medication studied (see section 1.4).
+
+
+4.2. Methods to assess efficacy and assessment tools
+
+4.2.1 Definition of the primary endpoints
+
+The primary outcome should be prospective self-recording of overall premenstrual symptomatology.
+Improvement should be documented as the mean difference between the average luteal phase 2
+prospectively assessed qualification scores as baseline score and luteal phase ratings of the end-of-
+treatment cycle for each patient after 6 months of treatment (see section 4.3.3). The primary endpoint
+should assess the difference in improvement between treatment groups. The scores of improvement
+per cycle should also be compared, in addition to the end scores in symptomatology (see 4.3.2 Data
+analyses). Several valid and reliable daily rating forms are available for the prospective recording of
+PMDD symptoms (10, 13). Results should be discussed in terms of both clinical relevance and
+statistical significance.
+
+In order to allow an estimate of clinical relevance, improvement should also be expressed as the
+proportion of responders. Definition of responders should be based on clinical consideration and done
+prospectively. It has been suggested in PMDD treatment trials to regard as responders those patients
+showing a 50 % reduction in symptom ratings between baseline and end of treatment (2). When
+evaluating response it should be considered that not all scales end at zero. (2).
+
+There is no data-based evidence of superiority of one type of rating scale over another in determining
+the outcome. However rating scales that combine measurement of affective symptoms, physical and
+functional impairment on a daily basis should be preferred. The choice of the rating scales should be
+justified from the test quality criteria (reliability, validity). The use of electronic diaries is recommended.
+Most psychometric evidence is available for the ‘Daily Record of Severity of Problems’ (DRSP) that was
+developed for diagnosing and evaluating PMDD (see Definitions Table 3; 6, 8, 41). The 24-item DRSP
+uses a 6-point rating scale to evaluate 11 symptom domains of the psychological and physical
+symptoms of PMDD and 3 items that measure functional impairment. Since impairment or dysfunction
+is the essential component of PMDD, its improvement should be an essential part of the primary
+outcome measure (see also section 4.2.2).
+
+The Calendar of Premenstrual Experience (COPE) and the Premenstrual Symptom Diary (PMSD) may
+be used to assess PMS symptoms, but should not be used in PMDD studies (10, 13, 34, 35, 37).
+
+4.2.2 Definition of secondary endpoints
+
+Secondary outcome measures include change from baseline in components of the PMDD criteria, which
+include physical, affective and functional symptoms.
+
+Important secondary endpoints:
+      Change from baseline in psychological and physical impairment.
+       Change from baseline in functional impairment:
+        - Reduction of productivity or inefficiency at work, home or school,
+        - Interference with hobbies or social activities,
+        - Interference with relationships.
+All assessment tools used should be justified based on psychometric properties (4, 23). Multiplicity
+adjustments if necessary should be undertaken according to the Points to consider on Multiplicity
+issues in clinical trials (CPMP/EWP/908/99).
+
+Although the assessment of efficacy should be based on prospective self-rating, this should be
+supplemented by observer-ratings based on structured patient interviews undertaken by the clinician
+
+
+
+                                                                                                          7/14
+and global assessment of symptom severity, improvement and adverse events. Physicians must be
+trained for using the different rating scales (see 4.1).
+
+4.3. Strategy and design of clinical trials
+
+4.3.1 Pharmacokinetics/ Pharmacodynamics, dose finding and interaction
+
+For guidance on dose finding, pharmacokinetics and interactions reference is made to other relevant
+guidelines. Investigation of drug plasma levels might be supportive for dose-selection. Special dose
+regimen (i.e. continuous versus intermittent or luteal phase only dosing regimen) should be predefined
+and justified.
+
+Pharmacodynamic data should be obtained depending on the mode of action of the examined
+substance.
+
+4.3.2 Therapeutic confirmatory studies
+
+Confirmatory studies should be randomised, double-blind, parallel group and placebo controlled. There
+is a list of minimal requirements clearly stated in the Points to consider on application with 1. Meta-
+analysis; 2. one pivotal study (CPMP/EWP/2330/99) that have to be fulfilled for one pivotal study-
+application. In PMDD, the subjective nature of the primary endpoint is considered an additional
+argument to request replication.
+
+In case of inclusion of an active control arm, the choice and dose of the comparator should be justified
+on the basis of placebo-controlled evidence of efficacy of the comparator.
+
+Generally a placebo wash-out period to exclude placebo responders is not useful and may impair
+generalisation of the results. Exclusion of placebo-responders should be justified.
+In addition, information of patients screened but not included in the study should be documented.
+Prior and concomitant medication should be documented in detail. Relevant medication has to be
+washed out.
+
+In controlled settings such as clinical trials, some women become anovulatory due to stress. Therefore,
+especially in treatments not aiming at suppressing ovulation, corpus luteum formation should be
+monitored before and under therapy, e.g. by measuring progesterone, to ensure that symptom loss or
+mitigation is attributable to a therapeutic effect.
+Blinding
+
+Special attention should be paid to blinding even though this might be difficult in studies investigating
+medicinal products which may influence the menstrual bleeding pattern (e.g. COCs). The applicant
+should indicate a priori how this will be handled.
+Data analyses
+
+Given the chronicity and cyclicity of the symptoms, the maintenance of therapeutic efficacy should be
+demonstrated over at least 6 cycles.
+
+For details on the statistical analysis refer to the statistical guideline (ICH E9) as well as the Guideline
+on missing data in confirmatory clinical trials – CPMP/EWP/1776/99.
+
+4.3.3 Study duration
+
+Since PMDD is a chronic condition, clinical studies should be long enough to provide information about
+effectiveness, tolerability and patient compliance. In order to establish efficacy, placebo-controlled data
+are needed over at least 6 cycles (2 run-in cycles + 6 treatment cycles), especially since a large
+placebo effect is expected (9). Intermittent, luteal phase treatment strategies may enhance treatment
+compliance (see 1.4) (15).
+
+
+
+
+                                                                                                          8/14
+4.4. Studies in special populations
+
+4.4.1. Adolescents
+
+There are very few studies assessing PMDD in adolescents. Premenstrual symptoms are identified in
+adolescents and can begin around the age of 14, or 2 years post-menarche, and persist until
+menopause (5, 28, 29). Though the diagnosis is not frequently made, the literature suggests that a
+similar proportion of teenagers in comparison with adults would also meet criteria for PMDD. There is a
+need to demonstrate that specific therapeutic strategies have similar beneficial effects in adolescents
+and it is requested to include adolescents in the development program according to the prevalence in
+the general population (3).
+
+Special ethical considerations and safety concerns in adolescents have to be taken into account.
+Depending on the substance studied, relevant guidelines with specific safety topics and identified risks
+should be taken into account. Depending on the class of the investigated medicinal product, special
+attention should be paid to attempted and completed suicides by using a suitable suicide rating scale
+or review of relevant AE data. Suicidality should be prospectively assessed by using proper instruments,
+e.g. the C-CASA method20, or the C-SSRS, which is an existing documentation system that allows
+documenting according to the C-CASA categories (25). However, alternative approaches that may be
+less cumbersome can be used as well.
+
+
+4.5. Clinical safety evaluations
+
+4.5.1. General considerations
+
+For reference to the relevant safety guidance, see Section 3.
+
+4.5.2. Specific adverse events
+
+Identified adverse events (AE) should be characterized in relation to the duration of treatment, the
+dose and/or plasma level, the recovery time, age and other relevant variables. Assessment of adverse
+events, especially those predicted by the pharmacodynamic properties of the investigational product
+should be performed using a systematic and planned methodology.
+
+All adverse events occurring during the course of clinical trials should be fully documented with
+separate analysis of adverse drug reactions, drop-outs and patients who died while on therapy.
+Depending on the substance studied relevant guidelines with specific safety topics should be taken into
+account.
+
+4.5.3. Rebound/Withdrawal phenomena/Dependence
+
+When pharmacological treatment is stopped, rebound and/or withdrawal phenomena may occur.
+Therefore, rebound and/or withdrawal phenomena should be systematically investigated.
+
+Animal studies will be needed to investigate the possibility of dependence in new classes of compounds
+or when there is an indication that dependence may occur. Depending on the results of these studies
+further studies in humans may be needed.
+
+4.5.4. Long-term safety
+
+Since PMDD is a chronic disorder expected to last until menopause, long-term safety of therapeutic
+interventions has to be established. The total clinical experience should generally include data on a
+large and representative group of patients in line with the guideline on population exposure (ICH E1).
+Depending on the mode of action of the examined treatment special attention should be paid to long-
+term effects on endocrinium. Intermittent versus continuous treatment strategies might have different
+impacts on long-term adverse events (see 1.3) (15). For new chemical entities, long-term safety data
+of at least 12 cycles are needed. Safety should be covered by risk management plans.
+
+
+
+
+                                                                                                   9/14
+LIST OF ABBREVIATIONS
+
+ Abbreviations and                               Definition
+      Terms
+ACOG                 American College of Obstetricians and Gynaecologists
+C-CASA               Columbia Classification Algorithm of Suicide Assessment
+C-SSRS               Columbia Suicide Severity Rating Scale
+COC                  Combined oral contraceptive
+COPE                 Calendar of Premenstrual Experience
+DRSP                 Daily Record of Severity of Problems
+DSR                  Penn Daily Symptom Rating
+DSM-III/IV           Diagnostic and Statistical Manual of Mental Disorders Version III/IV
+GAD                  Generalised Anxiety Disorder
+GnRH                 Gonadotropin-releasing hormone
+ICD-10               International Classification of Diseases, version 10
+LLPDD                Late Luteal Phase Dysphoric Disorder (LLPDD)
+MDD                  Major Depressive Disorder
+MDQ                  Menstrual Distress Questionnaire
+NSRI                 Norepinephrine and Serotonin Reuptake Inhibitor
+PD                   Panic Disorder
+PMDD                 Premenstrual dysphoric disorder
+PMS                  Premenstrual syndrome
+PMSD                 Premenstrual Symptom Diary
+SSRI                 SelectiveSerotonin Reuptake Inhibitor
+
+
+
+
+                                                                                            10/14
+Definitions
+Table 1: DSM-IV criteria for PMDD
+
+
+
+
+Table 2: ACOG diagnostic criteria for PMS
+Premenstrual syndrome can be diagnosed if the patient reports at least one of the following affective
+and somatic symptoms during the 5 days before menses in each of the three prior menstrual cycles*:
+Affective
+        Depression
+        Angry outbursts
+        Irritability
+        Anxiety
+        Confusion
+        Social withdrawal
+
+Somatic
+       Breast tenderness
+       Abdominal bloating
+       Headache
+       Swelling of extremities
+
+* These symptoms are relieved within 4 days of the onset of menses, without recurrence until at least
+cycle day 13. The symptoms are present in the absence of any pharmacologic therapy, hormone
+ingestion, or drug or alcohol use. The symptoms occur reproducibly during two cycles of prospective
+recording. The patients suffer from identifiable dysfunction in social or economic performance. (1)
+
+
+
+
+                                                                                                  11/14
+Table 3: Daily Record of Severity of Problems: psychological/physical and functional impairment items
+
+
+
+
+Each of the items is rated on a scale from 1 (not at all) to 6 (extreme); thus a maximum sum score of
+126 is possible on the first 21 items (8).
+
+
+
+
+                                                                                                 12/14
+References
+1    ACOG. ACOG practice bulletin: premenstrual syndrome. Int J Gynecol Obstet, 73, 183-191 (2001).
+2    Borenstein, J.E., Dean, B.B., Leifke, E., Korner, P. & Yonkers, K.A. Differences in symptom scores
+     and health outcomes in premenstrual syndrome. J Womens Health (Larchmt) 16, 1139-44 (2007).
+3    Braverman, P.K. Premenstrual syndrome and premenstrual dysphoric disorder. J Pediatr Adolesc
+     Gynecol 20, 3-12 (2007).
+4    Brown, J. et al. Selective serotonin reuptake inhibitors for premenstrual syndrome (Review). .
+     Cochrane Database Syst Rev, CD001396 (2009).
+5    Claman, F. & Miller, T. Premenstrual syndrome and premenstrual dysphoric disorder in
+     adolescence. J Pediatr Health Care 20, 329-33 (2006).
+6    Cohen, L. et al. Premenstrual daily fluoxetine for premenstrual disorder: A placebo controlled,
+     clinical trail using computerized diaries. Obstet Gynecol 100, 435-44 (2002).
+7    Di Giulio, G., Reissing E.D. Premenstrual dysphoric disorder: Prevalence, diagnostic considerations,
+     and controversies. J of Psychosomatic obstetrics & Gynecology 27, 201-210 (2006).
+8    Endicott, J., Nee, J. and Harrison, W. Daily Record of Severity of Problems (DRSP): reliability and
+     validity. Arch Womens Ment Health 9, 41-9 (2006).
+9    Freeman, E.W. and Rickels K. Characteristics of placebo responses in medical treatment of
+     premenstrual syndrome. Am J Psychiatry 156, 1403-8 (1999)
+10   Freeman, E.W. Premenstrual syndrome and premenstrual dysphoric disorder: definitions and
+     diagnosis. Psychoneuroendocrinology 28, 25-37 (2003).
+11   Gehlert, S., Song, I.H., Chang, C.H. & Hartlage, S.A. The prevalence of premenstrual dysphoric
+     disorder in a randomly selected group of urban and rural women. Psychol Med, 1-8 (2008).
+12   Halbreich, J.T., Halbreich, U. & Smail, N. Screening of patients for clinical trials of premenstrual
+     syndrome/premenstrual dysphoric disorder: methodological issues. Psychiatry Res 141, 349-52
+     (2006).
+13   Halbreich, U. The diagnosis of premenstrual syndromes and premenstrual dysphoric disorder –
+     clinical procedures and research perspective. Gynecol Endocrinol 19, 320-334 (2004).
+14   Halbreich, U. et al. Clinical diagnostic criteria for premenstrual syndrome and guidelines for their
+     quantification for research studies. Gynecol Endocrinol 23, 123-30 (2007).
+15   Halbreich, U., Bergeron, R., Yonkers, A. Efficacy of intermittent, luteal phase sertraline treatment
+     of premenstrual dysphoric disorder. Obstet Gynecol 100, 1219-29 (2002)
+16   Inoue, Y. et al. Fluctuating serotonergic function in premenstrual dysphoric disorder and
+     premenstrual syndrome: findings from neuroendocrine challenge tests. Psychopharmacology
+     (Berl) 190, 213-9 (2007).
+17   Jarvis, C.I. et al. Management Strategies for Premenstrual Syndrome/premenstrual Dysphoric
+     disorder. The Annals of Pharmacotherapy 42, 967-978 (2008).
+18   Kendler, K.S. et al. Longitudinal population-based twin study of retrospectively reported
+     premenstrual symptoms and major depression. Am J Psychiatry 155, 1234-40, (1998).
+19   Kim, D.R. et al. Premenstrual dysphoric disorder and psychiatric co-morbidity. Arch Womens Ment
+     Health 7, 37-42 (2004).
+20   Knaapen, L. & Weisz, G. The biomedical standardization of premenstrual syndrome. Stud Hist
+     Philos Biol Biomed Sci 39, 120-34 (2008).
+21   Landén, M., Nissbrandt, H., Allgulander C. et al. Placebo-controlled trial comparing intermittent
+     and continuous paroxetine in premenstrual dysphoric disorder. Neuropsychopharmacology 32,
+     153-61 (2007)
+22   Lopez, L.M., Kaptein, A. & Helmerhorst, F.M. Oral contraceptives containing drospirenone for
+     premenstrual syndrome. Cochrane Database Syst Rev, CD006586 (2008).
+23   Pearlstein, T. & Steiner, M. Premenstrual dysphoric disorder: burden of illness and treatment
+     update. J Psychiatry Neurosci 33, 291-301 (2008).
+24   Pincus, S.M., Schmidt, P.J., Palladino-Negro, P. & Rubinow, D.R. Differentiation of women with
+     premenstrual dysphoric disorder, recurrent brief depression, and healthy controls by daily mood
+     rating dynamics. J Psychiatr Res 42, 337-47 (2008).
+25   Posner K, Oquendo MA et al. Columbia Classification Algorithm of Suicide Assessment (C-CASA):
+     classification of suicidal events in the FDA´s pediatric suicidal risk analysis of antidepressants. Am
+     J Psychiatry 164 (7): 1035-43 (2007).
+26   Protopopescu, X. et al. Toward a functional neuroanatomy of premenstrual dysphoric disorder. J
+     Affect Disord 108, 87-94 (2008).
+27   Rapkin, A.J. A review of treatment of premenstrual syndrome & premenstrual dysphoric disorder.
+     Psychoneurendocrinology 28, 39-53 (2003).
+28   Rapkin, A.J. & Mikacich, J.A. Premenstrual syndrome and premenstrual dysphoric disorder in
+     adolescents. Curr Opin Obstet Gynecol 20, 455-463 (2008).
+
+
+
+                                                                                                     13/14
+29   Rapkin, A.J. & Mikacich, J.A. Premenstrual syndrome in adolescents: diagnosis and treatment.
+     Pediatr Endocrinol Rev 3 Suppl 1, 132-7 (2006).
+30   Reed, S.C., Levin, F.R. & Evans, S.M. Changes in mood, cognitive performance and appetite in the
+     late luteal and follicular phases of the menstrual cycle in women with and without PMDD
+     (premenstrual dysphoric disorder). Horm Behav 54, 185-193 (2008).
+31   RCOG Green-top Guideline No 48; Management of premenstrual syndrome No.48, 2007
+     www.rcog.org.uk
+32   Shah, N.R. et al. Selective serotonin reuptake inhibitors for premenstrual syndrome and
+     premenstrual dysphoric disorder: a meta-analysis. Obstet Gynecol 111, 1175-82 (2008).
+33   Smith, M.J. et al. Operationalizing DSM-IV criteria for PMDD: selecting symptomatic and
+     asymptomatic cycles for research. Journal of Psychiatric Research 37, 75-83 (2003).
+34   Steiner, M. et al. The premenstrual symptom screening tool (PSST) for clinicians. Arch womens
+     ment health 6, 203-209 (2003).
+35   Steiner, M. et al. Validation of a revised visual analogue scale for premenstrual Mood Symptoms:
+     Results from prospective and retrospective trials. Can J Psychiatry 50, 327-332 (2005).
+36   Treloar, S. et al. Genetic and environmental influences on premenstrual symptoms in an
+     Australian twin sample. Psychol Med, 32, 25-38 (2002).
+37   Wallenstein, G.V. et al. Development and validation of the Premenstrual Symptoms Impact Survey
+     (PMSIS): a disease-specific quality of life assessment tool. J Womens Health (Larchmt) 17, 439-
+     50 (2008).
+38   Wittchen, H.U. et al. Prevalence, incidence and stability of premenstrual dysphoric disorder in the
+     community. Psychol Med 32, 119-32 (2002).
+39   Yang, M. et al. Burden of premenstrual dysphoric disorder on health-related quality of life. J
+     Womens Health 17, 113-21 (2008).
+40   Yonkers, K.A., O'Brien, P.M. & Eriksson, E. Premenstrual syndrome. Lancet 371, 1200-10 (2008).
+41   Yonkers, K.A. et al. Efficacy of a new low-dose oral contraceptive with drospireneone in
+     premenstrual dysphoric disorder. Obstet Gynecol 106, 492-501 (2005).
+42   Yonkers, K.A. The association between premenstrual dysphoric disorder and other mood disorders.
+     J Clin Pychiatry 58 (suppl 15), 19-25 (1997b).
+43   Zukov, I., Ptacek, R., Raboch, J. et al. Premenstrual Dysphoric disorder – Review of actual
+     findings about mental disorders related to menstrual cycle and possibilities of their therapy.
+     Prague Medical Report 1, 12-24 (2010)
+
+
+
+
+                                                                                                  14/14
+
