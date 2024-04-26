@@ -14,10 +14,10 @@ export default function App({ navigation }) {
         password: password
       });
       const responseData = response.data;
-       const userId = responseData.userId;
+      const userId = responseData.userId;
       if (responseData.userId) {
-        console.log(userId);
-        navigation.navigate("Welcome",{userID: userId});
+        console.log("USER ID FROM LOGIN " + userId);
+        navigation.navigate("Welcome", {userID: userId});
       }
     } catch (error) {
       console.error('Error:', error.message);
