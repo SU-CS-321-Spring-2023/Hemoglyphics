@@ -389,6 +389,16 @@
       "startDate": "2024-02-14",
       "periodLength": 5,
       "cycleLength": 27
+    },
+    {
+    "startDate": "2024-03-12",
+    "periodLength": 3,
+    "cycleLength": 27
+    },
+    { "startDate": "2024-04-06"
+    , "periodLength": 5
+    , "cycleLength": 26
     }
+
   ]
 }
