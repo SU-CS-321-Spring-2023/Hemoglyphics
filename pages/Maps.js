@@ -3,7 +3,9 @@ import { Modal, StyleSheet, View, Text, TouchableOpacity } from 'react-native';
 import MapView, { Marker, Callout } from 'react-native-maps';
 import * as Location from 'expo-location';
 
-const MapScreen = () => {
+const MapScreen = ({ route, navigation }) => {
+  const { userID } = route.params
+  console.log("USER ID FROM MAPS: " + userID)
   const [friends, setFriends] = useState([
     { id: 1, name: 'Friend 1', latitude: 37.78825, longitude: -122.4324 },
     { id: 2, name: 'Friend 2', latitude: 37.789, longitude: -122.433 },

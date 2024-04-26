@@ -6,7 +6,10 @@ import NewCircleScreen from './NewCircleScreen'; // Import NewCircleScreen compo
 
 const Stack = createStackNavigator();
 
-export default function Circle({ navigation }) {
+export default function Circle({ route, navigation }) {
+
+  const { userID } = route.params
+  console.log("USER ID FROM CIRCLES : " + userID)
   const [circleNames, setCircleNames] = useState([]);
 
   const handlePress = () => {

@@ -3,7 +3,9 @@ import { TouchableOpacity, StyleSheet, Text, View, Animated, Easing } from 'reac
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import { faGear } from '@fortawesome/free-solid-svg-icons';
 
-const HomeScreen = ({ navigation }) => {
+const HomeScreen = ({ route, navigation }) => {
+  const { userID } = route.params
+  console.log("USER ID FROM HOME SCREEN " + userID)
   const [circlePositions] = useState([
     new Animated.Value(0),
     new Animated.Value(0),
@@ -79,11 +81,11 @@ const HomeScreen = ({ navigation }) => {
 
   return (
     <View style={styles.appContainer}>
-      <Circle circleStyle={{ top: '5%', right: 40, elevation: 5 }} text="Maps" onPress={() => navigation.navigate('Maps')} backgroundColor="rgba(107, 69, 150, 1)" index={0} />
-      <Circle circleStyle={{ top: '20%', left: 40, elevation: 5 }} text="Friends" onPress={() => navigation.navigate('Friends List')} backgroundColor="rgba(107, 69, 150, 1)" index={1} />
-      <Circle circleStyle={{ top: '37%', right: 38, elevation: 5 }} text="Messages" onPress={() => navigation.navigate('MessageList')} backgroundColor="rgba(107, 69, 150, 1)" index={2} />
-      <Circle circleStyle={{ top: '51%', left: 29, elevation: 5 }} text="Circle" onPress={() => navigation.navigate('Circle')} backgroundColor="rgba(107, 69, 150, 1)" index={3} />
-      <Circle circleStyle={{ top: '66%', right: 46, elevation: 5 }} text="Log" onPress={() => navigation.navigate('Log')} backgroundColor="rgba(107, 69, 150, 1)" index={4} />
+      <Circle circleStyle={{ top: '5%', right: 40, elevation: 5 }} text="Maps" onPress={() => navigation.navigate('Maps', { userID : userID })} backgroundColor="rgba(107, 69, 150, 1)" index={0} />
+      <Circle circleStyle={{ top: '20%', left: 40, elevation: 5 }} text="Friends" onPress={() => navigation.navigate('Friends List', { userID : userID })} backgroundColor="rgba(107, 69, 150, 1)" index={1} />
+      <Circle circleStyle={{ top: '37%', right: 38, elevation: 5 }} text="Messages" onPress={() => navigation.navigate('MessageList',{ userID : userID })} backgroundColor="rgba(107, 69, 150, 1)" index={2} />
+      <Circle circleStyle={{ top: '51%', left: 29, elevation: 5 }} text="Circle" onPress={() => navigation.navigate('Circle', {userID: userID })} backgroundColor="rgba(107, 69, 150, 1)" index={3} />
+      <Circle circleStyle={{ top: '66%', right: 46, elevation: 5 }} text="Log" onPress={() => navigation.navigate('Log', { userID : userID })} backgroundColor="rgba(107, 69, 150, 1)" index={4} />
       
       <TouchableOpacity style={styles.settingsButton} onPress={handleSettingsPress}>
         <Animated.View style={{ transform: [{ rotate: spin }] }}>
