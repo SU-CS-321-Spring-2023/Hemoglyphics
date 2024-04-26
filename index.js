@@ -67,7 +67,7 @@ app.post("/addFriend", async (req, res) => {
         }
 
         if (friends.friends[friendUserId]) {
-          return res.status(400).json({ error: 'Friend already added.' });
+          return res.status(400).json({ message: 'Friend already added.' });
         }
 
         friends.friends[friendUserId] = username;
