@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Axios from "axios";
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, ScrollView, StyleSheet, Text, TextInput, View, Button, TouchableOpacity, Alert } from 'react-native';
 
@@ -8,19 +9,15 @@ export default function App({ navigation }) {
 
   const handleLogin = async () => {
     try {
-      const response = await fetch('http://146.190.61.157:12000/login', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ email, password }),
+      const response = await Axios.post('http://146.190.61.157:12000/login', {
+        email: email,
+        password: password
       });
-      const data = await response.json();
-      if (response.ok) {
-        console.log(data);
-        navigation.navigate('Welcome');
-      } else {
-        throw new Error(data.error || 'Login failed');
+      const responseData = response.data;
+       const userId = responseData.userId;
+      if (responseData.userId) {
+        console.log(userId);
+        navigation.navigate("Welcome",{userID: userId});
       }
     } catch (error) {
       console.error('Error:', error.message);
