@@ -45,7 +45,7 @@ app.post("/addFriend", async (req, res) => {
     const userId = req.body.userId;
 
     if (!username || !userId) {
-      return res.status(400).json({ error: 'Invalid input data.' });
+      return res.status(400).json({ message: 'Invalid input data.' });
     }
 
     db.query('SELECT id FROM userInfo WHERE userName = ?', [username], (err, result) => {
