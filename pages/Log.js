@@ -1,7 +1,10 @@
-import { useState } from 'react';
+import { useState, useEffect} from 'react';
 import { Text, View, StyleSheet, TouchableOpacity, Alert } from 'react-native';
 import { Calendar } from 'react-native-calendars';
 import { useNavigation } from '@react-navigation/native'; // Import navigation hook
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
+
 
 export default function Log({ navigation }) {
   const [markedDates, setMarkedDates] = useState({});
@@ -23,10 +26,23 @@ export default function Log({ navigation }) {
       Alert.alert('Date already selected', 'Please choose a different date.');
     }
   };
-  
+  useEffect(() => {
+    // Retrieve marked dates from AsyncStorage when the component mounts
+    const getMarkedDates = async () => {
+      try {
+        const storedMarkedDates = await AsyncStorage.getItem('markedDates');
+        if (storedMarkedDates !== null) {
+          setMarkedDates(JSON.parse(storedMarkedDates));
+        }
+      } catch (error) {
+        console.error('Failed to load marked dates:', error);
+      }
+    };
+    getMarkedDates();
+  }, []);
   
 
-  const handleLogPeriod = () => {
+  const handleLogPeriod = async() => {
     if (selectedDates.length === 0) {
       Alert.alert('No dates selected', 'Please select at least one date to log.');
       return;
@@ -37,12 +53,23 @@ export default function Log({ navigation }) {
       updatedMarkedDates[date] = { selected: true, marked: true, dotColor: 'red' };
     });
     setMarkedDates(updatedMarkedDates);
-    console.log('Selected dates:', selectedDates);
+    // Store marked dates in AsyncStorage
+    try {
+      await AsyncStorage.setItem('markedDates', JSON.stringify(updatedMarkedDates));
+    } catch (error) {
+      console.error('Failed to save marked dates:', error);
+    }
   };
 
-  const handleClearSelection = () => {
+  const handleClearSelection = async () => {
     setSelectedDates([]);
     setMarkedDates({});
+    // Clear marked dates from AsyncStorage
+    try {
+      await AsyncStorage.removeItem('markedDates');
+    } catch (error) {
+      console.error('Failed to clear marked dates:', error);
+    }
   };
 
   const handleSymptomsButton = () => {
