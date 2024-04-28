@@ -20,7 +20,7 @@ export default function Registration({ navigation }) {
       return;
     }
     try {
-      const response = await Axios.post("http://146.190.61.157:12000/register", {
+      const response = await Axios.post("https://sea-turtle-app-t57fm.ondigitalocean.app/register", {
         userName: username,
         password: password,
         email: email

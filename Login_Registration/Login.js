@@ -9,7 +9,7 @@ export default function App({ navigation }) {
 
   const handleLogin = async () => {
     try {
-      const response = await Axios.post('http://146.190.61.157:12000/login', {
+      const response = await Axios.post('https://sea-turtle-app-t57fm.ondigitalocean.app/login', {
         email: email,
         password: password
       });
