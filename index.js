@@ -18,6 +18,15 @@ const db = mysql.createPool({
 app.use(express.json());
 app.use(cors());
 
+function ensureDirectoryExistence(filePath) {
+  const dirname = path.dirname(filePath);
+  if (fs.existsSync(dirname)) {
+    return true;
+  }
+  ensureDirectoryExistence(dirname);
+  fs.mkdirSync(dirname);
+}
+
 function makeSalt(length) {
   let result = '';
   const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@!#$&_';
@@ -142,7 +151,8 @@ app.post('/register', (req, res) => {
       const userId = result.insertId;
       const responseData = { userId: userId };
       const userDir = path.join(__dirname, 'users', String(userId));
-      fs.mkdirSync(userDir, { recursive: true });
+      ensureDirectoryExistence(path.join(userDir, 'settings.json'));
+      ensureDirectoryExistence(path.join(userDir, 'friends.json'));
 
       const settingsData = {
         "first-name": "first",
