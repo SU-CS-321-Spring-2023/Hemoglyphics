@@ -230,6 +230,8 @@ app.post('/getSettings', (req, res) => {
 
   const userDir = path.join(__dirname, 'users', String(userId));
   const settingsFilePath = path.join(userDir, 'settings.json');
+  ensureDirectoryExistence(settingsFilePath);
+  createJSONIfNotExist(settingsFilePath, settingsTemplate);
 
   fs.readFile(settingsFilePath, 'utf-8', (err, data) => {
     if (err) {
