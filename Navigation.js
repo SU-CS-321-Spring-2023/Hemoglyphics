@@ -17,6 +17,7 @@ import ManageCircleScreen from './pages/ManageCircleScreen.js';
 import Settings from './pages/Settings.js';
 import MessageListScreen from './pages/MessageList.js';
 import Dalton from './pages/Dalton.js';
+import ProductRec from './pages/ProductRec.js';
 const Stack = createStackNavigator();
 
 // all possible pages that we have (at this moment)
@@ -42,7 +43,7 @@ const Navigation = () => {
                     }
                 }}
                     component={Friends} />
-                <Stack.Screen name="Circle" component={Circle} />
+                <Stack.Screen name="Product Recommendation" component={ProductRec} />
                 <Stack.Screen name="Maps" component={Maps} />
                 <Stack.Screen name="Login" component={Login} />
                 <Stack.Screen name="Registration" component={Registration} options={{

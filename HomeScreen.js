@@ -88,7 +88,7 @@ const HomeScreen = ({ route, navigation }) => {
       <Circle circleStyle={{ top: '5%', right: 40, elevation: 5 }} text="Maps" onPress={() => navigation.navigate('Maps', { userID : userID })} backgroundColor="rgba(107, 69, 150, 1)" index={0} />
       <Circle circleStyle={{ top: '20%', left: 40, elevation: 5 }} text="Friends" onPress={() => navigation.navigate('Friends List', { userID : userID })} backgroundColor="rgba(107, 69, 150, 1)" index={1} />
       <Circle circleStyle={{ top: '37%', right: 38, elevation: 5 }} text="Messages" onPress={() => navigation.navigate('MessageList',{ userID : userID })} backgroundColor="rgba(107, 69, 150, 1)" index={2} />
-      <Circle circleStyle={{ top: '51%', left: 29, elevation: 5 }} text="Circle" onPress={() => navigation.navigate('Circle', {userID: userID })} backgroundColor="rgba(107, 69, 150, 1)" index={3} />
+      <Circle circleStyle={{ top: '51%', left: 29, elevation: 5 }} text="Product Recommendations" onPress={() => navigation.navigate('Product Recommendation', {userID: userID })} backgroundColor="rgba(107, 69, 150, 1)" index={3} />
       <Circle circleStyle={{ top: '66%', right: 46, elevation: 5 }} text="Log" onPress={() => navigation.navigate('Log', { userID : userID })} backgroundColor="rgba(107, 69, 150, 1)" index={4} />
       
       <TouchableOpacity style={styles.settingsButton} onPress={handleSettingsPress}>
