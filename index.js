@@ -27,6 +27,12 @@ function ensureDirectoryExistence(filePath) {
   fs.mkdirSync(dirname);
 }
 
+function createJSONIfNotExist(filePath, defaultData = {}) {
+  if (!fs.existsSync(filePath)) {
+    fs.writeFileSync(filePath, JSON.stringify(defaultData));
+  }
+}
+
 function makeSalt(length) {
   let result = '';
   const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@!#$&_';
@@ -66,6 +72,7 @@ app.post("/addFriend", async (req, res) => {
 
       const filePath = 'users/'+userId+'/friends.json';
       ensureDirectoryExistence(filePath);
+      createJSONIfNotExist(filePath, { friends: [] });
 
       fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) return res.status(500).json({ error: 'Internal server error.' });
@@ -111,6 +118,7 @@ app.post("/friendsList", async (req, res) => {
 
   const filePath = 'users/'+userId+'/friends.json';
   ensureDirectoryExistence(filePath);
+  createJSONIfNotExist(filePath, { friends: [] });
 
   fs.readFile(filePath, 'utf8', (err, data) => {
       if (err) return res.status(500).json({ error: 'Internal server error.' });
@@ -157,10 +165,10 @@ app.post('/register', (req, res) => {
       const userId = result.insertId;
       const responseData = { userId: userId };
       const userDir = path.join(__dirname, 'users', String(userId));
-      ensureDirectoryExistence(path.join(userDir, 'settings.json'));
-      ensureDirectoryExistence(path.join(userDir, 'friends.json'));
 
-      const settingsData = {
+      const settingsFilePath = path.join(userDir, 'settings.json');
+      ensureDirectoryExistence(settingsFilePath);
+      createJSONIfNotExist(settingsFilePath, {
         "first-name": "first",
         "last-name": "last",
         "email": email,
@@ -168,22 +176,16 @@ app.post('/register', (req, res) => {
         "birthday": "mm/dd/yyyy",
         "username": userName,
         "userID": userId
-      };
-
-      fs.writeFile(path.join(userDir, 'settings.json'), JSON.stringify(settingsData, null), 'utf-8', (err) => {
-        if (err) return res.status(500).json({ error: 'Internal server error.' });
-
-        fs.writeFile(path.join(userDir, 'friends.json'), JSON.stringify({ friends: {} }), 'utf-8', (err) => {
-          if (err) return res.status(500).json({ error: 'Internal server error.' });
-
-          return res.status(200).json(responseData);
-        });
       });
+
+      const friendsFilePath = path.join(userDir, 'friends.json');
+      ensureDirectoryExistence(friendsFilePath);
+      createJSONIfNotExist(friendsFilePath, { friends: [] });
+
+      return res.status(200).json(responseData);
     });
   });
 });
-
-
 
 app.post('/login', (req, res) => {
   const email = req.body.email;
@@ -242,7 +244,6 @@ app.post('/getSettings', (req, res) => {
     }
   });
 });
-
 
 app.get("/test", (req, res) => {
   res.send("Hello, world!");
