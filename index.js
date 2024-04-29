@@ -234,7 +234,7 @@ app.post('/getSettings', (req, res) => {
   createJSONIfNotExist(settingsFilePath, {
     "first-name": "first",
     "last-name": "last",
-    "email": email,
+    "email": "email",
     "location_public": "false",
     "birthday": "mm/dd/yyyy",
     "username": userName,
