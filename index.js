@@ -245,6 +245,25 @@ app.post('/getSettings', (req, res) => {
   });
 });
 
+app.post('/setSettings', (req, res) => {
+  const { userId, settings } = req.body;
+
+  if (!userId || !settings) {
+    return res.status(400).json({ error: 'Invalid request data.' });
+  }
+
+  const userDir = path.join(__dirname, 'users', String(userId));
+  const settingsFilePath = path.join(userDir, 'settings.json');
+
+  fs.writeFile(settingsFilePath, JSON.stringify(settings, null, 2), (err) => {
+    if (err) {
+      return res.status(500).json({ error: 'Internal server error.' });
+    }
+
+    return res.status(200).json({ message: 'Settings updated successfully.' });
+  });
+});
+
 app.get("/test", (req, res) => {
   res.send("Hello, world!");
 });
