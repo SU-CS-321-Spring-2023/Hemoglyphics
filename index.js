@@ -261,23 +261,26 @@ app.post('/setSettings', (req, res) => {
   if (!userId || !settings) {
     return res.status(400).json({ error: 'Invalid request data.' });
   }
+
   const userDir = path.join(__dirname, 'users', String(userId));
   const settingsFilePath = path.join(userDir, 'settings.json');
 
-  db.query('SELECT userName FROM userInfo WHERE userId = ?', [userId], (err, result) => {
+  db.query('SELECT userName, userEmail FROM userInfo WHERE userId = ?', [userId], (err, result) => {
     if (err) {
+      console.error('Database error:', err);
       return res.status(500).json({ error: 'Database error.' });
     }
 
     if (result.length === 0) {
+      console.error('User not found:', userId);
       return res.status(406).json({ error: 'User not found.' });
     }
 
-    const username = result;
-console.log(username);
-console.log(result.userName);
-console.log(result[0].userName)
-    const updatedSettings = {...settings, Username: username };
+    const { userName, userEmail } = result[0];
+    console.log('Username:', userName);
+    console.log('UserEmail:', userEmail);
+
+    const updatedSettings = { ...settings, Username: userName, Email: userEmail };
 
     ensureDirectoryExistence(settingsFilePath);
     createJSONIfNotExist(settingsFilePath, updatedSettings);
@@ -285,6 +288,7 @@ console.log(result[0].userName)
     return res.status(200).json({ message: 'Settings updated successfully.' });
   });
 });
+
 
 app.get("/test", (req, res) => {
   res.send("Hello, world!");
