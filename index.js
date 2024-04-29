@@ -74,7 +74,11 @@ app.post("/addFriend", async (req, res) => {
 
         fs.writeFile('users/'+userId+'/friends.json', withNewFriend, 'utf-8', (err) => {
           if (err) return res.status(500).json({ error: 'Internal server error.' });
-          return res.status(200).json({ message: 'Friend added successfully.' });
+
+          friends.friends[friendUserId] = userName;
+          const updatedFriendsList = Object.values(friends.friends);
+
+          return res.status(200).json({ message: 'Friend added successfully.', friends: updatedFriendsList });
         });
       });
     });
