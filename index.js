@@ -231,7 +231,15 @@ app.post('/getSettings', (req, res) => {
   const userDir = path.join(__dirname, 'users', String(userId));
   const settingsFilePath = path.join(userDir, 'settings.json');
   ensureDirectoryExistence(settingsFilePath);
-  createJSONIfNotExist(settingsFilePath, settingsTemplate);
+  createJSONIfNotExist(settingsFilePath, {
+    "first-name": "first",
+    "last-name": "last",
+    "email": email,
+    "location_public": "false",
+    "birthday": "mm/dd/yyyy",
+    "username": userName,
+    "userID": userId
+  });
 
   fs.readFile(settingsFilePath, 'utf-8', (err, data) => {
     if (err) {
@@ -256,7 +264,7 @@ app.post('/setSettings', (req, res) => {
   const userDir = path.join(__dirname, 'users', String(userId));
   const settingsFilePath = path.join(userDir, 'settings.json');
 
-  db.query('SELECT * FROM userInfo WHERE userId = ?', [userId], (err, result) => {
+  db.query('SELECT userName FROM userInfo WHERE userId = ?', [userId], (err, result) => {
     if (err) {
       return res.status(500).json({ error: 'Database error.' });
     }
@@ -265,9 +273,11 @@ app.post('/setSettings', (req, res) => {
       return res.status(406).json({ error: 'User not found.' });
     }
 
-    const username = result[0].Username;
-
-    const updatedSettings = {settings, Username: username };
+    const username = result;
+console.log(username);
+console.log(result.userName);
+console.log(result[0].userName)
+    const updatedSettings = {...settings, Username: username };
 
     ensureDirectoryExistence(settingsFilePath);
     createJSONIfNotExist(settingsFilePath, updatedSettings);
