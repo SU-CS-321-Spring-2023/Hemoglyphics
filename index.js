@@ -251,14 +251,27 @@ app.post('/setSettings', (req, res) => {
   if (!userId || !settings) {
     return res.status(400).json({ error: 'Invalid request data.' });
   }
-
   const userDir = path.join(__dirname, 'users', String(userId));
   const settingsFilePath = path.join(userDir, 'settings.json');
 
-  ensureDirectoryExistence(settingsFilePath);
-  createJSONIfNotExist(settingsFilePath, settings);
+  db.query('SELECT * FROM userInfo WHERE userId = ?', [userId], (err, result) => {
+    if (err) {
+      return res.status(500).json({ error: 'Database error.' });
+    }
 
-  return res.status(200).json({ message: 'Settings updated successfully.' });
+    if (result.length === 0) {
+      return res.status(406).json({ error: 'User not found.' });
+    }
+
+    const username = result[0].Username;
+
+    const updatedSettings = { ...settings, Username: username };
+
+    ensureDirectoryExistence(settingsFilePath);
+    createJSONIfNotExist(settingsFilePath, updatedSettings);
+
+    return res.status(200).json({ message: 'Settings updated successfully.' });
+  });
 });
 
 app.get("/test", (req, res) => {
