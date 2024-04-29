@@ -237,7 +237,7 @@ app.post('/getSettings', (req, res) => {
     "email": "email",
     "location_public": "false",
     "birthday": "mm/dd/yyyy",
-    "username": userName,
+    "username": "username",
     "userID": userId
   });
 
