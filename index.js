@@ -58,25 +58,28 @@ app.post("/addFriend", async (req, res) => {
       fs.readFile('users/'+userId+'/friends.json', 'utf8', (err, data) => {
         if (err) return res.status(500).json({ error: 'Internal server error.' });
 
-        let friends = { friends: {} };
+        let friends = { friends: [] };
         try {
           friends = JSON.parse(data);
         } catch (error) {
           return res.status(500).json({ error: 'Internal server error.' });
         }
 
-        if (friends.friends[friendUserId]) {
+        const existingFriend = friends.friends.find(friend => friend.id === friendUserId);
+        if (existingFriend) {
           return res.status(400).json({ message: 'Friend already added.' });
         }
 
-        friends.friends[friendUserId] = userName;
+        friends.friends.push({ username: userName, id: friendUserId });
         const withNewFriend = JSON.stringify(friends);
 
         fs.writeFile('users/'+userId+'/friends.json', withNewFriend, 'utf-8', (err) => {
           if (err) return res.status(500).json({ error: 'Internal server error.' });
 
-          friends.friends[friendUserId] = userName;
-          const updatedFriendsList = Object.values(friends.friends);
+          const updatedFriendsList = friends.friends.map(friend => ({
+            username: friend.username,
+            id: friend.id.toString(),
+          }));
 
           return res.status(200).json({ message: 'Friend added successfully.', friends: updatedFriendsList });
         });
@@ -86,6 +89,7 @@ app.post("/addFriend", async (req, res) => {
     return res.status(500).json({ error: 'Internal server error.' });
   }
 });
+
 
 app.post("/friendsList", async (req, res) => {
   const userId = req.body.userId;
