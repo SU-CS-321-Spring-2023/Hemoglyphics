@@ -79,10 +79,12 @@ const styles = StyleSheet.create({
     }
 })
 
-export default function Friends({navigation,NewCircleScreen,ManageCircleScreen,Circle,Maps,Login,Registration,Log,Message_Board,Messages,NewCircle,ManageCircle}) {
-    const [friends, setFriends] = useState([]);
+export default function Friends({route,navigation,NewCircleScreen,ManageCircleScreen,Circle,Maps,Login,Registration,Log,Message_Board,Messages,NewCircle,ManageCircle}) {
+  const [friends, setFriends] = useState([]);
   const [searchFailed, setSearchFailed] = useState(false);
   const [friendName, setFriendName] = useState('');
+  const { userID } = route.params;
+  console.log("USER ID FROM FRIENDS: " + userID)
 
   const addFriend = async () => {
     try {
