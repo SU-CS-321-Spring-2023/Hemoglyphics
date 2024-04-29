@@ -135,10 +135,31 @@ app.post('/register', (req, res) => {
       const responseData = { userId: userId };
       const userDir = path.join(__dirname, 'users', String(userId));
       fs.mkdirSync(userDir, { recursive: true });
-      return res.status(200).json(responseData);
+
+      const settingsData = {
+        "first-name": "first",
+        "last-name": "last",
+        "email": email,
+        "location_public": "false",
+        "birthday": "mm/dd/yyyy",
+        "username": userName,
+        "userID": userId
+      };
+
+      fs.writeFile(path.join(userDir, 'settings.json'), JSON.stringify(settingsData, null), 'utf-8', (err) => {
+        if (err) return res.status(500).json({ error: 'Internal server error.' });
+
+        fs.writeFile(path.join(userDir, 'friends.json'), JSON.stringify({ friends: {} }), 'utf-8', (err) => {
+          if (err) return res.status(500).json({ error: 'Internal server error.' });
+
+          return res.status(200).json(responseData);
+        });
+      });
     });
   });
 });
+
+
 
 app.post('/login', (req, res) => {
   const email = req.body.email;
@@ -173,6 +194,31 @@ app.post('/login', (req, res) => {
     return res.status(200).json({ userId: user.id });
   });
 });
+
+app.post('/getSettings', (req, res) => {
+  const userId = req.body.userId;
+
+  if (!userId) {
+    return res.status(400).json({ error: 'no user ID' });
+  }
+
+  const userDir = path.join(__dirname, 'users', String(userId));
+  const settingsFilePath = path.join(userDir, 'settings.json');
+
+  fs.readFile(settingsFilePath, 'utf-8', (err, data) => {
+    if (err) {
+      return res.status(500).json({ error: 'Internal server error.' });
+    }
+
+    try {
+      const settingsData = JSON.parse(data);
+      return res.status(200).json(settingsData);
+    } catch (parseError) {
+      return res.status(500).json({ error: 'Error parsing JSON data.' });
+    }
+  });
+});
+
 
 app.get("/test", (req, res) => {
   res.send("Hello, world!");
