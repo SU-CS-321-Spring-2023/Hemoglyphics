@@ -255,13 +255,10 @@ app.post('/setSettings', (req, res) => {
   const userDir = path.join(__dirname, 'users', String(userId));
   const settingsFilePath = path.join(userDir, 'settings.json');
 
-  fs.writeFile(settingsFilePath, JSON.stringify(settings, null, 2), (err) => {
-    if (err) {
-      return res.status(500).json({ error: 'Internal server error.' });
-    }
+  ensureDirectoryExistence(settingsFilePath);
+  createJSONIfNotExist(settingsFilePath, settings);
 
-    return res.status(200).json({ message: 'Settings updated successfully.' });
-  });
+  return res.status(200).json({ message: 'Settings updated successfully.' });
 });
 
 app.get("/test", (req, res) => {
