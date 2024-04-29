@@ -258,8 +258,6 @@ app.post('/getSettings', (req, res) => {
 app.post('/setSettings', (req, res) => {
   const { userId, settings } = req.body;
 
-  console.log('Received setSettings request:', { userId, settings });
-
   if (!userId || !settings) {
     console.error('Invalid request data:', { userId, settings });
     return res.status(400).json({ error: 'Invalid request data.' });
@@ -280,17 +278,12 @@ app.post('/setSettings', (req, res) => {
     }
 
     const { userName, userEmail } = result[0];
-    console.log('Username:', userName);
-    console.log('UserEmail:', userEmail);
 
     const updatedSettings = { ...settings, Username: userName, Email: userEmail };
-
-    console.log('Updated settings:', updatedSettings);
 
     ensureDirectoryExistence(settingsFilePath);
     createJSONIfNotExist(settingsFilePath, updatedSettings);
 
-    console.log('Settings updated successfully');
     return res.status(200).json({ message: 'Settings updated successfully.' });
   });
 });
