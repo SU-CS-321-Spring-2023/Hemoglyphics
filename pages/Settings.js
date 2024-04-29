@@ -1,33 +1,62 @@
 import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Switch, Easing, Animated, Dimensions } from 'react-native';
 
-const UserSettingsPage = () => {
+const UserSettingsPage = ({ route }) => {
+  const [userId, setUserId] = useState(route.params.userId);
   const [editMode, setEditMode] = useState(false);
-  const [firstName, setFirstName] = useState('John');
+  const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [locationPublic, setLocationPublic] = useState(false);
   const [birthDate, setBirthDate] = useState('');
+  const [email, setEmail] = useState('');
+  const [username, setUsername] = useState('');
+  console.log(userId);
+  const [maskedUserId, setMaskedUserId] = useState('*********');
   const [circlePosition, setCirclePosition] = useState(new Animated.Value(0));
 
   useEffect(() => {
-    moveCircles();
+    fetchSettings();
   }, []);
-  
-  // Assume other user data is fetched from database and stored in state
-  const [email, setEmail] = useState('example@example.com');
-  const [username, setUsername] = useState('example_username');
-  const [userId] = useState('123456789'); // Assume userId is fetched from registration system
-  const [maskedUserId, setMaskedUserId] = useState('*********');
+
+  const fetchSettings = () => {
+    axios.post('https://sea-turtle-app-t57fm.ondigitalocean.app/getSettings', { userId })
+      .then(response => {
+        const settingsData = response.data;
+        console.log('Settings data:', settingsData);
+        setFirstName(settingsData.firstName);
+        setLastName(settingsData.lastName);
+        setLocationPublic(settingsData.locationPublic);
+        setBirthDate(settingsData.birthDate);
+        setEmail(settingsData.email);
+        setUsername(settingsData.username);
+      })
+      .catch(error => {
+        console.error('Error fetching settings:', error);
+      });
+  };
 
   const handleSave = () => {
-    // Save user data to database
-    // This is just a placeholder, you would replace this with actual logic to save data
-    console.log('Saving user data...');
-    console.log('First Name:', firstName);
-    console.log('Last Name:', lastName);
-    console.log('Location Public:', locationPublic);
-    console.log('Birth Date:', birthDate);
-    setEditMode(false);
+    const updatedSettings = {
+      firstName,
+      lastName,
+      locationPublic,
+      birthDate,
+      email,
+      username,
+    };
+
+    axios.post('https://sea-turtle-app-t57fm.ondigitalocean.app/setSettings', {
+      userId,
+      settings: updatedSettings,
+    })
+      .then(response => {
+        console.log('Settings updated successfully:', response.data);
+        setEditMode(false);
+      })
+      .catch(error => {
+        console.error('Error updating settings:', error);
+      });
   };
 
   const formatBirthDate = (text) => {

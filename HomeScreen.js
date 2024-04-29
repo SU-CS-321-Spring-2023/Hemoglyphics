@@ -70,7 +70,8 @@ const HomeScreen = ({ route, navigation }) => {
       }),
     ]).start(() => {
       // Navigate to settings screen after animation completes
-      navigation.navigate('Settings');
+      console.log("id passed into settings"+userID)
+      navigation.navigate('Settings', { userId: userID });
     });
   };
 
