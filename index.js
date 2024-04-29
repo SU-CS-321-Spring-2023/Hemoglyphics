@@ -268,7 +268,7 @@ app.post('/setSettings', (req, res) => {
   const userDir = path.join(__dirname, 'users', String(userId));
   const settingsFilePath = path.join(userDir, 'settings.json');
 
-  db.query('SELECT userName, userEmail FROM userInfo WHERE userId = ?', [userId], (err, result) => {
+  db.query('SELECT userName, email FROM userInfo WHERE userId = ?', [userId], (err, result) => {
     if (err) {
       console.error('Database error:', err);
       return res.status(500).json({ error: 'Database error.' });
