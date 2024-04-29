@@ -64,7 +64,10 @@ app.post("/addFriend", async (req, res) => {
 
       const friendUserId = result[0].id;
 
-      fs.readFile('users/'+userId+'/friends.json', 'utf8', (err, data) => {
+      const filePath = 'users/'+userId+'/friends.json';
+      ensureDirectoryExistence(filePath);
+
+      fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) return res.status(500).json({ error: 'Internal server error.' });
 
         let friends = { friends: [] };
@@ -82,7 +85,7 @@ app.post("/addFriend", async (req, res) => {
         friends.friends.push({ username: userName, id: friendUserId });
         const withNewFriend = JSON.stringify(friends);
 
-        fs.writeFile('users/'+userId+'/friends.json', withNewFriend, 'utf-8', (err) => {
+        fs.writeFile(filePath, withNewFriend, 'utf-8', (err) => {
           if (err) return res.status(500).json({ error: 'Internal server error.' });
 
           const updatedFriendsList = friends.friends.map(friend => ({
@@ -106,7 +109,10 @@ app.post("/friendsList", async (req, res) => {
     return res.status(400).json({ error: 'Invalid input data.' });
   }
 
-  fs.readFile('users/'+userId+'/friends.json', 'utf8', (err, data) => {
+  const filePath = 'users/'+userId+'/friends.json';
+  ensureDirectoryExistence(filePath);
+
+  fs.readFile(filePath, 'utf8', (err, data) => {
       if (err) return res.status(500).json({ error: 'Internal server error.' });
 
       try {
