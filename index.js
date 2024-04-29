@@ -267,7 +267,7 @@ app.post('/setSettings', (req, res) => {
 
     const username = result[0].Username;
 
-    const updatedSettings = { ...settings, Username: username };
+    const updatedSettings = {settings, Username: username };
 
     ensureDirectoryExistence(settingsFilePath);
     createJSONIfNotExist(settingsFilePath, updatedSettings);
