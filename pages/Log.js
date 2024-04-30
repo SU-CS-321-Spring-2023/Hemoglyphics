@@ -1,8 +1,9 @@
 import { useState, useEffect} from 'react';
-import { Text, View, StyleSheet, TouchableOpacity, Alert } from 'react-native';
+import { Text, View, StyleSheet, TouchableOpacity, Alert, FlatList } from 'react-native';
 import { Calendar } from 'react-native-calendars';
 import { useNavigation } from '@react-navigation/native'; // Import navigation hook
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { dataEntries } from '../user_data/cycleData.js'; 
 
 
 
@@ -10,7 +11,12 @@ export default function Log({ navigation }) {
   const [markedDates, setMarkedDates] = useState({});
   const [selectedDates, setSelectedDates] = useState([]);
 
-  
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const lastImport = dataEntries.slice(-1)[0]; // Get the last import without mutating the original array
+    setData([lastImport]);
+  }, []);
 
   const handleDayPress = (day) => {
     const selectedDate = day.dateString;
@@ -97,6 +103,11 @@ export default function Log({ navigation }) {
           textDisabledColor: 'gray',
           dotColor: 'blue',
         }}
+        />
+       <FlatList
+        data={data}
+        keyExtractor={(item, index) => index.toString()}
+        renderItem={({ item }) => <Text>Predicted Start Date: {item.startDate}</Text>}
       />
       <TouchableOpacity onPress={handleLogPeriod} style={styles.logButton}>
         <Text style={styles.logButtonText}>Log Period</Text>
@@ -117,6 +128,7 @@ const styles = StyleSheet.create({
     paddingTop: 10,
     paddingLeft: 10,
     paddingRight: 10,
+    paddingBottom: 80,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: 'rgba(249, 217, 250, 1)',
