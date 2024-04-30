@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { StatusBar, SafeAreaView, StyleSheet, Text, View, ScrollView, TextInput, TouchableOpacity, Modal, Animated, Easing, Dimensions } from 'react-native';
 
 export default function Message_Board({route}) {
-  const { userID } = route.params
-  console.log("USER ID FROM MESSAGE BOARD : " + userID)
   const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState('');
   const [sortByModalVisible, setSortByModalVisible] = useState(false);
