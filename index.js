@@ -232,11 +232,11 @@ app.post('/getSettings', (req, res) => {
   const settingsFilePath = path.join(userDir, 'settings.json');
   ensureDirectoryExistence(settingsFilePath);
   createJSONIfNotExist(settingsFilePath, {
-    "first-name": "first",
-    "last-name": "last",
+    "firstName": "first",
+    "lastName": "last",
     "email": "email",
     "location_public": "false",
-    "birthday": "mm/dd/yyyy",
+    "birthDate": "mm/dd",
     "username": "username",
     "userID": userId
   });
