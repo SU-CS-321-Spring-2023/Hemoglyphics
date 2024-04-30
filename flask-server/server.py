@@ -13,7 +13,7 @@ def process_question():
 
 # Prompt Dalton
 def ask_dalton(data):
-    output = subprocess.check_output(['python', 'Dalton.py', data])
+    output = subprocess.check_output(['python3', 'Dalton.py', data])
     return output.decode().strip()
 
 if __name__ == "__main__":
