@@ -289,7 +289,7 @@ app.post('/setSettings', (req, res) => {
       }
     }
 
-    const updatedSettings = { ...existingSettings, ...settings, Username: userName, Email: userEmail };
+    const updatedSettings = { ...existingSettings, ...settings, username: userName, email: userEmail };
 
     try {
       fs.writeFileSync(settingsFilePath, JSON.stringify(updatedSettings, null, 2));
