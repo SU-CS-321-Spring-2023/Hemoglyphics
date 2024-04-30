@@ -279,14 +279,28 @@ app.post('/setSettings', (req, res) => {
 
     const { userName, userEmail } = result[0];
 
-    const updatedSettings = { ...settings, Username: userName, Email: userEmail };
+    let existingSettings = {};
+    if (fs.existsSync(settingsFilePath)) {
+      try {
+        const settingsData = fs.readFileSync(settingsFilePath, 'utf8');
+        existingSettings = JSON.parse(settingsData);
+      } catch (readErr) {
+        console.error('Error reading existing settings:', readErr);
+      }
+    }
 
-    ensureDirectoryExistence(settingsFilePath);
-    createJSONIfNotExist(settingsFilePath, updatedSettings);
+    const updatedSettings = { ...existingSettings, ...settings, Username: userName, Email: userEmail };
 
-    return res.status(200).json({ message: 'Settings updated successfully.' });
+    try {
+      fs.writeFileSync(settingsFilePath, JSON.stringify(updatedSettings, null, 2));
+      return res.status(200).json({ message: 'Settings updated successfully.' });
+    } catch (writeErr) {
+      console.error('Error writing settings file:', writeErr);
+      return res.status(500).json({ error: 'Error updating settings.' });
+    }
   });
 });
+
 
 
 
